@@ -33,6 +33,7 @@ public static partial class ConsoleCommands
 			if (a.Count != 2 || !int.TryParse(a[1], out var seconds) || seconds is < 0 or > 60)
 			{ print("Usage: mp_restartgame <0..60 seconds>; 0 cancels a scheduled restart.", true); return; }
 			var round = RoundState.Instance;
+			if (DefuseRules.Active) { DefuseState.Instance?.ScheduleRestart(seconds); return; }
 			if (!DeathmatchRules.Active || round == null) { print("A deathmatch must be running.", true); return; }
 			if (seconds == 0) round.CancelRestart(); else round.ScheduleRestart(seconds);
 		}, serverOnly: true);

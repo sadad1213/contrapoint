@@ -43,7 +43,6 @@ public partial class DefuseState : Node
 	private double _publish, _beep, _matchElapsed, _restartIn = -1;
 	private int _nextPickup, _tLosses, _ctLosses, _loserBonus = 1400;
 	private bool _bombAssigned;
-	private PlayerTeam _previousWinner;
 	private double _defuseLength;
 	public override void _EnterTree() => Instance = this;
 	public override void _ExitTree() { if (Instance == this) Instance = null; }
@@ -63,7 +62,7 @@ public partial class DefuseState : Node
 		if (!continuing)
 		{
 			RoundNumber = TerroristWins = CounterTerroristWins = _tLosses = _ctLosses = 0;
-			_loserBonus = 1400; _previousWinner = PlayerTeam.Unassigned;
+			_loserBonus = 1400;
 			_matchElapsed = 0; _restartIn = -1;
 		}
 		Phase = continuing ? DefusePhase.Freeze : DefusePhase.Waiting;
@@ -86,6 +85,27 @@ public partial class DefuseState : Node
 	public bool CanBuy(Player p) => Phase is DefusePhase.Waiting or DefusePhase.Freeze or DefusePhase.Live
 		&& RoundElapsed <= DefuseRules.BuyMinutes * 60 && InBuyZone(p);
 	public Area3D? BombSite(Player p) => AreasAt(p, "source_bomb_target").FirstOrDefault();
+	public Vector3 BotGoal(Player p)
+	{
+		if (BombPlanted) return BombPosition;
+		if (p.Team == PlayerTeam.Terrorist)
+		{
+			var dropped = _pickups.FirstOrDefault(i => GodotObject.IsInstanceValid(i) && !i.Kit);
+			if (dropped != null) return dropped.GlobalPosition;
+			if (Valid(Carrier) && Carrier != p) return Carrier!.GlobalPosition;
+		}
+		var sites = GetTree().GetNodesInGroup("source_bomb_target").OfType<Area3D>().ToArray();
+		if (sites.Length == 0) return p.GlobalPosition;
+		var site = sites[(Math.Abs(p.NetworkPeerId) + RoundNumber) % sites.Length];
+		var shape = site.GetChildren().OfType<CollisionShape3D>().FirstOrDefault();
+		if (shape == null) return site.GlobalPosition;
+		var bounds = shape.Shape.GetDebugMesh().GetAabb();
+		var center = shape.ToGlobal(bounds.GetCenter());
+		var ray = PhysicsRayQueryParameters3D.Create(center + Vector3.Up * bounds.Size.Y / 2,
+			center - Vector3.Up * (bounds.Size.Y / 2 + 3), 1);
+		var hit = p.GetWorld3D().DirectSpaceState.IntersectRay(ray);
+		return hit.Count == 0 ? center : hit["position"].AsVector3();
+	}
 	public bool InBuyZone(Player p)
 	{
 		var zones = GetTree().GetNodesInGroup("source_buyzone").OfType<Area3D>().ToArray();
@@ -207,7 +227,7 @@ public partial class DefuseState : Node
 	private void EmitSite(Area3D? site, string output, Player? activator)
 	{
 		if (!GodotObject.IsInstanceValid(site)) return;
-		GD.Load<GDScript>("res://assets/maps/source_io.gd").Call("emit", site!, site!.Get("source_data"), output, activator);
+		GD.Load<GDScript>("res://assets/maps/source_io.gd").Call("emit", site!, site!.Get("source_data"), output, activator!);
 	}
 	private void TickBomb(double delta)
 	{
@@ -295,7 +315,6 @@ public partial class DefuseState : Node
 			if (Result == DefuseResult.BombDefused && p.Team == PlayerTeam.Terrorist) amount += 800;
 			AddMoney(p, amount);
 		}
-		_previousWinner = Winner;
 	}
 	public void ScheduleRestart(double seconds) { _restartIn = seconds <= 0 ? -1 : seconds; Publish(); }
 	private void StartRound()
@@ -352,7 +371,8 @@ public partial class DefuseState : Node
 			{
 				PayRoundMoney();
 				var matchOver = DefuseRules.MaxRounds > 0 && RoundNumber >= DefuseRules.MaxRounds
-					|| DefuseRules.WinLimit > 0 && Math.Max(TerroristWins, CounterTerroristWins) >= DefuseRules.WinLimit;
+					|| DefuseRules.WinLimit > 0 && Math.Max(TerroristWins, CounterTerroristWins) >= DefuseRules.WinLimit
+					|| DeathmatchRules.TimeLimitMinutes > 0 && _matchElapsed >= DeathmatchRules.TimeLimitMinutes * 60;
 				if (matchOver) { Phase = DefusePhase.Intermission; Remaining = 10; }
 				else { ReloadingRound = true; RoundNumber++; LanSession.Instance.RestartCurrentMap(); return; }
 			}
@@ -388,7 +408,7 @@ public partial class DefuseState : Node
 	}
 	private void WorldSound(string path, Vector3 pos)
 	{
-		if (GetTree().CurrentScene is Node3D world) SourceSoundPlayer.PlayWorldWave(world, pos, path);
+		if (GetTree().CurrentScene is Node3D world) SourceSoundPlayer.PlayWorldWave(world, pos, path, 1);
 		LanSession.Instance?.BroadcastWeaponImpact(pos, path, 1);
 	}
 	private void PresentBomb(double delta)
@@ -405,7 +425,7 @@ public partial class DefuseState : Node
 			if (_beep <= 0)
 			{
 				_beep = Math.Clamp(BombRemaining / Math.Max(1, DefuseRules.BombSeconds), .12, 1);
-				if (GetTree().CurrentScene is Node3D world) SourceSoundPlayer.PlayWorldWave(world, BombPosition, "weapons/c4/c4_beep1.wav");
+				if (GetTree().CurrentScene is Node3D world) SourceSoundPlayer.PlayWorldWave(world, BombPosition, "weapons/c4/c4_beep1.wav", 1);
 			}
 		}
 		else if (GodotObject.IsInstanceValid(_plantedModel)) { _plantedModel!.QueueFree(); _plantedModel = null; }

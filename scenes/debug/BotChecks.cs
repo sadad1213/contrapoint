@@ -246,4 +246,9 @@ public partial class BotChecks : Node
 		await Until(() => actor.IsAlive && !actor.Death.Active && actor.NetworkTeleportRevision > deathRevision, "server bot respawn reaches client");
 		Check(actor.ActiveWeapon is FirearmView && actor.Armor == 100, "client receives bot respawn inventory and vitals");
 		Write("respawned");
-		var re
+		var rejected = false;
+		ConsoleCommands.Execute("bot_quota 10", Local.Movement, (_, error) => rejected |= error);
+		Check(rejected, "LAN clients cannot change bot settings");
+		await Delay(1);
+	}
+}

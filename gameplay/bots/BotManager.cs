@@ -16,7 +16,7 @@ public partial class BotManager : Node
 	public BotSetup Settings { get; private set; } = new();
 	public IReadOnlyList<BotController> Bots => _bots;
 	public bool NavigationReady => _region != null && NavigationServer3D.MapGetIterationId(_navigation) > 0;
-	public bool Supported => DeathmatchRules.Active && NavigationPath(_map.SceneFilePath) != null;
+	public bool Supported => (DeathmatchRules.Active || DefuseRules.Active) && NavigationPath(_map.SceneFilePath) != null;
 	private static string? NavigationPath(string scenePath) => scenePath switch
 	{
 		"res://assets/maps/2000/2000.scn" => "res://assets/maps/2000/bot_navigation.tres",

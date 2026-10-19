@@ -7,7 +7,7 @@ using Contrapoint.Weapons;
 
 namespace Contrapoint.Gameplay.Bots;
 
-public enum BotState { Patrol, Investigate, Engage, Search }
+public enum BotState { Patrol, Investigate, Engage, Search, Objective }
 
 public partial class BotController : Node
 {
@@ -27,6 +27,7 @@ public partial class BotController : Node
 	private double _repathAt, _progressAt, _recoverUntil, _nextShot, _offsetAt, _focusAt, _strafeAt;
 	private double _reacquireAt;
 	private double _patrolAt;
+	private int _boughtRound = -1;
 	private PhysicsRayQueryParameters3D _sightRay = null!, _floorRay = null!;
 	private float _yawVelocity, _pitchVelocity, _strafe;
 	private bool _visible, _crouchAndHold, _shouldDodge;
@@ -58,6 +59,7 @@ public partial class BotController : Node
 	}
 	private void ConfigureWeapon()
 	{
+		if (DefuseRules.Active) { Player.Inventory.EquipBest(); return; }
 		var settings = _manager.Settings;
 		bool Allowed(string weapon) => weapon switch
 		{
@@ -155,6 +157,12 @@ public partial class BotController : Node
 		}
 		if (Player.ActiveWeapon is FirearmView gun)
 		{
+			if (DefuseRules.Active && !_visible && _time >= _memoryUntil && DefuseState.Instance is { } de)
+			{
+				State = BotState.Objective;
+				var objective = de.BotGoal(Player);
+				if (_goal.DistanceSquaredTo(objective) > 1) { _goal = objective; _repathAt = 0; }
+			}
 			if (gun.MagazineAmmo == 0 && gun.ReserveAmmo == 0)
 			{
 				var replacement = Player.Inventory.Weapons.OfType<FirearmView>().FirstOrDefault(w => w != gun && (w.MagazineAmmo > 0 || w.ReserveAmmo > 0));
@@ -183,7 +191,22 @@ public partial class BotController : Node
 	}
 	public override void _PhysicsProcess(double delta)
 	{
-		if (!Player.IsAlive || LanSession.Instance?.IsClient == true || !DeathmatchRules.Active) return;
+		if (!Player.IsAlive || LanSession.Instance?.IsClient == true || !(DeathmatchRules.Active || DefuseRules.Active)) return;
+		if (DefuseRules.Active && DefuseState.Instance is { } de)
+		{
+			if (de.Phase is DefusePhase.Freeze or DefusePhase.Waiting)
+			{
+				if (_boughtRound != de.RoundNumber && BuyCatalog.CanOpen(Player))
+				{
+					_boughtRound = de.RoundNumber;
+					Player.AutoBuy();
+					if (Player.Team == PlayerTeam.CounterTerrorist) Player.Buy("defuser");
+				}
+				Player.Simulate(default, (float)delta); return;
+			}
+			if (de.Phase is DefusePhase.Ended or DefusePhase.Intermission) { Player.Simulate(default, (float)delta); return; }
+			if (TickObjective(de, (float)delta)) return;
+		}
 		_time += delta;
 		if (_time >= _thinkAt) { _thinkAt = _time + .1; Think(); }
 		var dt = (float)delta;
@@ -231,6 +254,28 @@ public partial class BotController : Node
 		Player.Simulate(new(new(local.X, local.Z), !_manager.Settings.Stop && stuck && Player.IsOnFloor(), attack && _crouchAndHold && !knife, false), dt);
 		Player.ActiveWeapon?.HandleCommand("attack", false);
 		if (attack) Fire(range, sniper, knife);
+	}
+	private bool TickObjective(DefuseState de, float dt)
+	{
+		if (_manager.Settings.Stop) { Player.ObjectiveAttackHeld = Player.ObjectiveUseHeld = false; return false; }
+		if (de.Carrier == Player && de.BombSite(Player) != null && (!_visible || de.Planter == Player))
+		{
+			Player.Inventory.EquipSlot(WeaponSlot.Objective);
+			Player.ActiveWeapon?.HandleCommand("attack", true);
+			Player.Simulate(default, dt); return true;
+		}
+		Player.ObjectiveAttackHeld = false;
+		if (de.BombPlanted && Player.Team == PlayerTeam.CounterTerrorist
+			&& Player.GlobalPosition.DistanceTo(de.BombPosition) < DefuseRules.UseDistance * .9f
+			&& (!_visible || de.Defuser == Player || de.BombRemaining < 12))
+		{
+			LookAt(de.BombPosition, false, dt);
+			Player.ObjectiveUseHeld = true;
+			Player.Simulate(default, dt); return true;
+		}
+		Player.ObjectiveUseHeld = false;
+		if (Player.ActiveWeapon is C4View) Player.Inventory.EquipBest();
+		return false;
 	}
 	private Vector3 FollowPath()
 	{

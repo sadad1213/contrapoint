@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Contrapoint.Maps;
 using Contrapoint.Players;
+using Contrapoint.Gameplay;
+using Contrapoint.UI;
 
 public partial class CacheChecks : Node3D
 {
@@ -30,6 +32,15 @@ public partial class CacheChecks : Node3D
 			var entry = MapCatalog.Find("de_cache");
 			Check(entry?.IsCombat == true, "Cache discovered as a combat map");
 			Check(Contrapoint.UI.ConsoleCommands.GetCompletions("map de_ca").Contains("map de_cache"), "console discovers Cache");
+			var menu = GD.Load<PackedScene>("res://scenes/main_menu.tscn").Instantiate<MainMenu>();
+			AddChild(menu);
+			menu.OpenMapSelection();
+			menu.SelectMode("sandbox");
+			menu.SelectMap(Array.FindIndex(MapCatalog.Discover(), e => e.Id == "de_cache"));
+			Check(menu.GetNode<Label>("Interface/Modal/MapSelection/Preview/PreviewId").Text == "de_cache", "menu selects Cache");
+			Check(menu.GetNode<TextureRect>("Interface/Modal/MapSelection/Preview/MapPreview").Texture != null, "menu loads rendered Cache thumbnail");
+			menu.QueueFree();
+			await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);
 			Check(GD.Load<NavigationMesh>("res://assets/maps/de_cache/bot_navigation.tres").GetPolygonCount() > 0, "baked navigation");
 			var game = GD.Load<PackedScene>(entry!.ScenePath).Instantiate<Node3D>();
 			_player = game.GetNode<Player>("Player");
@@ -89,7 +100,16 @@ public partial class CacheChecks : Node3D
 				foreach (var side in new[] { 1, -1 })
 				{
 					var facing = -normal * side;
-					_player.SourceTeleport(center + normal * side * .42f - Vector3.Up * .6f, Mathf.Atan2(-facing.X, -facing.Z), 0);
+					var foot = center + normal * side * .44f - Vector3.Up * .6f;
+					var collider = _player.GetNode<CollisionShape3D>("CollisionShape3D");
+					var query = new PhysicsShapeQueryParameters3D
+					{
+						Shape = collider.Shape,
+						Transform = new Transform3D(Basis.Identity, foot + collider.Position),
+						CollisionMask = 3, Exclude = new() { _player.GetRid() }
+					};
+					if (GetWorld3D().DirectSpaceState.IntersectShape(query).Count > 0) continue;
+					_player.SourceTeleport(foot, Mathf.Atan2(-facing.X, -facing.Z), 0);
 					await Frames(1);
 					var height = _player.GlobalPosition.Y;
 					for (var frame = 0; frame < 15; frame++)
@@ -120,9 +140,11 @@ public partial class CacheChecks : Node3D
 				_player.SourceTeleport(floor["position"].AsVector3() + Vector3.Up * .04f, 0, 0);
 				await Frames(5, true);
 				Check(site.OverlapsBody(_player), "physical player overlap inside bomb target: " + site.Name);
+				Check(DefuseState.Instance?.BombSite(_player) == site, "DE rules recognize original bomb target: " + site.Name);
 				_player.SourceTeleport(center + Vector3.Right * (max.X - min.X + 3), 0, 0);
 				await Frames(4);
 				Check(!site.OverlapsBody(_player), "physical player leaves bomb target: " + site.Name);
+				Check(DefuseState.Instance?.BombSite(_player) == null, "DE rules reject player outside bomb target: " + site.Name);
 			}
 			var door = map.GetNode<Node3D>("brush_37");
 			_player.SourceTeleport(door.GlobalPosition + new Vector3(.6f, -1.4f, 1), 0, 0);

@@ -25,6 +25,7 @@ public static partial class ConsoleCommands
 		RegisterDamage();
 		RegisterDeath();
 		RegisterDeathmatch();
+		RegisterDefuse();
 		RegisterBots();
 		RegisterHud();
 	}
