@@ -110,8 +110,9 @@ public partial class HudChecks : Node3D
 		_player.JoinTeam(2);
 		_player.JoinClass(1);
 		_player.SetPhysicsProcess(false);
-		// The playable loadout now keeps one primary. Add the Scout explicitly
-		// for this test's shared-ammunition comparison.
+		// Playing maps now spawn with the team pistol. Supply the two rifles
+		// explicitly for the shared-ammunition comparison.
+		_player.Inventory.AddWeapon(GD.Load<PackedScene>("res://weapons/ak47_view.tscn"), equip: false);
 		var scout = (FirearmView)_player.Inventory.AddWeapon(GD.Load<PackedScene>("res://weapons/scout_view.tscn"), equip: false);
 		foreach (var weapon in _player.Inventory.Weapons)
 		{
@@ -123,7 +124,7 @@ public partial class HudChecks : Node3D
 		var hud = _player.GetNode<CssHud>("HUD/Status");
 		Check(hud.Visible && hud.Snapshot.Health == 100 && hud.Snapshot.Armor == 0 && hud.Snapshot.Clock == "0:00",
 			"A local player starts with real HP and zero armour/round time.");
-		Check(hud.Snapshot.Money == 0 && !hud.Snapshot.HasAmmo, "No economy is invented, and knives hide ammo.");
+		Check(hud.Snapshot.Money == _player.Money && !hud.Snapshot.HasAmmo, "HUD reads the actual balance, and knives hide ammo.");
 		Check(hud.Radar.HasOverview && hud.Radar.MapId == "de_dust2", "Radar resolves the map from its scene.");
 		Check(hud.Radar.WorldToOverview(new(-2440 * SourceMovement.Unit, 0, -3383 * SourceMovement.Unit)).Length() < .001,
 			"Radar uses the stock overview origin and Source-to-Godot coordinate conversion.");
@@ -182,7 +183,7 @@ public partial class HudChecks : Node3D
 		Advance(ak, 4);
 		Check(ak.MagazineAmmo == 30 && ak.ReserveAmmo == 60, "Automatic reload transfers exactly one full magazine.");
 		Fire(ak); ak.HandleCommand("reload", true);
-		_player.Respawn();
+		_player.Respawn(restoreLoadout: false); // Test replenishment with the explicit rifle fixture.
 		ak = _player.Inventory.Weapons.OfType<FirearmView>().Single(gun => gun.Kind == FirearmView.FirearmKind.AK47);
 		_player.Inventory.Equip(ak); Advance(ak, 2);
 		Check(ak.MagazineAmmo == 30 && ak.ReserveAmmo == 90 && !ak.Busy, "Respawn replenishes ammunition and cancels the previous weapon action.");

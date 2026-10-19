@@ -284,6 +284,10 @@ public partial class FirearmView : WeaponView
 		// CSS hides its viewmodel when scoped; CssScope draws the local HUD overlay.
 		Model.Visible = !IsSniper || level == 0;
 	}
+	public void ApplyNetworkZoom(int level)
+	{
+		if (Wielder?.LocalInput == false) SetZoom(Math.Clamp(level, 0, IsSniper ? 2 : 1));
+	}
 
 	private void OnAnimationFinished(StringName clip)
 		=> FinishAnimation();

@@ -13,6 +13,9 @@ internal static class PlayerStateKeys
 	public static readonly Variant Velocity = "velocity";
 	public static readonly Variant Yaw = "yaw";
 	public static readonly Variant Pitch = "pitch";
+	public static readonly Variant ViewAngles = "view_angles";
+	public static readonly Variant Flash = "flash";
+	public static readonly Variant ViewmodelOffset = "viewmodel_offset";
 	public static readonly Variant Revision = "revision";
 	public static readonly Variant InventoryRevision = "inventory_revision";
 	public static readonly Variant Autowepswitch = "autowepswitch";

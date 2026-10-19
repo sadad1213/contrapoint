@@ -20,11 +20,44 @@ public partial class BodyPoseChecks : Node3D
 	{
 		try
 		{
-			foreach (var agent in PlayerBody.AgentIds) CheckAgent(agent);
-			CheckWeaponClocks();
+			if (!OS.GetCmdlineUserArgs().Contains("--reload-poses-only"))
+			{
+				foreach (var agent in PlayerBody.AgentIds) CheckAgent(agent);
+				CheckWeaponClocks();
+			}
+			CheckReloadPoses();
 			GD.Print($"BODY_POSE_CHECKS checks={_checks} failures=0"); GetTree().Quit();
 		}
 		catch (Exception error) { GD.PushError($"BODY_POSE_CHECKS after {_checks}: {error}"); GetTree().Quit(1); }
+	}
+	private void CheckReloadPoses()
+	{
+		var bot = PlayerSceneCache.Load("res://scenes/player/player.tscn").Instantiate<Player>();
+		bot.LocalInput = false; bot.IsBot = true; bot.DebugControls = false;
+		AddChild(bot); bot.SetPhysicsProcess(false);
+		foreach (var id in new[] { "m3", "xm1014", "ak47" })
+		{
+			var gun = (FirearmView)bot.Inventory.AddWeapon(PlayerSceneCache.Load($"res://weapons/{id}_view.tscn"), equip: false);
+			Check(bot.Inventory.Equip(gun), "equip reload fixture " + id);
+			gun._Process(5); gun.RestoreMagazine(0); gun.HandleCommand("reload", true); gun._Process(.1);
+			using var clip = gun.NetworkAnimation.AssignedAnimation;
+			Check(clip.ToString().Contains("reload", StringComparison.OrdinalIgnoreCase), "real reload clock " + id);
+			foreach (var agent in PlayerBody.AgentIds)
+			{
+				bot.SetAgent(agent);
+				foreach (var crouch in new[] { false, true })
+				foreach (var moving in new[] { false, true })
+				{
+					bot.Movement.ApplyNetworkDuck(crouch);
+					bot.Velocity = moving ? Vector3.Forward * 4 : Vector3.Zero;
+					bot.Body._Process(.02); bot.Body.EnsurePose();
+					Check(bot.Body.UpperClip.EndsWith("_" + gun.PlayerAnimationExtension), $"reload retains weapon pose {agent}/{id}/{crouch}/{moving}");
+					Check(bot.Body.UpperClip.Contains("_Reload_") == (id == "ak47"), "reload clip availability " + id);
+				}
+			}
+			gun.ResetAmmunition();
+		}
+		bot.Free();
 	}
 	private void CheckAgent(string agent)
 	{

@@ -3,12 +3,13 @@ param(
     [ValidatePattern('^[a-z0-9_-]+$')][string]$Map = 'inferno',
     [ValidateRange(1,65535)][int]$Port = 27016,
     [switch]$Deathmatch,
+    [switch]$Defuse,
     [switch]$Movement,
     [switch]$World,
     [switch]$Cheats
 )
 $ErrorActionPreference = 'Stop'
-if (@($Deathmatch, $Movement, $World, $Cheats).Where({ $_ }).Count -gt 1) { throw 'Choose one of -Deathmatch, -Movement, -World or -Cheats.' }
+if (@($Deathmatch, $Defuse, $Movement, $World, $Cheats).Where({ $_ }).Count -gt 1) { throw 'Choose one of -Deathmatch, -Defuse, -Movement, -World or -Cheats.' }
 $lanProject = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 if (-not (Test-Path -LiteralPath (Join-Path $lanProject "scenes/maps/$Map.tscn") -PathType Leaf)) {
     throw "Map scene not found: scenes/maps/$Map.tscn"
@@ -18,9 +19,9 @@ $lanRun = [Guid]::NewGuid().ToString('N')
 $lanLogs = Join-Path ([IO.Path]::GetTempPath()) "contrapoint-lan-$lanRun"
 [IO.Directory]::CreateDirectory($lanLogs) | Out-Null
 $lanProcesses = @{}
-$lanCheckPrefix = if ($Deathmatch) { 'DM_CHECKS' } else { 'LAN_CHECKS' }
-$lanCheckScene = if ($Deathmatch) { 'deathmatch_checks' } else { 'lan_checks' }
-$lanArgPrefix = if ($Deathmatch) { 'dm' } else { 'lan' }
+$lanCheckPrefix = if ($Defuse) { 'DE_LAN_CHECKS' } elseif ($Deathmatch) { 'DM_CHECKS' } else { 'LAN_CHECKS' }
+$lanCheckScene = if ($Defuse) { 'defuse_lan_checks' } elseif ($Deathmatch) { 'deathmatch_checks' } else { 'lan_checks' }
+$lanArgPrefix = if ($Defuse) { 'de' } elseif ($Deathmatch) { 'dm' } else { 'lan' }
 $lanRoles = if ($Movement -or $Cheats) { @('host', 'client') } else { @('host', 'client', 'late') }
 try {
     foreach ($lanRole in $lanRoles) {

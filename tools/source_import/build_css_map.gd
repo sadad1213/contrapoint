@@ -66,6 +66,9 @@ func build_map() -> void:
 	var map := Node3D.new()
 	map.name = "Inferno" if map_id == "de_inferno" else "Dust2" if map_id == "de_dust2" else map_id
 	map.set_meta("source_map", map_id)
+	for point: Dictionary in data.get("point_entities", []):
+		if point.classname == "info_map_parameters":
+			map.set_meta("source_bomb_radius", float(point.get("bombradius", 500)))
 	if map_id.begins_with("kz_"):
 		map.set_script(load("res://assets/maps/source_kz.gd"))
 	var entity_nodes := {}
@@ -78,7 +81,7 @@ func build_map() -> void:
 			object.collision_layer = 8
 			object.collision_mask = 1
 			object.set_script(load("res://assets/maps/source_trigger.gd"))
-		elif classname.begins_with("prop_physics"):
+		elif classname.begins_with("prop_physics") or classname in ["func_physbox", "func_physbox_multiplayer"]:
 			object = RigidBody3D.new()
 			object.set_script(load("res://assets/maps/source_prop.gd"))
 			object.mass = float(entity.get("mass", 10.0)) * maxf(float(entity.get("massscale", 1)), 0.01) if float(entity.get("massscale", 1)) > 0 else float(entity.get("mass", 10.0))
@@ -112,7 +115,8 @@ func build_map() -> void:
 			model.rotation.y = deg_to_rad(float(str(entity.get("angles", "0 0 0")).split(" ")[1]) - 90)
 			object.add_child(model)
 			model.owner = map
-		if entity.has("hulls") and not classname in ["func_illusionary", "func_lod"] and entity.get("solidity", entity.get("Solidity", "0")) != "1":
+		# Dust brushes describe a particle emission volume, not solid geometry.
+		if entity.has("hulls") and not classname in ["func_illusionary", "func_lod", "func_dustmotes", "func_dustcloud", "func_smokevolume"] and entity.get("solidity", entity.get("Solidity", "0")) != "1":
 			for hull: Array in entity.hulls:
 				add_hull(object, hull, map, Vector3.ZERO)
 		if entity.has("physics_hulls"):
@@ -192,7 +196,7 @@ func build_map() -> void:
 				node.add_child(body)
 				body.owner = map
 				shape.owner = map
-		elif entry.collision and parent is RigidBody3D and not data.entities[entry.owner].has("physics_hulls"):
+		elif entry.collision and parent is RigidBody3D and not data.entities[entry.owner].has("physics_hulls") and not data.entities[entry.owner].has("hulls"):
 			var collision := CollisionShape3D.new()
 			collision.shape = mesh.create_convex_shape(true, false)
 			collision.position = -parent.position
@@ -278,7 +282,7 @@ func build_map() -> void:
 	build_ropes(data.get("point_entities", []), map)
 	build_effects(data.get("effects", []), data.get("point_entities", []), map)
 	build_weapon_pickups(data.get("point_entities", []), map)
-	if map_id.begins_with("kz_") or map_id.begins_with("hns_"):
+	if data.has("point_entities"):
 		for entity: Dictionary in data.get("point_entities", []):
 			if not entity.classname in ["info_teleport_destination", "point_teleport", "path_track", "ambient_generic", "logic_timer", "logic_auto"]:
 				continue

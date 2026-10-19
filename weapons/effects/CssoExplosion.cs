@@ -88,7 +88,8 @@ public partial class CssoExplosion : Node3D
 		{
 			var code = shader.Code.Replace("depth_draw_never;", "depth_draw_never, " + (B(info, "mod2x") ? "blend_mul;" : "blend_add;"));
 			if (B(info, "mod2x"))
-				code = code.Replace("ALBEDO = tex.rgb * tint.rgb;", "ALBEDO = mix(vec3(1.0), max(tex.rgb / vec3(0.21586), vec3(1.0)), tint.a);")
+				// Multiplicative factors must bypass Mobile's half-luminance encoding.
+				code = code.Replace("ALBEDO = tex.rgb * tint.rgb;", "ALBEDO = mix(vec3(1.0), max(tex.rgb / vec3(0.21586), vec3(1.0)), tint.a);\n#if CURRENT_RENDERER == RENDERER_MOBILE\n\tALBEDO *= 2.0;\n#endif")
 					.Replace("ALPHA = tex.a * tint.a * fade;", "ALPHA = 1.0;");
 			shader = new Shader { Code = code };
 		}

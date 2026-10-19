@@ -31,6 +31,7 @@ public partial class PlayerPresentationChecks : Node3D
 			await ToSignal(GetTree(), SceneTree.SignalName.PhysicsFrame);
 			_player.Simulate(command, Dt);
 			_player.Body._Process(Dt);
+			_player.Body.EnsurePose();
 			_player.ThirdPerson._PhysicsProcess(Dt);
 			_player.ThirdPerson._Process(Dt);
 		}
@@ -203,6 +204,7 @@ public partial class PlayerPresentationChecks : Node3D
 					// Compare the same speed profile while the reference keeps running forward.
 					reference.Velocity = new(0, _player.Velocity.Y, -new Vector2(_player.Velocity.X, _player.Velocity.Z).Length());
 					reference.Body._Process(Dt);
+					reference.Body.EnsurePose();
 					var referenceBasis = referenceSkeleton.GlobalBasis * referenceSkeleton.GetBoneGlobalPose(referenceSpine).Basis;
 					var forward = skeleton.GlobalBasis * skeleton.GetBoneGlobalPose(spine).Basis * referenceBasis.Inverse() * Vector3.Forward;
 					maxTurn = Mathf.Max(maxTurn, Mathf.Abs(Mathf.RadToDeg(Mathf.Atan2(forward.X, -forward.Z))));

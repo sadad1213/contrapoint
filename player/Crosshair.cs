@@ -37,8 +37,9 @@ public partial class Crosshair : Control
 
 	public override void _Process(double delta)
 	{
-		Visible = Enabled && _player.LocalInput && _player.IsAlive && _player.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist
-			&& _hud.Enabled && _player.ActiveWeapon is not FirearmView { IsSniper: true };
+		var subject = _player.HudPlayer;
+		Visible = Enabled && _player.LocalInput && subject.IsAlive && subject.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist
+			&& _hud.Enabled && subject.ActiveWeapon is not FirearmView { IsSniper: true };
 		SyncResolution();
 		var state = new DrawState(Size, CrosshairColor, ArmLength, Thickness, Gap, Dot, Outline, UseAlpha, ColorPreset);
 		if (state != _drawState) { _drawState = state; QueueRedraw(); }

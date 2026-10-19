@@ -99,11 +99,14 @@ public partial class Player
 
 	private void EnterSpectator()
 	{
+		AwaitingInitialClass = false;
 		Death.Reset();
 		SetThirdPerson(false);
 		Inventory.SetEnabled(false);
 		if (!Movement.Noclip) Movement.ToggleNoclip();
 		Body.Hide();
+		Observer?.SetMode(ObserverMode.Free);
+		LanSession.Instance?.RestoreObserver(this);
 		GetNode<CollisionShape3D>("CollisionShape3D").SetDeferred(CollisionShape3D.PropertyName.Disabled, true);
 	}
 

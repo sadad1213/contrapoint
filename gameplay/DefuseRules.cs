@@ -14,5 +14,5 @@ public static class DefuseRules
 	public static int WinLimit { get; set; }
 	public static int LimitTeams { get; set; } = 2;
 	public const double PlantSeconds = 3;
-	public const float UseDistance = 75 * .0254f;
+	public const float UseDistance = 96 * .0254f;
 }

@@ -21,6 +21,7 @@ public partial class BotManager : Node
 	{
 		"res://assets/maps/2000/2000.scn" => "res://assets/maps/2000/bot_navigation.tres",
 		"res://assets/maps/de_cache/de_cache.scn" => "res://assets/maps/de_cache/bot_navigation.tres",
+		"res://assets/maps/de_winter_dust2/de_winter_dust2.scn" => "res://assets/maps/de_winter_dust2/bot_navigation.tres",
 		"res://assets/maps/de_dust2/de_dust2.scn" => "res://assets/maps/de_dust2/bot_navigation.tres",
 		"res://assets/maps/de_inferno/de_inferno.scn" => "res://assets/maps/de_inferno/bot_navigation.tres",
 		"res://assets/maps/de_cpl_strike/de_cpl_strike.scn" => "res://assets/maps/de_cpl_strike/bot_navigation.tres",

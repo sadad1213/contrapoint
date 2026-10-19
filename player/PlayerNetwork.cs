@@ -19,7 +19,7 @@ public partial class Player
 	public GDictionary CaptureNetworkState(bool includeInventory = false)
 	{
 		var animation = ActiveWeapon?.NetworkAnimation;
-		using var animationName = animation?.CurrentAnimation;
+		using var animationName = animation?.AssignedAnimation;
 		using var weaponName = ActiveWeapon?.Name;
 		var clip = ActiveWeapon is KnifeView knife ? knife.NetworkClipName : animationName?.ToString() ?? "";
 		var hasAnimation = clip.Length > 0;
@@ -31,6 +31,8 @@ public partial class Player
 		{
 			[Key.Bot] = IsBot, [Key.DisplayName] = displayValue,
 			[Key.Position] = GlobalPosition, [Key.Velocity] = Velocity, [Key.Yaw] = Rotation.Y, [Key.Pitch] = AimPitch,
+			[Key.ViewAngles] = Camera.Rotation, [Key.Flash] = GrenadeVision.CaptureFlash(),
+			[Key.ViewmodelOffset] = ViewmodelBob.MotionOffset,
 			[Key.Revision] = NetworkTeleportRevision,
 			[Key.InventoryRevision] = Inventory.NetworkRevision,
 			[Key.Autowepswitch] = Inventory.AutoSwitch,
@@ -63,9 +65,12 @@ public partial class Player
 		if (LanSession.Instance?.IsClient == true)
 		{
 			if (state.TryGetValue(Key.Bot, out var bot)) IsBot = bot.AsBool();
-			if (state.TryGetValue(Key.DisplayName, out var displayName))
+		}
+		if (state.TryGetValue(Key.DisplayName, out var displayName))
+		{
+			using (displayName)
 			{
-				using (displayName) BotDisplayName = displayName.AsString();
+				var text = displayName.AsString(); BotDisplayName = text[..Math.Min(text.Length, 64)];
 			}
 		}
 		if (LanSession.Instance?.IsClient == true && state.TryGetValue(Key.Revision, out var revision))
@@ -89,12 +94,17 @@ public partial class Player
 		else if (hosting) Body.GlobalTransform = renderedBody;
 		_hasNetworkState = true;
 		Velocity = velocity; _pitch = Mathf.Clamp(pitch, -1.55334f, 1.55334f); Camera.Rotation = new(_pitch, 0, 0);
+		if (state.TryGetValue(Key.ViewAngles, out var viewAngles) && viewAngles.AsVector3() is var view
+			&& view.IsFinite() && view.LengthSquared() < 100) Camera.Rotation = view;
+		if (state.TryGetValue(Key.Flash, out var flash)) GrenadeVision.ReceiveFlash(flash.AsVector3());
+		if (state.TryGetValue(Key.ViewmodelOffset, out var motion)) ViewmodelBob.ApplyNetworkOffset(motion.AsTransform3D());
 		NetworkGrounded = state[Key.Ground].AsBool();
 		Movement.ApplyNetworkDuck(state[Key.Duck].AsBool());
 		MovementIntent = new(default, false, Movement.IsDucked, state[Key.Walk].AsBool());
 		var health = Math.Clamp(state[Key.Health].AsInt32(), 0, MaxHealth);
-		if (state.TryGetValue(Key.Initial, out var initial)) AwaitingInitialClass = initial.AsBool();
-		if (state.TryGetValue(Key.Team, out var team) && Enum.IsDefined(typeof(PlayerTeam), team.AsInt32())) Team = (PlayerTeam)team.AsInt32();
+		if (!hosting && state.TryGetValue(Key.Initial, out var initial)) AwaitingInitialClass = initial.AsBool();
+		if (!hosting && state.TryGetValue(Key.Team, out var team) && Enum.IsDefined(typeof(PlayerTeam), team.AsInt32())) Team = (PlayerTeam)team.AsInt32();
+		if (!hosting && state.TryGetValue(Key.Money, out var money)) Money = Math.Clamp(money.AsInt32(), 0, 16000);
 		// The reliable death event supplies the exact pose and impulse before HP reaches 0.
 		// An older unreliable alive snapshot can arrive after reliable PlayerDeath.
 		// Only the reliable respawn event may bring a dead replica back to life.
@@ -113,12 +123,13 @@ public partial class Player
 		weapon.ApplyNetworkAnimation(NetworkString(state, Key.Clip), state[Key.Time].AsDouble());
 		if (weapon is FirearmView gun) gun.ApplyNetworkSilencer(state[Key.Silenced].AsBool());
 		if (weapon is FirearmView burstGun && state.TryGetValue(Key.Burst, out var burst)) burstGun.ApplyNetworkBurst(burst.AsBool());
-		if (LanSession.Instance?.IsHosting == true && weapon is FirearmView serverGun && state.ContainsKey(Key.Magazine))
+		if (weapon is FirearmView zoomGun && state.TryGetValue(Key.Zoom, out var zoom)) zoomGun.ApplyNetworkZoom(zoom.AsInt32());
+		if (weapon is FirearmView serverGun && state.ContainsKey(Key.Magazine))
 		{
 			serverGun.RestoreMagazine(state[Key.Magazine].AsInt32());
 			Inventory.SetReserveAmmo(serverGun.AmmoType, state[Key.Reserve].AsInt32(), serverGun.ReserveCapacity);
 		}
-		if (LanSession.Instance?.IsHosting == true && weapon is GrenadeView serverGrenade && state.ContainsKey(Key.Grenades))
+		if (weapon is GrenadeView serverGrenade && state.ContainsKey(Key.Grenades))
 			serverGrenade.RestoreAmmo(state[Key.Grenades].AsInt32());
 	}
 

@@ -31,6 +31,10 @@ public partial class PlayerDeathState : Node3D
 	private readonly SphereShape3D _probe = new() { Radius = 4 * SourceMovement.Unit };
 	private Contrapoint.UI.DeathScreen? _screen;
 	private SourceSoundPlayer? _freezeSound;
+	public Player? ObserverTarget => _player.Observer?.Target;
+	public bool CycleObserver(int step = 1) => _player.Observer?.Cycle(step) == true;
+	public void ToggleObserverMode() => _player.Observer?.ToggleMode();
+	public void EndFreezeForObserver() { Frozen = false; _freezeEnded = true; _screen?.UnfreezeView(); }
 	public void Bind(Player player)
 	{
 		_player = player; TopLevel = true; ProcessPriority = 150;
@@ -60,6 +64,7 @@ public partial class PlayerDeathState : Node3D
 	public void Begin()
 	{
 		if (Active) return;
+		_player.Observer?.Stop();
 		if (_context.Count == 0) Prepare(null, _player.GlobalPosition + Vector3.Up, Vector3.Zero, SourceHitGroup.Generic, "");
 		Active = true; Age = 0; Frozen = false; _travelStarted = _freezeEnded = false; _distance = 32 * SourceMovement.Unit;
 		_deathForward = -_player.Camera.GlobalBasis.Z;
@@ -83,6 +88,7 @@ public partial class PlayerDeathState : Node3D
 	}
 	public void Reset()
 	{
+		_player.Observer?.Stop();
 		Active = false; Age = 0; Frozen = false; _context.Clear(); Killer = null;
 		_screen?.ClearDeath();
 		_freezeSound?.StopAll();
@@ -117,9 +123,16 @@ public partial class PlayerDeathState : Node3D
 			&& _player.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist && LanSession.Instance?.IsClient != true)
 		{ _player.Respawn(); return; }
 		if (!_player.LocalInput) return;
+		if (_player.Observer?.Following == true) return;
 		if (Frozen && (SourceDeathRules.FreezeCamDisabled || Age >= SourceDeathRules.DeathCamSeconds + SourceDeathRules.FreezeTravelSeconds + SourceDeathRules.FreezeSeconds))
 		{ Frozen = false; _freezeEnded = true; _screen?.UnfreezeView(); }
 		if (Frozen) return;
+		if (DefuseRules.Active && Age >= SourceDeathRules.DeathCamSeconds
+			&& (Killer == null || _freezeEnded || SourceDeathRules.FreezeCamDisabled))
+		{
+			_player.Observer?.Start();
+			if (_player.Observer?.Following == true) return;
+		}
 		var focus = GodotObject.IsInstanceValid(Ragdoll) ? Ragdoll!.Focus + Vector3.Up * (14 * SourceMovement.Unit)
 			: _player.GlobalPosition + Vector3.Up * .5f;
 		var killer = GodotObject.IsInstanceValid(Killer) && Killer != _player ? Killer : null;

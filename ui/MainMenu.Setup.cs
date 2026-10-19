@@ -159,8 +159,8 @@ public partial class MainMenu
 
 	private void UpdateModeDescription()
 	{
-		_modeDescription.Text = _activeSetupTab == 2 ? "Bots play Deathmatch and Team Deathmatch on Dust II, Inferno and Mirage. Select a difficulty and quota." : SelectedMode.Description;
-		_modeStatus.Text = _activeSetupTab == 2 ? "Available in DM / TDM on Dust II, Inferno and Mirage." : SelectedMode.Available ? "Ready to play" : FutureMode + ".";
+		_modeDescription.Text = _activeSetupTab == 2 ? "Bots play Bomb Defusal, Deathmatch and Team Deathmatch. Select a difficulty and quota." : SelectedMode.Description;
+		_modeStatus.Text = _activeSetupTab == 2 ? "Available on Dust II, Inferno, Mirage and Cache." : SelectedMode.Available ? "Ready to play" : FutureMode + ".";
 	}
 
 	private OptionButton Choice(Control parent, string name, string label, float x, float y, float width,
@@ -416,7 +416,8 @@ public partial class MainMenu
 	}
 
 	private bool CanStartSelection() => SelectedMode.Available && SelectedMap >= 0
-		&& _visibleMaps.Contains(SelectedMap) && ResourceLoader.Exists(MapScenes[SelectedMap]);
+		&& _visibleMaps.Contains(SelectedMap) && ResourceLoader.Exists(MapScenes[SelectedMap])
+		&& (SelectedMode.Id != "defuse" || SelectedMode.Supports(Maps[SelectedMap]));
 
 	private void SaveSetup()
 	{

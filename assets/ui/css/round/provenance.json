@@ -1,0 +1,54 @@
+[
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/win_round.res",
+    "sha256": "2fe882a6d3e9890185f3349a55c24585127ff247a13d211ff6c312e0bd5cd29e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/clientscheme.res",
+    "sha256": "66f1da248dd753e5bf6b2a46434cb1d8891dae247c92e52c5d3027f1ed7a74f1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/hudlayout.res",
+    "sha256": "8ea7b70a6304252454d597c9546f2bbd6fcfa9e26a4dfefd021937b53869b71f"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/win_panel_bgstar.vtf",
+    "sha256": "7a65583b0ed88a00e3eb90f86bdc4f48f6042ffb8f282c8234009d12ba56b5ff"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/win_panel_mvpstar.vtf",
+    "sha256": "ce6b64329882a4a4a050b1522cc448d4c20a3f2f3862693fe82cc7a7eb5de185"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/avatar_glow_64.vtf",
+    "sha256": "c1c5a8f13a5ea74b56f43d80a8b93a9b7822d7a7e5ce9d98fc85ab8de34272f3"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/avatar_default_64.vtf",
+    "sha256": "e46688b21e3a7a87849430ca2a34d28a6baed0b23b22ec0bf2799065d78e5df6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/win_panel_bgstar.vmt",
+    "sha256": "c965300d736156d07f0f7f398191155b5e4961c260a239e1cea56067e912a797"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/win_panel_mvpstar.vmt",
+    "sha256": "5a29f8c1e90d06d37e5f76864223f810b813b2b4f8c71a1c7ce9d55d706536fd"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/avatar_glow_64.vmt",
+    "sha256": "711aca14213a967cf213d00a439cad84c4d1b85a0754efbcf7f292d8347e9150"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/avatar_default_64.vmt",
+    "sha256": "003c16a73480c9c24151327510bd4bcb324a3e20cf974b2ae2079722f5674eeb"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_english.txt",
+    "sha256": "84b31b9da2c0fb3d303a549c27825bfecd9ee97aae11b829a8382d94bb8baf8c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_russian.txt",
+    "sha256": "35b5f7121581866c855c50e30dc3119cef59e41e8b3f3d139bb16817975b0b0d"
+  }
+]

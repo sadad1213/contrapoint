@@ -20,6 +20,12 @@ obj/
 *.userprefs
 *.sln.docstates
 
+# Python bytecode cache
+__pycache__/
+
+# Scratch workspace for decompiled Source SDK reference sources
+.tmp_winround/
+
 # OS junk
 Thumbs.db
 Desktop.ini

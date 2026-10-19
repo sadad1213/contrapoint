@@ -8,7 +8,7 @@ import time
 parser = argparse.ArgumentParser()
 parser.add_argument('--godot', required=True, type=Path)
 parser.add_argument('--lan', action='store_true')
-parser.add_argument('--map', choices=['de_dust2', 'de_inferno', 'de_cpl_strike', 'de_cache'], default='de_dust2')
+parser.add_argument('--map', choices=['de_dust2', 'de_inferno', 'de_cpl_strike', 'de_cache', 'de_winter_dust2'], default='de_dust2')
 args = parser.parse_args()
 project = Path(__file__).resolve().parents[2]
 command = [str(args.godot), '--headless', '--audio-driver', 'Dummy', '--path', str(project),

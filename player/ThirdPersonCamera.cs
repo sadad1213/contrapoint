@@ -37,6 +37,7 @@ public partial class ThirdPersonCamera : Node3D
 	public void SetEnabled(bool enabled)
 	{
 		Enabled = enabled && _player.LocalInput;
+		if (Enabled) _player.Body.EnsurePose();
 		Camera.Current = Enabled;
 		if (!Enabled && _player.LocalInput) _player.RenderCamera.MakeCurrent();
 		_weaponLayer.Visible = _player.LocalInput && !Enabled;

@@ -49,6 +49,12 @@ public partial class SourceMovement : Node
 	private Node3D _view = null!;
 	private Camera3D _camera = null!;
 	private readonly BoxShape3D _standHull = new() { Size = new(32 * Unit, StandingHeight, 32 * Unit), Margin = 0.001f };
+	private readonly PhysicsPointQueryParameters3D _waterProbe = new()
+	{
+		CollisionMask = 4, CollideWithAreas = true, CollideWithBodies = false
+	};
+	private readonly KinematicCollision3D _floorCollision = new();
+	private readonly KinematicCollision3D _stepUpCollision = new(), _stepForwardCollision = new(), _stepDownCollision = new();
 	private bool _jumpHeld;
 	private bool _teleported;
 	private float _eye = StandingEye;
@@ -80,6 +86,13 @@ public partial class SourceMovement : Node
 		_body.PlatformOnLeave = CharacterBody3D.PlatformOnLeaveEnum.DoNothing;
 		_body.CollisionMask |= 2; // Player clips block movement, but not bullets.
 		Reset();
+	}
+	public override void _Notification(int what)
+	{
+		// Reparenting may temporarily leave the tree while this controller lives.
+		if (what != NotificationPredelete) return;
+		_waterProbe.Dispose(); _standHull.Dispose();
+		_floorCollision.Dispose(); _stepUpCollision.Dispose(); _stepForwardCollision.Dispose(); _stepDownCollision.Dispose();
 	}
 
 	public void Reset()
@@ -207,7 +220,7 @@ public partial class SourceMovement : Node
 			UpdateWaterLevel();
 			// CheckFalling reduces impact speed on descending/floating ground.
 			// This is independent of whether movement inherits platform velocity.
-			var floor = new KinematicCollision3D();
+			var floor = _floorCollision;
 			if (_body.TestMove(_body.GlobalTransform, Vector3.Down * (_body.FloorSnapLength + 0.01f), floor,
 				safeMargin: _body.SafeMargin, recoveryAsCollision: true))
 			{
@@ -228,11 +241,10 @@ public partial class SourceMovement : Node
 
 	private bool InWater(Vector3 position)
 	{
-		var query = new PhysicsPointQueryParameters3D
-		{
-			Position = position, CollisionMask = 4, CollideWithAreas = true, CollideWithBodies = false
-		};
-		return _body.GetWorld3D().DirectSpaceState.IntersectPoint(query, 1).Count > 0;
+		_waterProbe.Position = position;
+		var hits = _body.GetWorld3D().DirectSpaceState.IntersectPoint(_waterProbe, 1);
+		using var ownedHits = (Godot.Collections.Array)hits;
+		return hits.Count > 0;
 	}
 
 	private void UpdateWaterLevel()
@@ -366,15 +378,15 @@ public partial class SourceMovement : Node
 		actual.Y = 0;
 		if (actual.Length() + 0.001f < horizontal.Length())
 		{
-			var up = new KinematicCollision3D();
+			var up = _stepUpCollision;
 			var rise = Vector3.Up * (StepHeight * Unit + _body.SafeMargin);
 			if (_body.TestMove(start, rise, up)) rise = up.GetTravel();
 			var raised = start;
 			raised.Origin += rise;
-			var forward = new KinematicCollision3D();
+			var forward = _stepForwardCollision;
 			var travel = _body.TestMove(raised, horizontal, forward) ? forward.GetTravel() : horizontal;
 			raised.Origin += travel;
-			var down = new KinematicCollision3D();
+			var down = _stepDownCollision;
 			if (_body.TestMove(raised, Vector3.Down * (rise.Y + 2 * Unit), down)
 				&& down.GetNormal().Y >= 0.7f && travel.LengthSquared() > actual.LengthSquared() + 0.000001f)
 			{
@@ -392,7 +404,7 @@ public partial class SourceMovement : Node
 		// Follow descending stairs only if the tick started on a walkable floor.
 		if (!_body.IsOnFloor())
 		{
-			var down = new KinematicCollision3D();
+			var down = _stepDownCollision;
 			if (_body.TestMove(_body.GlobalTransform, Vector3.Down * (StepHeight * Unit), down) && down.GetNormal().Y >= 0.7f)
 			{
 				_body.GlobalPosition += down.GetTravel();

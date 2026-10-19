@@ -96,6 +96,10 @@
     "sha256": "45538f5a9402299957070db348f3bf10281c3bcd7253969dbd20d280b6c955a3"
   },
   {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/defuser.res",
+    "sha256": "5c0fc6a1a703f566a99f9d4b939fa3ebccda9c455bed1d042bb7e2d3797a2f93"
+  },
+  {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/aug.res",
     "sha256": "9bbacfc77607fb13ecec9a5ce2d161d3af275c25d247b42ec372f4354d791512"
   },
@@ -238,6 +242,10 @@
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/kevlar_helmet.vtf",
     "sha256": "05a13ebecdf3fc6fdc57f591643fa4b788b05be31a46f53347616686e25241d3"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/defuser.vtf",
+    "sha256": "4adb6e6cdfc8d82149f67c133b854d454a2310bd0a15a7c42f0be1fa5a66b27c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/aug.vtf",

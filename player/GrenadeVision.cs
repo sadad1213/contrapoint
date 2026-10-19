@@ -13,6 +13,15 @@ public partial class GrenadeVision : CanvasLayer
 	private bool _capturePending;
 	private double _hold, _fade, _elapsed;
 	private float _alpha;
+	public Vector3 CaptureFlash() => new((float)System.Math.Max(0, _hold - _elapsed),
+		(float)System.Math.Max(0, _fade - System.Math.Max(0, _elapsed - _hold)),
+		_elapsed < _hold ? _alpha : _fade > 0 ? _alpha * Mathf.Clamp(1 - (float)((_elapsed - _hold) / _fade), 0, 1) : 0);
+	public void ReceiveFlash(Vector3 state)
+	{
+		if (_player.LocalInput || !state.IsFinite()) return;
+		_hold = Mathf.Clamp(state.X, 0, 10); _fade = Mathf.Clamp(state.Y, 0, 10);
+		_alpha = Mathf.Clamp(state.Z, 0, 1); _elapsed = 0;
+	}
 
 	public override void _Ready()
 	{
@@ -84,14 +93,17 @@ public partial class GrenadeVision : CanvasLayer
 	{
 		_elapsed += delta;
 		if (!_player.LocalInput) return;
-		var alpha = _elapsed < _hold ? _alpha : _fade > 0 ? _alpha * Mathf.Clamp(1 - (float)((_elapsed - _hold) / _fade), 0, 1) : 0;
+		var subject = _player.HudPlayer;
+		var source = subject.GrenadeVision;
+		var alpha = source._elapsed < source._hold ? source._alpha : source._fade > 0 ? source._alpha * Mathf.Clamp(1 - (float)((source._elapsed - source._hold) / source._fade), 0, 1) : 0;
+		if (!_player.IsAlive && _player.Observer?.FirstPerson != true) alpha = 0;
 		_white.Color = new Color(1, 1, 1, _capturePending ? 0 : alpha);
-		_afterimage.Modulate = new Color(1, 1, 1, _capturePending ? 0 : alpha);
+		_afterimage.Modulate = new Color(1, 1, 1, _capturePending || subject != _player ? 0 : alpha);
 		var smoke = 0f;
 		foreach (var node in GetTree().GetNodesInGroup("source_smoke"))
-			if (node is GrenadeSmoke cloud) smoke += cloud.EyeDensity(_player.Camera.GlobalPosition);
+			if (node is GrenadeSmoke cloud) smoke += cloud.EyeDensity(_player.RenderCamera.GlobalPosition);
 		_fog.Color = new Color(0.3f, 0.3f, 0.3f, Mathf.Clamp(smoke, 0, 1));
-		Visible = _player.LocalInput && _player.IsAlive;
+		Visible = _player.LocalInput && (_player.IsAlive || _player.Observer?.Following == true);
 	}
 
 	public override void _ExitTree()

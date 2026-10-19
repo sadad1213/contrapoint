@@ -27,6 +27,15 @@ public partial class LanSession
 	{
 		if (IsHosting) foreach (var peer in _readyPeers) RpcId(peer, MethodName.DefuseAnnouncement, _mapEpoch, path);
 	}
+	public void BroadcastBombExplosion(Vector3 pos)
+	{
+		if (IsHosting) foreach (var peer in _readyPeers) RpcId(peer, MethodName.BombExplosion, _mapEpoch, pos);
+	}
+	[Rpc(TransferMode = MultiplayerPeer.TransferModeEnum.Reliable)]
+	private void BombExplosion(int epoch, Vector3 pos)
+	{
+		if (IsClient && WorldReady && epoch == _mapEpoch) DefuseState.Instance?.PresentExplosion(pos);
+	}
 	[Rpc(TransferMode = MultiplayerPeer.TransferModeEnum.Reliable)]
 	private void DefuseAnnouncement(int epoch, string path)
 	{

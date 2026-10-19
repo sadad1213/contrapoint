@@ -28,9 +28,10 @@ public partial class CssScope : Control
 	public override void _Process(double delta)
 	{
 		Size = GetWindow().Size; // HUD canvas uses native pixels (see CssHud).
-		Visible = _player.LocalInput && _player.IsAlive && !_player.IsThirdPerson && _hud.Enabled
-			&& _player.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist
-			&& _player.ActiveWeapon is FirearmView { ZoomLevel: > 0, IsSniper: true };
+		var subject = _player.HudPlayer;
+		Visible = _player.LocalInput && subject.IsAlive && (subject != _player || !_player.IsThirdPerson) && _hud.Enabled
+			&& subject.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist
+			&& subject.ActiveWeapon is FirearmView { ZoomLevel: > 0, IsSniper: true };
 		if (Size != _drawnSize) { _drawnSize = Size; QueueRedraw(); }
 	}
 

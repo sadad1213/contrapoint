@@ -22,7 +22,7 @@ public partial class DefuseChecks : Node
 	private async Task Delay(double seconds) => await ToSignal(GetTree().CreateTimer(seconds), SceneTreeTimer.SignalName.Timeout);
 	public override void _PhysicsProcess(double delta)
 	{
-		if (GodotObject.IsInstanceValid(_opponent) && _opponent!.IsAlive) _opponent.Simulate(default, (float)delta);
+		if (GodotObject.IsInstanceValid(_opponent) && _opponent!.IsInsideTree() && _opponent.IsAlive) _opponent.Simulate(default, (float)delta);
 	}
 	public override async void _Ready()
 	{
@@ -58,9 +58,9 @@ public partial class DefuseChecks : Node
 	}
 	private async Task Plant()
 	{
-		P.SetObjectiveAttack(true);
+		P.ActiveWeapon!.HandleCommand("attack", true);
 		await Until(() => De.BombPlanted, "three-second plant", 5);
-		P.SetObjectiveAttack(false);
+		P.ActiveWeapon?.HandleCommand("attack", false);
 		Check(!P.Inventory.Weapons.OfType<C4View>().Any() && De.Carrier == null, "plant consumes exactly one carried C4");
 	}
 	private void AimAt(Player p, Vector3 position)
@@ -72,16 +72,21 @@ public partial class DefuseChecks : Node
 	{
 		await Start();
 		Check(P.Money == 800 && P.Armor == 0 && !P.HasHelmet, "CSS starts with $800 and no free armor");
+		var spawnPosition = P.GlobalPosition;
+		await Delay(.15);
+		Check(Math.Abs(P.GlobalPosition.Y - spawnPosition.Y) < .01f && P.IsOnFloor(), "DE spawn is grounded immediately and does not fall during freeze");
 		Check(P.Inventory.Weapons.OfType<FirearmView>().Single().Kind == FirearmView.FirearmKind.Glock, "T default pistol and knife");
 		Check(De.InBuyZone(P) && BuyCatalog.CanOpen(P), "buying in actual T buy zone");
 		var origin = P.GlobalPosition; P.Simulate(new(new(1, 0), false, false, false), .1f);
-		Check(P.GlobalPosition.IsEqualApprox(origin), "freeze period blocks movement");
+		Check(new Vector2(P.GlobalPosition.X - origin.X, P.GlobalPosition.Z - origin.Z).Length() < .001f, "freeze period blocks horizontal movement");
 		Check(P.Buy("usp").Length > 0 && P.Buy("defuser").Length > 0, "T cannot buy CT weapons or defusal kit");
 		Check(_opponent!.Buy("defuser").Length == 0 && _opponent.HasDefuser && _opponent.Money == 600, "CT kit costs exactly $200");
+		var freezeHeight = P.GlobalPosition.Y;
 		await Until(() => De.Phase == DefusePhase.Live && De.Carrier == P, "live round and bomb assignment");
+		Check(Math.Abs(P.GlobalPosition.Y - freezeHeight) < .01f, "unfreezing the round does not make the player drop");
 		await AtSite();
 		Check(!BuyCatalog.CanOpen(P), "buying outside base is blocked");
-		P.SetObjectiveAttack(true); await Delay(1); P.SetObjectiveAttack(false); await Delay(.1);
+		P.ActiveWeapon!.HandleCommand("attack", true); await Delay(1); P.ActiveWeapon!.HandleCommand("attack", false); await Delay(.1);
 		Check(!De.BombPlanted && De.PlantProgress == 0, "releasing attack cancels and clears partial plant");
 		await Plant();
 		var bomb = De.BombPosition;
@@ -110,6 +115,7 @@ public partial class DefuseChecks : Node
 		_opponent!.SourceTeleport(new(100, 100, 100), 0, 0);
 		De._PhysicsProcess(46);
 		Check(De.Result == DefuseResult.BombExploded && De.TerroristWins == 1, "detonation awards T round after planter dies");
+		Check(De.RoundSummary["mvp"].AsString() == P.DisplayName && De.RoundSummary["reason"].AsString() == "winpanel_mvp_award_bombplant", "round panel keeps dead planter as bomb MVP");
 		Check(!De.BombPlanted && !P.IsAlive, "detonation clears planted objective without reviving players");
 		await Start(); await Until(() => De.Phase == DefusePhase.Live && De.Carrier == P, "drop scenario");
 		await Delay(.1);
@@ -117,5 +123,33 @@ public partial class DefuseChecks : Node
 		Check(De.Carrier == null && GetTree().CurrentScene.GetChildren().OfType<ObjectivePickup>().Any(i => !i.Kit), "G drops the C4 as a physical world pickup");
 		P.TakeDamage(100); await Delay(.1);
 		Check(De.Result == DefuseResult.TerroristsEliminated && De.CounterTerroristWins == 1, "CT wins by eliminating Ts before plant");
+		await Start(); await Until(() => De.Phase == DefusePhase.Live && De.Carrier == P, "no-kit scenario");
+		await AtSite(); await Plant();
+		_opponent!.HasDefuser = false;
+		_opponent.SourceTeleport(De.BombPosition + new Vector3(.8f, .06f, 0), 0, 0);
+		await Until(() => _opponent.IsOnFloor(), "no-kit player grounded"); AimAt(_opponent, De.BombPosition);
+		_opponent.ObjectiveUseHeld = true;
+		await Delay(5.1);
+		Check(De.BombPlanted && De.Defuser == _opponent && De.DefuseProgress >= 5, "without kit five seconds is insufficient");
+		await Until(() => De.Result == DefuseResult.BombDefused, "ten-second no-kit defuse", 6);
+		Check(De.CounterTerroristWins == 1, "ten-second no-kit defuse wins CT round");
+		await Start(); await Until(() => De.Phase == DefusePhase.Live && De.Carrier == P, "timeout scenario");
+		var money = P.Money;
+		De._PhysicsProcess(151);
+		Check(De.Result == DefuseResult.TargetSaved && De.CounterTerroristWins == 1, "unplanted round timer awards CT victory");
+		P.TakeDamage(100); var timeoutOld = P.GetInstanceId(); De._PhysicsProcess(31);
+		await Until(() => LanSession.Instance!.LocalPlayer != null && P.GetInstanceId() != timeoutOld, "timeout next round");
+		Check(P.Money == money, "timeout survivors cannot get loss income by dying after the result");
+		foreach (var map in new[] { "de_inferno", "de_cpl_strike", "de_cache" })
+		{
+			_opponent = null;
+			MatchSession.Begin(new MatchSetup { ModeId = "defuse", MapId = map, FallDamage = false });
+			var oldMap = GetTree().CurrentScene.GetInstanceId();
+			GetTree().ChangeSceneToFile(Contrapoint.Maps.MapCatalog.Find(map)!.ScenePath);
+			await Until(() => NetAttached() && GetTree().CurrentScene.GetInstanceId() != oldMap, "objective map " + map);
+			Check(GetTree().GetNodesInGroup("source_bomb_target").Count == 2, map + " has both original bomb sites");
+			Check(GetTree().GetNodesInGroup("source_buyzone").Count >= 2, map + " has original team buy zones");
+		}
 	}
+	private bool NetAttached() => LanSession.Instance!.LocalPlayer?.IsInsideTree() == true;
 }

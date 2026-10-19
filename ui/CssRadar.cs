@@ -15,7 +15,8 @@ public partial class CssRadar : Control
 	public float MapAlpha { get; set; } = 200 / 255f;
 	public bool HasOverview => _map != null;
 	public string MapId { get; private set; } = "";
-	private Player _player = null!;
+	private Player _owner = null!;
+	private Player _player => _owner.HudPlayer;
 	private Texture2D? _map;
 	private Vector2 _origin;
 	private float _mapScale;
@@ -30,7 +31,7 @@ public partial class CssRadar : Control
 	public override void _Ready() => MouseFilter = MouseFilterEnum.Ignore;
 	public void Bind(Player player)
 	{
-		_player = player;
+		_owner = player;
 		var root = player.SpawnPointsRootPath.IsEmpty ? null : player.GetNodeOrNull<Node>(player.SpawnPointsRootPath);
 		MapId = root == null ? "" : System.IO.Path.GetFileNameWithoutExtension(root.SceneFilePath);
 		var texture = $"res://assets/ui/css/hud/{MapId}_radar.png";
@@ -57,7 +58,7 @@ public partial class CssRadar : Control
 		}
 		if (count < _contacts.Count) { _contacts.RemoveRange(count, _contacts.Count - count); changed = true; }
 		_drawState = state;
-		if (changed) QueueRedraw();
+		if (changed || Contrapoint.Gameplay.DefuseRules.Active) QueueRedraw();
 	}
 	public Vector2 WorldToOverview(Vector3 world) => new((world.X / SourceMovement.Unit - _origin.X) / _mapScale,
 		(_origin.Y + world.Z / SourceMovement.Unit) / _mapScale);
@@ -97,6 +98,14 @@ public partial class CssRadar : Control
 			var height = other.GlobalPosition.Y - _player.GlobalPosition.Y;
 			if (Math.Abs(height) > 128 * SourceMovement.Unit)
 				DrawLine(at, at + new Vector2(0, height > 0 ? -5 : 5) * HudScale, new Color(1, .65f, 0), HudScale);
+		}
+		if (Contrapoint.Gameplay.DefuseRules.Active && Contrapoint.Gameplay.DefuseState.Instance is { } de && _player.Team == PlayerTeam.Terrorist)
+		{
+			var at = center + (WorldToRadar(de.BombPosition) - center).LimitLength(radius - 5 * HudScale);
+			if (de.BombPlanted || de.Carrier == null && de.Phase != Contrapoint.Gameplay.DefusePhase.Waiting)
+				DrawRect(new Rect2(at - Vector2.One * 3 * HudScale, Vector2.One * 6 * HudScale), new Color(1, 0, 0));
+			else if (de.Carrier != null)
+				DrawRect(new Rect2(at - Vector2.One * 3 * HudScale, Vector2.One * 6 * HudScale), new Color(1, .65f, 0), false, HudScale);
 		}
 		var rotation = RotateMap ? 0 : -_player.GlobalRotation.Y;
 		var arrow = new[] { new Vector2(0, -5), new Vector2(-3, 3), new Vector2(0, 1), new Vector2(3, 3) }

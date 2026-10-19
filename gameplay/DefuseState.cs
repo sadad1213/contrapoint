@@ -37,9 +37,12 @@ public partial class DefuseState : Node
 	public bool SpawningRound { get; private set; }
 	private readonly HashSet<ulong> _spawned = [];
 	private readonly HashSet<ulong> _initialized = [];
+	private readonly HashSet<ulong> _timeoutSurvivors = [];
 	private readonly List<ObjectivePickup> _pickups = [];
 	private Node3D? _plantedModel;
 	private Area3D? _plantSite;
+	private Area3D? _plantedSite;
+	private float _bombDamage = 500;
 	private double _publish, _beep, _matchElapsed, _restartIn = -1;
 	private int _nextPickup, _tLosses, _ctLosses, _loserBonus = 1400;
 	private bool _bombAssigned;
@@ -53,8 +56,8 @@ public partial class DefuseState : Node
 	{
 		var continuing = ReloadingRound;
 		ReloadingRound = false;
-		_spawned.Clear(); _initialized.Clear(); _pickups.Clear();
-		_plantedModel = null; _plantSite = null;
+		_spawned.Clear(); _initialized.Clear(); _pickups.Clear(); _timeoutSurvivors.Clear();
+		_plantedModel = null; _plantSite = _plantedSite = null;
 		Carrier = Planter = Defuser = null;
 		BombPlanted = _bombAssigned = false;
 		BombRemaining = PlantProgress = DefuseProgress = 0;
@@ -68,6 +71,7 @@ public partial class DefuseState : Node
 		Phase = continuing ? DefusePhase.Freeze : DefusePhase.Waiting;
 		Remaining = continuing ? DefuseRules.FreezeSeconds : 0;
 		RoundElapsed = 0; Winner = PlayerTeam.Unassigned; Result = DefuseResult.None;
+		ResetRoundSummary();
 		UpdateClock();
 	}
 	public void InitializePlayer(Player player)
@@ -103,6 +107,7 @@ public partial class DefuseState : Node
 		var center = shape.ToGlobal(bounds.GetCenter());
 		var ray = PhysicsRayQueryParameters3D.Create(center + Vector3.Up * bounds.Size.Y / 2,
 			center - Vector3.Up * (bounds.Size.Y / 2 + 3), 1);
+		ray.Exclude = new Godot.Collections.Array<Rid>(Players.Select(p => p.GetRid()));
 		var hit = p.GetWorld3D().DirectSpaceState.IntersectRay(ray);
 		return hit.Count == 0 ? center : hit["position"].AsVector3();
 	}
@@ -119,7 +124,7 @@ public partial class DefuseState : Node
 		return AreasAt(p, "source_buyzone").Any(area =>
 		{
 			var data = area.Get("source_data").AsGodotDictionary();
-			var team = data.TryGetValue("TeamNum", out var value) && int.TryParse(value.AsString(), out var n) ? n : 0;
+			var team = (data.TryGetValue("TeamNum", out var value) || data.TryGetValue("teamnum", out value)) && int.TryParse(value.AsString(), out var n) ? n : 0;
 			return team == 0 || team == (p.Team == PlayerTeam.Terrorist ? 2 : 3);
 		});
 	}
@@ -148,11 +153,10 @@ public partial class DefuseState : Node
 	public bool CanDefuse(Player p)
 	{
 		if (!BombPlanted || !p.IsAlive || p.Team != PlayerTeam.CounterTerrorist || !Grounded(p)
-			|| p.GlobalPosition.DistanceTo(BombPosition) > DefuseRules.UseDistance) return false;
+			|| p.Camera.GlobalPosition.DistanceTo(BombPosition) >= DefuseRules.UseDistance) return false;
 		var aim = BombPosition + Vector3.Up * .08f - p.Camera.GlobalPosition;
-		if ((-p.Camera.GlobalBasis.Z).Dot(aim.Normalized()) < .8f) return false;
-		var ray = PhysicsRayQueryParameters3D.Create(p.Camera.GlobalPosition, BombPosition + Vector3.Up * .08f, 1, new() { p.GetRid() });
-		return p.GetWorld3D().DirectSpaceState.IntersectRay(ray).Count == 0;
+		// CSS FindUseEntity explicitly prioritizes C4 even through intervening brushes.
+		return (-p.Camera.GlobalBasis.Z).Dot(aim.Normalized()) > .7f;
 	}
 	public void DropBomb(Player p, bool death = false)
 	{
@@ -213,8 +217,12 @@ public partial class DefuseState : Node
 		PlantProgress += delta;
 		if (PlantProgress < DefuseRules.PlantSeconds) return;
 		var site = _plantSite;
+		_plantedSite = site;
+		var map = !p.SpawnPointsRootPath.IsEmpty ? p.GetNodeOrNull<Node3D>(p.SpawnPointsRootPath) : null;
+		_bombDamage = map?.HasMeta("source_bomb_radius") == true ? map.GetMeta("source_bomb_radius").AsSingle() : 500;
 		BombPosition = p.GlobalPosition + Vector3.Up * .02f;
 		BombRemaining = DefuseRules.BombSeconds; BombPlanted = true;
+		_roundPlanter = p;
 		Carrier = null; CancelPlant();
 		foreach (var c4 in p.Inventory.Weapons.OfType<C4View>().ToArray()) p.Inventory.RemoveWeapon(c4);
 		p.ObjectiveAttackHeld = false;
@@ -238,13 +246,16 @@ public partial class DefuseState : Node
 		{
 			BombPlanted = false; CancelDefuse();
 			WorldSound("weapons/c4/c4_explode1.wav", BombPosition);
+			EmitSite(_plantedSite, "BombExplode", null);
+			PresentExplosion(BombPosition); LanSession.Instance?.BroadcastBombExplosion(BombPosition);
 			Finish(PlayerTeam.Terrorist, DefuseResult.BombExploded);
 			foreach (var p in Players.Where(p => p.IsAlive && DeathmatchRules.Playing(p)))
 			{
 				var units = p.GlobalPosition.DistanceTo(BombPosition) / SourceMovement.Unit;
 				// CSS bomb radius damage ignores world visibility, with Gaussian falloff.
-				var damage = 500 * Mathf.Exp(-units * units / (2 * Mathf.Pow(1750f / 3, 2)));
-				if (units <= 1750) p.TakeBombDamage(damage, BombPosition);
+				var radius = _bombDamage * 3.5f;
+				var damage = _bombDamage * Mathf.Exp(-units * units / (2 * Mathf.Pow(radius / 3, 2)));
+				if (units <= radius) p.TakeBombDamage(damage, BombPosition);
 			}
 			Publish(); return;
 		}
@@ -264,6 +275,8 @@ public partial class DefuseState : Node
 			if (DefuseProgress >= _defuseLength)
 			{
 				Defuser.MatchKills += 3;
+				_roundDefuser = Defuser;
+				EmitSite(_plantedSite, "BombDefused", Defuser);
 				BombPlanted = false; CancelDefuse();
 				Announce("radio/bombdef.wav"); Finish(PlayerTeam.CounterTerrorist, DefuseResult.BombDefused); Publish();
 			}
@@ -276,6 +289,8 @@ public partial class DefuseState : Node
 		if (kind == PlayerDamageKind.Bomb) return;
 		if (killer == null || killer == victim) { victim.MatchKills--; return; }
 		var teammate = DeathmatchRules.Teammates(victim, killer);
+		if (!teammate && Phase == DefusePhase.Live)
+			_roundKills[killer.GetInstanceId()] = _roundKills.GetValueOrDefault(killer.GetInstanceId()) + 1;
 		killer.MatchKills += teammate ? -1 : 1;
 		AddMoney(killer, teammate ? -3300 : 300);
 	}
@@ -288,6 +303,9 @@ public partial class DefuseState : Node
 	{
 		if (Phase != DefusePhase.Live) return;
 		Winner = winner; Result = reason; Phase = DefusePhase.Ended; Remaining = DefuseRules.RestartSeconds;
+		CompleteRoundSummary();
+		if (reason == DefuseResult.TargetSaved)
+			foreach (var p in Players.Where(p => p.IsAlive && p.Team == PlayerTeam.Terrorist)) _timeoutSurvivors.Add(p.GetInstanceId());
 		if (winner == PlayerTeam.Terrorist) TerroristWins++;
 		else if (winner == PlayerTeam.CounterTerrorist) CounterTerroristWins++;
 		CancelPlant();
@@ -310,7 +328,7 @@ public partial class DefuseState : Node
 		foreach (var p in Players.Where(DeathmatchRules.Playing))
 		{
 			if (Winner == PlayerTeam.Unassigned) continue;
-			if (Result == DefuseResult.TargetSaved && p.Team == PlayerTeam.Terrorist && p.IsAlive) continue;
+			if (_timeoutSurvivors.Contains(p.GetInstanceId())) continue;
 			var amount = p.Team == Winner ? Result == DefuseResult.BombExploded ? 3500 : 3250 : _loserBonus;
 			if (Result == DefuseResult.BombDefused && p.Team == PlayerTeam.Terrorist) amount += 800;
 			AddMoney(p, amount);
@@ -320,10 +338,14 @@ public partial class DefuseState : Node
 	private void StartRound()
 	{
 		RoundNumber++; RoundElapsed = 0; Phase = DefusePhase.Freeze; Remaining = DefuseRules.FreezeSeconds;
+		ResetRoundSummary();
 		_spawned.Clear(); SpawningRound = true;
 		foreach (var p in Players.Where(p => DeathmatchRules.Playing(p) && !p.AwaitingInitialClass && !p.PickingClass))
 			p.RespawnForDefuse(p.IsAlive);
 		SpawningRound = false;
+		foreach (var p in Players)
+			foreach (var c4 in p.Inventory.Weapons.OfType<C4View>().ToArray()) p.Inventory.RemoveWeapon(c4);
+		Carrier = null; _bombAssigned = false;
 		Publish();
 	}
 	private bool TeamsReady => Players.Any(p => p.Team == PlayerTeam.Terrorist && !p.PickingClass && !p.AwaitingInitialClass)
@@ -348,7 +370,7 @@ public partial class DefuseState : Node
 		if (Phase == DefusePhase.Waiting && TeamsReady) StartRound();
 		else if (Phase == DefusePhase.Freeze)
 		{
-			Remaining = Math.Max(0, Remaining - delta);
+			if (LanSession.Instance.RoundPlayersReady) Remaining = Math.Max(0, Remaining - delta);
 			if (Remaining <= 0) { Phase = DefusePhase.Live; Remaining = DefuseRules.RoundMinutes * 60; Announce("radio/letsgo.wav"); }
 		}
 		else if (Phase == DefusePhase.Live)
@@ -411,6 +433,14 @@ public partial class DefuseState : Node
 		if (GetTree().CurrentScene is Node3D world) SourceSoundPlayer.PlayWorldWave(world, pos, path, 1);
 		LanSession.Instance?.BroadcastWeaponImpact(pos, path, 1);
 	}
+	public void PresentExplosion(Vector3 pos)
+	{
+		if (GetTree().CurrentScene is not Node3D scene) return;
+		var explosion = new CssBombExplosion(); scene.AddChild(explosion); explosion.GlobalPosition = pos;
+		var local = LanSession.Instance?.LocalPlayer;
+		if (local != null && local.GlobalPosition.DistanceTo(pos) < 3000 * SourceMovement.Unit)
+			local.Recoil.SetDamagePunch(new(4, 0, 2));
+	}
 	private void PresentBomb(double delta)
 	{
 		if (BombPlanted)
@@ -439,6 +469,7 @@ public partial class DefuseState : Node
 		["planter"] = Valid(Planter) ? Planter!.NetworkPeerId : int.MinValue,
 		["defuser"] = Valid(Defuser) ? Defuser!.NetworkPeerId : int.MinValue,
 		["plant"] = PlantProgress, ["defuse"] = DefuseProgress, ["length"] = _defuseLength,
+		["summary"] = RoundSummary,
 		["items"] = new GArray(_pickups.Where(GodotObject.IsInstanceValid).Select(p => (Variant)new GDictionary
 			{ ["id"] = p.ObjectiveId, ["kit"] = p.Kit, ["transform"] = p.GlobalTransform }))
 	};
@@ -451,6 +482,7 @@ public partial class DefuseState : Node
 		BombPlanted = state["planted"].AsBool(); BombRemaining = state["bombtime"].AsDouble(); BombPosition = state["position"].AsVector3();
 		Carrier = Find(state["carrier"].AsInt32()); Planter = Find(state["planter"].AsInt32()); Defuser = Find(state["defuser"].AsInt32());
 		PlantProgress = state["plant"].AsDouble(); DefuseProgress = state["defuse"].AsDouble(); _defuseLength = state["length"].AsDouble();
+		RoundSummary = state.TryGetValue("summary", out var summary) ? summary.AsGodotDictionary() : new();
 		var items = state["items"].AsGodotArray().Select(v => v.AsGodotDictionary()).ToArray();
 		_pickups.RemoveAll(p => !GodotObject.IsInstanceValid(p));
 		foreach (var p in _pickups.ToArray())

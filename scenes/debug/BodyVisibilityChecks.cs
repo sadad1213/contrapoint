@@ -66,6 +66,30 @@ public partial class BodyVisibilityChecks : Node3D
 			pose = Bones(actor); actor.TakeDamage(1000);
 			Check(actor.Death.Active && actor.Death.Ragdoll != null, "hidden death creates a ragdoll");
 			Check(Changed(pose, actor), "hidden death captures a fresh pose");
+			var local = PlayerSceneCache.Load("res://scenes/player/player.tscn").Instantiate<Player>();
+			local.DebugControls = false;
+			AddChild(local); local.SetMouseCaptured(false); local.SetPhysicsProcess(false);
+			local.Movement.ToggleNoclip(); local.Velocity = Vector3.Forward * 5;
+			var localVisibility = local.Body.GetNode<VisibleOnScreenNotifier3D>("PoseVisibility");
+			await Frames(20);
+			Check(!localVisibility.IsOnScreen(), "first-person layer mask hides the local body");
+			pose = Bones(local); await Frames(30);
+			Check(!Changed(pose, local), "first person advances clocks without writing hidden body bones");
+			center = local.Body.Hitboxes.GroupCenter(SourceHitGroup.Head);
+			Check(Changed(pose, local) && center.IsFinite(), "local hitboxes request the current first-person pose");
+			pose = Bones(local); await Frames(20);
+			Check(!Changed(pose, local), "local body returns to lazy evaluation after a hitbox query");
+			local.SetThirdPerson(true);
+			Check(Changed(pose, local), "third person refreshes the local pose immediately on switching");
+			await Frames(40);
+			Check(localVisibility.IsOnScreen(), "third-person camera sees the local body");
+			pose = Bones(local); await Frames(25);
+			Check(Changed(pose, local), "visible local third-person locomotion stays animated");
+			local.SetThirdPerson(false); await Frames(20);
+			pose = Bones(local); await Frames(25);
+			Check(!Changed(pose, local), "returning to first person stops hidden body writes");
+			local.TakeDamage(1000);
+			Check(local.Death.Active && local.Death.Ragdoll != null && Changed(pose, local), "first-person death captures a fresh local ragdoll pose");
 			GD.Print($"BODY_VISIBILITY_CHECKS checks={_checks} failures=0"); GetTree().Quit();
 		}
 		catch (Exception error) { GD.PushError($"BODY_VISIBILITY_CHECKS after {_checks}: {error}"); GetTree().Quit(1); }

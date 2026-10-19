@@ -13,7 +13,9 @@ public partial class Player
 	public Contrapoint.UI.CssTeamMenu? TeamMenu { get; private set; }
 	public Contrapoint.UI.CssBuyMenu? BuyMenu { get; private set; }
 	public bool IsThirdPerson => ThirdPerson?.Enabled == true;
-	public Camera3D RenderCamera => Death?.Active == true ? Death.Camera : IsThirdPerson ? ThirdPerson.Camera : FirstPerson ?? Camera;
+	public PlayerObserver? Observer { get; private set; }
+	public Player HudPlayer => Observer?.FirstPerson == true ? Observer.Target! : this;
+	public Camera3D RenderCamera => Observer?.Following == true ? Observer.Camera : Death?.Active == true ? Death.Camera : IsThirdPerson ? ThirdPerson.Camera : FirstPerson ?? Camera;
 	public PlayerCommand MovementIntent { get; private set; }
 
 	private void InitializePresentation()
@@ -35,6 +37,7 @@ public partial class Player
 		Death = new PlayerDeathState { Name = "DeathState" }; AddChild(Death); Death.Bind(this);
 		if (LocalInput)
 		{
+			Observer = new PlayerObserver { Name = "Observer" }; AddChild(Observer); Observer.Bind(this);
 			KillFeed = new Contrapoint.UI.CssoKillFeed { Name = "KillFeed" };
 			AddChild(KillFeed); KillFeed.Bind(this);
 			TeamMenu = new Contrapoint.UI.CssTeamMenu { Name = "TeamMenu" };
@@ -43,6 +46,8 @@ public partial class Player
 			AddChild(BuyMenu); BuyMenu.Bind(this);
 			var matchHud = new Contrapoint.UI.DeathmatchHud { Name = "DeathmatchHud" };
 			AddChild(matchHud); matchHud.Bind(this);
+			var defuseHud = new Contrapoint.UI.DefuseHud { Name = "DefuseHud" };
+			AddChild(defuseHud); defuseHud.Bind(this);
 		}
 		Respawned += Body.ResetPose;
 	}

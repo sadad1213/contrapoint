@@ -12,13 +12,22 @@ namespace Contrapoint.Network;
 public partial class LanSession
 {
 	private sealed record MatchIdentity(PlayerTeam Team, string Agent, string Weapon, GArray? Contents = null,
-		int Money = 800, int Armor = 0, bool Helmet = false, bool Kit = false, int Kills = 0, int Deaths = 0);
+		int Money = 800, int Armor = 0, bool Helmet = false, bool Kit = false, int Kills = 0, int Deaths = 0, string BotName = "");
 	private readonly Dictionary<int, MatchIdentity> _restartRoster = new();
 	private readonly HashSet<int> _waitingMapReady = new();
 	private readonly HashSet<int> _waitingHello = new();
 	private bool _restartingMap;
 	private int _mapEpoch;
 	private GDictionary? _localMatchRules;
+	private (ObserverMode Mode, int? Peer)? _observerResume;
+	public void RestoreObserver(Player player)
+	{
+		if (player.LocalInput && player.Team == PlayerTeam.Spectator && _observerResume is { } saved)
+		{
+			player.Observer?.Resume(saved.Mode, saved.Peer); _observerResume = null;
+		}
+	}
+	public bool RoundPlayersReady => !_restartingMap && _joining.Count == 0 && _waitingMapReady.Count == 0;
 
 	private static GDictionary MatchRules() => new()
 	{
@@ -129,11 +138,14 @@ public partial class LanSession
 		CallDeferred(MethodName.ChangeMap, path);
 	}
 	private static MatchIdentity Identity(Player p) => DefuseRules.Active && DefuseState.Instance?.ReloadingRound == true
-		? new(p.Team, p.AgentId, p.ActiveWeapon?.Name.ToString() ?? "", p.IsAlive ? p.Inventory.CaptureContents() : null,
-			p.Money, p.IsAlive ? p.Armor : 0, p.IsAlive && p.HasHelmet, p.IsAlive && p.HasDefuser, p.MatchKills, p.MatchDeaths)
-		: new(p.Team, p.AgentId, p.ActiveWeapon?.Name.ToString() ?? "");
+		? new(p.Team, p.AgentId, p.ActiveWeapon?.Name.ToString() ?? "", p.IsAlive ? new GArray(p.Inventory.CaptureContents()
+			.Where(v => v.AsGodotDictionary()["class"].AsString() != "weapon_c4")) : null,
+			p.Money, p.IsAlive ? p.Armor : 0, p.IsAlive && p.HasHelmet, p.IsAlive && p.HasDefuser, p.MatchKills, p.MatchDeaths, p.BotDisplayName)
+		: new(p.Team, p.AgentId, p.ActiveWeapon?.Name.ToString() ?? "", Money: DefuseRules.StartMoney);
 	private void ClearMapReplication()
 	{
+		_observerResume = LocalPlayer?.Team == PlayerTeam.Spectator && LocalPlayer.Observer is { } observer
+			? (observer.Mode, GodotObject.IsInstanceValid(observer.Target) ? observer.Target!.NetworkPeerId : null) : null;
 		WorldReady = false; LocalPlayer = null; _scene = null; _print = null;
 		_players.Clear(); _readyPeers.Clear(); _lastAction.Clear();
 		_entities.Clear(); _grenades.Clear(); _smokes.Clear(); _worldSent.Clear();
@@ -149,8 +161,10 @@ public partial class LanSession
 			{
 				player.Money = identity.Money; player.Armor = identity.Armor; player.HasHelmet = identity.Helmet;
 				player.HasDefuser = identity.Kit; player.MatchKills = identity.Kills; player.MatchDeaths = identity.Deaths;
+				if (player.IsBot && identity.BotName.Length > 0) player.BotDisplayName = identity.BotName;
 				if (identity.Contents != null)
 					player.Inventory.ApplyContents(player.Inventory.NetworkRevision, identity.Contents, identity.Weapon);
+				player.Inventory.ResetAmmunition();
 				LanSession.Instance?.BroadcastInventory(player); LanSession.Instance?.BroadcastVitals(player);
 			}
 		}

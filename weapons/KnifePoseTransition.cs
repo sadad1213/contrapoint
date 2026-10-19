@@ -10,6 +10,7 @@ internal sealed class KnifePoseTransition
 	private readonly Vector3[] _positionOffset, _rotationOffset, _positionRate, _rotationRate;
 	private readonly Vector3[] _boneScales;
 	private double _elapsed, _duration;
+	private bool _restoreRequired;
 
 	public KnifePoseTransition(Skeleton3D skeleton)
 	{
@@ -41,6 +42,7 @@ internal sealed class KnifePoseTransition
 
 	public void RestoreAnimationPose()
 	{
+		if (!_restoreRequired) return;
 		// Constant tracks were removed by import. Don't feed a previous visual
 		// correction back into those unanimated properties on the next frame.
 		for (var i = 0; i < _raw.Length; i++)
@@ -51,6 +53,7 @@ internal sealed class KnifePoseTransition
 			// lengths instead of accumulating matrix decomposition roundoff.
 			_skeleton.SetBonePoseScale(i, _boneScales[i]);
 		}
+		_restoreRequired = false;
 	}
 
 	public void CaptureIncomingPose()
@@ -96,10 +99,24 @@ internal sealed class KnifePoseTransition
 		// at the end. Only this short residual is smoothed, not the strike.
 		var poseWeight = 1 - 10 * s3 + 15 * s3 * s - 6 * s3 * s2;
 		var rateWeight = (float)_duration * (s - 6 * s3 + 8 * s3 * s - 3 * s3 * s2);
+		var correcting = s < 1;
 		for (var i = 0; i < _raw.Length; i++)
 		{
 			var target = _skeleton.GetBonePose(i);
 			_raw[i] = target;
+			// After the residual has decayed, AnimationPlayer already owns the
+			// final pose. Keep measuring velocity for the next interruption without
+			// rewriting every bone or restoring it on the next frame.
+			if (!correcting)
+			{
+				if (delta > 0.000001)
+				{
+					_linearVelocity[i] = (target.Origin - _displayed[i].Origin) / (float)delta;
+					_angularVelocity[i] = Log(Rotation(target) * Rotation(_displayed[i]).Inverse()) / (float)delta;
+				}
+				_displayed[i] = target;
+				continue;
+			}
 			var position = target.Origin + _positionOffset[i] * poseWeight + _positionRate[i] * rateWeight;
 			var correction = _rotationOffset[i] * poseWeight + _rotationRate[i] * rateWeight;
 			var rotation = (Exp(correction) * Rotation(target)).Normalized();
@@ -113,6 +130,7 @@ internal sealed class KnifePoseTransition
 			}
 			_displayed[i] = displayed;
 		}
+		_restoreRequired = correcting;
 	}
 
 	private static Quaternion Rotation(Transform3D pose) => pose.Basis.GetRotationQuaternion().Normalized();

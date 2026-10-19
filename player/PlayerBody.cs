@@ -9,6 +9,15 @@ namespace Contrapoint.Players;
 // Sample both authored clips, retaining the pelvis/legs from locomotion.
 public partial class PlayerBody : Node3D
 {
+	public const uint ObservedLayer = 1u << 19;
+	public bool ObservedFirstPerson { get; private set; }
+	public void SetObservedFirstPerson(bool observed)
+	{
+		if (ObservedFirstPerson == observed) return;
+		ObservedFirstPerson = observed;
+		foreach (MeshInstance3D mesh in FindChildren("*", "MeshInstance3D", true, false))
+			mesh.Layers = observed ? ObservedLayer : _player.LocalInput ? ThirdPersonCamera.BodyLayer : 1;
+	}
 	public static readonly string[] TerroristAgentIds = ["phoenix", "leet", "arctic", "guerilla"];
 	public static readonly string[] CounterTerroristAgentIds = ["urban", "gsg9", "sas", "gign"];
 	public static readonly string[] AgentIds = ["phoenix", "arctic", "guerilla", "leet", "urban", "gsg9", "sas", "gign"];
@@ -147,7 +156,7 @@ public partial class PlayerBody : Node3D
 	{
 		foreach (MeshInstance3D mesh in root.FindChildren("*", "MeshInstance3D", true, false))
 		{
-			mesh.Layers = _player.LocalInput ? ThirdPersonCamera.BodyLayer : 1;
+			mesh.Layers = ObservedFirstPerson ? ObservedLayer : _player.LocalInput ? ThirdPersonCamera.BodyLayer : 1;
 			for (var i = 0; i < mesh.Mesh.GetSurfaceCount(); i++)
 				if (mesh.GetActiveMaterial(i) is StandardMaterial3D source)
 				{
@@ -224,11 +233,15 @@ public partial class PlayerBody : Node3D
 		var viewClip = assignedAnimation?.ToString() ?? "";
 		var reload = viewClip.Contains("reload", StringComparison.OrdinalIgnoreCase);
 		UpperClip = stance + (reload ? "_Reload_" : "_Upper_") + kind;
+		// Shotguns reload shell by shell and have no matching Reload body clip.
+		// Keep their weapon-specific holding pose while the weapon clock runs.
+		var reloadClip = reload ? FindClip(UpperClip) : null;
+		if (reload && reloadClip == null) { reload = false; UpperClip = stance + "_Upper_" + kind; }
 		if (_previousUpper != UpperClip) { _upperTime = 0; _previousUpper = UpperClip; }
 		_upperTime += delta;
 		var sampleTime = reload && _viewAnimations != null
 			? _viewAnimations.CurrentAnimationPosition / Math.Max(0.001, _viewAnimations.CurrentAnimationLength)
-				* FindClip(UpperClip)!.Animation.Length : _upperTime;
+				* reloadClip!.Animation.Length : _upperTime;
 		var loopUpper = !reload;
 		if (_weapon is GrenadeView && viewClip == "throw")
 		{
@@ -254,7 +267,9 @@ public partial class PlayerBody : Node3D
 		}
 		if (_weapon is FirearmView gun && gun.ShotsFired != _shots) { _shots = gun.ShotsFired; _kick = 0.045f; }
 		_kick = Mathf.MoveToward(_kick, 0, (float)delta * 0.4f);
-		if (!force && !_headless && !_player.LocalInput && !_visibility.IsOnScreen()) return;
+		// The local body is also hidden by the first-person camera's layer mask.
+		// Keep its clocks live, but evaluate bones only when visible or requested.
+		if (!force && !_headless && !_visibility.IsOnScreen()) return;
 		_poseDirty = false;
 		_posePhysicsFrame = Engine.GetPhysicsFrames();
 		var poseDelta = _poseDelta;

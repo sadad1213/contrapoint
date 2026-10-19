@@ -49,10 +49,18 @@ public partial class SourceViewmodelBob : Node
 	}
 
 	public override void _Process(double delta)
+		=> Advance(delta, false);
+	internal void AdvanceObserved(double delta) => Advance(delta, true);
+	internal void ApplyNetworkOffset(Transform3D offset)
+	{
+		if (!_player.LocalInput && offset.IsFinite() && offset.Origin.LengthSquared() < 4
+			&& Mathf.Abs(offset.Basis.Determinant() - 1) < .1f) MotionOffset = offset;
+	}
+	private void Advance(double delta, bool observing)
 	{
 		if (delta <= 0) return;
 		// Source continues the cycle in the air using horizontal momentum.
-		var speed = _player.HasLocalControl && !_player.Movement.Noclip
+		var speed = (_player.HasLocalControl || observing) && !_player.Movement.Noclip
 			? _player.Movement.HorizontalSpeed : 0;
 		SmoothedSpeed = Mathf.MoveToward(SmoothedSpeed, Mathf.Clamp(speed, 0, 320), (UseNewBob ? 640 : 320) * (float)delta);
 		PhaseSeconds += delta * SmoothedSpeed / 320;

@@ -80,6 +80,8 @@ public static class MatchSession
 	{
 		var mode = GameModeCatalog.Find(setup.ModeId);
 		if (mode.Id != setup.ModeId || !mode.Available) throw new InvalidOperationException("Mode is not implemented.");
+		if (mode.Id == "defuse" && (Contrapoint.Maps.MapCatalog.Find(setup.MapId) is not { } map || !mode.Supports(map)))
+			throw new InvalidOperationException("Bomb Defusal requires a de_ map.");
 		Current = setup;
 		_applyOnSpawn = true;
 	}

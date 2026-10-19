@@ -53,14 +53,23 @@ with tempfile.TemporaryDirectory(prefix='contrapoint-hud-') as temporary:
     for entry in files[len(textures):]:
         shutil.copy2(extracted / entry, references / Path(entry).name)
     overviews = {}
+    overviews_path = output / 'overviews.json'
+    if overviews_path.exists():
+        # Radars from other games (CPL Strike, Cache) are not in the CSS archive.
+        overviews = json.loads(overviews_path.read_text())
     for map_id in ['de_dust2', 'de_inferno']:
-        text = (extracted / f'resource/overviews/{map_id}.txt').read_text()
+        text = (extracted / f'reource/overviews/{map_id}.txt').read_text()
         values = dict(re.findall(r'"([^"]+)"\s*"([^"]+)"', text))
         overviews[map_id] = {key: float(values[key]) for key in ['pos_x', 'pos_y', 'scale']}
-    (output / 'overviews.json').write_text(json.dumps(overviews, indent=2))
+    overviews_path.write_text(json.dumps(overviews, indent=2))
 for name in ['cstrike.ttf', 'cs.ttf', 'csd.ttf']:
     source = game / 'cstrike/resource' / name
     shutil.copy2(source, output / name)
     records.append({'source': str(source), 'output': name, 'sha256': hashlib.sha256(source.read_bytes()).hexdigest()})
-(output / 'provenance.json').write_text(json.dumps(records, indent=2))
+provenance_path = output / 'provenance.json'
+if provenance_path.exists():
+    produced = {record['output'] for record in records}
+    existing = json.loads(provenance_path.read_text())
+    records = [record for record in existing if record.get('output') not in produced] + records
+provenance_path.write_text(json.dumps(records, indent=2))
 print('CSS_HUD_IMPORTED', len(records))

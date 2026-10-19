@@ -52,6 +52,7 @@ public partial class BotChecks : Node
 			&& BotManager.DesiredCount(new() { Difficulty = "hard", Quota = 2, QuotaMode = "match" }, 3) == 6, "fill and match quotas");
 		var mapId = OS.GetCmdlineUserArgs().FirstOrDefault(a => a.StartsWith("--bot-map="))?.Split('=')[1] ?? "de_dust2";
 		var mapScene = mapId switch { "de_dust2" => "dust2", "de_inferno" => "inferno", "de_cpl_strike" => "de_cpl_strike", "de_cache" => "de_cache", "2000" => "2000",
+			"de_winter_dust2" => "de_winter_dust2",
 			_ => throw new ArgumentException("Unsupported bot check map: " + mapId) };
 		GD.Print("BOT_CHECK_MAP ", mapId);
 		MatchSession.Begin(new MatchSetup { MapId = mapId, ModeId = "deathmatch", FriendlyFire = false, FallDamage = false,

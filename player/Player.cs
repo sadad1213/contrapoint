@@ -36,7 +36,7 @@ public partial class Player : CharacterBody3D
 	{
 		get
 		{
-			if (IsBot) return BotDisplayName;
+			if (IsBot || !LocalInput && BotDisplayName.Length > 0) return BotDisplayName;
 			using var name = Name;
 			return name.ToString();
 		}
@@ -56,7 +56,7 @@ public partial class Player : CharacterBody3D
 	[Export] public int Money { get; set; } = 16000;
 	public bool IsAlive => Health > 0;
 	public bool MouseCaptured { get; private set; }
-	public bool HasLocalControl => LocalInput && (IsAlive || Team == PlayerTeam.Spectator) && MouseCaptured;
+	public bool HasLocalControl => LocalInput && (IsAlive || Team == PlayerTeam.Spectator) && MouseCaptured && Observer?.Following != true;
 	public Camera3D Camera { get; private set; } = null!;
 	public PlayerInventory Inventory { get; private set; } = null!;
 	public SourceMovement Movement { get; private set; } = null!;
@@ -223,13 +223,21 @@ public partial class Player : CharacterBody3D
 			_spawn = new(deathmatchSpawn.GlobalBasis, deathmatchSpawn.GlobalPosition + Vector3.Up * .04f);
 		else if (spawns.Length > 0)
 		{
-			var spawn = DeathmatchRules.Active ? ChooseDeathmatchSpawn(spawns) : spawns[GD.RandRange(0, spawns.Length - 1)];
+			var available = DefuseRules.Active ? spawns.Where(s => !GetTree().GetNodesInGroup("source_players").OfType<Player>()
+				.Any(p => p != this && p.IsAlive && p.GlobalPosition.DistanceTo(s.GlobalPosition) < 40 * SourceMovement.Unit)).ToArray() : spawns;
+			if (available.Length == 0) available = spawns;
+			var spawn = DeathmatchRules.Active ? ChooseDeathmatchSpawn(spawns) : available[GD.RandRange(0, available.Length - 1)];
 			_spawn = new(spawn.GlobalBasis, spawn.GlobalPosition + Vector3.Up * 0.04f);
 		}
-		GlobalTransform = _spawn;
+		GlobalTransform = DefuseRules.Active ? GroundRoundSpawn(_spawn) : _spawn;
 		_pitch = 0;
 		Camera.Rotation = Vector3.Zero;
 		Movement.Reset();
+		if (DefuseRules.Active)
+		{
+			GetNode<CollisionShape3D>("CollisionShape3D").GlobalBasis = Basis.Identity;
+			ApplyFloorSnap();
+		}
 		ViewmodelBob.Reset();
 		MovementAudio.Reset();
 		Combat.Reset();
@@ -324,6 +332,7 @@ public partial class Player : CharacterBody3D
 		if (Team == PlayerTeam.Unassigned) { MovementIntent = default; Velocity = Vector3.Zero; return; }
 		if (Team == PlayerTeam.Spectator)
 		{
+			if (Observer?.Following == true) { Velocity = Vector3.Zero; return; }
 			if (!Movement.Noclip) Movement.ToggleNoclip();
 			Movement.Simulate(command, MaxMoveSpeed, delta);
 			return;
@@ -332,7 +341,10 @@ public partial class Player : CharacterBody3D
 		if (!IsAlive) return;
 		if (DefuseRules.Active && DefuseState.Instance?.MovementLocked(this) == true)
 		{
-			MovementIntent = default; Velocity = Vector3.Zero; return;
+			MovementIntent = default;
+			// Keep floor contact/gravity current while horizontal movement is frozen.
+			Velocity = new Vector3(0, Mathf.Min(0, Velocity.Y), 0);
+			Movement.Simulate(default, 0, delta); return;
 		}
 		Movement.Simulate(IsAlive ? command : default, MaxMoveSpeed, delta);
 		MovementAudio.Tick(delta, IsAlive ? command : default);
@@ -346,6 +358,17 @@ public partial class Player : CharacterBody3D
 		if (Console?.HandleInput(@event) == true) return;
 		if (TeamMenu?.HandleInput(@event) == true) return;
 		if (BuyMenu?.HandleInput(@event) == true) return;
+		if (Observer?.Available == true && @event.IsPressed() && @event is not InputEventKey { Echo: true })
+		{
+			var observerKey = ConsoleBindings.EventKey(@event);
+			if (observerKey is "MOUSE1" or "MOUSE2" or "SPACE")
+			{
+				if (!MouseCaptured && observerKey is "MOUSE1" or "MOUSE2") SetMouseCaptured(true);
+				else if (observerKey == "SPACE") Observer.ToggleMode();
+				else Observer.Cycle(observerKey == "MOUSE2" ? -1 : 1);
+				GetViewport().SetInputAsHandled(); return;
+			}
+		}
 		if (!IsAlive && Team != PlayerTeam.Spectator)
 		{
 			if (@event is InputEventKey { Pressed: true, Echo: false } deathKey && deathKey.PhysicalKeycode is Key.Space or Key.Enter

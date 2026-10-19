@@ -48,5 +48,15 @@
     "source": "C:\\Users\\Hueglot\\Downloads\\de_cpl_strike\\cstrike\\maps\\de_cpl_strike.bsp:materials/overviews/de_cpl_strike_radar.vtf",
     "output": "de_cpl_strike_radar.png",
     "sha256": "d848f0c5d89e56eddeb8f20bae876a5b575e5155654224c8dced42f55a0b54fa"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/CSGO-Analysis/csgo-maps-overviews/master/overviews/de_cache_radar.png",
+    "output": "de_cache_radar.png",
+    "sha256": "ad02e7b4c79333636955f8bf8068f4e09c04059a3707f461972a51e7f827ab8d"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/CSGO-Analysis/csgo-maps-overviews/master/overviews/de_cache.txt",
+    "output": "overviews.json:de_cache",
+    "sha256": "9496663f688c62a4e6d8414aa1f114c0222fe446ae27ada5c09cbbf0d7aab1a5"
   }
 ]

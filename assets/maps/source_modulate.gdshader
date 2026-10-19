@@ -6,4 +6,8 @@ void fragment() {
 	// Source DecalModulate uses gamma-space two-times multiplication.
 	vec3 multiplier = texture(base_texture, UV).rgb * 2.0;
 	ALBEDO = pow(multiplier, vec3(2.2));
+#if CURRENT_RENDERER == RENDERER_MOBILE
+	// Undo Mobile's half-luminance encoding for multiplicative blending.
+	ALBEDO *= 2.0;
+#endif
 }

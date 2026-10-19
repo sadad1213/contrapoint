@@ -87,7 +87,7 @@ public partial class SourceMovement
 		// planes remain airborne, without floor friction, snapping or jump impulses.
 		if (categorizeGround && velocity.Y <= 140 * Unit)
 		{
-			var floor = new KinematicCollision3D();
+			var floor = _floorCollision;
 			if (_body.TestMove(_body.GlobalTransform, Vector3.Down * _body.FloorSnapLength, floor,
 				safeMargin: _body.SafeMargin, recoveryAsCollision: true) && floor.GetNormal().Y >= WalkableNormal)
 				_body.ApplyFloorSnap();

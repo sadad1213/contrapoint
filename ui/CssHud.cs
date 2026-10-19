@@ -57,8 +57,10 @@ public partial class CssHud : Control
 		var canvasTransform = GetViewport().GetStretchTransform().AffineInverse();
 		if (_layer.Transform != canvasTransform) _layer.Transform = canvasTransform;
 		Size = GetWindow().Size;
-		Visible = Enabled && _player.LocalInput && _player.IsAlive && _player.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist;
-		Snapshot = HudSnapshot.Capture(_player);
+		var subject = _player.HudPlayer;
+		Visible = Enabled && _player.LocalInput && subject.IsAlive && subject.Team is PlayerTeam.Terrorist or PlayerTeam.CounterTerrorist;
+		Snapshot = HudSnapshot.Capture(subject);
+		if (subject != _player) Snapshot = Snapshot with { CanBuy = false };
 		if (Snapshot.Health < _oldHealth) _damageAge = 0;
 		_oldHealth = Snapshot.Health;
 		_damageAge += delta;
@@ -70,11 +72,11 @@ public partial class CssHud : Control
 		if (!Visible) return;
 		// Godot retains draw commands. Rebuild text and panels only when their
 		// contents change; animated warning colours still redraw every frame.
-		var changed = !_hasDrawing || Snapshot != _drawnSnapshot || Size != _drawnSize || _player.ActiveWeapon != _drawnWeapon;
+		var changed = !_hasDrawing || Snapshot != _drawnSnapshot || Size != _drawnSize || subject.ActiveWeapon != _drawnWeapon;
 		var pulsing = Snapshot.Health <= 25 || _damageAge < 1.1 || Snapshot.TimerRunning && Snapshot.Seconds <= 30;
 		if (changed) QueueRedraw();
 		if (changed || pulsing || _wasPulsing) _ink.QueueRedraw();
-		_drawnSnapshot = Snapshot; _drawnSize = Size; _drawnWeapon = _player.ActiveWeapon;
+		_drawnSnapshot = Snapshot; _drawnSize = Size; _drawnWeapon = subject.ActiveWeapon;
 		_hasDrawing = true; _wasPulsing = pulsing;
 	}
 
@@ -143,12 +145,12 @@ public partial class CssHud : Control
 
 	private void DrawAmmoIcon(float x, float y)
 	{
-		if (_player.ActiveWeapon is GrenadeView grenade)
+		if (_player.HudPlayer.ActiveWeapon is GrenadeView grenade)
 		{
 			Text(x, y - 6, grenade.Kind switch { GrenadeKind.HE => "h", GrenadeKind.Flashbang => "g", _ => "i" }, Amber, _grenadeFont);
 			return;
 		}
-		if (_player.ActiveWeapon is not FirearmView gun) return;
+		if (_player.HudPlayer.ActiveWeapon is not FirearmView gun) return;
 		var region = gun.AmmoType switch
 		{
 			AmmunitionType.Acp45 => new Rect2(182, 0, 26, 24),

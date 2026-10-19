@@ -152,12 +152,12 @@ public partial class BotController : Node
 		else
 		{
 			Target = null;
-			if (State != BotState.Patrol) { _path = []; _patrolAt = _repathAt = 0; }
+			if (State is not (BotState.Patrol or BotState.Objective)) { _path = []; _patrolAt = _repathAt = 0; }
 			State = BotState.Patrol;
 		}
 		if (Player.ActiveWeapon is FirearmView gun)
 		{
-			if (DefuseRules.Active && !_visible && _time >= _memoryUntil && DefuseState.Instance is { } de)
+			if (DefuseRules.Active && DefuseState.Instance is { } de && (!_visible && _time >= _memoryUntil || UrgentDefuse(de)))
 			{
 				State = BotState.Objective;
 				var objective = de.BotGoal(Player);
@@ -199,8 +199,8 @@ public partial class BotController : Node
 				if (_boughtRound != de.RoundNumber && BuyCatalog.CanOpen(Player))
 				{
 					_boughtRound = de.RoundNumber;
-					Player.AutoBuy();
 					if (Player.Team == PlayerTeam.CounterTerrorist) Player.Buy("defuser");
+					Player.AutoBuy();
 				}
 				Player.Simulate(default, (float)delta); return;
 			}
@@ -212,7 +212,7 @@ public partial class BotController : Node
 		var dt = (float)delta;
 		var knife = Player.ActiveWeapon is KnifeView;
 		var sniper = Player.ActiveWeapon is FirearmView { IsSniper: true };
-		var attack = _visible && Target != null;
+		var attack = _visible && Target != null && !(DefuseRules.Active && DefuseState.Instance is { } objective && UrgentDefuse(objective));
 		var destination = attack && !knife ? _goal : FollowPath();
 		var range = attack ? Player.Camera.GlobalPosition.DistanceTo(_aimSpot) : 0;
 		var move = destination - Player.GlobalPosition; move.Y = 0;
@@ -277,6 +277,8 @@ public partial class BotController : Node
 		if (Player.ActiveWeapon is C4View) Player.Inventory.EquipBest();
 		return false;
 	}
+	private bool UrgentDefuse(DefuseState de) => de.BombPlanted && Player.Team == PlayerTeam.CounterTerrorist
+		&& de.BombRemaining < (Player.HasDefuser ? 10 : 15);
 	private Vector3 FollowPath()
 	{
 		if (State == BotState.Patrol && _time >= _patrolAt && (_path.Length == 0 || FlatDistance(Player.GlobalPosition, _goal) < 1))

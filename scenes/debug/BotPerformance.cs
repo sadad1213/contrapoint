@@ -1,6 +1,7 @@
 using Godot;
 using System;
 using System.Linq;
+using System.Reflection;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Contrapoint.Gameplay;
@@ -19,11 +20,30 @@ public partial class BotPerformance : Node
 			await ToSignal(GetTree(), SceneTree.SignalName.PhysicsFrame);
 		}
 	}
+	private void MeasureSpawns(int count, Contrapoint.Players.Player player)
+	{
+		// Measure only the real spawn selection, without weapon/model creation.
+		var select = typeof(Contrapoint.Players.Player).GetMethod("ChooseMapDeathmatchSpawn", BindingFlags.Instance | BindingFlags.NonPublic)!
+			.CreateDelegate<Func<Marker3D?>>(player);
+		var samples = new double[64];
+		long bytes = 0;
+		for (var i = -8; i < samples.Length; i++)
+		{
+			var allocated = GC.GetAllocatedBytesForCurrentThread();
+			var start = Time.GetTicksUsec();
+			if (select() == null) throw new InvalidOperationException("No safe map spawn");
+			var elapsed = (Time.GetTicksUsec() - start) / 1000.0;
+			if (i >= 0) { samples[i] = elapsed; bytes += GC.GetAllocatedBytesForCurrentThread() - allocated; }
+		}
+		Array.Sort(samples);
+		GD.Print("SPAWN_BENCH " + JsonSerializer.Serialize(new { bots = count, mean_ms = samples.Average(), p95_ms = samples[(int)(samples.Length * .95)], max_ms = samples[^1], allocated_bytes_per_spawn = bytes / samples.Length }));
+	}
 	public override async void _Ready()
 	{
 		try
 		{
-			if (!OS.GetCmdlineUserArgs().Contains("--console-test-profile")) throw new InvalidOperationException("Use --console-test-profile.");
+			if (!OS.GetCmdlineUserArgs().Contains("--console-test-profile") || !OS.GetCmdlineUserArgs().Contains("--menu-test-profile"))
+				throw new InvalidOperationException("Use --console-test-profile and --menu-test-profile.");
 			await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);
 			Reparent(GetTree().Root); GetTree().CurrentScene = null;
 			GD.Seed(1852);
@@ -39,6 +59,7 @@ public partial class BotPerformance : Node
 				await Until(() => manager.NavigationReady);
 				foreach (var bot in manager.Bots) { bot.SetPhysicsProcess(false); bot.Player.Body.SetProcess(false); bot.Player.GodMode = true; }
 				manager.SetPhysicsProcess(false);
+				if (OS.GetCmdlineUserArgs().Contains("--perf-spawns-only")) { MeasureSpawns(count, local); continue; }
 				var samples = new double[660];
 				long bytes = 0;
 				for (var i = -66; i < samples.Length; i++)

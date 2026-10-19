@@ -1,0 +1,855 @@
+{
+  "map": "de_winter_dust2",
+  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\de_winter_dust2\\de_winter_dust2.bsp",
+  "source_sha256": "7b648ef461a82815ce500c7869b38375d570f042d34915e704e5068a51202703",
+  "scale": 0.0254,
+  "sky": {
+    "ft": "textures/skybox_sky_day03_02ft.png",
+    "bk": "textures/skybox_sky_day03_02bk.png",
+    "lf": "textures/skybox_sky_day03_02lf.png",
+    "rt": "textures/skybox_sky_day03_02rt.png",
+    "up": "textures/skybox_sky_day03_02up.png",
+    "dn": "textures/skybox_sky_day03_02dn.png"
+  },
+  "material_substitutions": [],
+  "spawns": [
+    {
+      "team": "counterterrorist",
+      "position": [
+        11.379199999999999,
+        -2.2352,
+        -62.5856
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        8.9408,
+        -2.2352,
+        -62.5856
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        6.5024,
+        -2.2352,
+        -62.5856
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        4.064,
+        -2.2352,
+        -62.5856
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        4.064,
+        -2.2352,
+        -60.553599999999996
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        6.5024,
+        -2.2352,
+        -60.553599999999996
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        8.9408,
+        -2.2352,
+        -60.553599999999996
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        11.379199999999999,
+        -2.2352,
+        -60.553599999999996
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -21.1328,
+        4.4704,
+        19.304
+      ],
+      "yaw": 69.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -21.1328,
+        4.4704,
+        21.7424
+      ],
+      "yaw": -80.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -18.694399999999998,
+        4.4704,
+        23.368
+      ],
+      "yaw": 266.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -18.694399999999998,
+        4.4704,
+        20.9296
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -23.571199999999997,
+        4.4704,
+        19.7104
+      ],
+      "yaw": 50.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -23.571199999999997,
+        4.4704,
+        22.148799999999998
+      ],
+      "yaw": 50.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.0096,
+        4.4704,
+        19.9136
+      ],
+      "yaw": 66.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.0096,
+        4.4704,
+        17.4752
+      ],
+      "yaw": 50.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.4592,
+        4.4704,
+        23.368
+      ],
+      "yaw": 266.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.4592,
+        4.4704,
+        20.9296
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -14.0208,
+        4.4704,
+        23.368
+      ],
+      "yaw": 266.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -14.0208,
+        4.4704,
+        20.9296
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -14.0208,
+        4.4704,
+        18.694399999999998
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.4592,
+        4.4704,
+        18.694399999999998
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -18.694399999999998,
+        4.4704,
+        18.694399999999998
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -11.785599999999999,
+        3.6576,
+        17.0688
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -11.785599999999999,
+        3.6576,
+        19.304
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -11.785599999999999,
+        3.6576,
+        21.7424
+      ],
+      "yaw": 266.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -11.785599999999999,
+        3.6576,
+        24.180799999999998
+      ],
+      "yaw": 266.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.416,
+        4.4704,
+        23.1648
+      ],
+      "yaw": 66.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        11.379199999999999,
+        -2.2352,
+        -58.5216
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        8.9408,
+        -2.2352,
+        -58.5216
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        6.5024,
+        -2.2352,
+        -58.5216
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        4.064,
+        -2.2352,
+        -58.5216
+      ],
+      "yaw": 165.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        4.064,
+        -2.2352,
+        -54.4576
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        6.5024,
+        -2.2352,
+        -54.4576
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        8.9408,
+        -2.2352,
+        -54.4576
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        11.379199999999999,
+        -2.2352,
+        -54.4576
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        4.064,
+        -2.2352,
+        -56.489599999999996
+      ],
+      "yaw": 132.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        6.5024,
+        -2.2352,
+        -56.489599999999996
+      ],
+      "yaw": 132.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        8.9408,
+        -2.2352,
+        -56.489599999999996
+      ],
+      "yaw": 234.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        11.379199999999999,
+        -2.2352,
+        -56.489599999999996
+      ],
+      "yaw": 234.0
+    }
+  ],
+  "stats": {
+    "world_faces": 5966,
+    "lightmapped_faces": 5934,
+    "displacements": 77,
+    "static_props": 321,
+    "physics_props_frozen": 0,
+    "unique_prop_models": 67,
+    "ambient_probes": 4224,
+    "textures": 162,
+    "decal_polygons": 316,
+    "clip_hulls": 46,
+    "triangles": 126198,
+    "physics_props": 62,
+    "water_volumes": 0,
+    "sprite_glows": 18,
+    "world_collision_brushes": 1696,
+    "ladder_volumes": 0,
+    "original_static_collisions": 127,
+    "audio_files": 1,
+    "weapon_pickups": 0
+  },
+  "omissions": [
+    "Decals on displacement surfaces; Source directional bump lighting and cubemap reflections.",
+    "Godot physics approximates Source VPhysics; brush-box masses use the runtime default scaled by authored massscale.",
+    "Triggerable indoor/outdoor soundscapes, dust/smoke particles and the authored post-bomb fire/explosion entities are not emulated. Ambient fire WAV is extracted and its sound targets are present."
+  ],
+  "sky_room": {
+    "enabled": true,
+    "origin": [
+      7383.04,
+      814.322,
+      -1322.03
+    ],
+    "scale": 4.0,
+    "area": 1,
+    "mins": [
+      3064,
+      -2360,
+      -1752
+    ],
+    "maxs": [
+      11544,
+      5256,
+      -696
+    ]
+  },
+  "fog": {
+    "origin": "-1488 2000 776",
+    "mindxlevel": "0",
+    "maxdxlevel": "0",
+    "fogenable": "1",
+    "fogblend": "0",
+    "fogcolor": "197 196 165",
+    "fogcolor2": "255 255 255",
+    "fogdir": "1 0 0",
+    "fogstart": "500.0",
+    "fogend": "4000",
+    "farz": "-1",
+    "angles": "0 0 0",
+    "classname": "env_fog_controller"
+  },
+  "effects": [
+    {
+      "entity": {
+        "origin": "-1406.8 1152.38 320",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "1"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1408 1151.78 280",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "4"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1150.8 1152.38 320",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "6"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1152 1151.78 280",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "9"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1662.8 1152.38 320",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "11"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1664 1151.78 280",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "14"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1918.8 1152.38 320",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "16"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1920 1151.78 280",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "19"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-998.8 1424.38 112",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "21"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1000 1423.78 72",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "24"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-742.8 1424.38 112",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "254",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "0.8",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "26"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-744 1423.78 72",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "9",
+        "renderamt": "200",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "1",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "29"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-742 1420 -16",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "2.5",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "255"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-998 1420 -16",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "2.5",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "256"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1150 1148 168",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "3",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "257"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1406 1148 168",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "3",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "258"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1662 1148 168",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "3",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "259"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1918 1148 168",
+        "rendercolor": "254 248 211",
+        "renderfx": "14",
+        "rendermode": "5",
+        "renderamt": "25",
+        "disablereceiveshadows": "1",
+        "mindxlevel": "70",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/glow.vmt",
+        "scale": "3",
+        "spawnflags": "0",
+        "glowproxysize": "2.0",
+        "classname": "env_sprite",
+        "hammerid": "260"
+      },
+      "texture": "textures/sprites_glow_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    }
+  ],
+  "unsupported_weapons": {}
+}

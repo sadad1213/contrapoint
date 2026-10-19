@@ -72,9 +72,15 @@ public partial class MenuChecks : Node
 			dialog.GetNode<Button>("Start").GrabFocus(); Key(Godot.Key.Right);
 			Check(menu.SelectedMap == 1, "Arrow navigation selects the next map.");
 			var gameType = dialog.GetNode<OptionButton>("Server/GameType");
-			Check(gameType.ItemCount == 2 && gameType.GetItemText(0) == "Arsenal" && gameType.GetItemText(1) == "Custom", "Types without available modes are hidden.");
+			Check(gameType.ItemCount == 3 && gameType.GetItemText(0) == "Classic" && gameType.GetItemText(1) == "Arsenal" && gameType.GetItemText(2) == "Custom", "Only types with available modes are shown, including Classic DE.");
 			gameType.EmitSignal(OptionButton.SignalName.ItemSelected, 0L);
 			var gameMode = dialog.GetNode<OptionButton>("Server/GameMode");
+			Check(gameMode.ItemCount == 1 && gameMode.GetItemText(0) == "Bomb Defusal" && menu.SelectedModeId == "defuse", "Classic dropdown offers playable CSS Bomb Defusal.");
+			menu.SelectMap(Array.FindIndex(MapCatalog.Discover(), m => m.Id == "kz_jayverb000"));
+			Check(dialog.GetNode<Button>("Start").Disabled, "DE cannot launch a movement map through All maps.");
+			menu.SelectMap(0);
+			Check(!dialog.GetNode<Button>("Start").Disabled, "DE can launch Dust II.");
+			gameType.EmitSignal(OptionButton.SignalName.ItemSelected, 1L);
 			Check(gameMode.ItemCount == 2 && gameMode.GetItemText(0) == "Deathmatch" && gameMode.GetItemText(1) == "Team Deathmatch", "Unavailable modes are hidden from the dropdown.");
 			gameMode.EmitSignal(OptionButton.SignalName.ItemSelected, 0L);
 			Check(menu.SelectedModeId == "deathmatch" && !dialog.GetNode<Button>("Start").Disabled, "Dropdowns select playable DM.");

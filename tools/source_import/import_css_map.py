@@ -45,6 +45,7 @@ spec.loader.exec_module(module)
 module.register()
 from SourceIO.library.shared.content_manager import ContentManager
 from SourceIO.library.shared.content_manager.providers.vpk_provider import VPKContentProvider
+from SourceIO.library.shared.content_manager.providers.loose_files import LooseFilesContentProvider
 from SourceIO.library.shared.app_id import SteamAppId
 from SourceIO.library.source1.bsp.bsp_file import open_bsp
 from SourceIO.library.source1.bsp.lumps import *
@@ -62,6 +63,14 @@ if hl2.exists():
     cm.add_child(VPKContentProvider(TinyPath(str(hl2))))
     cm.add_child(VPKContentProvider(TinyPath(str(hl2.parent / 'hl2_textures_dir.vpk'))))
 map_path = args.bsp.resolve() if args.bsp else game / 'maps' / (args.map + '.bsp')
+# Map archives commonly ship a cstrike/maps BSP beside cstrike/materials.
+# Mount that archive read-only, ahead of stock assets and behind its BSP pak.
+loose_root = map_path.parent.parent
+loose = None
+if args.bsp and (loose_root / 'materials').is_dir():
+    loose = LooseFilesContentProvider(TinyPath(str(loose_root)), SteamAppId.COUNTER_STRIKE_SOURCE)
+    cm.add_child(loose)
+    cm.priority_list = [loose, *[child for child in cm.children if child is not loose]]
 if previous and hashlib.sha256(map_path.read_bytes()).hexdigest() != previous['source_sha256']:
     raise ValueError('Decal refresh requires the exact BSP used by the original import')
 bsp = open_bsp(TinyPath(str(map_path)), FileBuffer(TinyPath(str(map_path))), cm, SteamAppId.COUNTER_STRIKE_SOURCE)
@@ -69,7 +78,7 @@ pak = bsp.get_lump('LUMP_PAK')
 if pak:
     cm.add_child(pak)
     # BSP-embedded assets override installed files, including custom VMT patches.
-    cm.priority_list = [pak, *[child for child in cm.children if child is not pak]]
+    cm.priority_list = [pak, *([loose] if loose else []), *[child for child in cm.children if child is not pak and child is not loose]]
 faces = bsp.get_lump('LUMP_FACES').faces
 verts = bsp.get_lump('LUMP_VERTICES').vertices
 edges = bsp.get_lump('LUMP_EDGES').edges
@@ -106,6 +115,7 @@ sky_origin = np.fromstring(sky_entity['origin'], sep=' ') if sky_entity else np.
 sky_scale = float(sky_entity['scale']) if sky_entity else 1.0
 
 node_raw, leaf_raw = bsp._get_lump_buffer(5, bsp.info.lumps[5]).read(), bsp._get_lump_buffer(10, bsp.info.lumps[10]).read()
+leaf_stride = 56 if bsp.info.version[0] < 20 and bsp.info.lumps[10].version == 0 else 32
 plane_raw = bsp._get_lump_buffer(1, bsp.info.lumps[1]).read()
 
 def leaf_at(point, index=0):
@@ -118,8 +128,8 @@ def leaf_at(point, index=0):
 sky_area = -1
 sky_min, sky_max = np.zeros(3), np.zeros(3)
 if sky_entity:
-    sky_area = struct.unpack_from('<H', leaf_raw, leaf_at(sky_origin) * 32 + 6)[0] & 511
-    sky_bounds = np.array([struct.unpack_from('<6h', leaf_raw, i + 8) for i in range(0, len(leaf_raw), 32)
+    sky_area = struct.unpack_from('<H', leaf_raw, leaf_at(sky_origin) * leaf_stride + 6)[0] & 511
+    sky_bounds = np.array([struct.unpack_from('<6h', leaf_raw, i + 8) for i in range(0, len(leaf_raw), leaf_stride)
                            if struct.unpack_from('<H', leaf_raw, i + 6)[0] & 511 == sky_area])
     sky_min, sky_max = sky_bounds[:, :3].min(axis=0), sky_bounds[:, 3:].max(axis=0)
 
@@ -301,16 +311,18 @@ print('LIGHTMAP_ATLAS', len(rects), 'faces, height', y + row_h, flush=True)
 # Original ambient cube probes supply baked lighting to props. CSS does not
 # store prop VHV vertex colors in this map; use the compiled leaf probes instead.
 leaf_raw = lump_bytes(10)
-leaf_count = len(leaf_raw) // 32
+leaf_count = len(leaf_raw) // leaf_stride
 index_raw = lump_bytes(51 if hdr_faces.size else 52)
 ambient_raw = lump_bytes(55 if hdr_faces.size else 56)
 sample_raw = np.frombuffer(ambient_raw, np.uint8).reshape(-1, 28) if index_raw else None
+if leaf_stride == 56:
+    ambient_raw = b''.join(leaf_raw[i+30:i+54] for i in range(0, len(leaf_raw), leaf_stride))
 if not index_raw and len(ambient_raw) != leaf_count * 24:
     raise ValueError('Unsupported legacy leaf ambient cube layout')
 probe_points, probe_cubes = [], []
 for li in range(leaf_count):
-    mins = np.array(struct.unpack_from('<3h', leaf_raw, li * 32 + 8))
-    maxs = np.array(struct.unpack_from('<3h', leaf_raw, li * 32 + 14))
+    mins = np.array(struct.unpack_from('<3h', leaf_raw, li * leaf_stride + 8))
+    maxs = np.array(struct.unpack_from('<3h', leaf_raw, li * leaf_stride + 14))
     # Older CSS BSPs store one six-direction RGBExp32 cube per leaf,
     # without the newer sample index or quantized sample position.
     if not index_raw:
@@ -389,7 +401,7 @@ world_faces = 0
 for fi, face in enumerate(faces):
     mi = face_model.get(fi, 0)
     entity = model_entities.get(mi, {})
-    brush_classes = ('func_brush', 'func_illusionary', 'func_lod', 'func_door', 'func_door_rotating', 'func_rotating', 'func_breakable', 'func_breakable_surf', 'func_button', 'func_tanktrain') if args.interactive else ('func_brush',)
+    brush_classes = ('func_brush', 'func_illusionary', 'func_lod', 'func_door', 'func_door_rotating', 'func_rotating', 'func_breakable', 'func_breakable_surf', 'func_button', 'func_tanktrain', 'func_physbox', 'func_physbox_multiplayer') if args.interactive else ('func_brush',)
     if mi and entity.get('classname') not in brush_classes:
         continue
     if face.tex_info_id < 0:
@@ -725,7 +737,7 @@ if args.interactive:
             if index >= 0:
                 pending.extend(struct.unpack_from('<ii', node_raw, index * 32 + 4))
             else:
-                first, count = struct.unpack_from('<HH', leaf_raw, (-index - 1) * 32 + 24)
+                first, count = struct.unpack_from('<HH', leaf_raw, (-index - 1) * leaf_stride + 24)
                 indices.update(int(x) for x in leaf_brushes[first:first+count])
         return [godot_xyz(hull).tolist() for i in indices if len(hull := brush_hull(i)) >= 4]
     for mi, e in model_entities.items():

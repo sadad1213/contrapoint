@@ -34,6 +34,7 @@ from SourceIO.library.source1.bsp.lumps import *
 from SourceIO.library.utils import FileBuffer, TinyPath
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from source_prop_physics import extract_physics_props
+from import_css_audio import keyvalues
 
 cm = ContentManager()
 archives = [args.game_root / 'cstrike_pak_dir.vpk']
@@ -59,6 +60,7 @@ def is_sky(point):
     return sky.get('enabled', True) and bool(np.all(point >= np.array(sky['mins'])) and np.all(point <= np.array(sky['maxs'])))
 
 nodes, leaves = lump(5), lump(10)
+leaf_stride = 56 if bsp.info.version[0] < 20 and bsp.info.lumps[10].version == 0 else 32
 leaf_brushes = np.frombuffer(lump(17), '<u2')
 brushes, sides = lump(18), lump(19)
 planes = bsp.get_lump('LUMP_PLANES').planes
@@ -72,7 +74,7 @@ while pending:
     if index >= 0:
         pending.extend(struct.unpack_from('<ii', nodes, index*32+4))
     else:
-        first, count = struct.unpack_from('<HH', leaves, (-index-1)*32+24)
+        first, count = struct.unpack_from('<HH', leaves, (-index-1)*leaf_stride+24)
         indices.update(int(i) for i in leaf_brushes[first:first+count])
 world_hulls, surfaces, ladders = [], [], []
 for index in sorted(indices):
@@ -129,11 +131,27 @@ for entity in data['entities'].values():
         entity['sky_scale'] = sky['scale']
 
 audio = []
+sound_events = {}
+for script in ('game_sounds.txt', 'game_sounds_world.txt', 'game_sounds_ambient_generic.txt'):
+    buffer = cm.find_file(TinyPath('scripts/' + script))
+    if buffer:
+        sound_events.update(dict(keyvalues(buffer.read().decode('cp1252', errors='replace'))))
 for entity in data['point_entities']:
     if entity['classname'] != 'ambient_generic':
         continue
     path = entity.get('message', '').lstrip('*/#@')
     buffer = cm.find_file(TinyPath('sound/' + path))
+    if buffer is None and path.lower() in sound_events:
+        definition = sound_events[path.lower()]
+        waves = [v for k, v in definition if k == 'wave']
+        for key, value in definition:
+            if key == 'rndwave':
+                waves.extend(v for _, v in value)
+        if waves:
+            entity['source_sound_event'] = path
+            path = waves[0].lstrip('*#@><^)}$!?').replace('\\', '/').lower()
+            entity['message'] = path
+            buffer = cm.find_file(TinyPath('sound/' + path))
     if buffer is None:
         raise FileNotFoundError('Map audio: ' + path)
     destination = args.output / 'audio' / path
@@ -170,7 +188,7 @@ data['effects'] = effects
 data['stats']['sprite_glows'] = len(effects)
 
 for entity in data['entities'].values():
-    if entity['classname'] != 'func_breakable':
+    if entity['classname'] not in ('func_breakable', 'func_breakable_surf'):
         continue
     kind = int(entity.get('material', 0))
     family = 'glass/glass_sheet' if kind == 0 else 'wood/wood_box' if kind == 1 else 'metal/metal_box' if kind == 2 else 'concrete/concrete'

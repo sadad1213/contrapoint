@@ -17,7 +17,7 @@ namespace Contrapoint.Network;
 // One stable RPC path across the menu, map loading and every peer's player tree.
 public partial class LanSession : Node
 {
-	public const int Protocol = 9, MaxPlayers = 16;
+	public const int Protocol = 10, MaxPlayers = 16;
 	public static int Port { get; } = TestPort();
 	private static int TestPort()
 	{
@@ -402,6 +402,7 @@ public partial class LanSession : Node
 
 	public void Stop()
 	{
+		_observerResume = null;
 		var wasClient = IsClient;
 		RestoreDamageRules();
 		RestoreDeathRules();

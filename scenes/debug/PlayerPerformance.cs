@@ -15,6 +15,7 @@ public partial class PlayerPerformance : Node
 	private SubViewport _weaponViewport = null!;
 	private SubViewportContainer _container = null!;
 	private string _output = "";
+	private bool _solo;
 	private async Task Frames(int count) { for (var i = 0; i < count; i++) await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame); }
 	public override async void _Ready()
 	{
@@ -23,8 +24,8 @@ public partial class PlayerPerformance : Node
 	}
 	private async Task Measure(string name)
 	{
-		await Frames(90);
-		const int count = 240;
+		await Frames(_solo ? 360 : 90);
+		var count = _solo ? 960 : 240;
 		var times = new List<double>();
 		var before = Time.GetTicksUsec();
 		double cpu = 0, gpu = 0, weaponCpu = 0, weaponGpu = 0;
@@ -47,6 +48,7 @@ public partial class PlayerPerformance : Node
 	{
 		var args = OS.GetCmdlineUserArgs();
 		if (!args.Contains("--console-test-profile")) throw new InvalidOperationException("Use --console-test-profile to protect user settings.");
+		_solo = args.Contains("--perf-solo");
 		_output = args.Last(); DirAccess.MakeDirRecursiveAbsolute(_output);
 		var window = GetWindow(); window.Mode = Window.ModeEnum.Windowed; window.Size = new(1920, 1080);
 		window.ContentScaleMode = Window.ContentScaleModeEnum.Disabled;
@@ -67,6 +69,25 @@ public partial class PlayerPerformance : Node
 		_container = _player.GetNode<SubViewportContainer>("WeaponLayer/Container");
 		RenderingServer.ViewportSetMeasureRenderTime(GetViewport().GetViewportRid(), true);
 		RenderingServer.ViewportSetMeasureRenderTime(_weaponViewport.GetViewportRid(), true);
+		if (_solo)
+		{
+			var knife = _player.Inventory.Weapons.OfType<KnifeView>().Single();
+			var rifle = _player.Inventory.AddWeapon(GD.Load<PackedScene>("res://weapons/ak47_view.tscn"), equip: false);
+			for (var repeat = 0; repeat < 2; repeat++)
+			{
+				if (!_player.Inventory.Equip(knife, purchased: true)) throw new InvalidOperationException("Cannot equip benchmark knife.");
+				knife.SetViewStyle(0);
+				await Measure($"solo_karambit_{repeat}");
+				knife.SetViewStyle(1);
+				await Measure($"solo_butterfly_{repeat}");
+				if (!_player.Inventory.Equip(rifle, purchased: true)) throw new InvalidOperationException("Cannot equip benchmark rifle.");
+				await Measure($"solo_rifle_{repeat}");
+			}
+			System.IO.File.WriteAllText(_output.PathJoin("results.json"), JsonSerializer.Serialize(_results, new JsonSerializerOptions { WriteIndented = true }));
+			GD.Print("PLAYER_BENCH_COMPLETE " + _output);
+			_player.LocalInput = false;
+			return;
+		}
 		await Measure("player");
 		_player.Body.SetProcess(false); await Measure("body_pose_disabled"); _player.Body.SetProcess(true);
 		_weaponViewport.RenderTargetUpdateMode = SubViewport.UpdateMode.Disabled;

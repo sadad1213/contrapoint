@@ -29,7 +29,7 @@ references = project / 'tools/source_import/references/buy'
 output.mkdir(parents=True, exist_ok=True)
 archive = game / 'cstrike/cstrike_pak_dir.vpk'
 entries = subprocess.check_output([str(game / 'bin/vpk.exe'), 'l', str(archive)], text=True).splitlines()
-items = ('ak47', 'm4a1', 'awp', 'scout', 'usp45', 'deserteagle', 'hegrenade', 'flashbang', 'smokegrenade', 'kevlar', 'kevlar_helmet',
+items = ('ak47', 'm4a1', 'awp', 'scout', 'usp45', 'deserteagle', 'hegrenade', 'flashbang', 'smokegrenade', 'kevlar', 'kevlar_helmet', 'defuser',
          'aug', 'elites', 'famas', 'fiveseven', 'g3sg1', 'galil', 'glock18', 'm249', 'm3', 'mac10', 'mp5', 'p228', 'p90', 'sg550', 'sg552', 'tmp', 'ump45', 'xm1014')
 classes = (*items, 'base_weapon', 'base_weapon_small', 'base_equipment', 'pistols', 'rifles', 'equipment', 'cancelbutton')
 files = [p for p in entries if p.startswith('resource/ui/buy') and p.endswith('.res')]

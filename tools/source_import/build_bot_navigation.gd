@@ -9,7 +9,7 @@ func build() -> void:
 	if maps.is_empty():
 		maps = PackedStringArray(["de_dust2", "de_inferno", "de_cpl_strike"])
 	for id in maps:
-		if id not in ["de_dust2", "de_inferno", "de_cpl_strike", "de_cache", "2000"]:
+		if id not in ["de_dust2", "de_inferno", "de_cpl_strike", "de_cache", "2000", "de_winter_dust2"]:
 			push_error("Unsupported bot map: " + id)
 			quit(1)
 			return

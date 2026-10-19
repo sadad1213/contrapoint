@@ -8,7 +8,8 @@ The shared catalog discovers this wrapper for menu, console and LAN. The menu
 thumbnail is a rendered view of site A. Native scene contains 219,816 triangles,
 273 static props, 52 physics props, 1,302 world collision brushes, 173 player
 clip hulls, two ladders, 15 light glows and 14 original spawns per team.
-There are 251 generated reachable deathmatch spawns and baked bot navigation.
+There are 257 generated reachable deathmatch spawns and baked bot navigation
+(1,881 polygons after removing the erroneous solid dust volume).
 The supplied Source `.nav` is not used; navigation is baked against Godot collision.
 
 ## Bomb mode integration
@@ -33,13 +34,22 @@ their authored rotations. The A door is `brush_37` / targetname `A_Door`;
 Use opens it and it closes after the original eight-second wait. Breakables
 are `brush_12`, `brush_13` (vents) and `brush_31` (glass).
 
+## Radar
+
+The HUD radar for this map uses the CS:GO Cache overview artwork in
+`assets/ui/css/hud/de_cache_radar.png` with the original overview transform
+(`pos_x -2000`, `pos_y 3250`, `scale 5.5`). Both bomb targets, the CT and T
+spawns and the spawn callouts land on their markers in that texture, so the
+radar matches the ported geometry.
+
 ## Verification and limits
 
 Run map-specific checks with the Mono Godot executable:
 
 ```text
-Godot --headless --audio-driver Dummy --path . --fixed-fps 66 scenes/debug/cache_checks.tscn
+Godot --headless --audio-driver Dummy --path . --fixed-fps 66 scenes/debug/cache_checks.tscn -- --menu-test-profile --console-test-profile
 python tools/source_import/verify_bots.py --godot PATH_TO_MONO_GODOT --map de_cache
+Godot --headless --audio-driver Dummy --path . --script tools/source_import/verify_cache_dust_volume.gd
 Godot --audio-driver Dummy --path . --script tools/source_import/render_cache.gd
 ```
 
@@ -47,6 +57,17 @@ Screenshots under `source/` cover both sites, T/CT spawns and mid.
 Map checks exercise original spawns and respawns after physics ticks, actual
 Use on the A door, actual knife traces against all three breakables, physical
 entry/exit in both bomb zones, ladder movement and physics prop impulses.
+The map-specific suite passed 1,531 assertions, including menu preview loading,
+both ladders' climbing/jumping and the DE state's `BombSite` recognition inside
+and outside each objective volume. The offline bot suite passed all 25 checks.
+The C# build completed with zero warnings and errors.
+
+Collision regression: `brush_9` is the original `func_dustmotes` emission
+volume around the B-side interior. It retains its metadata, but generates no
+solid collision shapes. Before the fix, a player-sized hull hit this invisible
+volume at two room entrances. The regression check crosses both boundaries,
+checks bullet rays against the volume and confirms real room walls stay solid.
+The builder excludes `func_dustmotes` and `func_dustcloud` from solid hulls.
 
 Remaining visual omissions: smokestack smoke, spark and dust-mote particles;
 decals on displaced surfaces; Source directional bump lighting and cubemap
