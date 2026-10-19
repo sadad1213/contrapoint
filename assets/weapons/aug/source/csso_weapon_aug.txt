@@ -1,0 +1,124 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"220"
+	"MaxPlayerSpeedAlt"					"150"
+	"WeaponType"						"Rifle"
+	"FullAuto"							"1"
+	"WeaponPrice"						"3300"
+	"KillAward"							"300"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.8"
+	"CrosshairMinDistance"				"3"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"CT"
+	"PlayerAnimationExtension"			"aug"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_assaultrifle"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_assaultrifle"
+	"TracerEffect"						"weapon_tracers_assrifle"
+	"TracerFrequency"					"3"
+	"EjectBrassEffect"					"weapon_shell_casing_rifle"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.35"
+	"AddonScale"						"0.9"
+	"AddonLocation"						"primary_rifle"
+
+	// Weapon characteristics:
+	"Penetration"						"2.0"
+	"Damage"							"28"
+	"Range"								"8192.0"
+	"RangeModifier"						"0.98"
+	"Bullets"							"1"
+	"CycleTime"							"0.1"
+	"TimeToIdle"						"1.9"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.000500"
+	"InaccuracyCrouch"					"0.003680"
+	"InaccuracyStand"					"0.004900"
+	"InaccuracyJump"					"0.105990"
+	"InaccuracyJumpInitial"				"0.101560"
+	"InaccuracyLand"					"0.000208"
+	"InaccuracyLadder"					"0.110040"
+	"InaccuracyFire"					"0.007290"
+	"InaccuracyMove"					"0.135450"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"60.00000"
+	"RecoilMagnitude"					"24.00000"
+	"RecoilMagnitudeVariance"			"0.000000"
+	"RecoilSeed"						"24204"
+
+	"SpreadAlt"							"0.000300"
+	"InaccuracyCrouchAlt"				"0.003110"
+	"InaccuracyStandAlt"				"0.003680"
+	"InaccuracyJumpAlt"					"0.105990"
+	"InaccuracyLandAlt"					"0.000208"
+	"InaccuracyLadderAlt"				"0.100040"
+	"InaccuracyFireAlt"					"0.007290"
+	"InaccuracyMoveAlt"					"0.105450"
+	"RecoilAngleAlt"					"0.000000"
+	"RecoilAngleVarianceAlt"			"60.00000"
+	"RecoilMagnitudeAlt"				"16.00000"
+	"RecoilMagnitudeVarianceAlt"		"0.000000"
+
+	"RecoveryTimeCrouch"				"0.305520"
+	"RecoveryTimeStand"					"0.429727"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"IronsightCapable"					"1"
+	"IronSightEyePos"					"-1.56 -3.6 -0.07"
+	"IronSightPivotAngle"				"0.78 -0.1 -0.03"
+	"IronSightSpeedUp"					"10.0"
+	"IronSightSpeedDown"				"8.0"
+	"IronSightLooseness"				"0.03"
+	"IronSightFOV"						"45.0"
+	"IronSightPivotForward"				"10.0"
+	"IronSightDot"						"models/weapons/shared/scope/scope_dot_green"
+
+	"FlinchVelocityModifierLarge"		"0.4"
+	"FlinchVelocityModifierSmall"		"0.55"
+
+	"ReserveAmmoMax"					"90"
+	"MagazinesMax"						"3"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_AUG"
+	"viewmodel"							"models/weapons/v_rif_aug.mdl"
+	"playermodel"						"models/weapons/w_rif_aug.mdl"
+	"MagazineModel"						"models/weapons/w_rif_aug_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"30"
+	"primary_ammo"						"BULLET_PLAYER_762MM"
+	"secondary_ammo"					"None"
+	"weight"							"25"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_AUG.Single"
+		"special2"						"Weapon_AUG.ZoomIn"
+		"special3"						"Weapon_AUG.ZoomOut"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/rif_aug/rif_aug.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"basetextureoverride"		"1"
+			"weaponlength"				"31.0669"
+			"uvscale"					"0.763"
+		}
+	}
+}

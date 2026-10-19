@@ -1,0 +1,22 @@
+{
+  "map": "de_inferno",
+  "verified_on": "2026-10-17",
+  "engine": "Godot 4.8 beta 1 Mono, Jolt, Forward+/D3D12",
+  "build": { "errors": 0, "warnings": 0 },
+  "checks": {
+    "inferno": { "passed": 2659, "failures": 0 },
+    "player": { "passed": 64, "failures": 0 },
+    "combat": { "passed": 23, "failures": 0 },
+    "console": { "passed": 28, "failures": 0 },
+    "dust2": { "result": "MAP_VERIFY_OK", "meshes": 1094, "triangles": 124680, "spawns": 40 }
+  },
+  "visual_review": {
+    "renderer": "Forward+/D3D12 on NVIDIA GeForce GTX 1060 6GB",
+    "views": ["tspawn", "middle", "bombsitea", "bombsiteb", "interiora", "longhall", "ctspawnl", "tspawnb", "sniperloft", "water_0", "water_1", "gate_closed", "gate_open", "player_spawn"],
+    "diagnostic_errors": 0,
+    "screenshots_directory": "source/"
+  },
+  "source_bsp_sha256_unchanged": true,
+  "exact_source_engine_parity": false,
+  "limitations_report": "import_report.json"
+}

@@ -1,0 +1,81 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/smg_mac10/smg_mac10_1.vmt",
+      "sha256": "4ce6f20e13ad223b7f3cce41efc7ca7d690aa251b27af24c2e46d1d55778d672"
+    },
+    {
+      "path": "materials/models/weapons/v_models/smg_mac10/smg_mac10_1.vtf",
+      "sha256": "1a762b72b3284540c477092885235e3aba09fd372460c0f5fbf325cb5c6b3dde"
+    },
+    {
+      "path": "materials/models/weapons/v_models/smg_mac10/smg_mac10_1_ref.vtf",
+      "sha256": "38151861bba03625ea6cc6bef7cb8c325171163666ffc294737a08c365936895"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_smg_mac10/w_smg_mac10.vmt",
+      "sha256": "a59fe499eba0978074697b80b49d899f4ef246cba0ed2cdba966645f7e4c9b13"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_smg_mac10/w_smg_mac10.vtf",
+      "sha256": "773200bb5880a91043af207df3e636a5359f3bfd656e232b237fe9632067ecb8"
+    },
+    {
+      "path": "models/weapons/v_smg_mac10.dx90.vtx",
+      "sha256": "78a7063e709e454f2b037d59eb8abe9a29d8d54e33d9fe8eefefbd9dede1ad46"
+    },
+    {
+      "path": "models/weapons/v_smg_mac10.mdl",
+      "sha256": "36aaac4c12307e91a5316d4b701983a0b5a4085adcacfbecdda1d872c1a9d1bf"
+    },
+    {
+      "path": "models/weapons/v_smg_mac10.vvd",
+      "sha256": "c71de0b8a5874f2a0965368d6c669727da4fe7fd70f04dd0cfbe13f0a954d2b9"
+    },
+    {
+      "path": "models/weapons/w_smg_mac10.dx90.vtx",
+      "sha256": "4b254142c424ea1a983e265722a1d90c7da778b87cc118880c44307a09a00500"
+    },
+    {
+      "path": "models/weapons/w_smg_mac10.mdl",
+      "sha256": "7fdeb1bab1a0b0a3e648df1de73d7eaf452ea67a1b1c2b468a2a467326db9d89"
+    },
+    {
+      "path": "models/weapons/w_smg_mac10.phy",
+      "sha256": "311aa9e2f48890f88184bc8b19aaea93ef8dd5c5927f7be90a0d9139b7447f64"
+    },
+    {
+      "path": "models/weapons/w_smg_mac10.vvd",
+      "sha256": "baadb6686b5d0d73821995cbd372fbb3f2ed735be0793439bc637d447431be59"
+    },
+    {
+      "path": "sound/weapons/mac10/mac10-1.wav",
+      "sha256": "2d82bc5609b9c1ccba592925db9215b540f6eb124a99182baf5a98f54e67b176"
+    },
+    {
+      "path": "sound/weapons/mac10/mac10_boltpull.wav",
+      "sha256": "2478969213bb0ed45c1afaaa116699324e3f48aa8398698daaf39cfb79533a03"
+    },
+    {
+      "path": "sound/weapons/mac10/mac10_clipin.wav",
+      "sha256": "ad9d7baed3176f96e4dc00c31261b8aa5c891597ec440295da86b640095e0e02"
+    },
+    {
+      "path": "sound/weapons/mac10/mac10_clipout.wav",
+      "sha256": "ca65e86c1c69a9857dbca9fd731ecc63acf8334a9ff0f2695fdf60c24e16da91"
+    }
+  ]
+}

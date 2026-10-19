@@ -1,0 +1,234 @@
+{
+  "ak47": {
+    "damage": 36,
+    "armor_ratio": 1.55,
+    "range": 8192.0,
+    "range_modifier": 0.98,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_762MM"
+  },
+  "aug": {
+    "damage": 32,
+    "armor_ratio": 1.4,
+    "range": 8192.0,
+    "range_modifier": 0.96,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_762MM"
+  },
+  "awp": {
+    "damage": 115,
+    "armor_ratio": 1.95,
+    "range": 8192.0,
+    "range_modifier": 0.99,
+    "penetration": 3,
+    "ammo": "BULLET_PLAYER_338MAG"
+  },
+  "c4": {
+    "damage": 50,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.99,
+    "penetration": 1,
+    "ammo": "None"
+  },
+  "deagle": {
+    "damage": 54,
+    "armor_ratio": 1.5,
+    "range": 4096.0,
+    "range_modifier": 0.81,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_50AE"
+  },
+  "elite": {
+    "damage": 45,
+    "armor_ratio": 1.05,
+    "range": 4096.0,
+    "range_modifier": 0.75,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_9MM"
+  },
+  "famas": {
+    "damage": 30,
+    "armor_ratio": 1.4,
+    "range": 8192.0,
+    "range_modifier": 0.96,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM"
+  },
+  "fiveseven": {
+    "damage": 25,
+    "armor_ratio": 1.5,
+    "range": 4096.0,
+    "range_modifier": 0.885,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_57MM"
+  },
+  "flashbang": {
+    "damage": 50,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.99,
+    "penetration": 1,
+    "ammo": "AMMO_TYPE_FLASHBANG"
+  },
+  "g3sg1": {
+    "damage": 80,
+    "armor_ratio": 1.65,
+    "range": 8192.0,
+    "range_modifier": 0.98,
+    "penetration": 3,
+    "ammo": "BULLET_PLAYER_762MM"
+  },
+  "galil": {
+    "damage": 30,
+    "armor_ratio": 1.55,
+    "range": 8192.0,
+    "range_modifier": 0.98,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM"
+  },
+  "glock": {
+    "damage": 25,
+    "armor_ratio": 1.05,
+    "range": 4096.0,
+    "range_modifier": 0.75,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_9MM"
+  },
+  "hegrenade": {
+    "damage": 50,
+    "armor_ratio": 1.475,
+    "range": 4096.0,
+    "range_modifier": 0.99,
+    "penetration": 1,
+    "ammo": "AMMO_TYPE_HEGRENADE"
+  },
+  "knife": {
+    "damage": 50,
+    "armor_ratio": 1.7,
+    "range": 4096.0,
+    "range_modifier": 0.99,
+    "penetration": 1,
+    "ammo": "None"
+  },
+  "m249": {
+    "damage": 35,
+    "armor_ratio": 1.6,
+    "range": 8192.0,
+    "range_modifier": 0.97,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM_BOX"
+  },
+  "m3": {
+    "damage": 26,
+    "armor_ratio": 1.0,
+    "range": 3000.0,
+    "range_modifier": 0.7,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_BUCKSHOT"
+  },
+  "m4a1": {
+    "damage": 33,
+    "armor_ratio": 1.4,
+    "range": 8192.0,
+    "range_modifier": 0.97,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM"
+  },
+  "mac10": {
+    "damage": 29,
+    "armor_ratio": 0.95,
+    "range": 4096.0,
+    "range_modifier": 0.82,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_45ACP"
+  },
+  "mp5navy": {
+    "damage": 26,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.84,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_9MM"
+  },
+  "p228": {
+    "damage": 40,
+    "armor_ratio": 1.25,
+    "range": 4096.0,
+    "range_modifier": 0.8,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_357SIG"
+  },
+  "p90": {
+    "damage": 26,
+    "armor_ratio": 1.5,
+    "range": 4096.0,
+    "range_modifier": 0.84,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_57MM"
+  },
+  "scout": {
+    "damage": 75,
+    "armor_ratio": 1.7,
+    "range": 8192.0,
+    "range_modifier": 0.98,
+    "penetration": 3,
+    "ammo": "BULLET_PLAYER_762MM"
+  },
+  "sg550": {
+    "damage": 70,
+    "armor_ratio": 1.45,
+    "range": 8192.0,
+    "range_modifier": 0.98,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM"
+  },
+  "sg552": {
+    "damage": 33,
+    "armor_ratio": 1.4,
+    "range": 8192.0,
+    "range_modifier": 0.955,
+    "penetration": 2,
+    "ammo": "BULLET_PLAYER_556MM"
+  },
+  "smokegrenade": {
+    "damage": 50,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.99,
+    "penetration": 0,
+    "ammo": "AMMO_TYPE_SMOKEGRENADE"
+  },
+  "tmp": {
+    "damage": 26,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.84,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_9MM"
+  },
+  "ump45": {
+    "damage": 30,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.82,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_45ACP"
+  },
+  "usp": {
+    "damage": 34,
+    "armor_ratio": 1.0,
+    "range": 4096.0,
+    "range_modifier": 0.79,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_45ACP"
+  },
+  "xm1014": {
+    "damage": 22,
+    "armor_ratio": 1.0,
+    "range": 3000.0,
+    "range_modifier": 0.7,
+    "penetration": 1,
+    "ammo": "BULLET_PLAYER_BUCKSHOT"
+  }
+}

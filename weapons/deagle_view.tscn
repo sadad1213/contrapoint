@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://weapons/FirearmView.cs" id="1_controller"]
+[ext_resource type="Script" path="res://weapons/WeaponSway.cs" id="2_sway"]
+[ext_resource type="PackedScene" path="res://assets/weapons/deagle/deagle.glb" id="3_model"]
+
+[node name="Deagle" type="Node3D"]
+script = ExtResource("1_controller")
+Kind = 1
+
+[node name="WeaponSway" type="Node3D" parent="."]
+script = ExtResource("2_sway")
+
+[node name="Model" parent="WeaponSway" instance=ExtResource("3_model")]
+rotation_degrees = Vector3(0, 180, 0)
+scale = Vector3(-1, 1, 1)

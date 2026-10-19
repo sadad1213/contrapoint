@@ -1,0 +1,8 @@
+[gd_resource type="SystemFont" format=3]
+
+[resource]
+font_names = PackedStringArray("Lucida Console", "DejaVu Sans Mono", "monospace")
+antialiasing = 0
+subpixel_positioning = 0
+hinting = 0
+oversampling = 1.0

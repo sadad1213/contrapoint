@@ -1,0 +1,97 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/eq_fraggrenade/fraggrenade.vmt",
+      "sha256": "14e7c0aacb7a556c88aedbd8e81c32b5a43512d68d28fdf27e0a8144c4810ea1"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_fraggrenade/fraggrenade.vtf",
+      "sha256": "28d78c3d259d45f8781741cfc0274729630a44dcf6d8f1507cc7c929aac3d0c0"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_fraggrenade/fraggrenade_ref.vtf",
+      "sha256": "ff45b2080b621f4b394063bf231c63522a21a7b594b35b02c94a2b429f743a2e"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_fraggrenade/w_eq_fraggrenade.vmt",
+      "sha256": "ed1ae31f98127bd00390cd0e7a9951516aea076ebcfcd4d6ca011f1d06c6cf2f"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_fraggrenade/w_eq_fraggrenade.vtf",
+      "sha256": "6b2041bcc5fd8fa29bc011a2bdcbf3dba5eb86b1c4dbf53a6019bd8974dd55be"
+    },
+    {
+      "path": "models/weapons/v_eq_fraggrenade.dx90.vtx",
+      "sha256": "76f8be68fe312a5ca2ab78927aa5840e54061a5e772a003ba78344b489b090a9"
+    },
+    {
+      "path": "models/weapons/v_eq_fraggrenade.mdl",
+      "sha256": "27bd0376b9c7ed0dd769dfb3681ce295a1c69e03a5e91e9767eb68b1ac279f98"
+    },
+    {
+      "path": "models/weapons/v_eq_fraggrenade.vvd",
+      "sha256": "30cfe81c7e864dc8888e3a4e3b596bcd2e8b3c8004e1602c8d1fb3a9f1517162"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade.dx90.vtx",
+      "sha256": "8fe9572ee7831fd3f73f3ea581392a38183cfdf875ccc6252ee1bedaf1643984"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade.mdl",
+      "sha256": "cb1122396e4fdb0bede26ef66ccb330f0d9288ed130283a3e7c7fb78af6f6a8c"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade.phy",
+      "sha256": "abe202e22984acf9826a7292dfc9fc3b65f7054424ba55efb08ed80ff9891ed8"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade.vvd",
+      "sha256": "b2237520451562b521b86620fce6fd1097d80eb510b731150b6ecac0f3b9b603"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade_thrown.dx90.vtx",
+      "sha256": "093da1a2c32c107afd64bbfc2b3f3b41f60ff4b90d07e2f186f1a7757ea9738f"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade_thrown.mdl",
+      "sha256": "7976064114ca8bbf3eafada7c96d2913b56b56b0f1739a0b63e918fe41bd039d"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade_thrown.phy",
+      "sha256": "84401d37be7bb28f86b3a763e465260efc032adde814593547f9bb5abdf147d0"
+    },
+    {
+      "path": "models/weapons/w_eq_fraggrenade_thrown.vvd",
+      "sha256": "8e71b035bb8384ae8ef8fe663aca820b5f549a81b6cb87a37ceafa9b50642ef2"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode3.wav",
+      "sha256": "37db559314b89be5ade4b44d283c5f6fa6220bf6ae26508f73ba84a87a93b524"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode4.wav",
+      "sha256": "e878c1dd8b47352378bdd1eef089a0ad91756ddd44464cfb32021d3804361b24"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode5.wav",
+      "sha256": "6ebd5a2475606d2377fed020b137527ea159665d90a245884090ee9bb35302f4"
+    },
+    {
+      "path": "sound/weapons/hegrenade/he_bounce-1.wav",
+      "sha256": "97712abac8f820dcc2a9c89c8b0b15b2d1428a12ffe1b4d29e391b8f8279ec4b"
+    }
+  ]
+}

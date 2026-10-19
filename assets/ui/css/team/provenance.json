@@ -1,0 +1,146 @@
+[
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/teammenu.res",
+    "sha256": "183cf4724da5e3c091a840a48e8a69a5d01ddde2c34dde457e50ab6cb68c249d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/classmenu_ct.res",
+    "sha256": "7a687c1d089b80dc62486535725c82375e9204f35b812fda29e0081d578a5c04"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/classmenu_ter.res",
+    "sha256": "bc1c275266123279c1ce19bad10852fab8f44cd4b371dddc0dbdb09808a85388"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/urban.res",
+    "sha256": "50801bc33eace0242764f52da4fddb76f86e732764549c8c13f34d89367329f6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/gsg9.res",
+    "sha256": "970013d8da4d4377138ee72d9b9382b5fad4ebd8453804b21df7f5ae078d9e48"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/sas.res",
+    "sha256": "64b69babd38a7a68fe9d33d826d59dccbb4f71ed4c0e6fa43dbb4d74db4020d8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/gign.res",
+    "sha256": "97868d332a979eb66e7cb5f6e79d6f38ca6c4c15edbbe6c528e150584d5efdda"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/terror.res",
+    "sha256": "b66eaa115abc932df07b66c9fcf4ee7f45e0969e4ab1252223ad78cdb2e78da9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/leet.res",
+    "sha256": "a51b65da00616c61458ff744e729719086e68e412954431e5f4da7e8acf55f17"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/arctic.res",
+    "sha256": "cfa108a3c339891e1e8e9a07f6bfbad8c61903b601f6e4fbc439b2497a540f05"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/guerilla.res",
+    "sha256": "d2cee3f8be4e43997e641f64d9bf63848c3bab347f6cbaaeb1f86f6b73961bcc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/autoselect_ct.res",
+    "sha256": "b1333ede2bbcb27a253d738abcc12a6444a5ff90c53f7e593321dd39786df80a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:classes/autoselect_t.res",
+    "sha256": "273c3f909dd0c0374441b2e6eb11e3174c319b1476bb6a210023394ffffc73b5"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/clientscheme.res",
+    "sha256": "66f1da248dd753e5bf6b2a46434cb1d8891dae247c92e52c5d3027f1ed7a74f1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/cs_logo.vtf",
+    "sha256": "d35e6116ed0fe84bcccecc9492ec12e587e69e37b60a4288617c15ec2e991ec8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/round_corner_nw.vtf",
+    "sha256": "295cb7120b27a194ea441fe5e8e689362cf772773bf645be3e73daf754638940"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/round_corner_ne.vtf",
+    "sha256": "9f754b091bce039fbee7d1a801c26556eecd02861aea148e8eccfd37bde32045"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/round_corner_sw.vtf",
+    "sha256": "75698938384efbe0fff5cb9db7ffc8e25484b6f5eaed00654f5a8d2f23406017"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/round_corner_se.vtf",
+    "sha256": "a01390510be3100e8ee88ac4b4fd2423611f50168c78a0682e3f15d59358c5db"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/solid_background.vtf",
+    "sha256": "50b552ada66b5b62078523e5271792a44c586b8f41cffc6e8d869fa29543bdae"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/trans_background.vtf",
+    "sha256": "c0f915ddfaa4e36c86fff6d8a4fc776cf262278c59a3af1fb6fec958755d519f"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/ct_random.vtf",
+    "sha256": "4f17554833bf07edccaea276d9f2eaba96d32050aa0e4473d92cfc5529d1c46e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/gfx/vgui/t_random.vtf",
+    "sha256": "27089a97cf9bae3840bfe2ce764af881ba19f75b434a5f6c41b99c62c78c0a58"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:maps/de_dust2.txt",
+    "sha256": "c95db7d7b4442a5fd41235e7699818a269a792f169e167bd104ad254560602ec"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:maps/de_inferno.txt",
+    "sha256": "dc35e253ef8e0abc75cb40e4393779776bbff0d49b434259cdf2fece89e83bfe"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_english.txt",
+    "sha256": "84b31b9da2c0fb3d303a549c27825bfecd9ee97aae11b829a8382d94bb8baf8c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_russian.txt",
+    "sha256": "35b5f7121581866c855c50e30dc3119cef59e41e8b3f3d139bb16817975b0b0d"
+  },
+  {
+    "source": "C:\\Windows\\Fonts\\verdana.ttf",
+    "sha256": "6a8481fe107ee547893c018b13dba291c2020bec3de5da6525d9ac09f6bc2105"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/VGUI/cstriketeammenu.cpp",
+    "sha256": "3ef5d4e46b086837ddb940ed2f0066795e5a4084185c866f5846682e7c8bbb89"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/VGUI/cstrikeclassmenu.cpp",
+    "sha256": "1c01df81126c0026a8079252a747973190d7fc203e805cd90d2f526fd17d95b0"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/VGUI/counterstrikeviewport.cpp",
+    "sha256": "d995d9978c23fe01fef0e89ae89674a28d632b3a95645f9a015c2813427820dc"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/game_controls/teammenu.cpp",
+    "sha256": "39cf24c3ea6225c1226d5d7464c7f6f1eae5053823d7fc4c17eb381006656f78"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/game_controls/classmenu.cpp",
+    "sha256": "e9b8503143033cbb6df84cc3a49c017402a4766674d90ae565a2143331e5308a"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/clientmode_csnormal.cpp",
+    "sha256": "c92609d4a1151719c19e3d16c98ec32ce30a3655409c072a6eea438187c6db4f"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/server/cstrike/cs_player.cpp",
+    "sha256": "e2e81512a06fa155002227ac872fffc7a213366d40940f55606e922d38e27792"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/server/cstrike/cs_client.cpp",
+    "sha256": "a0803568fd4715229a011419896db1ebb02de955e66069e4dfa8c2f2de57d10f"
+  }
+]

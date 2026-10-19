@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-player\\models\\weapons\\w_knife_t.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-player",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 2,
+  "geometry": [
+    {
+      "name": "studio_w_knife_t",
+      "vertices": 196,
+      "triangles": 186,
+      "materials": [
+        "w_knife_t"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "w_knife_t",
+      "image": "w_knife_t",
+      "size": [
+        512,
+        256
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\players\\knife\\knife_world.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

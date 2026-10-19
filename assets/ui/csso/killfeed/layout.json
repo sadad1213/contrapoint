@@ -1,0 +1,38 @@
+{
+  "layout": {
+    "fieldname": "HudDeathNotice",
+    "visible": "1",
+    "enabled": "1",
+    "roundedcornerradius1": "4",
+    "roundedcornerradius2": "4",
+    "roundedcornerradius3": "4",
+    "roundedcornerradius4": "4",
+    "right_side": "1",
+    "entry_limit": "16",
+    "entry_xpos": "10",
+    "entry_ypos": "75",
+    "entry_wide": "24",
+    "entry_tall": "32",
+    "entry_margin": "4",
+    "entry_bgcolor": "0 0 0 165",
+    "entry_death_bgcolor": "168 19 19 178",
+    "entry_kill_border_color": "225 0 0 255",
+    "entry_kill_border_thick": "2",
+    "icon_wide": "0",
+    "icon_tall": "24",
+    "icon_inair_xpos": "6",
+    "icon_inair_ypos": "-6",
+    "name_font": "HUDDeathNoticeNameFont",
+    "name_t_fgcolor": "234 190 84 255",
+    "name_ct_fgcolor": "111 156 230 255"
+  },
+  "font": {
+    "name": "Stratum2 Bold",
+    "tall": "20",
+    "weight": "0",
+    "antialias": "1",
+    "custom": "1"
+  },
+  "base_height": 1080,
+  "font_cell_to_em": 0.8333333333333334
+}

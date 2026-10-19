@@ -1,0 +1,81 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_sg552/rif_sg552.vmt",
+      "sha256": "c91caa19abdade7e38c5ca270f076fc24a47d224ee1e4d912680f93331fed470"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_sg552/rif_sg552.vtf",
+      "sha256": "9c779ad4c37449e7f2bbcfd9f8a7ab7cf65f016c859cb5d717cb36cc62b08513"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_sg552/rif_sg552_ref.vtf",
+      "sha256": "4fb8cd78e7a331856a1b86e974a806e19a8eaa56d9d98fe2b98ee3cb84689d03"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_sg552/w_rif_sg552.vmt",
+      "sha256": "4c079f59abe4bd8959dab1841698ad39bb6484dd4d72be8b387a54c7615ae525"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_sg552/w_rif_sg552.vtf",
+      "sha256": "f8b86e58b85302a94bfc75d96480b7c5d43c2385c13206b54b9c8201d5f7f4ae"
+    },
+    {
+      "path": "models/weapons/v_rif_sg552.dx90.vtx",
+      "sha256": "59facf01e1211e71d0c073a84085123465e52610e0a5c3ca08d93e1b2c921d88"
+    },
+    {
+      "path": "models/weapons/v_rif_sg552.mdl",
+      "sha256": "18722245a8ed7b6248fbe8686acc1ebadb036c1b5d5675b70528e6e70401a584"
+    },
+    {
+      "path": "models/weapons/v_rif_sg552.vvd",
+      "sha256": "b2c381499b73c58504d5eaf262c879937ea60ad92bc6f1f8b6b04e55e4da9507"
+    },
+    {
+      "path": "models/weapons/w_rif_sg552.dx90.vtx",
+      "sha256": "5c5a5da7ab389e00f8a867105620d5be1d38f46a3edea09fd699da372f501776"
+    },
+    {
+      "path": "models/weapons/w_rif_sg552.mdl",
+      "sha256": "6131bb317cab6550a4ad50bb9d4c14030296892ea79ed2f9dec7cecb62316fdc"
+    },
+    {
+      "path": "models/weapons/w_rif_sg552.phy",
+      "sha256": "a683b4d46c5cf72dade784076a4e1c01be6c73ea073270e151cc359d33ecd944"
+    },
+    {
+      "path": "models/weapons/w_rif_sg552.vvd",
+      "sha256": "1cbb05ab55e682888a0c5e85f760403e582d0cc3cb384aa0eb6b5eac9933b7d3"
+    },
+    {
+      "path": "sound/weapons/sg552/sg552-1.wav",
+      "sha256": "4e8df308ce1c353fbbc294f59a46fe41b0e1a9e65a1ead66ef2ec9bc7dfa40a7"
+    },
+    {
+      "path": "sound/weapons/sg552/sg552_boltpull.wav",
+      "sha256": "1ac5bf2f8b6d697b00995bddaaaa7aad8bedd254f6ad62aa64ef942e5a8a9326"
+    },
+    {
+      "path": "sound/weapons/sg552/sg552_clipin.wav",
+      "sha256": "20fe0dcc15f2e4f7d0b3194f35af3de1cc2a9feaa1fbf5a4d10e889928ca1f90"
+    },
+    {
+      "path": "sound/weapons/sg552/sg552_clipout.wav",
+      "sha256": "3e254788ab9349ef9246fab5eeaa9423427837b600c8614775474cff7bcfb967"
+    }
+  ]
+}

@@ -1,0 +1,744 @@
+{
+  "map": "2000",
+  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\2000css\\cstrike\\maps\\$2000$.bsp",
+  "source_sha256": "42aae0ec0fa8274fc6d4437a750f06d6b6a2f8c30238c6d9467e2d64f0c5f945",
+  "scale": 0.0254,
+  "sky": {
+    "ft": "textures/skybox_tidesft.png",
+    "bk": "textures/skybox_tidesbk.png",
+    "lf": "textures/skybox_tideslf.png",
+    "rt": "textures/skybox_tidesrt.png",
+    "up": "textures/skybox_tidesup.png",
+    "dn": "textures/skybox_tidesdn.png"
+  },
+  "material_substitutions": [],
+  "spawns": [
+    {
+      "team": "terrorist",
+      "position": [
+        -24.584176928710935,
+        -0.8479662643432617,
+        -40.7416
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -15.059176928710936,
+        -0.8479662643432617,
+        -40.6654
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -21.725788610839842,
+        -4.12455366821289,
+        -38.354
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -17.331588610839844,
+        -4.12455366821289,
+        -38.4048
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.12008937988281,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -22.868788610839843,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -19.541388610839842,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.29018861083984,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -13.038988610839843,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.340988610839844,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -19.592188610839845,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -22.919588610839842,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.170889379882812,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -0.7707909362792968,
+        -4.12455366821289,
+        -34.8234
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -38.28668937988281,
+        -4.12455366821289,
+        -34.6964
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -13.089788610839843,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -26.052524511718747,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -22.80127490234375,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -19.55007490234375,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.222674902343748,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -12.971474902343749,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -21.81067490234375,
+        -4.151833010864258,
+        -0.3302
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.95927490234375,
+        -4.151833010864258,
+        -0.30479999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -24.579274902343748,
+        -0.8733662643432617,
+        1.9304
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -14.67327490234375,
+        -0.8733662643432617,
+        2.0065999999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -38.46118725585937,
+        -4.1264330108642575,
+        -4.0386
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -0.9454718437194823,
+        -4.1264330108642575,
+        -3.9116
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -12.94607490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.19727490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -19.52467490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -22.775874902343748,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -26.02712451171875,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    }
+  ],
+  "stats": {
+    "world_faces": 384,
+    "lightmapped_faces": 384,
+    "displacements": 0,
+    "static_props": 16,
+    "physics_props_frozen": 0,
+    "unique_prop_models": 1,
+    "ambient_probes": 245,
+    "textures": 14,
+    "decal_polygons": 0,
+    "clip_hulls": 0,
+    "triangles": 3902,
+    "physics_props": 0,
+    "water_volumes": 0,
+    "sprite_glows": 16,
+    "world_collision_brushes": 66,
+    "ladder_volumes": 0,
+    "original_static_collisions": 16,
+    "audio_files": 1,
+    "weapon_pickups": 33
+  },
+  "omissions": [
+    "Decals projected onto displacement surfaces",
+    "Directional bump lightmaps and Source cubemap reflections",
+    "Unimplemented weapon pickups: weapon_xm1014 (4), weapon_famas (4), weapon_mp5navy (8), weapon_galil (4)"
+  ],
+  "sky_room": {
+    "enabled": false,
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": 1.0,
+    "area": -1,
+    "mins": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "fog": {},
+  "effects": [
+    {
+      "entity": {
+        "origin": "-1529.32 1113 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "76"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1529.32 414 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "79"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-14.6804 414 -13",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "82"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-14.6805 1113 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "85"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-243 1620.32 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "88"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1299 1620.32 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "91"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1299 -95.3195 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "94"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-241 -95.3195 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "97"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-771 549.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "100"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-552 868.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "103"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1004 868.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "106"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-776 974.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "109"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-548 655.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "112"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-997 655.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "115"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1166.82 763 -13",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "118"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-377.32 762 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "121"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    }
+  ],
+  "unsupported_weapons": {
+    "weapon_xm1014": 4,
+    "weapon_famas": 4,
+    "weapon_mp5navy": 8,
+    "weapon_galil": 4
+  }
+}

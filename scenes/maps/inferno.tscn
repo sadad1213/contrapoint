@@ -1,0 +1,14 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/maps/de_inferno/de_inferno.scn" id="1_map"]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://assets/maps/de_inferno/deathmatch_spawns.tscn" id="3_dm"]
+
+[node name="InfernoGame" type="Node3D"]
+
+[node name="Inferno" parent="." instance=ExtResource("1_map")]
+
+[node name="DeathmatchSpawns" parent="Inferno" instance=ExtResource("3_dm")]
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+SpawnPointsRootPath = NodePath("../Inferno")

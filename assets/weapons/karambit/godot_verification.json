@@ -1,0 +1,62 @@
+{
+  "animations": [
+	{
+	  "duration": 1.26666665077209,
+	  "moving_bone_samples": 135,
+	  "name": "draw",
+	  "tracks": 50
+	},
+	{
+	  "duration": 22.2000007629395,
+	  "moving_bone_samples": 135,
+	  "name": "idle",
+	  "tracks": 50
+	},
+	{
+	  "duration": 1.0,
+	  "moving_bone_samples": 138,
+	  "name": "midslash1",
+	  "tracks": 50
+	},
+	{
+	  "duration": 1.0,
+	  "moving_bone_samples": 138,
+	  "name": "midslash2",
+	  "tracks": 50
+	},
+	{
+	  "duration": 1.0,
+	  "moving_bone_samples": 141,
+	  "name": "stab",
+	  "tracks": 50
+	},
+	{
+	  "duration": 1.0,
+	  "moving_bone_samples": 138,
+	  "name": "stab_miss",
+	  "tracks": 50
+	},
+	{
+	  "duration": 1.0,
+	  "moving_bone_samples": 138,
+	  "name": "stab_miss2",
+	  "tracks": 50
+	}
+  ],
+  "bones": 47,
+  "godot_version": "4.8-beta1 (official)",
+  "surfaces": [
+	{
+	  "material": "v_hands",
+	  "texture_size": "(1024.0, 512.0)"
+	},
+	{
+	  "material": "sleeve_diffuse_ts",
+	  "texture_size": "(2048.0, 2048.0)"
+	},
+	{
+	  "material": "knife_karambit",
+	  "texture_size": "(1024.0, 1024.0)"
+	}
+  ]
+}

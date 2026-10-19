@@ -1,0 +1,36 @@
+[gd_scene load_steps=12 format=3]
+
+[ext_resource type="Script" path="res://player/PlayerInventory.cs" id="1_inventory"]
+[ext_resource type="PackedScene" path="res://weapons/knife_view.tscn" id="2_knife"]
+[ext_resource type="PackedScene" path="res://weapons/ak47_view.tscn" id="3_rifle"]
+[ext_resource type="PackedScene" path="res://weapons/deagle_view.tscn" id="4_deagle"]
+[ext_resource type="PackedScene" path="res://weapons/usp_view.tscn" id="5_usp"]
+[ext_resource type="PackedScene" path="res://weapons/m4a1_view.tscn" id="6_m4a1"]
+[ext_resource type="PackedScene" path="res://weapons/awp_view.tscn" id="7_awp"]
+[ext_resource type="PackedScene" path="res://weapons/scout_view.tscn" id="8_scout"]
+[ext_resource type="PackedScene" path="res://weapons/hegrenade_view.tscn" id="9_he"]
+[ext_resource type="PackedScene" path="res://weapons/flashbang_view.tscn" id="10_flash"]
+[ext_resource type="PackedScene" path="res://weapons/smokegrenade_view.tscn" id="11_smoke"]
+
+[node name="Weapons" type="Node3D"]
+script = ExtResource("1_inventory")
+
+[node name="Knife" parent="." instance=ExtResource("2_knife")]
+
+[node name="AK47" parent="." instance=ExtResource("3_rifle")]
+
+[node name="Deagle" parent="." instance=ExtResource("4_deagle")]
+
+[node name="USP" parent="." instance=ExtResource("5_usp")]
+
+[node name="M4A1" parent="." instance=ExtResource("6_m4a1")]
+
+[node name="AWP" parent="." instance=ExtResource("7_awp")]
+
+[node name="Scout" parent="." instance=ExtResource("8_scout")]
+
+[node name="HEGrenade" parent="." instance=ExtResource("9_he")]
+
+[node name="Flashbang" parent="." instance=ExtResource("10_flash")]
+
+[node name="SmokeGrenade" parent="." instance=ExtResource("11_smoke")]

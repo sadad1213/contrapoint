@@ -1,0 +1,97 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"240"
+	"WeaponType"						"Pistol"
+	"FullAuto"							"0"
+	"WeaponPrice"						"500"
+	"KillAward"							"300"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.823"
+	"CrosshairMinDistance"				"8"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"CT"
+	"PlayerAnimationExtension"			"pistol"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_pistol"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_pistol"
+	"TracerEffect"						"weapon_tracers_pistol"
+	"TracerFrequency"					"1"
+	"EjectBrassEffect"					"weapon_shell_casing_9mm"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.3"
+
+	// Weapon characteristics:
+	"Penetration"						"1.0"
+	"Damage"							"32"
+	"Range"								"4096.0"
+	"RangeModifier"						"0.81"
+	"Bullets"							"1"
+	"CycleTime"							"0.15"
+	"TimeToIdle"						"2.0"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.002000"
+	"InaccuracyCrouch"					"0.006830"
+	"InaccuracyStand"					"0.009100"
+	"InaccuracyJump"					"0.089700"
+	"InaccuracyJumpInitial"				"0.099880"
+	"InaccuracyLand"					"0.000190"
+	"InaccuracyLadder"					"0.138000"
+	"InaccuracyFire"					"0.025000"
+	"InaccuracyMove"					"0.040000"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"5.000000"
+	"RecoilMagnitude"					"25.00000"
+	"RecoilMagnitudeVariance"			"4.000000"
+	"RecoilSeed"						"33244"
+
+	"RecoveryTimeCrouch"				"0.200000"
+	"RecoveryTimeStand"					"0.200000"
+	"RecoveryTimeCrouchFinal"			"0.500000"
+	"RecoveryTimeStandFinal"			"0.500000"
+	"RecoveryTransitionStartBullet"		"0"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"FlinchVelocityModifierLarge"		"0.5"
+	"FlinchVelocityModifierSmall"		"0.65"
+
+	"ReserveAmmoMax"					"100"
+	"MagazinesMax"						"2"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_FiveSeven"
+	"viewmodel"							"models/weapons/v_pist_fiveseven.mdl"
+	"playermodel"						"models/weapons/w_pist_fiveseven.mdl"
+	"MagazineModel"						"models/weapons/w_pist_fiveseven_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"1"
+	"bucket_position"					"0"
+	"clip_size"							"20"
+	"primary_ammo"						"BULLET_PLAYER_57MM"
+	"secondary_ammo"					"None"
+	"weight"							"5"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Pistol"
+		"single_shot"					"Weapon_FiveSeven.Single"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/pist_fiveseven/pist_fiveseven.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"8.09306"
+			"uvscale"					"0.264"
+		}
+	}
+}

@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/maps/hns_sewer/hns_sewer.scn" id="1_map"]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="2_player"]
+
+[node name="SewerGame" type="Node3D"]
+
+[node name="hns_sewer" parent="." instance=ExtResource("1_map")]
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+SpawnPointsRootPath = NodePath("../hns_sewer")

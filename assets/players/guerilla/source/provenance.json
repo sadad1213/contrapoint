@@ -1,0 +1,41 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/t_guerilla/t_guerilla.vmt",
+      "sha256": "8f3fad8c33b4ae8504dff38b7b0804a5db7ab3ee731f6da9c9b947acdf0cec01"
+    },
+    {
+      "path": "materials/models/player/t_guerilla/t_guerilla.vtf",
+      "sha256": "466ca50a20a37b3ba249bda8262b5b052d4514c1b507f88ce7d40dbda72092f8"
+    },
+    {
+      "path": "materials/models/player/t_guerilla/t_guerilla_normal.vtf",
+      "sha256": "0fe33a96054d53e8043095f5fb8caf872c6bea001c3aac59a1a2facad8df3420"
+    },
+    {
+      "path": "models/player/ak_anims_t.mdl",
+      "sha256": "d68e3409fc4393e22c3180b961b7593897b5086cafca7c6a3e8beda84d6519b7"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/t_guerilla.dx90.vtx",
+      "sha256": "b510038c89581b74a02d5973ac1869c7d1b3721222715e362622b74f21cb2108"
+    },
+    {
+      "path": "models/player/t_guerilla.mdl",
+      "sha256": "8018c7c89c1a710628831d4a2c62778f3136ece08c556876b7f1d7038f84ce7a"
+    },
+    {
+      "path": "models/player/t_guerilla.phy",
+      "sha256": "4b8f42dd379a42810f568e391be5f6e5f2e72968d6d612fbb8f7ace9e0b6d79b"
+    },
+    {
+      "path": "models/player/t_guerilla.vvd",
+      "sha256": "7337cc4c98e4fa0209c91320b7fe4c56398fe259e8311ed16d47f3855d7b9d16"
+    }
+  ]
+}

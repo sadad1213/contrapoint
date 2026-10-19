@@ -1,0 +1,766 @@
+{
+  "animations": [
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 199,
+      "name": "Crouch_Idle_Lower",
+      "tracks": 98
+    },
+    {
+      "duration": 2.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Idle_Reload_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 3.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Idle_Reload_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.83333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Idle_Reload_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Idle_Reload_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Idle_Reload_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.233333334326744,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Idle_Shoot_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.33333337306976,
+      "moving_bone_samples": 150,
+      "name": "Crouch_Idle_Shoot_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Idle_Shoot_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Idle_Shoot_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Idle_Shoot_Pistol",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Idle_Shoot_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_GREN",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 128,
+      "name": "Crouch_Idle_Upper_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Idle_Upper_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 2.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Walk_Reload_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 3.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Walk_Reload_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.83333325386047,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Walk_Reload_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Walk_Reload_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 164,
+      "name": "Crouch_Walk_Reload_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.233333334326744,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Walk_Shoot_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.33333337306976,
+      "moving_bone_samples": 150,
+      "name": "Crouch_Walk_Shoot_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Walk_Shoot_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Walk_Shoot_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Walk_Shoot_Pistol",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Crouch_Walk_Shoot_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_GREN",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 128,
+      "name": "Crouch_Walk_Upper_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 0.001,
+      "moving_bone_samples": 0,
+      "name": "Crouch_Walk_Upper_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 3.33333325386047,
+      "moving_bone_samples": 200,
+      "name": "Death1",
+      "tracks": 98
+    },
+    {
+      "duration": 2.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Idle_Reload_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 3.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Idle_Reload_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.83333325386047,
+      "moving_bone_samples": 164,
+      "name": "Idle_Reload_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Idle_Reload_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 164,
+      "name": "Idle_Reload_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.233333334326744,
+      "moving_bone_samples": 200,
+      "name": "Idle_Shoot_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.33333337306976,
+      "moving_bone_samples": 184,
+      "name": "Idle_Shoot_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.400000005960464,
+      "moving_bone_samples": 162,
+      "name": "Idle_Shoot_GREN1",
+      "tracks": 98
+    },
+    {
+      "duration": 0.600000023841858,
+      "moving_bone_samples": 164,
+      "name": "Idle_Shoot_GREN2",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 200,
+      "name": "Idle_Shoot_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Idle_Shoot_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Idle_Shoot_Pistol",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Idle_Shoot_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 1.5,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 120,
+      "name": "Idle_Upper_GREN",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 136,
+      "name": "Idle_Upper_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 200,
+      "name": "Idle_lower",
+      "tracks": 98
+    },
+    {
+      "duration": 0.833333313465118,
+      "moving_bone_samples": 200,
+      "name": "Jump",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Run_Reload_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 3.0,
+      "moving_bone_samples": 164,
+      "name": "Run_Reload_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.5,
+      "moving_bone_samples": 164,
+      "name": "Run_Reload_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Run_Reload_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.40000009536743,
+      "moving_bone_samples": 164,
+      "name": "Run_Reload_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.233333334326744,
+      "moving_bone_samples": 200,
+      "name": "Run_Shoot_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.33333337306976,
+      "moving_bone_samples": 182,
+      "name": "Run_Shoot_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 200,
+      "name": "Run_Shoot_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Run_Shoot_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Run_Shoot_Pistol",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Run_Shoot_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 144,
+      "name": "Run_Upper_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 140,
+      "name": "Run_Upper_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 0,
+      "name": "Run_Upper_GREN",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 140,
+      "name": "Run_Upper_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 140,
+      "name": "Run_Upper_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 140,
+      "name": "Run_Upper_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 140,
+      "name": "Run_Upper_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 2.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Walk_Reload_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 3.33333325386047,
+      "moving_bone_samples": 164,
+      "name": "Walk_Reload_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 2.83333325386047,
+      "moving_bone_samples": 164,
+      "name": "Walk_Reload_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 164,
+      "name": "Walk_Reload_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 164,
+      "name": "Walk_Reload_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.233333334326744,
+      "moving_bone_samples": 200,
+      "name": "Walk_Shoot_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.33333337306976,
+      "moving_bone_samples": 165,
+      "name": "Walk_Shoot_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 200,
+      "name": "Walk_Shoot_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Walk_Shoot_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Walk_Shoot_Pistol",
+      "tracks": 98
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 200,
+      "name": "Walk_Shoot_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 121,
+      "name": "Walk_Upper_AK",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 119,
+      "name": "Walk_Upper_AWP",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 107,
+      "name": "Walk_Upper_GREN",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 119,
+      "name": "Walk_Upper_KNIFE",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 119,
+      "name": "Walk_Upper_M4",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 119,
+      "name": "Walk_Upper_PISTOL",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 119,
+      "name": "Walk_Upper_SCOUT",
+      "tracks": 98
+    },
+    {
+      "duration": 0.533333361148834,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkN",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkNE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkNW",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkS",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkSE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.800000011920929,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkSW",
+      "tracks": 98
+    },
+    {
+      "duration": 0.533333361148834,
+      "moving_bone_samples": 200,
+      "name": "a_Crouch_walkW",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 199,
+      "name": "a_Crouch_walkZero",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 200,
+      "name": "a_RunE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 200,
+      "name": "a_RunN",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 199,
+      "name": "a_RunNE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 200,
+      "name": "a_RunNW",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 200,
+      "name": "a_RunS",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 188,
+      "name": "a_RunSE",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 199,
+      "name": "a_RunSW",
+      "tracks": 98
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 200,
+      "name": "a_RunW",
+      "tracks": 98
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 200,
+      "name": "a_RunZero",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkE",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkN",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkNE",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkNW",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkS",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkSE",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkSW",
+      "tracks": 98
+    },
+    {
+      "duration": 1.06666672229767,
+      "moving_bone_samples": 200,
+      "name": "a_WalkW",
+      "tracks": 98
+    }
+  ],
+  "bones": 50,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/players/arctic/arctic.glb",
+  "skinned_meshes": 1,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "t_arctic",
+      "mesh": "t_arctic_t_arctic_reference_smd",
+      "texture_size": "(1024.0, 1024.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in Crouch_Idle_Upper_AK; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Idle_Upper_AWP; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Idle_Upper_GREN; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Idle_Upper_M4; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Idle_Upper_PISTOL; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Idle_Upper_SCOUT; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_AK; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_AWP; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_GREN; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_M4; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_PISTOL; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Crouch_Walk_Upper_SCOUT; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in Run_Upper_GREN; verify whether this is an intentional pose clip"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/t_phoenix/t_phoenix.vmt",
+      "sha256": "9a629c6ca8243169d248f6343086d309d2af2577fa7d9e7111021c980ced2411"
+    },
+    {
+      "path": "materials/models/player/t_phoenix/t_phoenix.vtf",
+      "sha256": "99e79880dc464dfbdd4e77ed7fecb7fd11b84cc57e2decad2d80472311bf5fb7"
+    },
+    {
+      "path": "materials/models/player/t_phoenix/t_phoenix_normal.vtf",
+      "sha256": "1bcf816c8f9cc404f8c0ffca04e94b0d06faf334f08d411067fe926a2376af81"
+    },
+    {
+      "path": "models/player/ak_anims_t.mdl",
+      "sha256": "d68e3409fc4393e22c3180b961b7593897b5086cafca7c6a3e8beda84d6519b7"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/t_phoenix.dx90.vtx",
+      "sha256": "b2a92ce7e5ea0c5a7dbc795964daebe56b0b5cb059bb736de5e0e67926ca0593"
+    },
+    {
+      "path": "models/player/t_phoenix.mdl",
+      "sha256": "cd89f1e2678649763b6569fc3338db1b3f89ddec925533ae2039a332fe253cc7"
+    },
+    {
+      "path": "models/player/t_phoenix.phy",
+      "sha256": "e86175704fbff82ba09abab6d3327940f37890888abed6213d9fa24123014ad2"
+    },
+    {
+      "path": "models/player/t_phoenix.vvd",
+      "sha256": "032eb69a063cda6d4f423c6c1e6684a79cd1facbe42d491170cdadbb69545748"
+    }
+  ]
+}

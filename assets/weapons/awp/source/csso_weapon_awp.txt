@@ -1,0 +1,123 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"200"
+	"MaxPlayerSpeedAlt"					"100"
+	"WeaponType"						"SniperRifle"
+	"FullAuto"							"0"
+	"WeaponPrice"						"4750"
+	"KillAward"							"100"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.95"
+	"CrosshairMinDistance"				"8"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"ANY"
+	"PlayerAnimationExtension" 			"awp"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_awp"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_awp"
+	"TracerEffect"						"weapon_tracers_rifle"
+	"TracerFrequency"					"0"
+	"EjectBrassEffect"					"weapon_shell_casing_50cal"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"1.5"
+	"AddonScale"						"0.9"
+	"AddonLocation"						"primary_sniper"
+
+	// Weapon characteristics:
+	"Penetration"						"2.0"
+	"Damage"							"115"
+	"Range"								"8192.0"
+	"RangeModifier"						"0.99"
+	"Bullets"							"1"
+	"CycleTime"							"1.455"
+	"TimeToIdle"						"2.0"
+	"IdleInterval"						"60.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.000200"
+	"InaccuracyCrouch"					"0.060600"
+	"InaccuracyStand"					"0.080800"
+	"InaccuracyJump"					"0.133830"
+	"InaccuracyJumpInitial"				"0.172860"
+	"InaccuracyLand"					"0.000307"
+	"InaccuracyLadder"					"0.136500"
+	"InaccuracyFire"					"0.053850"
+	"InaccuracyMove"					"0.176480"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"20.00000"
+	"RecoilMagnitude"					"78.00000"
+	"RecoilMagnitudeVariance"			"15.00000"
+	"RecoilSeed"						"4100"
+
+	"SpreadAlt"							"0.000200"
+	"InaccuracyCrouchAlt"				"0.001500"
+	"InaccuracyStandAlt"				"0.002000"
+	"InaccuracyJumpAlt"					"0.133830"
+	"InaccuracyLandAlt"					"0.000100"
+	"InaccuracyLadderAlt"				"0.136500"
+	"InaccuracyFireAlt"					"0.053850"
+	"InaccuracyMoveAlt"					"0.176480"
+	"RecoilAngleAlt"					"0.000000"
+	"RecoilAngleVarianceAlt"			"20.00000"
+	"RecoilMagnitudeAlt"				"25.00000"
+	"RecoilMagnitudeVarianceAlt"		"2.000000"
+
+	"RecoveryTimeCrouch"				"0.246710"
+	"RecoveryTimeStand"					"0.345390"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"ZoomLevels"						"2"
+	"ZoomTime0"							"0.05"
+	"ZoomFOV1"							"40.0"
+	"ZoomTime1"							"0.05"
+	"ZoomFOV2"							"10.0"
+	"ZoomTime2"							"0.05"
+	"HideViewModelWhenZoomed"			"1"
+	"UnzoomAfterShot"					"1"
+
+	"FlinchVelocityModifierLarge"		"0.35"
+	"FlinchVelocityModifierSmall"		"0.4"
+
+	"ReserveAmmoMax"					"30"
+	"MagazinesMax"						"2"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_AWP"
+	"viewmodel"							"models/weapons/v_snip_awp.mdl"
+	"playermodel"						"models/weapons/w_snip_awp.mdl"
+	"MagazineModel"						"models/weapons/w_snip_awp_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"5"
+	"primary_ammo"						"BULLET_PLAYER_338MAG"
+	"secondary_ammo"					"None"
+	"weight"							"30"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_AWP.Single"
+		"special2"						"Weapon_AWP.Zoom"
+		"special3"						"Weapon_AWP.Zoom"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/snip_awp/snip_awp.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"basetextureoverride"		"1"
+			"weaponlength"				"53.803902"
+			"uvscale"					"1.029"
+		}
+	}
+}

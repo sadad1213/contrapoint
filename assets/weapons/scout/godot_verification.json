@@ -1,0 +1,58 @@
+{
+  "animations": [
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 240,
+      "name": "draw",
+      "tracks": 49
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 0,
+      "name": "idle1",
+      "tracks": 49
+    },
+    {
+      "duration": 2.90000009536743,
+      "moving_bone_samples": 238,
+      "name": "reload",
+      "tracks": 49
+    },
+    {
+      "duration": 1.26666665077209,
+      "moving_bone_samples": 240,
+      "name": "shoot",
+      "tracks": 49
+    }
+  ],
+  "bones": 62,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/scout/scout.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "hands___\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "v_AWP_scope",
+      "mesh": "studio_scout_reference_smd",
+      "texture_size": "(64.0, 64.0)",
+      "textured": true
+    },
+    {
+      "material": "snip_scout",
+      "mesh": "studio_scout_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in idle1; verify whether this is an intentional pose clip"
+  ]
+}

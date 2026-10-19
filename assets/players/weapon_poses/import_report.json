@@ -1,0 +1,1727 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\players\\phoenix\\source\\css\\models\\player\\t_phoenix.mdl",
+  "content_root": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\players\\phoenix\\source\\css",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 50,
+  "geometry": [
+    {
+      "name": "t_phoenix_t_phoenix_reference.smd",
+      "vertices": 3265,
+      "triangles": 5015,
+      "materials": [
+        "t_phoenix"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "t_phoenix",
+      "image": "t_phoenix",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "t_phoenix",
+      "image": "t_phoenix_normal",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "Crouch_Idle_Reload_AUG",
+      "source_name": "@Crouch_Idle_Reload_AUG",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Idle_Reload_ELITES",
+      "source_name": "@Crouch_Idle_Reload_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Reload_FAMAS",
+      "source_name": "@Crouch_Idle_Reload_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Reload_G3",
+      "source_name": "@Crouch_Idle_Reload_G3",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Idle_Reload_GALIL",
+      "source_name": "@Crouch_Idle_Reload_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 86,
+      "unkeyed_root_corrections": [],
+      "duration": 2.8333333333333335
+    },
+    {
+      "name": "Crouch_Idle_Reload_M249",
+      "source_name": "@Crouch_Idle_Reload_M249",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Idle_Reload_MAC10",
+      "source_name": "@Crouch_Idle_Reload_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Reload_MP5",
+      "source_name": "@Crouch_Idle_Reload_MP5",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Reload_P90",
+      "source_name": "@Crouch_Idle_Reload_P90",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Reload_SG550",
+      "source_name": "@Crouch_Idle_Reload_SG550",
+      "source_fps": 30.0,
+      "source_frames": 106,
+      "unkeyed_root_corrections": [],
+      "duration": 3.5
+    },
+    {
+      "name": "Crouch_Idle_Reload_SG552",
+      "source_name": "@Crouch_Idle_Reload_SG552",
+      "source_fps": 30.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.5
+    },
+    {
+      "name": "Crouch_Idle_Reload_TMP",
+      "source_name": "@Crouch_Idle_Reload_TMP",
+      "source_fps": 30.0,
+      "source_frames": 51,
+      "unkeyed_root_corrections": [],
+      "duration": 1.6666666666666667
+    },
+    {
+      "name": "Crouch_Idle_Reload_UMP45",
+      "source_name": "@Crouch_Idle_Reload_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Idle_Shoot_AUG",
+      "source_name": "@Crouch_Idle_Shoot_AUG",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_FAMAS",
+      "source_name": "@Crouch_Idle_Shoot_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_G3",
+      "source_name": "@Crouch_Idle_Shoot_G3",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_GALIL",
+      "source_name": "@Crouch_Idle_Shoot_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_M249",
+      "source_name": "@Crouch_Idle_Shoot_M249",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_M3S90",
+      "source_name": "@Crouch_Idle_Shoot_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "Crouch_Idle_Shoot_MAC10",
+      "source_name": "@Crouch_Idle_Shoot_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_MP5",
+      "source_name": "@Crouch_Idle_Shoot_MP5",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_P90",
+      "source_name": "@Crouch_Idle_Shoot_P90",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_SG550",
+      "source_name": "@Crouch_Idle_Shoot_SG550",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_SG552",
+      "source_name": "@Crouch_Idle_Shoot_SG552",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_TMP",
+      "source_name": "@Crouch_Idle_Shoot_TMP",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_UMP45",
+      "source_name": "@Crouch_Idle_Shoot_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Shoot_XM1014",
+      "source_name": "@Crouch_Idle_Shoot_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Idle_Upper_AUG",
+      "source_name": "@Crouch_Idle_Upper_AUG",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_ELITES",
+      "source_name": "@Crouch_Idle_Upper_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_FAMAS",
+      "source_name": "@Crouch_Idle_Upper_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_G3",
+      "source_name": "@Crouch_Idle_Upper_G3",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_GALIL",
+      "source_name": "@Crouch_Idle_Upper_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_M249",
+      "source_name": "@Crouch_Idle_Upper_M249",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_M3S90",
+      "source_name": "@Crouch_Idle_Upper_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_MAC10",
+      "source_name": "@Crouch_Idle_Upper_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_MP5",
+      "source_name": "@Crouch_Idle_Upper_MP5",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_P90",
+      "source_name": "@Crouch_Idle_Upper_P90",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_SG550",
+      "source_name": "@Crouch_Idle_Upper_SG550",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_SG552",
+      "source_name": "@Crouch_Idle_Upper_SG552",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_TMP",
+      "source_name": "@Crouch_Idle_Upper_TMP",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_UMP45",
+      "source_name": "@Crouch_Idle_Upper_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Idle_Upper_XM1014",
+      "source_name": "@Crouch_Idle_Upper_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_AUG",
+      "source_name": "@Crouch_Walk_Reload_AUG",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Walk_Reload_ELITES",
+      "source_name": "@Crouch_Walk_Reload_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_FAMAS",
+      "source_name": "@Crouch_Walk_Reload_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_G3",
+      "source_name": "@Crouch_Walk_Reload_G3",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Walk_Reload_GALIL",
+      "source_name": "@Crouch_Walk_Reload_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 86,
+      "unkeyed_root_corrections": [],
+      "duration": 2.8333333333333335
+    },
+    {
+      "name": "Crouch_Walk_Reload_M249",
+      "source_name": "@Crouch_Walk_Reload_M249",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Crouch_Walk_Reload_MAC10",
+      "source_name": "@Crouch_Walk_Reload_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_MP5",
+      "source_name": "@Crouch_Walk_Reload_MP5",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_P90",
+      "source_name": "@Crouch_Walk_Reload_P90",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Reload_SG550",
+      "source_name": "@Crouch_Walk_Reload_SG550",
+      "source_fps": 30.0,
+      "source_frames": 106,
+      "unkeyed_root_corrections": [],
+      "duration": 3.5
+    },
+    {
+      "name": "Crouch_Walk_Reload_SG552",
+      "source_name": "@Crouch_Walk_Reload_SG552",
+      "source_fps": 30.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.5
+    },
+    {
+      "name": "Crouch_Walk_Reload_TMP",
+      "source_name": "@Crouch_Walk_Reload_TMP",
+      "source_fps": 30.0,
+      "source_frames": 51,
+      "unkeyed_root_corrections": [],
+      "duration": 1.6666666666666667
+    },
+    {
+      "name": "Crouch_Walk_Reload_UMP45",
+      "source_name": "@Crouch_Walk_Reload_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Crouch_Walk_Shoot_AUG",
+      "source_name": "@Crouch_Walk_Shoot_AUG",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_FAMAS",
+      "source_name": "@Crouch_Walk_Shoot_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_G3",
+      "source_name": "@Crouch_Walk_Shoot_G3",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_GALIL",
+      "source_name": "@Crouch_Walk_Shoot_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_M249",
+      "source_name": "@Crouch_Walk_Shoot_M249",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_M3S90",
+      "source_name": "@Crouch_Walk_Shoot_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "Crouch_Walk_Shoot_MAC10",
+      "source_name": "@Crouch_Walk_Shoot_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_MP5",
+      "source_name": "@Crouch_Walk_Shoot_MP5",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_P90",
+      "source_name": "@Crouch_Walk_Shoot_P90",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_SG550",
+      "source_name": "@Crouch_Walk_Shoot_SG550",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_SG552",
+      "source_name": "@Crouch_Walk_Shoot_SG552",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_TMP",
+      "source_name": "@Crouch_Walk_Shoot_TMP",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_UMP45",
+      "source_name": "@Crouch_Walk_Shoot_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Shoot_XM1014",
+      "source_name": "@Crouch_Walk_Shoot_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Crouch_Walk_Upper_AUG",
+      "source_name": "@Crouch_Walk_Upper_AUG",
+      "source_fps": 30.0,
+      "source_frames": 25,
+      "unkeyed_root_corrections": [],
+      "duration": 0.8
+    },
+    {
+      "name": "Crouch_Walk_Upper_ELITES",
+      "source_name": "@Crouch_Walk_Upper_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_FAMAS",
+      "source_name": "@Crouch_Walk_Upper_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_G3",
+      "source_name": "@Crouch_Walk_Upper_G3",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_GALIL",
+      "source_name": "@Crouch_Walk_Upper_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_M249",
+      "source_name": "@Crouch_Walk_Upper_M249",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_M3S90",
+      "source_name": "@Crouch_Walk_Upper_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_MAC10",
+      "source_name": "@Crouch_Walk_Upper_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 25,
+      "unkeyed_root_corrections": [],
+      "duration": 0.8
+    },
+    {
+      "name": "Crouch_Walk_Upper_MP5",
+      "source_name": "@Crouch_Walk_Upper_MP5",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_P90",
+      "source_name": "@Crouch_Walk_Upper_P90",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_SG550",
+      "source_name": "@Crouch_Walk_Upper_SG550",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_SG552",
+      "source_name": "@Crouch_Walk_Upper_SG552",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_TMP",
+      "source_name": "@Crouch_Walk_Upper_TMP",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_UMP45",
+      "source_name": "@Crouch_Walk_Upper_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Crouch_Walk_Upper_XM1014",
+      "source_name": "@Crouch_Walk_Upper_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 1,
+      "unkeyed_root_corrections": [],
+      "duration": 0.0
+    },
+    {
+      "name": "Idle_Reload_AUG",
+      "source_name": "@Idle_Reload_AUG",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Idle_Reload_ELITES",
+      "source_name": "@Idle_Reload_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Reload_FAMAS",
+      "source_name": "@Idle_Reload_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Reload_G3",
+      "source_name": "@Idle_Reload_G3",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Idle_Reload_GALIL",
+      "source_name": "@Idle_Reload_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 86,
+      "unkeyed_root_corrections": [],
+      "duration": 2.8333333333333335
+    },
+    {
+      "name": "Idle_Reload_M249",
+      "source_name": "@Idle_Reload_M249",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Idle_Reload_MAC10",
+      "source_name": "@Idle_Reload_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Reload_MP5",
+      "source_name": "@Idle_Reload_MP5",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Reload_P90",
+      "source_name": "@Idle_Reload_P90",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Reload_SG550",
+      "source_name": "@Idle_Reload_SG550",
+      "source_fps": 30.0,
+      "source_frames": 106,
+      "unkeyed_root_corrections": [],
+      "duration": 3.5
+    },
+    {
+      "name": "Idle_Reload_SG552",
+      "source_name": "@Idle_Reload_SG552",
+      "source_fps": 30.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.5
+    },
+    {
+      "name": "Idle_Reload_TMP",
+      "source_name": "@Idle_Reload_TMP",
+      "source_fps": 30.0,
+      "source_frames": 51,
+      "unkeyed_root_corrections": [],
+      "duration": 1.6666666666666667
+    },
+    {
+      "name": "Idle_Reload_UMP45",
+      "source_name": "@Idle_Reload_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Idle_Shoot_AUG",
+      "source_name": "@Idle_Shoot_AUG",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_FAMAS",
+      "source_name": "@Idle_Shoot_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_G3",
+      "source_name": "@Idle_Shoot_G3",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_GALIL",
+      "source_name": "@Idle_Shoot_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_M249",
+      "source_name": "@Idle_Shoot_M249",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_M3S90",
+      "source_name": "@Idle_Shoot_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "Idle_Shoot_MAC10",
+      "source_name": "@Idle_Shoot_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_MP5",
+      "source_name": "@Idle_Shoot_MP5",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_P90",
+      "source_name": "@Idle_Shoot_P90",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_SG550",
+      "source_name": "@Idle_Shoot_SG550",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_SG552",
+      "source_name": "@Idle_Shoot_SG552",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_TMP",
+      "source_name": "@Idle_Shoot_TMP",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_UMP45",
+      "source_name": "@Idle_Shoot_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Shoot_XM1014",
+      "source_name": "@Idle_Shoot_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Idle_Upper_AUG",
+      "source_name": "@Idle_Upper_AUG",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_ELITES",
+      "source_name": "@Idle_Upper_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_FAMAS",
+      "source_name": "@Idle_Upper_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_G3",
+      "source_name": "@Idle_Upper_G3",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_GALIL",
+      "source_name": "@Idle_Upper_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_M249",
+      "source_name": "@Idle_Upper_M249",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_M3S90",
+      "source_name": "@Idle_Upper_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_MAC10",
+      "source_name": "@Idle_Upper_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_MP5",
+      "source_name": "@Idle_Upper_MP5",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_P90",
+      "source_name": "@Idle_Upper_P90",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_SG550",
+      "source_name": "@Idle_Upper_SG550",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_SG552",
+      "source_name": "@Idle_Upper_SG552",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_TMP",
+      "source_name": "@Idle_Upper_TMP",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_UMP45",
+      "source_name": "@Idle_Upper_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Idle_Upper_XM1014",
+      "source_name": "@Idle_Upper_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "Run_Reload_AUG",
+      "source_name": "@Run_Reload_AUG",
+      "source_fps": 30.0,
+      "source_frames": 101,
+      "unkeyed_root_corrections": [],
+      "duration": 3.3333333333333335
+    },
+    {
+      "name": "Run_Reload_ELITES",
+      "source_name": "@Run_Reload_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Run_Reload_FAMAS",
+      "source_name": "@Run_Reload_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 85,
+      "unkeyed_root_corrections": [],
+      "duration": 2.8
+    },
+    {
+      "name": "Run_Reload_G3",
+      "source_name": "@Run_Reload_G3",
+      "source_fps": 30.0,
+      "source_frames": 101,
+      "unkeyed_root_corrections": [],
+      "duration": 3.3333333333333335
+    },
+    {
+      "name": "Run_Reload_GALIL",
+      "source_name": "@Run_Reload_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.5
+    },
+    {
+      "name": "Run_Reload_M249",
+      "source_name": "@Run_Reload_M249",
+      "source_fps": 30.0,
+      "source_frames": 101,
+      "unkeyed_root_corrections": [],
+      "duration": 3.3333333333333335
+    },
+    {
+      "name": "Run_Reload_MAC10",
+      "source_name": "@Run_Reload_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 81,
+      "unkeyed_root_corrections": [],
+      "duration": 2.6666666666666665
+    },
+    {
+      "name": "Run_Reload_MP5",
+      "source_name": "@Run_Reload_MP5",
+      "source_fps": 30.0,
+      "source_frames": 81,
+      "unkeyed_root_corrections": [],
+      "duration": 2.6666666666666665
+    },
+    {
+      "name": "Run_Reload_P90",
+      "source_name": "@Run_Reload_P90",
+      "source_fps": 30.0,
+      "source_frames": 81,
+      "unkeyed_root_corrections": [],
+      "duration": 2.6666666666666665
+    },
+    {
+      "name": "Run_Reload_SG550",
+      "source_name": "@Run_Reload_SG550",
+      "source_fps": 30.0,
+      "source_frames": 99,
+      "unkeyed_root_corrections": [],
+      "duration": 3.2666666666666666
+    },
+    {
+      "name": "Run_Reload_SG552",
+      "source_name": "@Run_Reload_SG552",
+      "source_fps": 30.0,
+      "source_frames": 68,
+      "unkeyed_root_corrections": [],
+      "duration": 2.2333333333333334
+    },
+    {
+      "name": "Run_Reload_TMP",
+      "source_name": "@Run_Reload_TMP",
+      "source_fps": 30.0,
+      "source_frames": 51,
+      "unkeyed_root_corrections": [],
+      "duration": 1.6666666666666667
+    },
+    {
+      "name": "Run_Reload_UMP45",
+      "source_name": "@Run_Reload_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 81,
+      "unkeyed_root_corrections": [],
+      "duration": 2.6666666666666665
+    },
+    {
+      "name": "Run_Shoot_AUG",
+      "source_name": "@Run_Shoot_AUG",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_FAMAS",
+      "source_name": "@Run_Shoot_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_G3",
+      "source_name": "@Run_Shoot_G3",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_GALIL",
+      "source_name": "@Run_Shoot_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_M249",
+      "source_name": "@Run_Shoot_M249",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_M3S90",
+      "source_name": "@Run_Shoot_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "Run_Shoot_MAC10",
+      "source_name": "@Run_Shoot_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_MP5",
+      "source_name": "@Run_Shoot_MP5",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_P90",
+      "source_name": "@Run_Shoot_P90",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_SG550",
+      "source_name": "@Run_Shoot_SG550",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_SG552",
+      "source_name": "@Run_Shoot_SG552",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_TMP",
+      "source_name": "@Run_Shoot_TMP",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_UMP45",
+      "source_name": "@Run_Shoot_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Shoot_XM1014",
+      "source_name": "@Run_Shoot_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Run_Upper_AUG",
+      "source_name": "@Run_Upper_AUG",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_ELITES",
+      "source_name": "@Run_Upper_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_FAMAS",
+      "source_name": "@Run_Upper_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_G3",
+      "source_name": "@Run_Upper_G3",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_GALIL",
+      "source_name": "@Run_Upper_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_M249",
+      "source_name": "@Run_Upper_M249",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_M3S90",
+      "source_name": "@Run_Upper_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_MAC10",
+      "source_name": "@Run_Upper_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_MP5",
+      "source_name": "@Run_Upper_MP5",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_P90",
+      "source_name": "@Run_Upper_P90",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_SG550",
+      "source_name": "@Run_Upper_SG550",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_SG552",
+      "source_name": "@Run_Upper_SG552",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_TMP",
+      "source_name": "@Run_Upper_TMP",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_UMP45",
+      "source_name": "@Run_Upper_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Run_Upper_XM1014",
+      "source_name": "@Run_Upper_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "Walk_Reload_AUG",
+      "source_name": "@Walk_Reload_AUG",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Walk_Reload_ELITES",
+      "source_name": "@Walk_Reload_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Reload_FAMAS",
+      "source_name": "@Walk_Reload_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Reload_G3",
+      "source_name": "@Walk_Reload_G3",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Walk_Reload_GALIL",
+      "source_name": "@Walk_Reload_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 86,
+      "unkeyed_root_corrections": [],
+      "duration": 2.8333333333333335
+    },
+    {
+      "name": "Walk_Reload_M249",
+      "source_name": "@Walk_Reload_M249",
+      "source_fps": 30.0,
+      "source_frames": 111,
+      "unkeyed_root_corrections": [],
+      "duration": 3.6666666666666665
+    },
+    {
+      "name": "Walk_Reload_MAC10",
+      "source_name": "@Walk_Reload_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Reload_MP5",
+      "source_name": "@Walk_Reload_MP5",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Reload_P90",
+      "source_name": "@Walk_Reload_P90",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Reload_SG550",
+      "source_name": "@Walk_Reload_SG550",
+      "source_fps": 30.0,
+      "source_frames": 106,
+      "unkeyed_root_corrections": [],
+      "duration": 3.5
+    },
+    {
+      "name": "Walk_Reload_SG552",
+      "source_name": "@Walk_Reload_SG552",
+      "source_fps": 30.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.5
+    },
+    {
+      "name": "Walk_Reload_TMP",
+      "source_name": "@Walk_Reload_TMP",
+      "source_fps": 30.0,
+      "source_frames": 51,
+      "unkeyed_root_corrections": [],
+      "duration": 1.6666666666666667
+    },
+    {
+      "name": "Walk_Reload_UMP45",
+      "source_name": "@Walk_Reload_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 91,
+      "unkeyed_root_corrections": [],
+      "duration": 3.0
+    },
+    {
+      "name": "Walk_Shoot_AUG",
+      "source_name": "@Walk_Shoot_AUG",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_FAMAS",
+      "source_name": "@Walk_Shoot_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_G3",
+      "source_name": "@Walk_Shoot_G3",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_GALIL",
+      "source_name": "@Walk_Shoot_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_M249",
+      "source_name": "@Walk_Shoot_M249",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_M3S90",
+      "source_name": "@Walk_Shoot_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "Walk_Shoot_MAC10",
+      "source_name": "@Walk_Shoot_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_MP5",
+      "source_name": "@Walk_Shoot_MP5",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_P90",
+      "source_name": "@Walk_Shoot_P90",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_SG550",
+      "source_name": "@Walk_Shoot_SG550",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_SG552",
+      "source_name": "@Walk_Shoot_SG552",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_TMP",
+      "source_name": "@Walk_Shoot_TMP",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_UMP45",
+      "source_name": "@Walk_Shoot_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Shoot_XM1014",
+      "source_name": "@Walk_Shoot_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 11,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3333333333333333
+    },
+    {
+      "name": "Walk_Upper_AUG",
+      "source_name": "@Walk_Upper_AUG",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_ELITES",
+      "source_name": "@Walk_Upper_ELITES",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_FAMAS",
+      "source_name": "@Walk_Upper_FAMAS",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_G3",
+      "source_name": "@Walk_Upper_G3",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_GALIL",
+      "source_name": "@Walk_Upper_GALIL",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_M249",
+      "source_name": "@Walk_Upper_M249",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_M3S90",
+      "source_name": "@Walk_Upper_M3S90",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_MAC10",
+      "source_name": "@Walk_Upper_MAC10",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_MP5",
+      "source_name": "@Walk_Upper_MP5",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_P90",
+      "source_name": "@Walk_Upper_P90",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_SG550",
+      "source_name": "@Walk_Upper_SG550",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_SG552",
+      "source_name": "@Walk_Upper_SG552",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_TMP",
+      "source_name": "@Walk_Upper_TMP",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_UMP45",
+      "source_name": "@Walk_Upper_UMP45",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "Walk_Upper_XM1014",
+      "source_name": "@Walk_Upper_XM1014",
+      "source_fps": 30.0,
+      "source_frames": 33,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\players\\weapon_poses\\phoenix.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

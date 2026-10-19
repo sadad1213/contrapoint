@@ -1,0 +1,53 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/t_leet/t_leet.vmt",
+      "sha256": "62a2d7e508bd76687145bdcb72fc7cce6226be2e8ce0899f21ea232b8223612e"
+    },
+    {
+      "path": "materials/models/player/t_leet/t_leet.vtf",
+      "sha256": "36451ae9bd3f5b05b0d2c4f08e56875d8e0f90346ccbd90b158aa05ab444d101"
+    },
+    {
+      "path": "materials/models/player/t_leet/t_leet_glass.vmt",
+      "sha256": "afcd88f3f54c16e3f21e83ac124b07c4266fc5f614e0451d7554b3222ddced85"
+    },
+    {
+      "path": "materials/models/player/t_leet/t_leet_glass.vtf",
+      "sha256": "5f67ab9f719e9669bed967894b32e4f25e40101ad776af6a2de1535a10b957ff"
+    },
+    {
+      "path": "materials/models/player/t_leet/t_leet_glass_spec.vtf",
+      "sha256": "bd7b62a32f5d6b15f397675813e0ac77c20d2ab71bbb94a7980eeee13bd0691c"
+    },
+    {
+      "path": "materials/models/player/t_leet/t_leet_normal.vtf",
+      "sha256": "856ad90f7ebb955bdca53e8f926c969a615aeaa33ca2c2b13d5e676f22e40bd6"
+    },
+    {
+      "path": "models/player/ak_anims_t.mdl",
+      "sha256": "d68e3409fc4393e22c3180b961b7593897b5086cafca7c6a3e8beda84d6519b7"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/t_leet.dx90.vtx",
+      "sha256": "6aa29dfdb5ac5f996c45ab97ceb70a64ca2dbe1e59341154fce60b6701c6dc84"
+    },
+    {
+      "path": "models/player/t_leet.mdl",
+      "sha256": "1d62ad9b4c12935dca8d0e99e537ce24ff5d134ffc6ef380ff33225c42c7e658"
+    },
+    {
+      "path": "models/player/t_leet.phy",
+      "sha256": "4a951ba8a0f7f264133eaafd19b4c302a1ef24cec5a10f5059629a54c70d1436"
+    },
+    {
+      "path": "models/player/t_leet.vvd",
+      "sha256": "2bf56bed1045b3e6519332dbe8fb1c6ef71306faece11a0ac20b0e5e6f512cd1"
+    }
+  ]
+}

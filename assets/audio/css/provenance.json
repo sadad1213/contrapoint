@@ -1,0 +1,973 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/cs_havana/white.vmt",
+      "sha256": "b885e235177d85cb89825c097f9e6b203a95274252e8e2447005aa770884d56d"
+    },
+    {
+      "path": "materials/cs_italy/marketwall04.vmt",
+      "sha256": "3ace2ec1c0ee49b20c8aae4277c8d4f75386020895772fd085fe9f9287b2bb84"
+    },
+    {
+      "path": "materials/cs_italy/marketwall04a.vmt",
+      "sha256": "8c054dfaf4b6e561786b9ce2faa9b549ced23efc4851dddf01f16550eefcda02"
+    },
+    {
+      "path": "materials/cs_italy/marketwall04b.vmt",
+      "sha256": "0d7b35da984675a3da47739968ba28f4bdbcb2d19e9a74367a5064e0000c9d8e"
+    },
+    {
+      "path": "materials/de_dust/door011.vmt",
+      "sha256": "a6eaf90076ff278a972df0544b2b4d14211396a31fa71540c57f4718d7be4183"
+    },
+    {
+      "path": "materials/de_dust/door02.vmt",
+      "sha256": "11b5a1381c70ec4dd1f4300af7c730a49ae139d11cae45115fb58d185125789e"
+    },
+    {
+      "path": "materials/de_dust/door04.vmt",
+      "sha256": "b72d0476946dc19ccc74a6c66aa7f3e004891ff85e01ce53b72786dae9b96daf"
+    },
+    {
+      "path": "materials/de_dust/door05.vmt",
+      "sha256": "1e79e797b23f0b1a5ba6059836279b9e51051aa45c53287186d0f2ea587d841c"
+    },
+    {
+      "path": "materials/de_dust/door07.vmt",
+      "sha256": "deaf4908c3a491a54367eb49d402e9c0f4f47e486c87df7cd95726bf8e498dbe"
+    },
+    {
+      "path": "materials/de_dust/door10.vmt",
+      "sha256": "c8d820215fa94dd49a21a69e38787627d0330964ac56448d963c9e4fd7fa24d6"
+    },
+    {
+      "path": "materials/de_dust/ducrtlrgsd.vmt",
+      "sha256": "f24f360002bf1afbaced73a85c1f10739e8a0e252dd0a588d9c045dcf85d41c8"
+    },
+    {
+      "path": "materials/de_dust/ducrtlrgtp.vmt",
+      "sha256": "44b3ebde8f012c5b8656e7c53854f1a9bc4cd1aef265297cf4c17a815b52955f"
+    },
+    {
+      "path": "materials/de_dust/dumltrycrsd2.vmt",
+      "sha256": "0273d9ddf0658d90a58ed677a767edaf4f2dbac9d1bfdd62ac3ffbf7e4ae32ea"
+    },
+    {
+      "path": "materials/de_dust/dumltrycrtp.vmt",
+      "sha256": "00169f2ecb7eb4ce93e4a138775c118549e2af309969b2bccebdd2a28753846f"
+    },
+    {
+      "path": "materials/de_dust/dusandcrete.vmt",
+      "sha256": "01c6f7fd31cfb1f335a28c31712f32e8fa2f4c64a194ff8be55c7121c6cdf876"
+    },
+    {
+      "path": "materials/de_dust/dutile1.vmt",
+      "sha256": "a3adb429897481ef0a55c8f27cc4dbeba94a1c16164230afe62f0bfe4047e30a"
+    },
+    {
+      "path": "materials/de_dust/groundsand03.vmt",
+      "sha256": "ad27c713fe3b523324b4518b54c4e9cfa774914bd5927d0677e79714c1ca456f"
+    },
+    {
+      "path": "materials/de_dust/groundsand_blend.vmt",
+      "sha256": "b15a00e15a7b3bc883169bf2014b180ae812cfba110083fea54a2d40fb3e3ccf"
+    },
+    {
+      "path": "materials/de_dust/marketwall02.vmt",
+      "sha256": "97eb06b7319e2a047d7fbf870aaf1e3c0963145adaefbab4260a5679d6fa1965"
+    },
+    {
+      "path": "materials/de_dust/marketwall02b.vmt",
+      "sha256": "b899b8626a5a3c0120d21be6aa223bae7a164c81b5dd40e06b2074058f542425"
+    },
+    {
+      "path": "materials/de_dust/marketwall03.vmt",
+      "sha256": "32cda1da12d11b1ef7f66fd4193f34fe45482d288156df17fe77734260d5bd38"
+    },
+    {
+      "path": "materials/de_dust/pi_rust.vmt",
+      "sha256": "beb0aca11d2e7d36a821e817d8339160dd9fe4f0c407fc97d536c9c9bd4476e3"
+    },
+    {
+      "path": "materials/de_dust/picrate1.vmt",
+      "sha256": "c5f1e4d67929e150a81b5e849bb48b53e9e6e91ec991472bfb83080afec3e31a"
+    },
+    {
+      "path": "materials/de_dust/picrate2.vmt",
+      "sha256": "528e6fbeb129023dec38caffa6bcd409f4272e9f619f7c624095e997dc4390e5"
+    },
+    {
+      "path": "materials/de_dust/pwtrim1.vmt",
+      "sha256": "eb6717b3e0b652449ffc50f6468f19695b3dd9ac89b37aa1f61aed643bae93ed"
+    },
+    {
+      "path": "materials/de_dust/residbwall01.vmt",
+      "sha256": "2134bc19a2111017f0ed52ecc8f433c8aac8a11f83d7b7dd2fc9bf977ffba801"
+    },
+    {
+      "path": "materials/de_dust/residbwall01b.vmt",
+      "sha256": "323ad06232398b07553c6eb3d8ddb2e860eef534b0d930adbd02a390dfa52dc7"
+    },
+    {
+      "path": "materials/de_dust/residbwall02.vmt",
+      "sha256": "4ed48e78aa6def50fcd40a31aad912d16d6f861063db7217897f4a3f61e0240b"
+    },
+    {
+      "path": "materials/de_dust/residbwall02a.vmt",
+      "sha256": "ff90e757ed6eba7e0fbf72c8a6c2be173ee24a320dc266393bad9dacda641f6e"
+    },
+    {
+      "path": "materials/de_dust/residbwall02b.vmt",
+      "sha256": "a81c6ea672ea85212077c1c5b61fd2ca61bad31c69ca141ab9c3999e722a27b6"
+    },
+    {
+      "path": "materials/de_dust/residbwall03.vmt",
+      "sha256": "3c1e32dc3e974fe3bba556951129f6fd060f3808a116ff0b5859303700cfa6e8"
+    },
+    {
+      "path": "materials/de_dust/residbwall03a.vmt",
+      "sha256": "2317986664ee1fa40dfe4e458f8e9543a7d0bb7d5fe50ebb6f2abc4ca9ecccac"
+    },
+    {
+      "path": "materials/de_dust/residbwall03b.vmt",
+      "sha256": "cedc615c5e39981948d78d18541ea126448747988a43dc479a35c4cc2f34afce"
+    },
+    {
+      "path": "materials/de_dust/residbwall04.vmt",
+      "sha256": "7103421dea4834f5a242930ad515eb3600765ce866ea6036bba2b87caefd7d94"
+    },
+    {
+      "path": "materials/de_dust/residbwall04a.vmt",
+      "sha256": "994501870e5993cffd5283a62dec182c0e72b1b54f424a949883b3f569f92f88"
+    },
+    {
+      "path": "materials/de_dust/residbwall04b.vmt",
+      "sha256": "40d5fc84b35face44ab2b61fbd3589930986212db1d9cf17a35829e9f85375e5"
+    },
+    {
+      "path": "materials/de_dust/residwall01.vmt",
+      "sha256": "98491830fbd84ccc379b283ba8b8b6c48f37630cfc2631fec1f2e8f1c7f71ca2"
+    },
+    {
+      "path": "materials/de_dust/residwall01a.vmt",
+      "sha256": "f943475bcca070458836a2cfdefbb8ecc51fd9d77f7374236f7f9f8a17ae0266"
+    },
+    {
+      "path": "materials/de_dust/residwall01b.vmt",
+      "sha256": "b1c7237e2c3fff495fd6f3d68c8847edf6dd8b2f18777e97522042cd01a585a0"
+    },
+    {
+      "path": "materials/de_dust/residwall02.vmt",
+      "sha256": "d3e60f02e50f87c130ac36aebe9ad24fa111b2321a7fad4bcac7a70f9d440d33"
+    },
+    {
+      "path": "materials/de_dust/residwall04.vmt",
+      "sha256": "74c7d5d8a8580454adbe18da6a4665a644fb8fb3f428c88c30617fc3429ea4d7"
+    },
+    {
+      "path": "materials/de_dust/residwall05b.vmt",
+      "sha256": "a543955591f6a7ee5e24b6c7cf7fae06ad232ab78c90315937e90dc1d457e9ef"
+    },
+    {
+      "path": "materials/de_dust/residwall06.vmt",
+      "sha256": "885f0ab7cf5c762d3221b80795475d64756b7a51617642a4d2f44b0f6a3a3dbc"
+    },
+    {
+      "path": "materials/de_dust/residwall06a.vmt",
+      "sha256": "095e217f073aa682d2e534bf7c4e09256a69e2e8d4c8fc2aa79f2ca2adcb13a5"
+    },
+    {
+      "path": "materials/de_dust/residwall06b.vmt",
+      "sha256": "464a1dc8b6f67bd59ddfc2eedb02c53ab9da23712115f6ebb7f8cc9989706dc9"
+    },
+    {
+      "path": "materials/de_dust/rockwall_blend.vmt",
+      "sha256": "d80563013ebf1f38854ce8f89cabce37c8e4320566080d5f74bbc48f794236dd"
+    },
+    {
+      "path": "materials/de_dust/sitebwall01.vmt",
+      "sha256": "ba6372c79a2653823329c8a0e1ccd1c3bfc8f02900939440475a55ba30300d2a"
+    },
+    {
+      "path": "materials/de_dust/sitebwall01a.vmt",
+      "sha256": "6b0835b02bb4c280093911d56343d5cd5e242abafba62e2f9dddad5886151249"
+    },
+    {
+      "path": "materials/de_dust/sitebwall01b.vmt",
+      "sha256": "d066fce0172d0489492dcb6fc4a5e9582ee930d86ae2e763cf0114414913cc04"
+    },
+    {
+      "path": "materials/de_dust/sitebwall02.vmt",
+      "sha256": "f38e5e0335afc11d031e73ca544596558e41d829be2979e6080f92db31d832a6"
+    },
+    {
+      "path": "materials/de_dust/sitebwall03b.vmt",
+      "sha256": "9d5905528ee823fe686c1adbf91c27a22bf23622c37c17a67de5c2c6c4af25ab"
+    },
+    {
+      "path": "materials/de_dust/sitebwall05.vmt",
+      "sha256": "73d61edfe653457dc5d53124ccb9f71b84f6bb474ab24becabb0987c240182a7"
+    },
+    {
+      "path": "materials/de_dust/sitebwall05a.vmt",
+      "sha256": "1c9a35ff91bc5dfcd1bf7968ada8c425d810cf7323000d6f74ec4095fdead987"
+    },
+    {
+      "path": "materials/de_dust/sitebwall05c.vmt",
+      "sha256": "e7835d1a7000af3d05cd1f0b39bbd47f0dbdb71cb549b959428fabec132ce017"
+    },
+    {
+      "path": "materials/de_dust/sitebwall10.vmt",
+      "sha256": "f12c200a4b269f17b727bde0687481a6ef244e70f12fc64903e1579aa86488dc"
+    },
+    {
+      "path": "materials/de_dust/sitebwall10a.vmt",
+      "sha256": "eff0843508974779f7bbf0c17c05d425926371f4da4a0df79a61e57f14671247"
+    },
+    {
+      "path": "materials/de_dust/sitebwall10b.vmt",
+      "sha256": "710242e770886707bed5e0f74c80a2581fa5bfca703dc69bec99f16d91603929"
+    },
+    {
+      "path": "materials/de_dust/sitebwall11.vmt",
+      "sha256": "a5add5b83bdccc60e9a66f9a3a17f04b061fb6e6516fd98d1c1e5a121178ab15"
+    },
+    {
+      "path": "materials/de_dust/sitebwall11a.vmt",
+      "sha256": "4f3e833fe303e4d80757469370765781f78837609b927eaf283d9d264493be10"
+    },
+    {
+      "path": "materials/de_dust/sitebwall11b.vmt",
+      "sha256": "a71717483d07d9607819e9f0d233127f09b87bd6bb55d18662c828b56f7707af"
+    },
+    {
+      "path": "materials/de_dust/sitebwall12.vmt",
+      "sha256": "b06d173f27433b5b45757cbb2d00dc4ccb25ba032251fe05b693bdefc94b7b54"
+    },
+    {
+      "path": "materials/de_dust/sitebwall12a.vmt",
+      "sha256": "78b506b25d279f17fe4cea39f377cff97e3912626d65a8357f2657f6de435977"
+    },
+    {
+      "path": "materials/de_dust/sitebwall12b.vmt",
+      "sha256": "0a81390374666bc6007ac5ad64a2ae00e47704db456785a2ba8efc1cec8500ac"
+    },
+    {
+      "path": "materials/de_dust/sitebwall13.vmt",
+      "sha256": "5c0d334eacd4a172716f5130d6523fed5a5c29b0dd46856625b5e79f617d7b58"
+    },
+    {
+      "path": "materials/de_dust/sitebwall13a.vmt",
+      "sha256": "b3dc7002c6709f6bb414f00b555a9ee61594be0fe02298ac6374c360dfac1b84"
+    },
+    {
+      "path": "materials/de_dust/sitebwall13b.vmt",
+      "sha256": "f0d5679a02b2fb7eb8e3458c3dcdd7d52ecf243cdde5ba42a36af9a5e86c240e"
+    },
+    {
+      "path": "materials/de_dust/sitebwall14.vmt",
+      "sha256": "fa2ab65e5853714ca7a7afdb902b35d2fbcaa3341edd572b2773e5a63c43808e"
+    },
+    {
+      "path": "materials/de_dust/sitebwall14a.vmt",
+      "sha256": "ffd401018b719d27107203f4090d34f40d0050d128327618d6973df8d4dcc91d"
+    },
+    {
+      "path": "materials/de_dust/sitebwall14b.vmt",
+      "sha256": "6f1222cf35bbfd87fd43c6696f1c170a96c4e1d80b58305902e87b73cd0d41c4"
+    },
+    {
+      "path": "materials/de_dust/stonestep01.vmt",
+      "sha256": "366d2353423fa6ec3f7fbbf3a52cd425df3bc28a8f2561727b1175d885253765"
+    },
+    {
+      "path": "materials/de_dust/stonestep02.vmt",
+      "sha256": "aa956cdc528f7dd5adf1cc55b001ee95bd7adcd1b0f3bff7789ca9cc94375d90"
+    },
+    {
+      "path": "materials/de_dust/stonestep03.vmt",
+      "sha256": "714aa8e0ac34ec10f2ee54b7f52661e43a3cc96c220784964416f94454f88469"
+    },
+    {
+      "path": "materials/de_dust/stonestep04.vmt",
+      "sha256": "73bd0d6615d9f281cbf5d736f2db5d582d9127421b0ad904cd5357b99afdeac5"
+    },
+    {
+      "path": "materials/de_dust/stonewall02.vmt",
+      "sha256": "e4a6ea1ddb4453a1791aabb0f6f34981081887bb2b509b53b8c7e753178777ff"
+    },
+    {
+      "path": "materials/de_dust/stonewall02a.vmt",
+      "sha256": "4b24a94e881c8e14a2179706b54bbb8d160596ef750afcd6831dcaf1ee4b77f8"
+    },
+    {
+      "path": "materials/de_dust/stonewall02b.vmt",
+      "sha256": "3b6ac6520835d4c69d9a8e2bf241f4b49db9a798d0364620b5a2b49a46cb9b11"
+    },
+    {
+      "path": "materials/de_dust/stonewall02c.vmt",
+      "sha256": "aea92efa81e86197fdbf1a862b444b3ae779fdde18e03506d30cce25c88f3a3c"
+    },
+    {
+      "path": "materials/de_dust/templewall02.vmt",
+      "sha256": "487b510760fd29802c592788241c840acf85a68124c0a12620196a41577477ad"
+    },
+    {
+      "path": "materials/de_dust/templewall02a.vmt",
+      "sha256": "e5e865b0997e679e5f2daeaf19da926bab94b1173a0975413700180363b3368f"
+    },
+    {
+      "path": "materials/de_dust/templewall02b.vmt",
+      "sha256": "c2ef44c543a32d0a397b6df82720bbf53ac3d5d3e89aa301e1e38975f3a27ee8"
+    },
+    {
+      "path": "materials/de_dust/templewall02c.vmt",
+      "sha256": "dc42d7559ff3f179e594535b2ec1a3bcc5ab02bc15e3e1e2bc26943786c79d46"
+    },
+    {
+      "path": "materials/de_dust/templewall02d.vmt",
+      "sha256": "70661ead5076ac6076517c8780b17e4950dbabfc57dacc45a2396e15fb2a7075"
+    },
+    {
+      "path": "materials/de_dust/templewall02e.vmt",
+      "sha256": "eed8cd54eabac6b7f4972816a73907592e508f5ebf2a95cd621326c527d2f70f"
+    },
+    {
+      "path": "materials/de_dust/templewall03.vmt",
+      "sha256": "69160507b70a8fff69fa190cb060f4dca04286d72f0278ddf93c2335d1fbd1e5"
+    },
+    {
+      "path": "materials/de_dust/templewall03b.vmt",
+      "sha256": "834895efa25715124a2cc1aa508480b12365fc3103c0340a410e270b8bc509a7"
+    },
+    {
+      "path": "materials/de_dust/templewall04.vmt",
+      "sha256": "ae8e36f6d9c8a79e61f2272f2731087db338dd0fffe340e3dbe2d909c82b8384"
+    },
+    {
+      "path": "materials/de_dust/templewall04a.vmt",
+      "sha256": "d286de884f2c761e3ba395b124cbdc137377f7b45b3398702ade7ba8f51129e7"
+    },
+    {
+      "path": "materials/de_dust/templewall04b.vmt",
+      "sha256": "b5ee80fe41b34a952859433d54671d4be2fde7859c8da607d00e5dd3269a6fa8"
+    },
+    {
+      "path": "materials/de_dust/tilefloor01.vmt",
+      "sha256": "120d93faeebb59c8f4dcc8a405ae57fcd0fb443f243aaba967635cd7e3530bea"
+    },
+    {
+      "path": "materials/decals/arrowlf.vmt",
+      "sha256": "edf5968394addea44f3c392fcb5b61410a05c33e6eb2a2c07f27c3f23b7d77d2"
+    },
+    {
+      "path": "materials/decals/arrowrt.vmt",
+      "sha256": "0a1612ecd8cc69279e28b96dc2ed8ebd9f8006fa573e3ae319d04fc9047a73b5"
+    },
+    {
+      "path": "materials/decals/arrowuplf.vmt",
+      "sha256": "d6d20c1a510ea8b2bf72d571bc822e60bd227ed9fde3b8d836cab01ef09bb52d"
+    },
+    {
+      "path": "materials/decals/arrowuprt.vmt",
+      "sha256": "3a035ccee5d954b9155d3ef51acc193096744d6c6c0de6dc89494c1483e00458"
+    },
+    {
+      "path": "materials/decals/dict1.vmt",
+      "sha256": "26f5b9680cc967067b8e5b0d125035052a4e065a0229fbb73b76692b73554922"
+    },
+    {
+      "path": "materials/decals/dust_poster1.vmt",
+      "sha256": "50dcf4a957f00c166f38b952706b777f765c488d9ba248405c98ca7945fd80bc"
+    },
+    {
+      "path": "materials/decals/dust_poster2.vmt",
+      "sha256": "dbb869122bee84f26ecc26a44177639c8a61431be4465df04da30b0e64e8b748"
+    },
+    {
+      "path": "materials/decals/dust_poster3.vmt",
+      "sha256": "013500b1bb5b152e5bce9098ca2455099b96778ae5453fb739cbc4ac00db8d1e"
+    },
+    {
+      "path": "materials/decals/dust_poster6.vmt",
+      "sha256": "2fe75f4b21cf422eaa9877fec536a1faf417d4695f3d19d1d281644c5a77510d"
+    },
+    {
+      "path": "materials/decals/dustflag.vmt",
+      "sha256": "89938071f015a9f281afb0cca5c5ddf5338e508842167d6f93427a5c089209bc"
+    },
+    {
+      "path": "materials/decals/graffiti01.vmt",
+      "sha256": "acfb7e5326172fde683faed9b4b3a8ffd6dd5c1a76ab3ed4edc46ab3a8703e90"
+    },
+    {
+      "path": "materials/decals/graffiti02.vmt",
+      "sha256": "4c18abdbfb789068a4cfff5fa64ef338941acf0a736d858f2c147a9a893aa777"
+    },
+    {
+      "path": "materials/decals/graffiti03.vmt",
+      "sha256": "0f66b5ab76b257a98e433760e095078a6d3837201ae23277eaf04d9260ca5ec3"
+    },
+    {
+      "path": "materials/decals/holes128_01.vmt",
+      "sha256": "8958fe892d984d99fb452de594ea41577ea5f7c3419cab81797850baa3a6a0ce"
+    },
+    {
+      "path": "materials/decals/holes128_02.vmt",
+      "sha256": "d8901a0d79b8868d3ecdc00d8747a7a1058ddfbd5f3bdded25651a138f4e7751"
+    },
+    {
+      "path": "materials/decals/holes128_03.vmt",
+      "sha256": "b6598083db46ae470040bda2f4b79abcf45de2f17c5400c1308fc28efd1529d8"
+    },
+    {
+      "path": "materials/decals/holes128_04.vmt",
+      "sha256": "4892aec383fccb8af7ece4d6ca93c379e4e5418d63c0abd4df30a07253e24677"
+    },
+    {
+      "path": "materials/decals/holes128_05.vmt",
+      "sha256": "54c1a78727309e423037fa8847d333460bd9c1184cc0b285ff9b3c280038d6b5"
+    },
+    {
+      "path": "materials/decals/holes128_07.vmt",
+      "sha256": "415a0b8bd3ae711f8fa9a67449b8b8b4c36ae36a706e37d655c3f3a9ec6a266d"
+    },
+    {
+      "path": "materials/decals/holes128_08.vmt",
+      "sha256": "e1763ff16a268bb31e3336baa30d6387130191736392c4faf8320cc1a6cdffa1"
+    },
+    {
+      "path": "materials/decals/holes64_01.vmt",
+      "sha256": "420f2821b76d4991e0416ede6ebbb192fce08b3596618345ba99385229f1bd28"
+    },
+    {
+      "path": "materials/decals/holes64_02.vmt",
+      "sha256": "9b68c5220ae2e82718779179fcf6ff30c84d51b99697eb2cfa2dda1230d2bace"
+    },
+    {
+      "path": "materials/decals/holes64_03.vmt",
+      "sha256": "9fc37eef9d67838840a86293fc529e6c9657480839057adf4847c7439c83900b"
+    },
+    {
+      "path": "materials/decals/holes64_04.vmt",
+      "sha256": "8052766622f7be8346426c63449e9acc7b734845a8fccfefd0cabc2c87d5ccd7"
+    },
+    {
+      "path": "materials/decals/sitea.vmt",
+      "sha256": "beb6858decf00b11d2a1fc7d4d9a6b64af199352442451acfc94ac839148359a"
+    },
+    {
+      "path": "materials/decals/siteb.vmt",
+      "sha256": "12f26cd417ad291c322f0778762b5e60ef2a1b4c3d0e371408f798c52ad60a9b"
+    },
+    {
+      "path": "materials/decals/target.vmt",
+      "sha256": "3386385c52913a5df59dff2f228337ca1a5aa3e8d4abb8b17d8d1be15b13c5dd"
+    },
+    {
+      "path": "materials/decals/win_rectang.vmt",
+      "sha256": "0630e7dc1c38ee4a13e1236f93f3a5bfc9cc0355444e49189d5eefbd7a28cc9e"
+    },
+    {
+      "path": "materials/decals/win_rectang02.vmt",
+      "sha256": "75ce22e3aeb2f3e359d921aa62c134fe755373160e31dd42005ae56a7fa1cacb"
+    },
+    {
+      "path": "materials/decals/win_square.vmt",
+      "sha256": "1b9cf2ef7bbe27f2da37b736f28d49c3fdca0f1c2c0445749cd50a4832d6a2e8"
+    },
+    {
+      "path": "materials/decals/wires01.vmt",
+      "sha256": "b708e46c5e9c72c0a7d36b7942848f034e3bf12b295d6bed7acd180dfa2db14c"
+    },
+    {
+      "path": "materials/decals/wires02.vmt",
+      "sha256": "dce695a15bb0b0696b1cc8f38e6cd9763046da38536054cff66e6edc48d15c21"
+    },
+    {
+      "path": "materials/decals/wires03.vmt",
+      "sha256": "ff1c379363825c39b677a3290be22e91cc63adc47ff57bbfe044196a1f392736"
+    },
+    {
+      "path": "materials/decals/wires04.vmt",
+      "sha256": "d2d74f48c0d720d51543c850dd917d7ea30682b1f147b4116f4b080ff00971da"
+    },
+    {
+      "path": "materials/dev/value30.vmt",
+      "sha256": "7e3e91d38e6a5e791d32ae5d63a81de0fd69a611ccee0c593838d1568f0c17ad"
+    },
+    {
+      "path": "materials/dev/value60.vmt",
+      "sha256": "df8af58ef5c6cd05a9a557e6ab1f22ab896190b18c7d94c1a6578571bf854c4c"
+    },
+    {
+      "path": "materials/models/de_dust/crates/crate_128x128.vmt",
+      "sha256": "7e8e4951428b144b9fc60d07ae73cd2267201fdcd7580aaed5e56a01b22c8db9"
+    },
+    {
+      "path": "materials/models/de_dust/crates/crate_64x64.vmt",
+      "sha256": "ea587031c81a38c0b708a542228c9f3e91f72f248ec12a688928789a3e5ca39c"
+    },
+    {
+      "path": "materials/models/de_dust/crates/crate_96x96.vmt",
+      "sha256": "b4750183f70bfa257c75c45d50a85f3ed67de51e51c90edfc7b234e280608256"
+    },
+    {
+      "path": "materials/models/de_dust/dome_01/dome_01.vmt",
+      "sha256": "215e3053669ca7bb1b562d13bf9d79d67ffa6e8a208affb816132789e467b185"
+    },
+    {
+      "path": "materials/models/de_dust/dome_01/dome_star_window.vmt",
+      "sha256": "e3356c9357b22cf864ce6143eaa784df040386be6165360ec08a0b8dfc2f508f"
+    },
+    {
+      "path": "materials/models/de_dust/doors/door01.vmt",
+      "sha256": "4755271e7a4ff2a2f0aef09d9903f35859045f7bf66e15d5ae0d9799f997fd73"
+    },
+    {
+      "path": "materials/models/de_dust/doors/door_temple_entrance.vmt",
+      "sha256": "520fcc5822a83e8f86573e69b384eaaebcd2e841ceb624b07339afa041e58243"
+    },
+    {
+      "path": "materials/models/de_dust/dustteeth.vmt",
+      "sha256": "3adb379fff6e926c8a0c18ef56fed424bc9016923f9826345e109e70578237ea"
+    },
+    {
+      "path": "materials/models/de_dust/grainbasket01.vmt",
+      "sha256": "fa9653cfa0ae35782a7c7023280c6813b2e9baa6f2cbbc53f7ea76c7f1ff66a4"
+    },
+    {
+      "path": "materials/models/de_dust/objects/antenna_a.vmt",
+      "sha256": "29307fb8f977830ca21440716b790d19a3c710f38769e6b37f509eaca4323f71"
+    },
+    {
+      "path": "materials/models/de_dust/objects/antenna_b.vmt",
+      "sha256": "997b5500b59531c5df70a5ea58319438048a2e0b8f45bdf8b5d8819544de38f1"
+    },
+    {
+      "path": "materials/models/de_dust/objects/palm_tree_branches.vmt",
+      "sha256": "65c84d4ac30162b4f2acc53485ae6dc7c7161133c23898100d17f95d6a598511"
+    },
+    {
+      "path": "materials/models/de_dust/objects/palm_tree_trunk.vmt",
+      "sha256": "6b5d9dd4d81269977be099da0ef0de25ace4663be159411c9b2010f144808589"
+    },
+    {
+      "path": "materials/models/de_dust/objects/stoneblocks01.vmt",
+      "sha256": "4793a4d185410a573440230b5449db14a28f8ad152483b8c78e61cff8b97d54d"
+    },
+    {
+      "path": "materials/models/de_dust/wagon.vmt",
+      "sha256": "f007f60552b189ff896dbc49660782aba91bc5e526239965459549f2a689c79d"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_2x4_arch.vmt",
+      "sha256": "f986df449a4fdcc8db74204a64481269064902e0f5f1122afd0fa40298aa12fa"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_2x6_arch.vmt",
+      "sha256": "6e1adee4019c2449c65d9d90ee0e32c54d94c6e426cea51bdf3f9bc81c5037d6"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x4_square.vmt",
+      "sha256": "dee9c1fde956864c44114f9304cc9a0300ecbd10e000c77344bc9c553159cfcb"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x4_square_flat.vmt",
+      "sha256": "46edbb06d184de4ce70c594b17ae2210176a9e8fc2630d5f717c17e9198a2d36"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x6_arch.vmt",
+      "sha256": "36a2b65de9b23da298fc5155dc27adcc20130c9a447298c6e784f773d30aa30d"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x6_square.vmt",
+      "sha256": "e33cdaf138e6a0b95d76fdcc36e41a88c5ed0bfe03787fa1b3a9ab69d9b2212e"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x8_arch.vmt",
+      "sha256": "f16590bc0f7c937f86b523de0679b7e1f3bf0509247f40133bd820f5541e1f47"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x8_arch_flat.vmt",
+      "sha256": "be145fe4855bf68748f1a4e8199bed138b4b18ad2727d5e1d87aa7aa45ae859d"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x8_square.vmt",
+      "sha256": "363429b52dbb5f0529577cd4c0311087515883d6871e2ca655d871aa5f2a2724"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_4x8_square_flat.vmt",
+      "sha256": "3a5167cab6ff981be8104dff6681acecbbda869f7f5a8bda0f7ff2607dd8b51f"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_6x10_arch.vmt",
+      "sha256": "017e1de5a7d15d0f8d8a921000b440f451bf51635e88de01e261882bb92e19c7"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_6x8_shutters.vmt",
+      "sha256": "7dfbda518b47756e5a76a2be4620f910c1c1c5c4812f8f79251f45470630823c"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_6x8_shutters_flat.vmt",
+      "sha256": "5cac798a6586d55344b5e86500cc80c890edcc6cc9be926133dbeab732b50399"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_6x8_sill.vmt",
+      "sha256": "2a10fd7578e2940bd9198c1751d069290d331adde6f0f84e61e1ffe584fbcde1"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_bridge.vmt",
+      "sha256": "0c1c7c546e769bbcb5938224356613e01e8e5eb1e72bba74988494a13a836cca"
+    },
+    {
+      "path": "materials/models/de_dust/windows/window_palace.vmt",
+      "sha256": "b3a398eb2d2688e7ef8612a83cf421325e540b999c4e57d2b0e4ee37684a06b1"
+    },
+    {
+      "path": "materials/models/props_junk/garbage001a_01.vmt",
+      "sha256": "e8bb3cb9db6b893892cfe2773cab736de43ee22c0bb3b6cc69321e9ef85a5604"
+    },
+    {
+      "path": "materials/models/props_vehicles/truck001a_01.vmt",
+      "sha256": "ca486a6adf544d7ea6246e9716264022c9f65352978fd50abdf3431223d24956"
+    },
+    {
+      "path": "materials/models/props_wasteland/rockcliff02a.vmt",
+      "sha256": "ed51e18086f3363088eb3791835b08b142fd704f5ea96e75563ef7b01c35d84e"
+    },
+    {
+      "path": "materials/nature/rockwall009b.vmt",
+      "sha256": "4d1a52a6271a562f4a9ab8cd0f68a65e0c2ab05fb5825fc92571676e28adcc7d"
+    },
+    {
+      "path": "materials/overlays/brickroad01.vmt",
+      "sha256": "78b1d9381608134488c62acd17d7973c0e5c7c61160ea66eef32fa62d7fde126"
+    },
+    {
+      "path": "scripts/game_sounds_weapons.txt",
+      "sha256": "48c42dfe4a5b923e3ca014061fedbbeca87df6e279c5625839b4be2e6c407456"
+    },
+    {
+      "path": "sound/player/footsteps/chainlink1.wav",
+      "sha256": "44d89ee1e4bdee363ad7a1e7470a51f437e307695bab9ef357fa34e38886a433"
+    },
+    {
+      "path": "sound/player/footsteps/chainlink2.wav",
+      "sha256": "abab1185cf4c5fde47ed208b53d3324cdb28075b14dacd94dcee7f73e98f16fd"
+    },
+    {
+      "path": "sound/player/footsteps/chainlink3.wav",
+      "sha256": "c5c7297af998e3fe3cb2fda71c5058b815f6b30454990d2ad849f84ec4354fe1"
+    },
+    {
+      "path": "sound/player/footsteps/chainlink4.wav",
+      "sha256": "44d89ee1e4bdee363ad7a1e7470a51f437e307695bab9ef357fa34e38886a433"
+    },
+    {
+      "path": "sound/player/footsteps/concrete1.wav",
+      "sha256": "4e738e2608a19c174d8ef2b796e6fbf75f749952348a8f3ceae59ae82c8987f8"
+    },
+    {
+      "path": "sound/player/footsteps/concrete2.wav",
+      "sha256": "a4feeb66a1bf9744f92512c4ee8d72fc2b16d51fd49cc4d85b06f914cdc1e0ce"
+    },
+    {
+      "path": "sound/player/footsteps/concrete3.wav",
+      "sha256": "30910f35ac1d141e15a334b33a1f98e621180aef4cae667c963fb5b7ecdc3bfd"
+    },
+    {
+      "path": "sound/player/footsteps/concrete4.wav",
+      "sha256": "9d2af02729e34c66b0f7d219a67a4cd5e5781aaf62ded9fd18efa587d3fe14b4"
+    },
+    {
+      "path": "sound/player/footsteps/dirt1.wav",
+      "sha256": "b474324fd0e2101f82b378b990df0a6ec98645e50b7e62b1094b9513e9feb15d"
+    },
+    {
+      "path": "sound/player/footsteps/dirt2.wav",
+      "sha256": "cf03adeb818be6a2c3ad3c654bd8c99aaa98a523ceeda518369d32ec2570e7f4"
+    },
+    {
+      "path": "sound/player/footsteps/dirt3.wav",
+      "sha256": "0048dee66706bd7d4ba8c32e928431642b7d22fbe65900ed8d3cd337fc5ace1a"
+    },
+    {
+      "path": "sound/player/footsteps/dirt4.wav",
+      "sha256": "e314d54f3401da793e371390a7f538917e63b3b86810aa33ea1cf7a72e398a41"
+    },
+    {
+      "path": "sound/player/footsteps/duct1.wav",
+      "sha256": "54261833ff0e3bfd1b110e899bd8d57c7b10fdcfcda8ae5a3af1fd806e88874b"
+    },
+    {
+      "path": "sound/player/footsteps/duct2.wav",
+      "sha256": "ca8b5803b2094a1bec7fea5930aecb7f342a0f34938a7c5f43ab47d8fa97a0cd"
+    },
+    {
+      "path": "sound/player/footsteps/duct3.wav",
+      "sha256": "f99da6eefea455974b60075be26becbd4f92f934f2201effefaccafb6664317e"
+    },
+    {
+      "path": "sound/player/footsteps/duct4.wav",
+      "sha256": "7cc5fce4a318e06ba737f1018503f79fc57fedeb04c3c33963cda6b9df4fd229"
+    },
+    {
+      "path": "sound/player/footsteps/grass1.wav",
+      "sha256": "edb3f19bb42d3d119252ff01d6655265b53d6b6842f8d26331fe462962af7ec0"
+    },
+    {
+      "path": "sound/player/footsteps/grass2.wav",
+      "sha256": "c9c02784e6ede0f7c80b6ce2772721df92a036cd48e0755eab05757c43d066d9"
+    },
+    {
+      "path": "sound/player/footsteps/grass3.wav",
+      "sha256": "913aba4c2c0b4f1143558c334b4df432d6c5b9d8f12e5ee48b7bed2b0c13f20f"
+    },
+    {
+      "path": "sound/player/footsteps/grass4.wav",
+      "sha256": "429a3772ec36ee082fca9e64a019e52561078c93dd61d5010606527a240448ec"
+    },
+    {
+      "path": "sound/player/footsteps/gravel1.wav",
+      "sha256": "6fab3fb1c5f1b8407b3be668918f8c279c931e4dc4ab08aaa218f3561a1fb34a"
+    },
+    {
+      "path": "sound/player/footsteps/gravel2.wav",
+      "sha256": "665898eef19fb455521f52acb1f34400df0ae59f9c29ecc4b5720e5a5de87d3b"
+    },
+    {
+      "path": "sound/player/footsteps/gravel3.wav",
+      "sha256": "9be5434d452ec9a33831f8d0ddc88f40c304cd64da80dbeb3015d638140e47e2"
+    },
+    {
+      "path": "sound/player/footsteps/gravel4.wav",
+      "sha256": "c888445972bb823fbafe88b8fb79e4bb20179942042c9e6566f9855fd95c8ed5"
+    },
+    {
+      "path": "sound/player/footsteps/ladder1.wav",
+      "sha256": "c5dfa78d8b6c9e6956e640a3d537dc447940ddf438adad898dd30979068ca571"
+    },
+    {
+      "path": "sound/player/footsteps/ladder2.wav",
+      "sha256": "e8d07372898e65bcf116e13b383f23041ef7e323b43c6c5ec3e2aa620236016f"
+    },
+    {
+      "path": "sound/player/footsteps/ladder3.wav",
+      "sha256": "ce69a53a598d12ea93ea594f4e9048984fd9ada995dd7fbe99f511600ce65b47"
+    },
+    {
+      "path": "sound/player/footsteps/ladder4.wav",
+      "sha256": "ac66a6584ca6219d7217b43dac907a8c7baa4387794b98f8474a899bcfdbdc94"
+    },
+    {
+      "path": "sound/player/footsteps/metal1.wav",
+      "sha256": "d4f7a735fbd699898cfcd83439e8fca9c4017f071992a8f3dc0a470fa5763abf"
+    },
+    {
+      "path": "sound/player/footsteps/metal2.wav",
+      "sha256": "9ca4f0b67f6eecdddaffc34cbc301d882f69ec7fa13ec8fdb5509cae7e7ee020"
+    },
+    {
+      "path": "sound/player/footsteps/metal3.wav",
+      "sha256": "14d35074231755ac34199cc7877c0ba71db185df38460bb991f94452f500ec73"
+    },
+    {
+      "path": "sound/player/footsteps/metal4.wav",
+      "sha256": "5d8503b7c565278adedc7ab402742d7bc7f239ec7edd8ef9388290af0bfb0687"
+    },
+    {
+      "path": "sound/player/footsteps/metalgrate1.wav",
+      "sha256": "7c449d1061a899d6bc83cad5fb4d746f7740b2848593e5e4f08bd840cfda7c35"
+    },
+    {
+      "path": "sound/player/footsteps/metalgrate2.wav",
+      "sha256": "f16656a269647fc8691ad286f2e274ef35c72a9af94526ed3bd844483c93d31a"
+    },
+    {
+      "path": "sound/player/footsteps/metalgrate3.wav",
+      "sha256": "9748a9a4d27c135d187df271a74c5f3c639d6f0684410363662c51f9498b5c3c"
+    },
+    {
+      "path": "sound/player/footsteps/metalgrate4.wav",
+      "sha256": "54113d3f562bcf4bbc6811f22929ba8507e6cbebffd8911bbf621bb1d682b5db"
+    },
+    {
+      "path": "sound/player/footsteps/mud1.wav",
+      "sha256": "69e8154340704e486a1a41a8a7c42c66ed45837e0e9c8e2ce15ceaad628e7fc7"
+    },
+    {
+      "path": "sound/player/footsteps/mud2.wav",
+      "sha256": "761bf431452251c19fe69a3b905c79d7857f7eb6408b69a566b82a52a22ff732"
+    },
+    {
+      "path": "sound/player/footsteps/mud3.wav",
+      "sha256": "1a1694c9b29e9d9029d1c35ba228446360a619bea7830561dcd225a4ce5f19d1"
+    },
+    {
+      "path": "sound/player/footsteps/mud4.wav",
+      "sha256": "f73c4bdedaa7e1d33108003f03ad016175c8f50dde7bed55624a80f2048c4b36"
+    },
+    {
+      "path": "sound/player/footsteps/sand1.wav",
+      "sha256": "fdf51dbb96549095375ffa5139586281c2a10cc2e8e4b3f1f31f5424fd393400"
+    },
+    {
+      "path": "sound/player/footsteps/sand2.wav",
+      "sha256": "c10a1b99f5bababea1b0d08bc76ebb4ebffcad4e9b62b0cdb1834a957614b11d"
+    },
+    {
+      "path": "sound/player/footsteps/sand3.wav",
+      "sha256": "9f8d13ac2c56251cea63c4f86c21d0ad8dffb3c7368fcbe1927c6d49716b208f"
+    },
+    {
+      "path": "sound/player/footsteps/sand4.wav",
+      "sha256": "5d2da8a9667cef183f6cdf0235aa4b6ff01672c2994fcbe68b72340cca7bd568"
+    },
+    {
+      "path": "sound/player/footsteps/slosh1.wav",
+      "sha256": "818a7aad5c452b88c2b780d738ab9b027f99ca6c7b6e26f7786f5a8e59d1d070"
+    },
+    {
+      "path": "sound/player/footsteps/slosh2.wav",
+      "sha256": "56c81b648f8d9e7168d49b2244be516975bed3dfa344e65f17065f78f735cfd3"
+    },
+    {
+      "path": "sound/player/footsteps/slosh3.wav",
+      "sha256": "e5c899151c0143c3f1b504cb488c4c4def69a6b29ff0b1736018fa2f1b4a89aa"
+    },
+    {
+      "path": "sound/player/footsteps/slosh4.wav",
+      "sha256": "7d38fc0a540679fabebaadcbb8440a0e9cb17bd65ee0f08dc09637d5ad7a5d7d"
+    },
+    {
+      "path": "sound/player/footsteps/snow1.wav",
+      "sha256": "8c4f8b24972048a7dd270d60fe8176560cca8691926bd8f83121637b44c7e64a"
+    },
+    {
+      "path": "sound/player/footsteps/snow2.wav",
+      "sha256": "daea226034d9c72ff4e933ed755e7afe53b35dd88e8a251de1283d22c30242b8"
+    },
+    {
+      "path": "sound/player/footsteps/snow3.wav",
+      "sha256": "4689b557da2c8e8ccf60eee0b324b0c4d81f7621ba2956daaf1f2070e5f7b305"
+    },
+    {
+      "path": "sound/player/footsteps/snow4.wav",
+      "sha256": "2616398d9b2897e4d07325abe6a663a0fed68fe476ebe61893ea965ef1be4d12"
+    },
+    {
+      "path": "sound/player/footsteps/snow5.wav",
+      "sha256": "bf40495639dfa442510e01e823cd88acafd4a0b1354537bda0573e229a7732b3"
+    },
+    {
+      "path": "sound/player/footsteps/snow6.wav",
+      "sha256": "de26c53c0db901662992f6765b5b12c281475caa60f1e4a2daf15f70b735eea7"
+    },
+    {
+      "path": "sound/player/footsteps/tile1.wav",
+      "sha256": "b63c3dbea7dfe9c7a027a03cc6ab303b3ab9c0cb4744074981eb5217307daf6c"
+    },
+    {
+      "path": "sound/player/footsteps/tile2.wav",
+      "sha256": "0f6b545e62726ce4f50871d2987d728fe0ef44fbadf9033d32481f5d0e8b2158"
+    },
+    {
+      "path": "sound/player/footsteps/tile3.wav",
+      "sha256": "5accb12352fee32b41db95027c10a05de967d8fb7beed367646a742ae5589837"
+    },
+    {
+      "path": "sound/player/footsteps/tile4.wav",
+      "sha256": "7bcfe4edf1ed38aaba2ed7786152d7df0940f0167312c71e6fa1263093e300e9"
+    },
+    {
+      "path": "sound/player/footsteps/wade1.wav",
+      "sha256": "ef733b5669724e848bb49e644164f562e3cdfcf963e110c3f0b20be505042699"
+    },
+    {
+      "path": "sound/player/footsteps/wade2.wav",
+      "sha256": "409a3ad2bb1fbb6ef7c47e1e38b7f89de770d5d9ea13134eaa12ee9b9b8e988f"
+    },
+    {
+      "path": "sound/player/footsteps/wade3.wav",
+      "sha256": "5692e31c659bd3639d1a27ffcffa3e73d136fb1d753f9bd7e38dc2bea6c7bea9"
+    },
+    {
+      "path": "sound/player/footsteps/wade4.wav",
+      "sha256": "88b715fa6ad04a67ff75b3d30b9a5b69e1f84c28a82eee081d451f016f3ada26"
+    },
+    {
+      "path": "sound/player/footsteps/wood1.wav",
+      "sha256": "a8be0fa6a2adbac1d54881d3feecd989c8d2b9cecbfe3255cde35e2dc48e1cc8"
+    },
+    {
+      "path": "sound/player/footsteps/wood2.wav",
+      "sha256": "bea58801e40f87fa8b233d428f907749ce597e9d8cd31180844f9383a12e4530"
+    },
+    {
+      "path": "sound/player/footsteps/wood3.wav",
+      "sha256": "c810499b6a8c3bf90772d003f64226777f04c84f9394d38c0607b17df9fd2811"
+    },
+    {
+      "path": "sound/player/footsteps/wood4.wav",
+      "sha256": "350ece95ef82781b8f944264732cbae68ec6e8fefda8ce73de70bb4db3d9dc9d"
+    },
+    {
+      "path": "sound/player/footsteps/woodpanel1.wav",
+      "sha256": "579f207eb73301dc666003b962cb0ec418cb178d1f1933a200413ba9e8038cb2"
+    },
+    {
+      "path": "sound/player/footsteps/woodpanel2.wav",
+      "sha256": "5b2d3812d4d47c80a37fdf60d34e4941a5b67b6518589198796f2fe6884b7948"
+    },
+    {
+      "path": "sound/player/footsteps/woodpanel3.wav",
+      "sha256": "a1c601884412e4b85e67352bd1e7519175f24a5b1695d68033691e2e720d732d"
+    },
+    {
+      "path": "sound/player/footsteps/woodpanel4.wav",
+      "sha256": "9912c5e7672305d8febc4e1816bffefd08df2ba2a46502b68178c8b4dea136b3"
+    },
+    {
+      "path": "sound/weapons/knife/knife_deploy1.wav",
+      "sha256": "9d8f451c798e77880f0cb68421cf4946ff34e228472c1aa7ce374d389450e97a"
+    },
+    {
+      "path": "sound/weapons/knife/knife_hit1.wav",
+      "sha256": "fa037dc088a25ee30b9c6b82cb60836bf6e46d10f6d70b06c97c0172d75efc2d"
+    },
+    {
+      "path": "sound/weapons/knife/knife_hit2.wav",
+      "sha256": "3c0dcc2b760f2000855f99074cbedf847c5d8a8a4bc62095e0b8969ec3a37f0a"
+    },
+    {
+      "path": "sound/weapons/knife/knife_hit3.wav",
+      "sha256": "43de96ba8ed8454bc737fc2bb7d348847fb5871890f6c73816e094ac8a91c7cb"
+    },
+    {
+      "path": "sound/weapons/knife/knife_hit4.wav",
+      "sha256": "838634dd3c9943da2bac4b6623d8f0ec4a7140533ba657506e8d264068e631ac"
+    },
+    {
+      "path": "sound/weapons/knife/knife_hitwall1.wav",
+      "sha256": "02229193c331e83c4dc4ed518423a943f65af5060638360f49d46925a645a618"
+    },
+    {
+      "path": "sound/weapons/knife/knife_slash1.wav",
+      "sha256": "40b8adb712883d3895890578b249d5e2334f3d5816cd958f2933c36a454f7149"
+    },
+    {
+      "path": "sound/weapons/knife/knife_slash2.wav",
+      "sha256": "d757123a07a381749034c03d305e946a129e8acac315210babbd1271e8d36818"
+    },
+    {
+      "path": "sound/weapons/knife/knife_stab.wav",
+      "sha256": "53e3040ccc184db2a5a2e4a9d172f2d10e0a76906060d757517fb25dd6794475"
+    },
+    {
+      "path": "sound/weapons/zoom.wav",
+      "sha256": "15bc0611f8e78fb5cfa360cf1b821973cf025ea2d32db90171420804be3fd9ef"
+    }
+  ]
+}

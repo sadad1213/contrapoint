@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3]
+
+[ext_resource type="Shader" path="res://weapons/materials/scope_glass.gdshader" id="1_shader"]
+[ext_resource type="Texture2D" path="res://assets/weapons/awp/textures/v_awp_scope.png" id="2_texture"]
+
+[resource]
+resource_name = "AWP Scope Glass"
+shader = ExtResource("1_shader")
+shader_parameter/lens_texture = ExtResource("2_texture")

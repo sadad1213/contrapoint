@@ -1,0 +1,120 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal\\models\\weapons\\v_rif_sg552.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 63,
+  "geometry": [
+    {
+      "name": "studio_sg552_reference.smd",
+      "vertices": 2045,
+      "triangles": 1869,
+      "materials": [
+        "v_AWP_scope",
+        "rif_sg552"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "rif_sg552",
+      "image": "rif_sg552",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_AWP_scope",
+      "image": "v_awp_scope",
+      "size": [
+        64,
+        64
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 37.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 0.8108108108108109
+    },
+    {
+      "name": "idle",
+      "source_name": "@idle",
+      "source_fps": 30.0,
+      "source_frames": 16,
+      "unkeyed_root_corrections": [],
+      "duration": 0.5
+    },
+    {
+      "name": "reload",
+      "source_name": "@reload",
+      "source_fps": 37.0,
+      "source_frames": 103,
+      "unkeyed_root_corrections": [],
+      "duration": 2.7567567567567566
+    },
+    {
+      "name": "shoot1",
+      "source_name": "@shoot1",
+      "source_fps": 35.0,
+      "source_frames": 16,
+      "unkeyed_root_corrections": [],
+      "duration": 0.42857142857142855
+    },
+    {
+      "name": "shoot2",
+      "source_name": "@shoot2",
+      "source_fps": 35.0,
+      "source_frames": 16,
+      "unkeyed_root_corrections": [],
+      "duration": 0.42857142857142855
+    },
+    {
+      "name": "shoot3",
+      "source_name": "@shoot3",
+      "source_fps": 35.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.5714285714285714
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\sg552\\sg552.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

@@ -1,0 +1,2259 @@
+[
+  {
+    "name": "Cliffe",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Minh",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "p90",
+      "tmp",
+      "mac10",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Crusher",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Pheonix",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Rock",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m249",
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Shark",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Wolf",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Gunner",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Zed",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Steel",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Stone",
+    "skill": 1.0,
+    "aggression": 1.0,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Arnold",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Brett",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Kurt",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Kyle",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Moe",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Quade",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Quintin",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ringo",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Rip",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Zach",
+    "skill": 0.9,
+    "aggression": 0.9,
+    "reaction": 0.2,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "expert"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Cory",
+    "skill": 0.8,
+    "aggression": 0.8,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m249",
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Quinn",
+    "skill": 0.8,
+    "aggression": 0.8,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Seth",
+    "skill": 0.8,
+    "aggression": 0.8,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Vinny",
+    "skill": 0.8,
+    "aggression": 0.8,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Chad",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Chet",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Gabe",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "p90",
+      "tmp",
+      "mac10",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Hank",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Ivan",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Jim",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Joe",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "John",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Tony",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Tyler",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Victor",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Vladimir",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Zane",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "p90",
+      "tmp",
+      "mac10",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Zim",
+    "skill": 0.75,
+    "aggression": 0.75,
+    "reaction": 0.25,
+    "attack_delay": 0.0,
+    "difficulty": [
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Adrian",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Brad",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Connor",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Dave",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Dan",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Derek",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Don",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "xm1014",
+      "m3",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Eric",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Erik",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Finn",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Jeff",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Kevin",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Reed",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Rick",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Ted",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Troy",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Wade",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Wayne",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Xander",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Xavier",
+    "skill": 0.6,
+    "aggression": 0.6,
+    "reaction": 0.3,
+    "attack_delay": 0.35,
+    "difficulty": [
+      "normal",
+      "hard"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Adam",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Andy",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "aug",
+      "sg552",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Chris",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Colin",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Dennis",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "m4a1",
+      "ak47",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Doug",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Gary",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Grant",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Greg",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Ian",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "awp",
+      "sg550",
+      "g3sg1",
+      "scout",
+      "famas",
+      "galil",
+      "mp5"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Jerry",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Jon",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Keith",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Mark",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Matt",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Mike",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "ak47",
+      "m4a1",
+      "galil",
+      "famas",
+      "mp5"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Nate",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Paul",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Scott",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 1
+  },
+  {
+    "name": "Steve",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 2
+  },
+  {
+    "name": "Tom",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 3
+  },
+  {
+    "name": "Yahn",
+    "skill": 0.5,
+    "aggression": 0.5,
+    "reaction": 0.4,
+    "attack_delay": 0.7,
+    "difficulty": [
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 4
+  },
+  {
+    "name": "Alfred",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Bill",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Brandon",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Calvin",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "p90",
+      "tmp",
+      "mac10",
+      "mp5"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Dean",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Dustin",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ethan",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Harold",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Henry",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Irving",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Jason",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Josh",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Martin",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Nick",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Norm",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Orin",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Pat",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Perry",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ron",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Shawn",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Tim",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Will",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Wyatt",
+    "skill": 0.25,
+    "aggression": 0.3,
+    "reaction": 0.4,
+    "attack_delay": 1.0,
+    "difficulty": [
+      "easy",
+      "normal"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Albert",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Allen",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Bert",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Bob",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Cecil",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Clarence",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Elliot",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Elmer",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ernie",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Eugene",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Fergus",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ferris",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Frank",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Frasier",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Fred",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "George",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Graham",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Harvey",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Irwin",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Lester",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Marvin",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Neil",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Niles",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Oliver",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Opie",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Toby",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ulric",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Ulysses",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Uri",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Waldo",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Wally",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Walt",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Wesley",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Yanni",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Yogi",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  },
+  {
+    "name": "Yuri",
+    "skill": 0.0,
+    "aggression": 0.2,
+    "reaction": 0.5,
+    "attack_delay": 1.5,
+    "difficulty": [
+      "easy"
+    ],
+    "weapons": [
+      "none"
+    ],
+    "skin": 0
+  }
+]

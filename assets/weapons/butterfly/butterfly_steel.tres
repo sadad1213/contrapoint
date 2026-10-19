@@ -1,0 +1,23 @@
+[gd_resource type="ShaderMaterial" load_steps=10 format=3]
+
+[ext_resource type="Shader" path="res://weapons/materials/butterfly_steel.gdshader" id="1"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/textures/knife_butterfly.png" id="2"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/textures/knife_butterfly_exponent.png" id="3"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_0.png" id="4"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_1.png" id="5"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_2.png" id="6"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_3.png" id="7"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_4.png" id="8"]
+[ext_resource type="Texture2D" path="res://assets/weapons/butterfly/reflections/dust2_5.png" id="9"]
+
+[resource]
+resource_name = "knife_butterfly_steel"
+shader = ExtResource("1")
+shader_parameter/base_texture = ExtResource("2")
+shader_parameter/exponent_texture = ExtResource("3")
+shader_parameter/env_px = ExtResource("4")
+shader_parameter/env_nx = ExtResource("5")
+shader_parameter/env_py = ExtResource("6")
+shader_parameter/env_ny = ExtResource("7")
+shader_parameter/env_pz = ExtResource("8")
+shader_parameter/env_nz = ExtResource("9")

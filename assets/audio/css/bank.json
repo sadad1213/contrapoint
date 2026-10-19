@@ -1,0 +1,1997 @@
+{
+  "sounds": {
+    "weapon_ak47.boltpull": {
+      "paths": [
+        "weapons/ak47/ak47_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ak47.clipin": {
+      "paths": [
+        "weapons/ak47/ak47_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ak47.clipout": {
+      "paths": [
+        "weapons/ak47/ak47_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ak47.single": {
+      "paths": [
+        "weapons/ak47/ak47-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_awp.bolt": {
+      "paths": [
+        "weapons/awp/awp_bolt.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_awp.clipin": {
+      "paths": [
+        "weapons/awp/awp_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_awp.clipout": {
+      "paths": [
+        "weapons/awp/awp_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_awp.single": {
+      "paths": [
+        "weapons/awp/awp1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_deagle.clipin": {
+      "paths": [
+        "weapons/deagle/de_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_deagle.clipout": {
+      "paths": [
+        "weapons/deagle/de_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_deagle.deploy": {
+      "paths": [
+        "weapons/deagle/de_deploy.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_deagle.single": {
+      "paths": [
+        "weapons/deagle/deagle-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_deagle.slideback": {
+      "paths": [
+        "weapons/deagle/de_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knife.deploy": {
+      "paths": [
+        "weapons/knife/knife_deploy1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knife.hit": {
+      "paths": [
+        "weapons/knife/knife_hit1.wav",
+        "weapons/knife/knife_hit2.wav",
+        "weapons/knife/knife_hit3.wav",
+        "weapons/knife/knife_hit4.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knife.hitwall": {
+      "paths": [
+        "weapons/knife/knife_hitwall1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knife.slash": {
+      "paths": [
+        "weapons/knife/knife_slash1.wav",
+        "weapons/knife/knife_slash2.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knife.stab": {
+      "paths": [
+        "weapons/knife/knife_stab.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.boltpull": {
+      "paths": [
+        "weapons/m4a1/m4a1_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.clipin": {
+      "paths": [
+        "weapons/m4a1/m4a1_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.clipout": {
+      "paths": [
+        "weapons/m4a1/m4a1_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.deploy": {
+      "paths": [
+        "weapons/m4a1/m4a1_deploy.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.silenced": {
+      "paths": [
+        "weapons/m4a1/m4a1-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.silencer_off": {
+      "paths": [
+        "weapons/m4a1/m4a1_silencer_off.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.silencer_on": {
+      "paths": [
+        "weapons/m4a1/m4a1_silencer_on.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m4a1.single": {
+      "paths": [
+        "weapons/m4a1/m4a1_unsil-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_scout.bolt": {
+      "paths": [
+        "weapons/scout/scout_bolt.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_scout.clipin": {
+      "paths": [
+        "weapons/scout/scout_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_scout.clipout": {
+      "paths": [
+        "weapons/scout/scout_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_scout.single": {
+      "paths": [
+        "weapons/scout/scout_fire-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.attachsilencer": {
+      "paths": [
+        "weapons/usp/usp_silencer_on.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.clipin": {
+      "paths": [
+        "weapons/usp/usp_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.clipout": {
+      "paths": [
+        "weapons/usp/usp_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.detachsilencer": {
+      "paths": [
+        "weapons/usp/usp_silencer_off.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.silencedshot": {
+      "paths": [
+        "weapons/usp/usp1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.single": {
+      "paths": [
+        "weapons/usp/usp_unsil-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.slideback": {
+      "paths": [
+        "weapons/usp/usp_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.slideback2": {
+      "paths": [
+        "weapons/usp/usp_slideback2.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_usp.sliderelease": {
+      "paths": [
+        "weapons/usp/usp_sliderelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_awp.zoom": {
+      "paths": [
+        "weapons/zoom.wav"
+      ],
+      "volume": 0.6
+    },
+    "basesmokeeffect.sound": {
+      "paths": [
+        "weapons/smokegrenade/sg_explode.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        100,
+        100
+      ],
+      "soundlevel": 85,
+      "channel": "CHAN_STATIC"
+    },
+    "default.pullpin_grenade": {
+      "paths": [
+        "weapons/pinpull.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        100,
+        100
+      ],
+      "soundlevel": 70.0,
+      "channel": "CHAN_WEAPON"
+    },
+    "flashbang.bounce": {
+      "paths": [
+        "weapons/flashbang/grenade_hit1.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        100,
+        100
+      ],
+      "soundlevel": 75,
+      "channel": "CHAN_VOICE"
+    },
+    "flashbang.explode": {
+      "paths": [
+        "weapons/flashbang/flashbang_explode1.wav",
+        "weapons/flashbang/flashbang_explode2.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        70,
+        130
+      ],
+      "soundlevel": 85,
+      "channel": "CHAN_VOICE"
+    },
+    "hegrenade.bounce": {
+      "paths": [
+        "weapons/hegrenade/he_bounce-1.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        100,
+        100
+      ],
+      "soundlevel": 70.0,
+      "channel": "CHAN_VOICE"
+    },
+    "smokegrenade.bounce": {
+      "paths": [
+        "weapons/smokegrenade/grenade_hit1.wav"
+      ],
+      "volume": 1.0,
+      "pitch": [
+        100,
+        100
+      ],
+      "soundlevel": 70.0,
+      "channel": "CHAN_VOICE"
+    },
+    "basegrenade.explode": {
+      "paths": [
+        "weapons/hegrenade/explode3.wav",
+        "weapons/hegrenade/explode4.wav",
+        "weapons/hegrenade/explode5.wav"
+      ],
+      "volume": 1,
+      "pitch": [
+        80,
+        120
+      ],
+      "soundlevel": 100,
+      "channel": "CHAN_WEAPON"
+    },
+    "player.death": {
+      "paths": [
+        "player/death1.wav",
+        "player/death2.wav",
+        "player/death3.wav",
+        "player/death4.wav",
+        "player/death5.wav",
+        "player/death6.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "player.damageheadshot": {
+      "paths": [
+        "player/headshot1.wav",
+        "player/headshot2.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "player.damagehelmet": {
+      "paths": [
+        "player/bhit_helmet-1.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "player.damagekevlar": {
+      "paths": [
+        "player/kevlar1.wav",
+        "player/kevlar2.wav",
+        "player/kevlar3.wav",
+        "player/kevlar4.wav",
+        "player/kevlar5.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "player.falldamage": {
+      "paths": [
+        "player/damage1.wav",
+        "player/damage2.wav",
+        "player/damage3.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "flesh.bulletimpact": {
+      "paths": [
+        "physics/flesh/flesh_impact_bullet1.wav",
+        "physics/flesh/flesh_impact_bullet2.wav",
+        "physics/flesh/flesh_impact_bullet3.wav",
+        "physics/flesh/flesh_impact_bullet4.wav",
+        "physics/flesh/flesh_impact_bullet5.wav"
+      ],
+      "volume": 0.7,
+      "soundlevel": 75
+    },
+    "player.deathheadshot": {
+      "paths": [
+        "player/headshot1.wav",
+        "player/headshot2.wav"
+      ],
+      "volume": 1.0,
+      "soundlevel": 75
+    },
+    "flesh.impactsoft": {
+      "paths": [
+        "physics/body/body_medium_impact_soft1.wav",
+        "physics/body/body_medium_impact_soft2.wav",
+        "physics/body/body_medium_impact_soft5.wav",
+        "physics/body/body_medium_impact_soft6.wav",
+        "physics/body/body_medium_impact_soft7.wav"
+      ],
+      "volume": 0.6,
+      "soundlevel": 75
+    },
+    "flesh.impacthard": {
+      "paths": [
+        "physics/body/body_medium_impact_soft1.wav",
+        "physics/body/body_medium_impact_soft2.wav",
+        "physics/body/body_medium_impact_soft5.wav",
+        "physics/body/body_medium_impact_soft6.wav",
+        "physics/body/body_medium_impact_soft7.wav"
+      ],
+      "volume": 0.8,
+      "soundlevel": 75
+    },
+    "weapon_sg552.single": {
+      "paths": [
+        "weapons/sg552/sg552-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg552.clipin": {
+      "paths": [
+        "weapons/sg552/sg552_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.single": {
+      "paths": [
+        "weapons/elite/elite-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mp5navy.slideback": {
+      "paths": [
+        "weapons/mp5navy/mp5_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mac10.boltpull": {
+      "paths": [
+        "weapons/mac10/mac10_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.slidepull": {
+      "paths": [
+        "weapons/p228/p228_slidepull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p90.clipout": {
+      "paths": [
+        "weapons/p90/p90_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.coverup": {
+      "paths": [
+        "weapons/m249/m249_coverup.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ump45.single": {
+      "paths": [
+        "weapons/ump45/ump45-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mac10.single": {
+      "paths": [
+        "weapons/mac10/mac10-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_famas.clipout": {
+      "paths": [
+        "weapons/famas/famas_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.single": {
+      "paths": [
+        "weapons/fiveseven/fiveseven-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_tmp.clipin": {
+      "paths": [
+        "weapons/tmp/tmp_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.deploy": {
+      "paths": [
+        "weapons/elite/elite_deploy.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.single": {
+      "paths": [
+        "weapons/m249/m249-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.boltslap": {
+      "paths": [
+        "weapons/aug/aug_boltslap.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m3.insertshell": {
+      "paths": [
+        "weapons/m3/m3_insertshell.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.slidepull": {
+      "paths": [
+        "weapons/fiveseven/fiveseven_slidepull.wav"
+      ],
+      "volume": 1.0
+    },
+    "default.clipempty_rifle": {
+      "paths": [
+        "weapons/clipempty_rifle.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.chain": {
+      "paths": [
+        "weapons/m249/m249_chain.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.sliderelease": {
+      "paths": [
+        "weapons/fiveseven/fiveseven_sliderelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg550.single": {
+      "paths": [
+        "weapons/sg550/sg550-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.sliderelease": {
+      "paths": [
+        "weapons/p228/p228_sliderelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.clipout": {
+      "paths": [
+        "weapons/fiveseven/fiveseven_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_glock.slideback": {
+      "paths": [
+        "weapons/glock/glock_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_tmp.clipout": {
+      "paths": [
+        "weapons/tmp/tmp_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_g3sg1.slide": {
+      "paths": [
+        "weapons/g3sg1/g3sg1_slide.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_g3sg1.single": {
+      "paths": [
+        "weapons/g3sg1/g3sg1-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg552.boltpull": {
+      "paths": [
+        "weapons/sg552/sg552_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_glock.sliderelease": {
+      "paths": [
+        "weapons/glock/glock_sliderelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mp5navy.single": {
+      "paths": [
+        "weapons/mp5navy/mp5-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.forearm": {
+      "paths": [
+        "weapons/aug/aug_forearm.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p90.cliprelease": {
+      "paths": [
+        "weapons/p90/p90_cliprelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg552.clipout": {
+      "paths": [
+        "weapons/sg552/sg552_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_xm1014.insertshell": {
+      "paths": [
+        "weapons/xm1014/xm1014_insertshell.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg550.clipin": {
+      "paths": [
+        "weapons/sg550/sg550_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_glock.single": {
+      "paths": [
+        "weapons/glock/glock18-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_tmp.single": {
+      "paths": [
+        "weapons/tmp/tmp-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_famas.single": {
+      "paths": [
+        "weapons/famas/famas-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_glock.clipin": {
+      "paths": [
+        "weapons/glock/glock_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.clipout": {
+      "paths": [
+        "weapons/elite/elite_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_glock.clipout": {
+      "paths": [
+        "weapons/glock/glock_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg550.boltpull": {
+      "paths": [
+        "weapons/sg550/sg550_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.single": {
+      "paths": [
+        "weapons/aug/aug-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.boltpull": {
+      "paths": [
+        "weapons/aug/aug_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.clipin": {
+      "paths": [
+        "weapons/fiveseven/fiveseven_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ump45.clipout": {
+      "paths": [
+        "weapons/ump45/ump45_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ump45.boltslap": {
+      "paths": [
+        "weapons/ump45/ump45_boltslap.wav"
+      ],
+      "volume": 1.0
+    },
+    "default.clipempty_pistol": {
+      "paths": [
+        "weapons/clipempty_pistol.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mp5navy.clipout": {
+      "paths": [
+        "weapons/mp5navy/mp5_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.single": {
+      "paths": [
+        "weapons/p228/p228-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.rclipin": {
+      "paths": [
+        "weapons/elite/elite_rightclipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mac10.clipin": {
+      "paths": [
+        "weapons/mac10/mac10_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.lclipin": {
+      "paths": [
+        "weapons/elite/elite_leftclipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m3.single": {
+      "paths": [
+        "weapons/m3/m3-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_galil.clipin": {
+      "paths": [
+        "weapons/galil/galil_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_fiveseven.slideback": {
+      "paths": [
+        "weapons/fiveseven/fiveseven_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_galil.clipout": {
+      "paths": [
+        "weapons/galil/galil_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p90.single": {
+      "paths": [
+        "weapons/p90/p90-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.reloadstart": {
+      "paths": [
+        "weapons/elite/elite_reloadstart.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mp5navy.clipin": {
+      "paths": [
+        "weapons/mp5navy/mp5_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.slideback": {
+      "paths": [
+        "weapons/p228/p228_slideback.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_famas.forearm": {
+      "paths": [
+        "weapons/famas/famas_forearm.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.coverdown": {
+      "paths": [
+        "weapons/m249/m249_coverdown.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_g3sg1.clipin": {
+      "paths": [
+        "weapons/g3sg1/g3sg1_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.clipin": {
+      "paths": [
+        "weapons/aug/aug_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_g3sg1.clipout": {
+      "paths": [
+        "weapons/g3sg1/g3sg1_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_sg550.clipout": {
+      "paths": [
+        "weapons/sg550/sg550_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_xm1014.single": {
+      "paths": [
+        "weapons/xm1014/xm1014-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m3.pump": {
+      "paths": [
+        "weapons/m3/m3_pump.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_elite.sliderelease": {
+      "paths": [
+        "weapons/elite/elite_sliderelease.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.clipout": {
+      "paths": [
+        "weapons/p228/p228_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p90.clipin": {
+      "paths": [
+        "weapons/p90/p90_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_aug.clipout": {
+      "paths": [
+        "weapons/aug/aug_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_galil.boltpull": {
+      "paths": [
+        "weapons/galil/galil_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_mac10.clipout": {
+      "paths": [
+        "weapons/mac10/mac10_clipout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.boxin": {
+      "paths": [
+        "weapons/m249/m249_boxin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_m249.boxout": {
+      "paths": [
+        "weapons/m249/m249_boxout.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_ump45.clipin": {
+      "paths": [
+        "weapons/ump45/ump45_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p228.clipin": {
+      "paths": [
+        "weapons/p228/p228_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_p90.boltpull": {
+      "paths": [
+        "weapons/p90/p90_boltpull.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_galil.single": {
+      "paths": [
+        "weapons/galil/galil-1.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_famas.clipin": {
+      "paths": [
+        "weapons/famas/famas_clipin.wav"
+      ],
+      "volume": 1.0
+    },
+    "weapon_knifebutterfly.backstab01": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_backstab_01.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.backstab02": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_backstab_02.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.draw01": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_draw_01.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.draw02": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_draw_02.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look01_a": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_01_a.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look01_b": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_01_b.wav"
+      ],
+      "volume": 0.3
+    },
+    "weapon_knifebutterfly.look01_c": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_01_c.wav"
+      ],
+      "volume": 0.3
+    },
+    "weapon_knifebutterfly.look02_a": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_02_a.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look02_b": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_02_b.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look02_c": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_02_c.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look03_a": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_03_a.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look03_b": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_03_b.wav"
+      ],
+      "volume": 0.2
+    },
+    "weapon_knifebutterfly.look03_c": {
+      "paths": [
+        "weapons/knife_butterfly/knife_butterfly_look_03_c.wav"
+      ],
+      "volume": 0.2
+    }
+  },
+  "animations": {
+    "ak47": {
+      "ak47_idle": [],
+      "ak47_fire1": [],
+      "ak47_fire2": [],
+      "ak47_fire3": [],
+      "ak47_draw": [
+        {
+          "cycle": 0.36666667461395264,
+          "sound": "weapon_ak47.boltpull"
+        }
+      ],
+      "ak47_reload": [
+        {
+          "cycle": 0.14444445073604584,
+          "sound": "weapon_ak47.clipout"
+        },
+        {
+          "cycle": 0.6333333253860474,
+          "sound": "weapon_ak47.clipin"
+        }
+      ]
+    },
+    "deagle": {
+      "idle1": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot_empty": [],
+      "reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_deagle.slideback"
+        },
+        {
+          "cycle": 0.2153846174478531,
+          "sound": "weapon_deagle.clipout"
+        },
+        {
+          "cycle": 0.5230769515037537,
+          "sound": "weapon_deagle.clipin"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.03333333507180214,
+          "sound": "weapon_deagle.deploy"
+        }
+      ]
+    },
+    "usp": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": [],
+      "shootlast": [],
+      "reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_usp.slideback2"
+        },
+        {
+          "cycle": 0.17171716690063477,
+          "sound": "weapon_usp.clipout"
+        },
+        {
+          "cycle": 0.4040403962135315,
+          "sound": "weapon_usp.clipin"
+        },
+        {
+          "cycle": 0.8282828330993652,
+          "sound": "weapon_usp.sliderelease"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.5416666865348816,
+          "sound": "weapon_usp.slideback"
+        }
+      ],
+      "add_silencer": [
+        {
+          "cycle": 0.3333333432674408,
+          "sound": "weapon_usp.attachsilencer"
+        }
+      ],
+      "idle_unsil": [],
+      "shoot1_unsil": [],
+      "shoot2_unsil": [],
+      "shoot3_unsil": [],
+      "shootlast_unsil": [],
+      "reload_unsil": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_usp.slideback2"
+        },
+        {
+          "cycle": 0.17171716690063477,
+          "sound": "weapon_usp.clipout"
+        },
+        {
+          "cycle": 0.4040403962135315,
+          "sound": "weapon_usp.clipin"
+        },
+        {
+          "cycle": 0.8282828330993652,
+          "sound": "weapon_usp.sliderelease"
+        }
+      ],
+      "draw_unsil": [
+        {
+          "cycle": 0.5416666865348816,
+          "sound": "weapon_usp.slideback"
+        }
+      ],
+      "detach_silencer": [
+        {
+          "cycle": 0.25438597798347473,
+          "sound": "weapon_usp.detachsilencer"
+        }
+      ]
+    },
+    "m4a1": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": [],
+      "reload": [
+        {
+          "cycle": 0.22123894095420837,
+          "sound": "weapon_m4a1.clipout"
+        },
+        {
+          "cycle": 0.4690265357494354,
+          "sound": "weapon_m4a1.clipin"
+        },
+        {
+          "cycle": 0.778761088848114,
+          "sound": "weapon_m4a1.boltpull"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.025641025975346565,
+          "sound": "weapon_m4a1.deploy"
+        },
+        {
+          "cycle": 0.43589743971824646,
+          "sound": "weapon_m4a1.boltpull"
+        }
+      ],
+      "add_silencer": [
+        {
+          "cycle": 0.46666666865348816,
+          "sound": "weapon_m4a1.silencer_on"
+        }
+      ],
+      "idle_unsil": [],
+      "shoot1_unsil": [],
+      "shoot2_unsil": [],
+      "shoot3_unsil": [],
+      "reload_unsil": [
+        {
+          "cycle": 0.22123894095420837,
+          "sound": "weapon_m4a1.clipout"
+        },
+        {
+          "cycle": 0.4690265357494354,
+          "sound": "weapon_m4a1.clipin"
+        },
+        {
+          "cycle": 0.778761088848114,
+          "sound": "weapon_m4a1.boltpull"
+        }
+      ],
+      "draw_unsil": [
+        {
+          "cycle": 0.025641025975346565,
+          "sound": "weapon_m4a1.deploy"
+        },
+        {
+          "cycle": 0.43589743971824646,
+          "sound": "weapon_m4a1.boltpull"
+        }
+      ],
+      "detach_silencer": [
+        {
+          "cycle": 0.3499999940395355,
+          "sound": "weapon_m4a1.silencer_off"
+        }
+      ]
+    },
+    "awp": {
+      "awm_idle": [],
+      "awm_fire": [
+        {
+          "cycle": 0.3658536672592163,
+          "sound": "weapon_awp.bolt"
+        },
+        {
+          "cycle": 0.46341463923454285,
+          "sound": "weapon_awp.bolt"
+        },
+        {
+          "cycle": 0.7804877758026123,
+          "sound": "weapon_awp.bolt"
+        }
+      ],
+      "awm_draw": [],
+      "awm_reload": [
+        {
+          "cycle": 0.23636363446712494,
+          "sound": "weapon_awp.clipout"
+        },
+        {
+          "cycle": 0.4545454680919647,
+          "sound": "weapon_awp.clipin"
+        },
+        {
+          "cycle": 0.8090909123420715,
+          "sound": "weapon_awp.bolt"
+        }
+      ]
+    },
+    "scout": {
+      "idle1": [],
+      "shoot": [
+        {
+          "cycle": 0.2888889014720917,
+          "sound": "weapon_scout.bolt"
+        }
+      ],
+      "reload": [
+        {
+          "cycle": 0.14942528307437897,
+          "sound": "weapon_scout.clipout"
+        },
+        {
+          "cycle": 0.4252873659133911,
+          "sound": "weapon_scout.clipin"
+        },
+        {
+          "cycle": 0.5977011322975159,
+          "sound": "weapon_scout.bolt"
+        }
+      ],
+      "draw": []
+    },
+    "hegrenade": {
+      "idle": [],
+      "pullpin": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin2": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin3": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin4": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "throw": [],
+      "deploy": []
+    },
+    "flashbang": {
+      "idle": [],
+      "pullpin": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin2": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin3": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin4": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "throw": [],
+      "deploy": []
+    },
+    "smokegrenade": {
+      "idle": [],
+      "pullpin": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin2": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin3": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "pullpin4": [
+        {
+          "cycle": 0.692307710647583,
+          "sound": "default.pullpin_grenade"
+        }
+      ],
+      "throw": [],
+      "deploy": []
+    },
+    "aug": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": [],
+      "draw": [
+        {
+          "cycle": 0.30000001192092896,
+          "sound": "weapon_aug.forearm"
+        }
+      ],
+      "reload": [
+        {
+          "cycle": 0.07575757801532745,
+          "sound": "weapon_aug.boltpull"
+        },
+        {
+          "cycle": 0.3787878751754761,
+          "sound": "weapon_aug.clipout"
+        },
+        {
+          "cycle": 0.6666666865348816,
+          "sound": "weapon_aug.clipin"
+        },
+        {
+          "cycle": 0.8484848737716675,
+          "sound": "weapon_aug.boltslap"
+        }
+      ]
+    },
+    "elite": {
+      "idle": [],
+      "idle_leftempty": [],
+      "shoot_left1": [],
+      "shoot_left2": [],
+      "shoot_leftlast": [],
+      "shoot_right1": [],
+      "shoot_right2": [],
+      "shoot_rightlast": [],
+      "reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_elite.reloadstart"
+        },
+        {
+          "cycle": 0.12765957415103912,
+          "sound": "weapon_elite.clipout"
+        },
+        {
+          "cycle": 0.38297873735427856,
+          "sound": "weapon_elite.rclipin"
+        },
+        {
+          "cycle": 0.6276595592498779,
+          "sound": "weapon_elite.lclipin"
+        },
+        {
+          "cycle": 0.8617021441459656,
+          "sound": "weapon_elite.sliderelease"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.02500000037252903,
+          "sound": "weapon_elite.deploy"
+        }
+      ]
+    },
+    "famas": {
+      "idle": [],
+      "reload": [
+        {
+          "cycle": 0.15555556118488312,
+          "sound": "weapon_famas.clipout"
+        },
+        {
+          "cycle": 0.4444444477558136,
+          "sound": "weapon_famas.clipin"
+        },
+        {
+          "cycle": 0.699999988079071,
+          "sound": "weapon_famas.forearm"
+        }
+      ],
+      "draw": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "fiveseven": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot_empty": [],
+      "reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_fiveseven.slideback"
+        },
+        {
+          "cycle": 0.15625,
+          "sound": "weapon_fiveseven.clipout"
+        },
+        {
+          "cycle": 0.4270833432674408,
+          "sound": "weapon_fiveseven.clipin"
+        },
+        {
+          "cycle": 0.78125,
+          "sound": "weapon_fiveseven.sliderelease"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.4333333373069763,
+          "sound": "weapon_fiveseven.slidepull"
+        }
+      ]
+    },
+    "g3sg1": {
+      "idle1": [],
+      "shoot": [],
+      "shoot2": [],
+      "reload": [
+        {
+          "cycle": 0.11428571492433548,
+          "sound": "weapon_g3sg1.slide"
+        },
+        {
+          "cycle": 0.3857142925262451,
+          "sound": "weapon_g3sg1.clipout"
+        },
+        {
+          "cycle": 0.6071428656578064,
+          "sound": "weapon_g3sg1.clipin"
+        },
+        {
+          "cycle": 0.8285714387893677,
+          "sound": "weapon_g3sg1.slide"
+        }
+      ],
+      "draw": []
+    },
+    "galil": {
+      "idle": [],
+      "reload": [
+        {
+          "cycle": 0.12903225421905518,
+          "sound": "weapon_galil.clipout"
+        },
+        {
+          "cycle": 0.44354838132858276,
+          "sound": "weapon_galil.clipin"
+        },
+        {
+          "cycle": 0.7338709831237793,
+          "sound": "weapon_galil.boltpull"
+        }
+      ],
+      "draw": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "glock": {
+      "glock_idle": [],
+      "glock_fireburst1": [],
+      "glock_fireburst2": [],
+      "glock_firesingle": [],
+      "glock_firelast": [],
+      "glock_draw": [
+        {
+          "cycle": 0.3541666567325592,
+          "sound": "weapon_glock.sliderelease"
+        }
+      ],
+      "glock_reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_glock.slideback"
+        },
+        {
+          "cycle": 0.18666666746139526,
+          "sound": "weapon_glock.clipout"
+        },
+        {
+          "cycle": 0.5066666603088379,
+          "sound": "weapon_glock.clipin"
+        },
+        {
+          "cycle": 0.8533333539962769,
+          "sound": "weapon_glock.sliderelease"
+        }
+      ]
+    },
+    "m249": {
+      "idle1": [],
+      "shoot1": [],
+      "shoot2": [],
+      "reload": [
+        {
+          "cycle": 0.08187134563922882,
+          "sound": "weapon_m249.boxout"
+        },
+        {
+          "cycle": 0.2631579041481018,
+          "sound": "weapon_m249.coverup"
+        },
+        {
+          "cycle": 0.46783626079559326,
+          "sound": "weapon_m249.boxin"
+        },
+        {
+          "cycle": 0.5789473652839661,
+          "sound": "weapon_m249.chain"
+        },
+        {
+          "cycle": 0.7894737124443054,
+          "sound": "weapon_m249.coverdown"
+        }
+      ],
+      "draw": []
+    },
+    "m3": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "insert": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_m3.insertshell"
+        }
+      ],
+      "after_reload": [
+        {
+          "cycle": 0.34285715222358704,
+          "sound": "weapon_m3.pump"
+        }
+      ],
+      "start_reload": [],
+      "draw": [
+        {
+          "cycle": 0.36666667461395264,
+          "sound": "weapon_m3.pump"
+        }
+      ]
+    },
+    "mac10": {
+      "mac10_idle": [],
+      "mac10_reload": [
+        {
+          "cycle": 0.20000000298023224,
+          "sound": "weapon_mac10.clipout"
+        },
+        {
+          "cycle": 0.5,
+          "sound": "weapon_mac10.clipin"
+        },
+        {
+          "cycle": 0.7909091114997864,
+          "sound": "weapon_mac10.boltpull"
+        }
+      ],
+      "mac10_fire": [],
+      "mac10_fire2": [],
+      "mac10_fire3": [],
+      "mac10_draw": []
+    },
+    "mp5navy": {
+      "idle": [],
+      "reload1": [
+        {
+          "cycle": 0.1034482792019844,
+          "sound": "weapon_mp5navy.clipout"
+        },
+        {
+          "cycle": 0.37931033968925476,
+          "sound": "weapon_mp5navy.clipin"
+        },
+        {
+          "cycle": 0.7413793206214905,
+          "sound": "weapon_mp5navy.slideback"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.4333333373069763,
+          "sound": "weapon_mp5navy.slideback"
+        }
+      ],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "p228": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": [],
+      "shoot_empty": [],
+      "reload": [
+        {
+          "cycle": 0.0,
+          "sound": "weapon_p228.slideback"
+        },
+        {
+          "cycle": 0.2526315748691559,
+          "sound": "weapon_p228.clipout"
+        },
+        {
+          "cycle": 0.5157894492149353,
+          "sound": "weapon_p228.clipin"
+        },
+        {
+          "cycle": 0.8526315689086914,
+          "sound": "weapon_p228.sliderelease"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.5,
+          "sound": "weapon_p228.slidepull"
+        }
+      ]
+    },
+    "p90": {
+      "idle": [],
+      "reload": [
+        {
+          "cycle": 0.1259259283542633,
+          "sound": "weapon_p90.cliprelease"
+        },
+        {
+          "cycle": 0.25925925374031067,
+          "sound": "weapon_p90.clipout"
+        },
+        {
+          "cycle": 0.5555555820465088,
+          "sound": "weapon_p90.clipin"
+        },
+        {
+          "cycle": 0.800000011920929,
+          "sound": "weapon_p90.boltpull"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.30000001192092896,
+          "sound": "weapon_p90.boltpull"
+        }
+      ],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "sg550": {
+      "idle1": [],
+      "shoot": [],
+      "shoot2": [],
+      "reload": [
+        {
+          "cycle": 0.20952381193637848,
+          "sound": "weapon_sg550.clipout"
+        },
+        {
+          "cycle": 0.43809524178504944,
+          "sound": "weapon_sg550.clipin"
+        },
+        {
+          "cycle": 0.7809523940086365,
+          "sound": "weapon_sg550.boltpull"
+        }
+      ],
+      "draw": []
+    },
+    "sg552": {
+      "idle": [],
+      "reload": [
+        {
+          "cycle": 0.1568627506494522,
+          "sound": "weapon_sg552.clipout"
+        },
+        {
+          "cycle": 0.5980392098426819,
+          "sound": "weapon_sg552.clipin"
+        },
+        {
+          "cycle": 0.8823529481887817,
+          "sound": "weapon_sg552.boltpull"
+        }
+      ],
+      "draw": [
+        {
+          "cycle": 0.4000000059604645,
+          "sound": "weapon_sg552.boltpull"
+        }
+      ],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "tmp": {
+      "idle1": [],
+      "reload": [
+        {
+          "cycle": 0.22641509771347046,
+          "sound": "weapon_tmp.clipout"
+        },
+        {
+          "cycle": 0.6037735939025879,
+          "sound": "weapon_tmp.clipin"
+        }
+      ],
+      "draw": [],
+      "fire1": [],
+      "fire2": []
+    },
+    "ump45": {
+      "idle1": [],
+      "reload": [
+        {
+          "cycle": 0.2017543911933899,
+          "sound": "weapon_ump45.clipout"
+        },
+        {
+          "cycle": 0.5175438523292542,
+          "sound": "weapon_ump45.clipin"
+        },
+        {
+          "cycle": 0.7543859481811523,
+          "sound": "weapon_ump45.boltslap"
+        }
+      ],
+      "draw": [],
+      "shoot1": [],
+      "shoot2": [],
+      "shoot3": []
+    },
+    "xm1014": {
+      "idle": [],
+      "shoot1": [],
+      "shoot2": [],
+      "insert": [
+        {
+          "cycle": 0.05714285746216774,
+          "sound": "weapon_xm1014.insertshell"
+        }
+      ],
+      "after_reload": [],
+      "start_reload": [],
+      "draw": [
+        {
+          "cycle": 0.03333333507180214,
+          "sound": "weapon_deagle.deploy"
+        }
+      ]
+    },
+    "butterfly": {
+      "draw": [
+        {
+          "cycle": 0.03333333507180214,
+          "sound": "weapon_knifebutterfly.draw01"
+        }
+      ],
+      "draw2": [
+        {
+          "cycle": 0.03333333507180214,
+          "sound": "weapon_knifebutterfly.draw02"
+        }
+      ],
+      "idle1": [],
+      "idle2": [],
+      "light_miss1": [],
+      "light_miss2": [],
+      "light_hit1": [],
+      "light_hit2": [],
+      "light_backstab": [
+        {
+          "cycle": 0.48571428656578064,
+          "sound": "weapon_knifebutterfly.backstab01"
+        }
+      ],
+      "light_backstab2": [
+        {
+          "cycle": 0.4571428596973419,
+          "sound": "weapon_knifebutterfly.backstab01"
+        }
+      ],
+      "heavy_miss1": [],
+      "heavy_hit1": [],
+      "heavy_backstab": [
+        {
+          "cycle": 0.34285715222358704,
+          "sound": "weapon_knifebutterfly.backstab02"
+        }
+      ],
+      "lookat01": [
+        {
+          "cycle": 0.008196720853447914,
+          "sound": "weapon_knifebutterfly.look01_a"
+        },
+        {
+          "cycle": 0.08196721225976944,
+          "sound": "weapon_knifebutterfly.look01_b"
+        },
+        {
+          "cycle": 0.6721311211585999,
+          "sound": "weapon_knifebutterfly.look01_c"
+        }
+      ],
+      "lookat02": [
+        {
+          "cycle": 0.007407407276332378,
+          "sound": "weapon_knifebutterfly.look02_a"
+        },
+        {
+          "cycle": 0.07407407462596893,
+          "sound": "weapon_knifebutterfly.look02_b"
+        },
+        {
+          "cycle": 0.6962962746620178,
+          "sound": "weapon_knifebutterfly.look02_c"
+        }
+      ],
+      "lookat03": [
+        {
+          "cycle": 0.006849315017461777,
+          "sound": "weapon_knifebutterfly.look03_a"
+        },
+        {
+          "cycle": 0.06849315017461777,
+          "sound": "weapon_knifebutterfly.look03_b"
+        },
+        {
+          "cycle": 0.7123287916183472,
+          "sound": "weapon_knifebutterfly.look03_c"
+        }
+      ]
+    }
+  },
+  "surfaces": {
+    "de_dust/stonestep01": "concrete",
+    "de_dust/stonestep02": "concrete",
+    "de_dust/residwall01": "concrete",
+    "de_dust/picrate1": "wood",
+    "de_dust/stonestep04": "concrete",
+    "de_dust/stonewall02b": "sand",
+    "de_dust/stonewall02a": "sand",
+    "de_dust/residbwall01": "sand",
+    "de_dust/sitebwall10a": "concrete",
+    "de_dust/sitebwall10": "concrete",
+    "de_dust/dutile1": "tile",
+    "de_dust/templewall03b": "concrete",
+    "de_dust/templewall03": "concrete",
+    "de_dust/sitebwall01a": "concrete",
+    "de_dust/residwall01a": "concrete",
+    "de_dust/sitebwall13": "concrete",
+    "de_dust/sitebwall03b": "concrete",
+    "de_dust/templewall04": "concrete",
+    "de_dust/sitebwall01": "concrete",
+    "de_dust/sitebwall11": "sand",
+    "de_dust/sitebwall13a": "concrete",
+    "de_dust/sitebwall10b": "concrete",
+    "de_dust/templewall02": "sand",
+    "de_dust/templewall02a": "sand",
+    "de_dust/residwall05b": "concrete",
+    "de_dust/marketwall03": "concrete",
+    "de_dust/residwall04": "concrete",
+    "de_dust/sitebwall12a": "sand",
+    "de_dust/sitebwall12": "sand",
+    "de_dust/sitebwall05": "sand",
+    "de_dust/residwall01b": "concrete",
+    "de_dust/templewall04a": "concrete",
+    "de_dust/templewall04b": "concrete",
+    "de_dust/door04": "wood",
+    "de_dust/residwall02": "concrete",
+    "de_dust/door02": "wood",
+    "de_dust/marketwall02b": "concrete",
+    "de_dust/door07": "wood",
+    "de_dust/pwtrim1": "wood",
+    "de_dust/residbwall03b": "concrete",
+    "cs_italy/marketwall04": "plaster",
+    "de_dust/sitebwall02": "concrete",
+    "de_dust/marketwall02": "concrete",
+    "de_dust/picrate2": "wood",
+    "de_dust/stonewall02": "sand",
+    "de_dust/templewall02b": "sand",
+    "de_dust/sitebwall01b": "concrete",
+    "de_dust/door011": "wood",
+    "cs_italy/marketwall04b": "plaster",
+    "de_dust/residbwall04b": "concrete",
+    "de_dust/residbwall04a": "concrete",
+    "de_dust/sitebwall05c": "sand",
+    "de_dust/sitebwall05a": "sand",
+    "cs_italy/marketwall04a": "plaster",
+    "de_dust/residbwall01b": "sand",
+    "de_dust/tilefloor01": "concrete",
+    "de_dust/residwall06b": "concrete",
+    "de_dust/residwall06a": "concrete",
+    "de_dust/templewall02d": "sand",
+    "de_dust/templewall02c": "sand",
+    "de_dust/templewall02e": "sand",
+    "de_dust/door10": "wood",
+    "de_dust/dumltrycrsd2": "metal",
+    "de_dust/dumltrycrtp": "metal",
+    "de_dust/residbwall02b": "concrete",
+    "de_dust/residbwall02a": "concrete",
+    "de_dust/residbwall02": "concrete",
+    "de_dust/pi_rust": "metal",
+    "de_dust/residbwall03a": "concrete",
+    "de_dust/residbwall03": "concrete",
+    "de_dust/sitebwall11a": "sand",
+    "de_dust/residbwall04": "concrete",
+    "de_dust/sitebwall11b": "sand",
+    "de_dust/sitebwall12b": "sand",
+    "de_dust/door05": "wood",
+    "de_dust/residwall06": "concrete",
+    "de_dust/sitebwall13b": "concrete",
+    "de_dust/ducrtlrgtp": "wood",
+    "de_dust/stonestep03": "concrete",
+    "de_dust/sitebwall14a": "concrete",
+    "de_dust/sitebwall14b": "concrete",
+    "de_dust/stonewall02c": "sand",
+    "de_dust/sitebwall14": "concrete",
+    "de_dust/ducrtlrgsd": "wood",
+    "de_dust/groundsand_blend": "sand",
+    "de_dust/rockwall_blend": "concrete",
+    "nature/rockwall009b": "rock",
+    "de_dust/groundsand03": "sand",
+    "overlays/brickroad01": "sand",
+    "models/de_dust/dome_01/dome_star_window": "rock",
+    "models/de_dust/windows/window_4x8_square": "rock",
+    "models/de_dust/windows/window_6x10_arch": "rock",
+    "models/de_dust/windows/window_6x8_shutters_flat": "wood",
+    "models/de_dust/objects/antenna_a": "metal",
+    "models/de_dust/objects/antenna_b": "metal",
+    "models/de_dust/windows/window_4x4_square_flat": "rock",
+    "models/de_dust/windows/window_4x8_arch_flat": "rock",
+    "models/de_dust/windows/window_2x6_arch": "rock",
+    "models/de_dust/windows/window_6x8_shutters": "wood",
+    "models/de_dust/windows/window_4x6_square": "rock",
+    "models/de_dust/windows/window_2x4_arch": "rock",
+    "models/de_dust/windows/window_4x6_arch": "rock",
+    "models/de_dust/windows/window_4x8_arch": "rock",
+    "models/de_dust/windows/window_6x8_sill": "wood",
+    "models/de_dust/doors/door01": "rock",
+    "models/de_dust/windows/window_4x4_square": "rock",
+    "models/de_dust/crates/crate_64x64": "wood",
+    "models/de_dust/grainbasket01": "wood",
+    "models/de_dust/objects/palm_tree_branches": "wood",
+    "models/de_dust/objects/palm_tree_trunk": "wood",
+    "models/de_dust/windows/window_palace": "rock",
+    "models/de_dust/doors/door_temple_entrance": "rock",
+    "models/de_dust/windows/window_4x8_square_flat": "rock",
+    "models/de_dust/windows/window_bridge": "rock",
+    "models/de_dust/objects/stoneblocks01": "rock",
+    "models/de_dust/crates/crate_96x96": "wood",
+    "models/de_dust/crates/crate_128x128": "wood",
+    "models/de_dust/dustteeth": "rock",
+    "models/props_wasteland/rockcliff02a": "boulder",
+    "models/de_dust/dome_01/dome_01": "rock",
+    "models/props_junk/garbage001a_01": "plastic",
+    "models/props_vehicles/truck001a_01": "solidmetal"
+  }
+}

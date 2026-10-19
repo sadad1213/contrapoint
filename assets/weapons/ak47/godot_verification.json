@@ -1,0 +1,64 @@
+{
+  "animations": [
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 236,
+      "name": "ak47_draw",
+      "tracks": 49
+    },
+    {
+      "duration": 0.733333349227905,
+      "moving_bone_samples": 236,
+      "name": "ak47_fire1",
+      "tracks": 49
+    },
+    {
+      "duration": 0.733333349227905,
+      "moving_bone_samples": 236,
+      "name": "ak47_fire2",
+      "tracks": 49
+    },
+    {
+      "duration": 0.733333349227905,
+      "moving_bone_samples": 236,
+      "name": "ak47_fire3",
+      "tracks": 49
+    },
+    {
+      "duration": 0.5,
+      "moving_bone_samples": 0,
+      "name": "ak47_idle",
+      "tracks": 49
+    },
+    {
+      "duration": 2.40000009536743,
+      "moving_bone_samples": 236,
+      "name": "ak47_reload",
+      "tracks": 49
+    }
+  ],
+  "bones": 63,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/ak47/ak47.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "hands___\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "rif_ak47skin1",
+      "mesh": "studio_ak47_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in ak47_idle; verify whether this is an intentional pose clip"
+  ]
+}

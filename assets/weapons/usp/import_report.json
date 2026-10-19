@@ -1,0 +1,175 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-arsenal\\models\\weapons\\v_pist_usp.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 66,
+  "geometry": [
+    {
+      "name": "studio_usp_reference.smd",
+      "vertices": 1161,
+      "triangles": 917,
+      "materials": [
+        "pist_usp"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "pist_usp",
+      "image": "pist_usp",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "add_silencer",
+      "source_name": "@add_silencer",
+      "source_fps": 37.0,
+      "source_frames": 115,
+      "duration": 3.081081081081081
+    },
+    {
+      "name": "detach_silencer",
+      "source_name": "@detach_silencer",
+      "source_fps": 37.0,
+      "source_frames": 115,
+      "duration": 3.081081081081081
+    },
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 48.0,
+      "source_frames": 49,
+      "duration": 1.0
+    },
+    {
+      "name": "draw_unsil",
+      "source_name": "@draw_unsil",
+      "source_fps": 48.0,
+      "source_frames": 49,
+      "duration": 1.0
+    },
+    {
+      "name": "idle",
+      "source_name": "@idle",
+      "source_fps": 16.0,
+      "source_frames": 31,
+      "duration": 1.875
+    },
+    {
+      "name": "idle_unsil",
+      "source_name": "@idle_unsil",
+      "source_fps": 16.0,
+      "source_frames": 31,
+      "duration": 1.875
+    },
+    {
+      "name": "reload",
+      "source_name": "@reload",
+      "source_fps": 37.0,
+      "source_frames": 100,
+      "duration": 2.675675675675676
+    },
+    {
+      "name": "reload_unsil",
+      "source_name": "@reload_unsil",
+      "source_fps": 37.0,
+      "source_frames": 100,
+      "duration": 2.675675675675676
+    },
+    {
+      "name": "shoot1",
+      "source_name": "@shoot1",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shoot1_unsil",
+      "source_name": "@shoot1_unsil",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shoot2",
+      "source_name": "@shoot2",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shoot2_unsil",
+      "source_name": "@shoot2_unsil",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shoot3",
+      "source_name": "@shoot3",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shoot3_unsil",
+      "source_name": "@shoot3_unsil",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "shootlast",
+      "source_name": "@shootlast",
+      "source_fps": 32.0,
+      "source_frames": 31,
+      "duration": 0.9375
+    },
+    {
+      "name": "shootlast_unsil",
+      "source_name": "@shootlast_unsil",
+      "source_fps": 32.0,
+      "source_frames": 31,
+      "duration": 0.9375
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\usp\\usp.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_deagle/deagle_skin1.vmt",
+      "sha256": "eac96967c4961b237a7c234d390c25aa5708043271373ab28f0b6e0d7c5069cd"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_deagle/deagle_skin1.vtf",
+      "sha256": "9c4506a7128df5bc0d5676db5aa0c6a3bbf7b793af0369d3006f637e5616cdc6"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_deagle/deagle_skin1_ref.vtf",
+      "sha256": "46aa9b4a799ef68f800877a780be1ec8cdc1c3bf2a34e9d295b43fccb30a412d"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_deagle/w_pist_deagle.vmt",
+      "sha256": "03c154d4d0970ab3cd7c08f9351d60174d465d5c511273f714e98e3ce71c3d57"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_deagle/w_pist_deagle.vtf",
+      "sha256": "4344264adee425d4980a9a273ffe3d93b69edcf68451739c007390d56e38a523"
+    },
+    {
+      "path": "models/weapons/v_pist_deagle.dx90.vtx",
+      "sha256": "79513178f61232eac5351c42bafd6d916c8937cdc38c0bb10d36b57464670953"
+    },
+    {
+      "path": "models/weapons/v_pist_deagle.mdl",
+      "sha256": "a126714f0e5b829d2ab1c397c46ffbc7891eb450c01ebecc0f4013135ff52af3"
+    },
+    {
+      "path": "models/weapons/v_pist_deagle.vvd",
+      "sha256": "0fc685b18e16d81bc587a06bb00f98e346bcb87c908b9f1c5771662c2a9993b6"
+    },
+    {
+      "path": "models/weapons/w_pist_deagle.dx90.vtx",
+      "sha256": "17a211935d00e465920a36eb3b68dd8c1f21c6e78b749eb41f9e95661542702d"
+    },
+    {
+      "path": "models/weapons/w_pist_deagle.mdl",
+      "sha256": "66e8f8fcedf9e1743879d3ddc6d4cf5666d3135ef35196a5dcdfc8e049a3c2e8"
+    },
+    {
+      "path": "models/weapons/w_pist_deagle.phy",
+      "sha256": "d81b9bf03786e834908c6b48fd5d6b6f038b28291adb7f01c8fd8c2225320541"
+    },
+    {
+      "path": "models/weapons/w_pist_deagle.vvd",
+      "sha256": "ec6d466da1dfff61274f3f445fd4b605893dc587bfdc59b98948fee852cecfa5"
+    },
+    {
+      "path": "sound/weapons/deagle/de_clipin.wav",
+      "sha256": "905e90388fb267395bf4110d40cdb57448b7b0a6f2d6174636480b9d52f3f0b6"
+    },
+    {
+      "path": "sound/weapons/deagle/de_clipout.wav",
+      "sha256": "ba5cf5deeeddb0eaf97226d673ccf89e96ef6995fab19e14653fb50a94121958"
+    },
+    {
+      "path": "sound/weapons/deagle/de_deploy.wav",
+      "sha256": "263e79551e04bc2cc232113706ae459c7f48e263efcc177164b750696fad5e1b"
+    },
+    {
+      "path": "sound/weapons/deagle/de_slideback.wav",
+      "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+    },
+    {
+      "path": "sound/weapons/deagle/deagle-1.wav",
+      "sha256": "4a50127ea1281af6f0b634a7c56664b425f4e9a61af143c092cb0a7e89f8907c"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/maps/kz_jayverb000/kz_jayverb000.scn" id="1_map"]
+[ext_resource type="PackedScene" path="res://scenes/player/player.tscn" id="2_player"]
+
+[node name="JayverbGame" type="Node3D"]
+
+[node name="kz_jayverb000" parent="." instance=ExtResource("1_map")]
+
+[node name="Player" parent="." instance=ExtResource("2_player")]
+SpawnPointsRootPath = NodePath("../kz_jayverb000")

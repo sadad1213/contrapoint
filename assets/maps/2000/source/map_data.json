@@ -1,0 +1,8439 @@
+{
+  "map": "2000",
+  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\2000css\\cstrike\\maps\\$2000$.bsp",
+  "source_sha256": "42aae0ec0fa8274fc6d4437a750f06d6b6a2f8c30238c6d9467e2d64f0c5f945",
+  "scale": 0.0254,
+  "materials": {
+    "plaster/plasterwall049a": {
+      "texture": "textures/plaster_plasterwall049a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "plaster",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "stone/stonewall050a": {
+      "texture": "textures/stone_stonewall050a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "concrete",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "maps/$2000$/tile/tilefloor010a_-822_773_-17": {
+      "texture": "textures/tile_tilefloor010a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "tile",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "maps/$2000$/2000_calou_css": {
+      "texture": "textures/maps__2000__2000_calou_css.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "concrete",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "stone/stonewall006a": {
+      "texture": "textures/stone_stonewall006a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "concrete",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "cs_italy/brickwall01": {
+      "texture": "textures/cs_italy_brickwall01.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "brick",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "maps/$2000$/tile/tilefloor010a_-765_620_44": {
+      "texture": "textures/tile_tilefloor010a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "tile",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "maps/$2000$/glass/combineglass001a_-822_773_-17": {
+      "texture": "textures/glass_combineglass001a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 1,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "glass",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "maps/$2000$/glass/combineglass001a_-765_620_44": {
+      "texture": "textures/glass_combineglass001a.png",
+      "texture2": "",
+      "shader": "lightmappedgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 1,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "glass",
+      "alpha": 1.0,
+      "unlit": false
+    },
+    "models/props/de_train/floodlight": {
+      "texture": "textures/models_props_de_train_floodlight.png",
+      "texture2": "",
+      "shader": "vertexlitgeneric",
+      "alpha_test": 0,
+      "alpha_cutoff": 0.5,
+      "transparent": 0,
+      "nocull": 0,
+      "decal": false,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "decal_scale": 1.0,
+      "surface": "concrete",
+      "alpha": 1.0,
+      "unlit": false
+    }
+  },
+  "groups": [
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "",
+      "offset": 0,
+      "vertices": 57
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "",
+      "offset": 3192,
+      "vertices": 66
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 6888,
+      "vertices": 129
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "",
+      "offset": 14112,
+      "vertices": 270
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 29232,
+      "vertices": 42
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "",
+      "offset": 31584,
+      "vertices": 90
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "",
+      "offset": 36624,
+      "vertices": 60
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "",
+      "offset": 39984,
+      "vertices": 108
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 46032,
+      "vertices": 54
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "",
+      "offset": 49056,
+      "vertices": 45
+    },
+    {
+      "material": "maps/$2000$/2000_calou_css",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "",
+      "offset": 51576,
+      "vertices": 6
+    },
+    {
+      "material": "stone/stonewall006a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 51912,
+      "vertices": 60
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "",
+      "offset": 55272,
+      "vertices": 24
+    },
+    {
+      "material": "stone/stonewall006a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "",
+      "offset": 56616,
+      "vertices": 96
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -3
+      ],
+      "owner": "",
+      "offset": 61992,
+      "vertices": 33
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "",
+      "offset": 63840,
+      "vertices": 27
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "",
+      "offset": 65352,
+      "vertices": 45
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -3
+      ],
+      "owner": "",
+      "offset": 67872,
+      "vertices": 60
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "",
+      "offset": 71232,
+      "vertices": 18
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -3
+      ],
+      "owner": "",
+      "offset": 72240,
+      "vertices": 75
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -3
+      ],
+      "owner": "",
+      "offset": 76440,
+      "vertices": 24
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 77784,
+      "vertices": 135
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "",
+      "offset": 85344,
+      "vertices": 162
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 94416,
+      "vertices": 57
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "",
+      "offset": 97608,
+      "vertices": 54
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "",
+      "offset": 100632,
+      "vertices": 42
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 102984,
+      "vertices": 51
+    },
+    {
+      "material": "stone/stonewall006a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 105840,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 107184,
+      "vertices": 33
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 109032,
+      "vertices": 24
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 110376,
+      "vertices": 48
+    },
+    {
+      "material": "stone/stonewall006a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "",
+      "offset": 113064,
+      "vertices": 36
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        0
+      ],
+      "owner": "",
+      "offset": 115080,
+      "vertices": 51
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        0
+      ],
+      "owner": "",
+      "offset": 117936,
+      "vertices": 36
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        0
+      ],
+      "owner": "",
+      "offset": 119952,
+      "vertices": 18
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        0
+      ],
+      "owner": "",
+      "offset": 120960,
+      "vertices": 15
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        0
+      ],
+      "owner": "",
+      "offset": 121800,
+      "vertices": 51
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        0
+      ],
+      "owner": "",
+      "offset": 124656,
+      "vertices": 60
+    },
+    {
+      "material": "maps/$2000$/2000_calou_css",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        0
+      ],
+      "owner": "",
+      "offset": 128016,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        0
+      ],
+      "owner": "",
+      "offset": 128352,
+      "vertices": 15
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        0
+      ],
+      "owner": "",
+      "offset": 129192,
+      "vertices": 9
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 129696,
+      "vertices": 42
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 132048,
+      "vertices": 36
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 134064,
+      "vertices": 54
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 137088,
+      "vertices": 33
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "",
+      "offset": 138936,
+      "vertices": 24
+    },
+    {
+      "material": "cs_italy/brickwall01",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 140280,
+      "vertices": 48
+    },
+    {
+      "material": "plaster/plasterwall049a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        0
+      ],
+      "owner": "",
+      "offset": 142968,
+      "vertices": 9
+    },
+    {
+      "material": "stone/stonewall050a",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        0
+      ],
+      "owner": "",
+      "offset": 143472,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/tile/tilefloor010a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        0
+      ],
+      "owner": "",
+      "offset": 144816,
+      "vertices": 36
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_3",
+      "offset": 146832,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_3",
+      "offset": 148176,
+      "vertices": 12
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "brush_4",
+      "offset": 148848,
+      "vertices": 12
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "brush_4",
+      "offset": 149520,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "brush_5",
+      "offset": 150864,
+      "vertices": 30
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "brush_5",
+      "offset": 152544,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_6",
+      "offset": 152880,
+      "vertices": 12
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_6",
+      "offset": 153552,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "brush_7",
+      "offset": 154896,
+      "vertices": 30
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "brush_7",
+      "offset": 156576,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "brush_8",
+      "offset": 156912,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "brush_8",
+      "offset": 158256,
+      "vertices": 18
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_8",
+      "offset": 159264,
+      "vertices": 12
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "brush_8",
+      "offset": 159936,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "brush_8",
+      "offset": 160272,
+      "vertices": 18
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "brush_8",
+      "offset": 161280,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "brush_9",
+      "offset": 161616,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "brush_9",
+      "offset": 161952,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "brush_9",
+      "offset": 162288,
+      "vertices": 48
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "brush_10",
+      "offset": 164976,
+      "vertices": 30
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "brush_10",
+      "offset": 166656,
+      "vertices": 24
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "brush_10",
+      "offset": 168000,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-765_620_44",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "brush_11",
+      "offset": 168336,
+      "vertices": 18
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "brush_11",
+      "offset": 169344,
+      "vertices": 6
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "brush_11",
+      "offset": 169680,
+      "vertices": 12
+    },
+    {
+      "material": "maps/$2000$/glass/combineglass001a_-822_773_-17",
+      "mode": "lightmap",
+      "collision": true,
+      "chunk": [
+        -2,
+        -3
+      ],
+      "owner": "brush_11",
+      "offset": 170352,
+      "vertices": 24
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -3,
+        -2
+      ],
+      "owner": "",
+      "offset": 171696,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -3,
+        -1
+      ],
+      "owner": "",
+      "offset": 201936,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -1,
+        -1
+      ],
+      "owner": "",
+      "offset": 232176,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -1,
+        -2
+      ],
+      "owner": "",
+      "offset": 262416,
+      "vertices": 2160
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -1,
+        -3
+      ],
+      "owner": "",
+      "offset": 383376,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -3,
+        -3
+      ],
+      "owner": "",
+      "offset": 413616,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -3,
+        0
+      ],
+      "owner": "",
+      "offset": 443856,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -1,
+        0
+      ],
+      "owner": "",
+      "offset": 474096,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -2,
+        -1
+      ],
+      "owner": "",
+      "offset": 504336,
+      "vertices": 540
+    },
+    {
+      "material": "models/props/de_train/floodlight",
+      "mode": "vertex",
+      "collision": true,
+      "chunk": [
+        -2,
+        -2
+      ],
+      "owner": "",
+      "offset": 534576,
+      "vertices": 2160
+    }
+  ],
+  "sky": {
+    "ft": "textures/skybox_tidesft.png",
+    "bk": "textures/skybox_tidesbk.png",
+    "lf": "textures/skybox_tideslf.png",
+    "rt": "textures/skybox_tidesrt.png",
+    "up": "textures/skybox_tidesup.png",
+    "dn": "textures/skybox_tidesdn.png"
+  },
+  "clip_hulls": [],
+  "material_substitutions": [],
+  "spawns": [
+    {
+      "team": "terrorist",
+      "position": [
+        -24.584176928710935,
+        -0.8479662643432617,
+        -40.7416
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -15.059176928710936,
+        -0.8479662643432617,
+        -40.6654
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -21.725788610839842,
+        -4.12455366821289,
+        -38.354
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -17.331588610839844,
+        -4.12455366821289,
+        -38.4048
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.12008937988281,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -22.868788610839843,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -19.541388610839842,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.29018861083984,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -13.038988610839843,
+        -4.12455366821289,
+        -36.245799999999996
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -16.340988610839844,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -19.592188610839845,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -22.919588610839842,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -26.170889379882812,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -0.7707909362792968,
+        -4.12455366821289,
+        -34.8234
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -38.28668937988281,
+        -4.12455366821289,
+        -34.6964
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "terrorist",
+      "position": [
+        -13.089788610839843,
+        -4.12455366821289,
+        -31.165799999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -26.052524511718747,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -22.80127490234375,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -19.55007490234375,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.222674902343748,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -12.971474902343749,
+        -4.1264330108642575,
+        -2.667
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -21.81067490234375,
+        -4.151833010864258,
+        -0.3302
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.95927490234375,
+        -4.151833010864258,
+        -0.30479999999999996
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -24.579274902343748,
+        -0.8733662643432617,
+        1.9304
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -14.67327490234375,
+        -0.8733662643432617,
+        2.0065999999999997
+      ],
+      "yaw": 0.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -38.46118725585937,
+        -4.1264330108642575,
+        -4.0386
+      ],
+      "yaw": -90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -0.9454718437194823,
+        -4.1264330108642575,
+        -3.9116
+      ],
+      "yaw": 90.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -12.94607490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -16.19727490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -19.52467490234375,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -22.775874902343748,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    },
+    {
+      "team": "counterterrorist",
+      "position": [
+        -26.02712451171875,
+        -4.1264330108642575,
+        -7.0611999999999995
+      ],
+      "yaw": 180.0
+    }
+  ],
+  "stats": {
+    "world_faces": 384,
+    "lightmapped_faces": 384,
+    "displacements": 0,
+    "static_props": 16,
+    "physics_props_frozen": 0,
+    "unique_prop_models": 1,
+    "ambient_probes": 245,
+    "textures": 14,
+    "decal_polygons": 0,
+    "clip_hulls": 0,
+    "triangles": 3902,
+    "physics_props": 0,
+    "water_volumes": 0,
+    "sprite_glows": 16,
+    "world_collision_brushes": 66,
+    "ladder_volumes": 0,
+    "original_static_collisions": 16,
+    "audio_files": 1,
+    "weapon_pickups": 33
+  },
+  "omissions": [
+    "Decals projected onto displacement surfaces",
+    "Directional bump lightmaps and Source cubemap reflections",
+    "Unimplemented weapon pickups: weapon_xm1014 (4), weapon_famas (4), weapon_mp5navy (8), weapon_galil (4)"
+  ],
+  "water_hulls": [],
+  "entities": {
+    "brush_1": {
+      "model": "*1",
+      "origin": "-767.5 762 -119.5",
+      "spawnflags": "1",
+      "teamnum": "2",
+      "classname": "func_buyzone",
+      "hulls": [
+        [
+          [
+            -8.140699999999999,
+            -0.5206999999999999,
+            5.6642
+          ],
+          [
+            -8.140699999999999,
+            0.5206999999999999,
+            5.6642
+          ],
+          [
+            -8.140699999999999,
+            -0.5206999999999999,
+            -5.6642
+          ],
+          [
+            -8.140699999999999,
+            0.5206999999999999,
+            -5.6642
+          ],
+          [
+            8.140699999999999,
+            -0.5206999999999999,
+            5.6642
+          ],
+          [
+            8.140699999999999,
+            0.5206999999999999,
+            5.6642
+          ],
+          [
+            8.140699999999999,
+            -0.5206999999999999,
+            -5.6642
+          ],
+          [
+            8.140699999999999,
+            0.5206999999999999,
+            -5.6642
+          ]
+        ]
+      ],
+      "position": [
+        -19.4945,
+        -3.0353,
+        -19.3548
+      ]
+    },
+    "brush_2": {
+      "model": "*2",
+      "origin": "-769.5 762 -162.5",
+      "spawnflags": "1",
+      "teamnum": "3",
+      "classname": "func_buyzone",
+      "hulls": [
+        [
+          [
+            -8.140699999999999,
+            -0.4191,
+            5.6642
+          ],
+          [
+            -8.140699999999999,
+            0.4191,
+            5.6642
+          ],
+          [
+            -8.140699999999999,
+            -0.4191,
+            -5.6642
+          ],
+          [
+            -8.140699999999999,
+            0.4191,
+            -5.6642
+          ],
+          [
+            8.140699999999999,
+            -0.4191,
+            5.6642
+          ],
+          [
+            8.140699999999999,
+            0.4191,
+            5.6642
+          ],
+          [
+            8.140699999999999,
+            -0.4191,
+            -5.6642
+          ],
+          [
+            8.140699999999999,
+            0.4191,
+            -5.6642
+          ]
+        ]
+      ],
+      "position": [
+        -19.545299999999997,
+        -4.1274999999999995,
+        -19.3548
+      ]
+    },
+    "brush_3": {
+      "model": "*3",
+      "_minlight": "0.0",
+      "origin": "-772 764 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -0.7365999999999999,
+            -0.0127,
+            1.1176
+          ],
+          [
+            -0.7365999999999999,
+            0.0127,
+            1.1176
+          ],
+          [
+            -0.7365999999999999,
+            -0.0127,
+            -1.1176
+          ],
+          [
+            -0.7365999999999999,
+            0.0127,
+            -1.1176
+          ],
+          [
+            0.7365999999999999,
+            -0.0127,
+            1.1176
+          ],
+          [
+            0.7365999999999999,
+            0.0127,
+            1.1176
+          ],
+          [
+            0.7365999999999999,
+            -0.0127,
+            -1.1176
+          ],
+          [
+            0.7365999999999999,
+            0.0127,
+            -1.1176
+          ]
+        ]
+      ],
+      "position": [
+        -19.6088,
+        2.7051,
+        -19.4056
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_4": {
+      "model": "*4",
+      "_minlight": "0.0",
+      "origin": "-552 602 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ]
+        ]
+      ],
+      "position": [
+        -14.0208,
+        2.7051,
+        -15.290799999999999
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_5": {
+      "model": "*5",
+      "_minlight": "0.0",
+      "origin": "-1004 602 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ]
+        ]
+      ],
+      "position": [
+        -25.5016,
+        2.7051,
+        -15.290799999999999
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_6": {
+      "model": "*6",
+      "_minlight": "0.0",
+      "origin": "-1004 924 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ]
+        ]
+      ],
+      "position": [
+        -25.5016,
+        2.7051,
+        -23.4696
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_7": {
+      "model": "*7",
+      "_minlight": "0.0",
+      "origin": "-552 924 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            -0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            -0.0127,
+            -0.6095999999999999
+          ],
+          [
+            0.6095999999999999,
+            0.0127,
+            -0.6095999999999999
+          ]
+        ]
+      ],
+      "position": [
+        -14.0208,
+        2.7051,
+        -23.4696
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_8": {
+      "model": "*8",
+      "_minlight": "0.0",
+      "origin": "-1329 762.5 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -2.0574,
+            -0.0127,
+            12.1539
+          ],
+          [
+            -2.0574,
+            0.0127,
+            12.1539
+          ],
+          [
+            -2.0574,
+            -0.0127,
+            -12.1539
+          ],
+          [
+            -2.0574,
+            0.0127,
+            -12.1539
+          ],
+          [
+            2.0574,
+            -0.0127,
+            12.1539
+          ],
+          [
+            2.0574,
+            0.0127,
+            12.1539
+          ],
+          [
+            2.0574,
+            -0.0127,
+            -12.1539
+          ],
+          [
+            2.0574,
+            0.0127,
+            -12.1539
+          ]
+        ]
+      ],
+      "position": [
+        -33.7566,
+        2.7051,
+        -19.3675
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_9": {
+      "model": "*9",
+      "_minlight": "0.0",
+      "origin": "-772 171.5 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -9.753599999999999,
+            -0.0127,
+            2.8575
+          ],
+          [
+            -9.753599999999999,
+            0.0127,
+            2.8575
+          ],
+          [
+            -9.753599999999999,
+            -0.0127,
+            -2.8575
+          ],
+          [
+            -9.753599999999999,
+            0.0127,
+            -2.8575
+          ],
+          [
+            9.753599999999999,
+            -0.0127,
+            2.8575
+          ],
+          [
+            9.753599999999999,
+            0.0127,
+            2.8575
+          ],
+          [
+            9.753599999999999,
+            -0.0127,
+            -2.8575
+          ],
+          [
+            9.753599999999999,
+            0.0127,
+            -2.8575
+          ]
+        ]
+      ],
+      "position": [
+        -19.6088,
+        2.7051,
+        -4.3561
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_10": {
+      "model": "*10",
+      "_minlight": "0.0",
+      "origin": "-215 744.5 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -2.0574,
+            -0.0127,
+            12.611099999999999
+          ],
+          [
+            -2.0574,
+            0.0127,
+            12.611099999999999
+          ],
+          [
+            -2.0574,
+            -0.0127,
+            -12.611099999999999
+          ],
+          [
+            -2.0574,
+            0.0127,
+            -12.611099999999999
+          ],
+          [
+            2.0574,
+            -0.0127,
+            12.611099999999999
+          ],
+          [
+            2.0574,
+            0.0127,
+            12.611099999999999
+          ],
+          [
+            2.0574,
+            -0.0127,
+            -12.611099999999999
+          ],
+          [
+            2.0574,
+            0.0127,
+            -12.611099999999999
+          ]
+        ]
+      ],
+      "position": [
+        -5.460999999999999,
+        2.7051,
+        -18.9103
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    },
+    "brush_11": {
+      "model": "*11",
+      "_minlight": "0.0",
+      "origin": "-774 1354 106.5",
+      "physdamagescale": "1.0",
+      "gibdir": "0 0 0",
+      "spawnflags": "0",
+      "explodemagnitude": "0",
+      "explosion": "0",
+      "material": "0",
+      "health": "1",
+      "rendercolor": "0 0 0",
+      "renderamt": "100",
+      "rendermode": "2",
+      "classname": "func_breakable",
+      "hulls": [
+        [
+          [
+            -9.7028,
+            -0.0127,
+            2.8702
+          ],
+          [
+            -9.7028,
+            0.0127,
+            2.8702
+          ],
+          [
+            -9.7028,
+            -0.0127,
+            -2.8447999999999998
+          ],
+          [
+            -9.7028,
+            0.0127,
+            -2.8447999999999998
+          ],
+          [
+            9.8044,
+            -0.0127,
+            2.8702
+          ],
+          [
+            9.8044,
+            0.0127,
+            2.8702
+          ],
+          [
+            9.8044,
+            -0.0127,
+            -2.8447999999999998
+          ],
+          [
+            9.8044,
+            0.0127,
+            -2.8447999999999998
+          ]
+        ]
+      ],
+      "position": [
+        -19.659599999999998,
+        2.7051,
+        -34.3916
+      ],
+      "break_sound": "physics/glass/glass_sheet_break1.wav"
+    }
+  },
+  "point_entities": [
+    {
+      "world_maxs": "-4 1631 107",
+      "world_mins": "-1540 -106 -180",
+      "detailmaterial": "detail/detailsprites",
+      "detailvbsp": "detail.vbsp",
+      "maxpropscreenwidth": "-1",
+      "spawnflags": "0",
+      "light": "0",
+      "skyname": "tides",
+      "message": " 2000  by Calou",
+      "maxrange": "4096",
+      "classname": "worldspawn"
+    },
+    {
+      "origin": "-967.881 1604 -33.3845",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-592.881 1601 -33.3845",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-855.346 1510 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-682.346 1512 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-1028.35 1427 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-900.346 1427 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-769.346 1427 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-641.346 1427 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-513.346 1427 -162.384",
+      "angles": "0 270 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-643.346 1227 -162.384",
+      "angles": "0 90 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-771.346 1227 -162.384",
+      "angles": "0 90 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-902.346 1227 -162.384",
+      "angles": "0 90 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-1030.35 1227 -162.384",
+      "angles": "0 90 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-30.3461 1371 -162.384",
+      "angles": "0 180 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-1507.35 1366 -162.384",
+      "angles": "0 0 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-515.346 1227 -162.384",
+      "angles": "0 90 0",
+      "classname": "info_player_terrorist"
+    },
+    {
+      "origin": "-1025.69 105 -162.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-897.688 105 -162.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-769.688 105 -162.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-638.688 105 -162.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-510.688 105 -162.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-858.688 13 -163.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-667.688 12 -163.458",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-967.688 -76 -34.3845",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-577.688 -79 -34.3845",
+      "angles": "0 90 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-1514.22 159 -162.458",
+      "angles": "0 0 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-37.2233 154 -162.458",
+      "angles": "0 180 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-509.688 278 -162.458",
+      "angles": "0 270 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-637.688 278 -162.458",
+      "angles": "0 270 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-768.688 278 -162.458",
+      "angles": "0 270 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-896.688 278 -162.458",
+      "angles": "0 270 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-1024.69 278 -162.458",
+      "angles": "0 270 0",
+      "classname": "info_player_counterterrorist"
+    },
+    {
+      "origin": "-766.227 -11 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-770.227 37 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-1415.47 1371.02 -174.855",
+      "ammo": "30",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_awp"
+    },
+    {
+      "origin": "-149 1371.01 -175.855",
+      "ammo": "30",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_awp"
+    },
+    {
+      "origin": "-149 150.663 -169.583",
+      "ammo": "30",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_awp"
+    },
+    {
+      "origin": "-1415.47 150.652 -169.583",
+      "ammo": "30",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_awp"
+    },
+    {
+      "origin": "-1413 408.343 -171.511",
+      "ammo": "32",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 270 90",
+      "spawnflags": "0",
+      "classname": "weapon_xm1014"
+    },
+    {
+      "origin": "-1413 1112.34 -171.511",
+      "ammo": "32",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 270 90",
+      "spawnflags": "0",
+      "classname": "weapon_xm1014"
+    },
+    {
+      "origin": "-133 1112.34 -171.511",
+      "ammo": "32",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 270 90",
+      "spawnflags": "0",
+      "classname": "weapon_xm1014"
+    },
+    {
+      "origin": "-133 408.343 -171.511",
+      "ammo": "32",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 270 90",
+      "spawnflags": "0",
+      "classname": "weapon_xm1014"
+    },
+    {
+      "origin": "-775 1534 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-774 1490 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-370.723 1071.59 -174.904",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "90 0 0",
+      "spawnflags": "0",
+      "classname": "weapon_hegrenade"
+    },
+    {
+      "origin": "-777 742 -175",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 0",
+      "spawnflags": "0",
+      "classname": "weapon_flashbang"
+    },
+    {
+      "origin": "-372 429 -174.904",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "90 0 0",
+      "spawnflags": "0",
+      "classname": "weapon_hegrenade"
+    },
+    {
+      "origin": "-1173 442 -167.983",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "90 0 0",
+      "spawnflags": "0",
+      "classname": "weapon_hegrenade"
+    },
+    {
+      "origin": "-1179.76 1080.18 -167.983",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "90 0 0",
+      "spawnflags": "0",
+      "classname": "weapon_hegrenade"
+    },
+    {
+      "origin": "-712 -79.0478 -48.2481",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_famas"
+    },
+    {
+      "origin": "-815 -79 -49",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_famas"
+    },
+    {
+      "origin": "-1043 -79.0478 -48.2481",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-519 -79 -48",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-500.227 1602 -51",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-711.227 1602 -51",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_famas"
+    },
+    {
+      "origin": "-814.227 1602 -51",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "classname": "weapon_famas"
+    },
+    {
+      "origin": "-1044.23 1602 -51",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-823 688 -38",
+      "rendercolor": "255 232 208",
+      "angles": "0 0 0",
+      "size": "16",
+      "classname": "env_sun"
+    },
+    {
+      "origin": "-823 672 -38",
+      "_ambienthdr": "-1 -1 -1 1",
+      "_lighthdr": "-1 -1 -1 1",
+      "pitch": "-45",
+      "_light": "255 232 208 600",
+      "angles": "0 165 0",
+      "_ambient": "183 201 206 200",
+      "classname": "light_environment"
+    },
+    {
+      "origin": "-823 648 -38",
+      "angles": "45 165 0",
+      "color": "120 128 136",
+      "distance": "75",
+      "classname": "shadow_control"
+    },
+    {
+      "origin": "-550.98 1307.68 -174.365",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-634.715 1308.09 -175.185",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-723.715 1309.54 -175.185",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-550.98 1361.32 -176.748",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-634.715 1360.91 -176.928",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-723.715 1359.47 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-901.224 1309.54 -174.543",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-981.224 1308.09 -174.543",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-1062.23 1307.68 -174.248",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-813.224 1308.91 -175",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_galil"
+    },
+    {
+      "origin": "-901.224 1359.47 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-981.224 1360.91 -175.928",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-1062.23 1361.32 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-813.224 1359.14 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 0 -90",
+      "spawnflags": "0",
+      "classname": "weapon_galil"
+    },
+    {
+      "origin": "-1513.62 1113.61 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 0 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1529.32 1113 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1525.8 1113 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-1513.62 414.61 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 0 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1529.32 414 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1525.8 414 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-30.3806 413.39 -2",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 180 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-14.6804 414 -13",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-18.2005 414 -16",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-30.3806 1112.39 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 180 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-14.6805 1113 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-18.2005 1113 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-242.39 1604.62 58.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 270 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-243 1620.32 47.9219",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-243 1616.8 44.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-1298.39 1604.62 58.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 270 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1299 1620.32 47.9219",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1299 1616.8 44.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-1299.61 -79.6194 58.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 90 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1299 -95.3195 47.9219",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1299 -91.7995 44.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-241.61 -79.6193 58.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 90 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-241 -95.3195 47.9219",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-241 -91.7995 44.9219",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-771.61 565.381 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 90 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-771 549.68 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-771 553.2 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-552.61 884.381 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 90 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-552 868.68 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-552 872.2 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-1004.61 884.381 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 90 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1004 868.68 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1004 872.2 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-775.39 958.619 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 270 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-776 974.32 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-776 970.799 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-547.39 639.619 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 270 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-548 655.32 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-548 651.799 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-996.39 639.619 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 270 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-997 655.32 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-997 651.799 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-1182.52 762.39 -2",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 180 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-1166.82 763 -13",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-1170.34 763 -16",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-361.619 762.61 -2.07813",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 350",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "512",
+      "angles": "-70 0 0",
+      "_inner_cone": "35",
+      "_cone": "65",
+      "pitch": "-70",
+      "_exponent": "1",
+      "classname": "light_spot"
+    },
+    {
+      "origin": "-377.32 762 -13.0781",
+      "_minlight": "0.0",
+      "renderfx": "0",
+      "rendermode": "9",
+      "renderamt": "150",
+      "rendercolor": "254 232 165",
+      "disablereceiveshadows": "0",
+      "mindxlevel": "0",
+      "maxdxlevel": "0",
+      "framerate": "10.0",
+      "model": "materials/Sprites/light_glow03.vmt",
+      "glowproxysize": "4",
+      "scale": ".75",
+      "spawnflags": "1",
+      "classname": "env_sprite"
+    },
+    {
+      "origin": "-373.799 762 -16.0781",
+      "_lighthdr": "-1 -1 -1 1",
+      "spawnflags": "1",
+      "_light": "254 232 165 10",
+      "style": "0",
+      "_constant_attn": "0",
+      "_linear_attn": "0",
+      "_quadratic_attn": "1",
+      "_distance": "256",
+      "classname": "light"
+    },
+    {
+      "origin": "-661.285 208.465 -174.543",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-581.285 209.906 -174.543",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-500.282 210.317 -174.248",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-749.285 209.087 -175",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_galil"
+    },
+    {
+      "origin": "-661.285 158.535 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-581.285 157.094 -175.928",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-500.282 156.683 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-749.285 158.856 -176",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_galil"
+    },
+    {
+      "origin": "-1011.53 210.317 -174.365",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-927.794 209.906 -175.185",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-838.794 208.465 -175.185",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 -90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    },
+    {
+      "origin": "-1011.53 156.683 -176.748",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_m4a1"
+    },
+    {
+      "origin": "-927.794 157.094 -176.928",
+      "ammo": "120",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_mp5navy"
+    },
+    {
+      "origin": "-838.794 158.535 -175.928",
+      "ammo": "90",
+      "_minlight": "0.0",
+      "rendercolor": "255 255 255",
+      "renderamt": "255",
+      "angles": "0 180 90",
+      "spawnflags": "0",
+      "classname": "weapon_ak47"
+    }
+  ],
+  "sky_room": {
+    "enabled": false,
+    "origin": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": 1.0,
+    "area": -1,
+    "mins": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "maxs": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "fog": {},
+  "displacement_ranges": [],
+  "world_hulls": [
+    [
+      [
+        -39.1414,
+        -4.572,
+        2.6923999999999997
+      ],
+      [
+        -39.1414,
+        2.5907999999999998,
+        2.6923999999999997
+      ],
+      [
+        -39.1414,
+        -4.572,
+        -41.452799999999996
+      ],
+      [
+        -39.1414,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        -4.572,
+        2.6923999999999997
+      ],
+      [
+        -39.116,
+        2.5907999999999998,
+        2.6923999999999997
+      ],
+      [
+        -39.116,
+        -4.572,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        2.5907999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -0.1016,
+        -4.572,
+        2.7178
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -41.4274
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        -41.4274
+      ],
+      [
+        -0.07619999999999999,
+        -4.572,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        -4.572,
+        -41.4274
+      ],
+      [
+        -0.07619999999999999,
+        2.5907999999999998,
+        -41.4274
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        2.7178
+      ],
+      [
+        -39.116,
+        -1.4478,
+        2.7178
+      ],
+      [
+        -39.116,
+        -4.572,
+        0.9398
+      ],
+      [
+        -39.116,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -4.572,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -4.572,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        0.9398
+      ]
+    ],
+    [
+      [
+        -39.1414,
+        -4.5973999999999995,
+        2.7178
+      ],
+      [
+        -39.1414,
+        -4.572,
+        2.7178
+      ],
+      [
+        -39.1414,
+        -4.5973999999999995,
+        -41.452799999999996
+      ],
+      [
+        -39.1414,
+        -4.572,
+        -41.452799999999996
+      ],
+      [
+        -0.07619999999999999,
+        -4.5973999999999995,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        -4.572,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        -4.5973999999999995,
+        -41.452799999999996
+      ],
+      [
+        -0.07619999999999999,
+        -4.572,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -4.9784,
+        -4.572,
+        -32.1564
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -32.1564
+      ],
+      [
+        -4.9784,
+        -4.572,
+        -33.172399999999996
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -33.172399999999996
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -32.1564
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -32.1564
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -33.172399999999996
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -33.172399999999996
+      ]
+    ],
+    [
+      [
+        -4.9784,
+        -4.572,
+        -22.9108
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -22.9108
+      ],
+      [
+        -4.9784,
+        -4.572,
+        -23.9268
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -23.9268
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -22.9108
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -22.9108
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -23.9268
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -23.9268
+      ]
+    ],
+    [
+      [
+        -4.9784,
+        -4.572,
+        -14.8082
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -14.8082
+      ],
+      [
+        -4.9784,
+        -4.572,
+        -15.8242
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -15.8242
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -14.8082
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -14.8082
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -15.8242
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -15.8242
+      ]
+    ],
+    [
+      [
+        -4.9784,
+        -4.572,
+        -5.5371999999999995
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -5.5371999999999995
+      ],
+      [
+        -4.9784,
+        -4.572,
+        -6.5531999999999995
+      ],
+      [
+        -4.9784,
+        -1.6256,
+        -6.5531999999999995
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -5.5371999999999995
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -5.5371999999999995
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -6.5531999999999995
+      ],
+      [
+        -0.1016,
+        -1.6256,
+        -6.5531999999999995
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -5.5371999999999995
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -5.5371999999999995
+      ],
+      [
+        -39.116,
+        -4.572,
+        -6.5531999999999995
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -6.5531999999999995
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -5.5371999999999995
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -5.5371999999999995
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -6.5531999999999995
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -6.5531999999999995
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -14.8082
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -14.8082
+      ],
+      [
+        -39.116,
+        -4.572,
+        -15.8242
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -15.8242
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -14.8082
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -14.8082
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -15.8242
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -15.8242
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -22.9108
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -22.9108
+      ],
+      [
+        -39.116,
+        -4.572,
+        -23.9268
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -23.9268
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -22.9108
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -22.9108
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -23.9268
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -23.9268
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -32.1564
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -32.1564
+      ],
+      [
+        -39.116,
+        -4.572,
+        -33.172399999999996
+      ],
+      [
+        -39.116,
+        -1.6256,
+        -33.172399999999996
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -32.1564
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -32.1564
+      ],
+      [
+        -34.2392,
+        -4.572,
+        -33.172399999999996
+      ],
+      [
+        -34.2392,
+        -1.6256,
+        -33.172399999999996
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        -4.572,
+        -8.7884
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -8.7884
+      ],
+      [
+        -29.362399999999997,
+        -4.572,
+        -13.665199999999999
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -13.665199999999999
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -8.7884
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -8.7884
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -13.665199999999999
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -13.665199999999999
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        -4.572,
+        -25.0444
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -25.0444
+      ],
+      [
+        -29.362399999999997,
+        -4.572,
+        -29.9212
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -29.9212
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -25.0444
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -25.0444
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -29.9212
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -29.9212
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        -4.572,
+        -16.9164
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -16.9164
+      ],
+      [
+        -29.362399999999997,
+        -4.572,
+        -21.7932
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -21.7932
+      ],
+      [
+        -21.9456,
+        -4.572,
+        -16.9164
+      ],
+      [
+        -21.9456,
+        2.5907999999999998,
+        -16.9164
+      ],
+      [
+        -21.9456,
+        -4.572,
+        -21.7932
+      ],
+      [
+        -21.9456,
+        2.5907999999999998,
+        -21.7932
+      ]
+    ],
+    [
+      [
+        -17.0688,
+        -4.572,
+        -16.9164
+      ],
+      [
+        -17.0688,
+        2.5907999999999998,
+        -16.9164
+      ],
+      [
+        -17.0688,
+        -4.572,
+        -21.7932
+      ],
+      [
+        -17.0688,
+        2.5907999999999998,
+        -21.7932
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -16.9164
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -16.9164
+      ],
+      [
+        -9.8552,
+        -4.572,
+        -21.7932
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -21.7932
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -39.116,
+        1.6256,
+        2.7178
+      ],
+      [
+        -39.116,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -39.116,
+        1.6256,
+        2.6923999999999997
+      ],
+      [
+        -22.6568,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -22.6568,
+        1.6256,
+        2.7178
+      ],
+      [
+        -22.6568,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -22.6568,
+        1.6256,
+        2.6923999999999997
+      ]
+    ],
+    [
+      [
+        -39.116,
+        1.6256,
+        2.7178
+      ],
+      [
+        -39.116,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -39.116,
+        1.6256,
+        2.6923999999999997
+      ],
+      [
+        -39.116,
+        2.5907999999999998,
+        1.3208
+      ],
+      [
+        -0.1016,
+        1.6256,
+        2.7178
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -0.1016,
+        1.6256,
+        2.6923999999999997
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        1.3208
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -4.572,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -7.566177399999999,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -39.116,
+        2.5907999999999998,
+        -40.0558
+      ],
+      [
+        -39.116,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -39.116,
+        1.6256,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        -40.0558
+      ],
+      [
+        -0.1016,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -0.1016,
+        1.6256,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        2.5907999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.4478,
+        2.7178
+      ],
+      [
+        -39.116,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -39.116,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -39.116,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        0.9398
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -26.1112,
+        2.7178,
+        -22.86
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -26.1112,
+        2.7178,
+        -24.0792
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -24.892,
+        2.7178,
+        -22.86
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -24.892,
+        2.7178,
+        -24.0792
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -24.0792
+      ]
+    ],
+    [
+      [
+        -26.1112,
+        2.7178,
+        -14.681199999999999
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -26.1112,
+        2.7178,
+        -15.9004
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -24.892,
+        2.7178,
+        -14.681199999999999
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -24.892,
+        2.7178,
+        -15.9004
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -15.9004
+      ]
+    ],
+    [
+      [
+        -14.6304,
+        2.7178,
+        -14.681199999999999
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -14.6304,
+        2.7178,
+        -15.9004
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -13.4112,
+        2.7178,
+        -14.681199999999999
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -13.4112,
+        2.7178,
+        -15.9004
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -15.9004
+      ]
+    ],
+    [
+      [
+        -14.6304,
+        2.7178,
+        -22.86
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -14.6304,
+        2.7178,
+        -24.0792
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -13.4112,
+        2.7178,
+        -22.86
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -13.4112,
+        2.7178,
+        -24.0792
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -24.0792
+      ]
+    ],
+    [
+      [
+        -14.6304,
+        2.5907999999999998,
+        -15.9004
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -14.6304,
+        2.5907999999999998,
+        -22.86
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -15.9004
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -22.86
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -22.86
+      ]
+    ],
+    [
+      [
+        -26.1112,
+        2.5907999999999998,
+        -15.9004
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -26.1112,
+        2.5907999999999998,
+        -22.86
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -22.86
+      ],
+      [
+        -24.892,
+        2.5907999999999998,
+        -15.9004
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -15.9004
+      ],
+      [
+        -24.892,
+        2.5907999999999998,
+        -22.86
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -22.86
+      ]
+    ],
+    [
+      [
+        -26.1112,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -26.1112,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -14.681199999999999
+      ]
+    ],
+    [
+      [
+        -20.345399999999998,
+        2.7178,
+        -18.288
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -18.288
+      ],
+      [
+        -20.345399999999998,
+        2.7178,
+        -20.5232
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -20.5232
+      ],
+      [
+        -18.8722,
+        2.7178,
+        -18.288
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -18.288
+      ],
+      [
+        -18.8722,
+        2.7178,
+        -20.5232
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -20.5232
+      ]
+    ],
+    [
+      [
+        -35.814,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -35.814,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -31.699199999999998,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -31.699199999999998,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -31.699199999999998,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -31.699199999999998,
+        2.8447999999999998,
+        -31.5214
+      ]
+    ],
+    [
+      [
+        -31.699199999999998,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -31.699199999999998,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -31.699199999999998,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -31.699199999999998,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -26.1112,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -26.1112,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -31.5214
+      ]
+    ],
+    [
+      [
+        -39.1414,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -39.1414,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -39.1414,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -39.1414,
+        2.8447999999999998,
+        -41.452799999999996
+      ],
+      [
+        -35.814,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -35.814,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -35.814,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -35.814,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -7.2136
+      ]
+    ],
+    [
+      [
+        -7.696199999999999,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -7.696199999999999,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -2.2352,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -2.2352,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -2.1051774,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -2.1051774,
+        -1.3716,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -2.2352,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -2.1053298,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -2.1053298,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        0.9398
+      ],
+      [
+        -39.116,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -39.116,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        0.9398
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -37.112422599999995,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -37.112422599999995,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -36.9824,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -36.9824,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        0.9398
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -31.5214,
+        -4.572,
+        0.9398
+      ],
+      [
+        -31.5214,
+        -4.572,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -39.116,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -37.112193999999995,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -37.112193999999995,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -7.566177399999999,
+        -4.572,
+        0.9398
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -0.1016,
+        -4.572,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -7.696199999999999,
+        -4.572,
+        0.9398
+      ],
+      [
+        -7.696199999999999,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        0.9398
+      ],
+      [
+        -7.566177399999999,
+        -4.572,
+        -0.6858
+      ],
+      [
+        -2.2352,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -2.2352,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -2.1051774,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -2.1051774,
+        -1.3716,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -2.2352,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -2.2352,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -2.1053298,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -2.1053298,
+        -1.3716,
+        -0.6858
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        0.9398
+      ],
+      [
+        -0.1016,
+        -1.4478,
+        -0.6858
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -0.6858
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -39.116,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -37.112422599999995,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -37.112422599999995,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -36.9824,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -36.9824,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -31.651447999999995,
+        -4.572,
+        -39.700199999999995
+      ],
+      [
+        -31.5214,
+        -4.572,
+        -38.1508
+      ],
+      [
+        -31.5214,
+        -4.572,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -39.116,
+        -1.4478,
+        -39.700199999999995
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -37.112193999999995,
+        -1.3716,
+        -38.1508
+      ],
+      [
+        -37.112193999999995,
+        -1.3716,
+        -39.700199999999995
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -38.1508
+      ],
+      [
+        -36.9824,
+        -1.4478,
+        -39.700199999999995
+      ]
+    ],
+    [
+      [
+        -22.6568,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -22.6568,
+        1.6256,
+        2.7178
+      ],
+      [
+        -22.6568,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -22.6568,
+        1.6256,
+        2.6923999999999997
+      ],
+      [
+        -16.256,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -16.256,
+        1.6256,
+        2.7178
+      ],
+      [
+        -16.256,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -16.256,
+        1.6256,
+        2.6923999999999997
+      ]
+    ],
+    [
+      [
+        -16.256,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -16.256,
+        1.6256,
+        2.7178
+      ],
+      [
+        -16.256,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -16.256,
+        1.6256,
+        2.6923999999999997
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        2.7178
+      ],
+      [
+        -0.1016,
+        1.6256,
+        2.7178
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        2.6923999999999997
+      ],
+      [
+        -0.1016,
+        1.6256,
+        2.6923999999999997
+      ]
+    ],
+    [
+      [
+        -22.9616,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -22.9616,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -22.9616,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -22.9616,
+        1.6256,
+        -41.452799999999996
+      ],
+      [
+        -16.5608,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -16.5608,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -16.5608,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -16.5608,
+        1.6256,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -39.116,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -39.116,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -39.116,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -39.116,
+        1.6256,
+        -41.452799999999996
+      ],
+      [
+        -22.9616,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -22.9616,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -22.9616,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -22.9616,
+        1.6256,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -16.5608,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -16.5608,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -16.5608,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -16.5608,
+        1.6256,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -41.4274
+      ],
+      [
+        -0.1016,
+        1.6256,
+        -41.4274
+      ],
+      [
+        -0.1016,
+        -1.3716,
+        -41.452799999999996
+      ],
+      [
+        -0.1016,
+        1.6256,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        2.7178,
+        -1.4986
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -1.4986
+      ],
+      [
+        -29.362399999999997,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -9.8552,
+        2.7178,
+        -1.4986
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -1.4986
+      ],
+      [
+        -9.8552,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -7.2136
+      ]
+    ],
+    [
+      [
+        -13.4112,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -7.5184,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -7.5184,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -7.5184,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -7.5184,
+        2.8447999999999998,
+        -31.5214
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -1.4986
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -1.4986
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -1.4986
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -1.4986
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -37.236399999999996
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -37.236399999999996
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -41.452799999999996
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -37.236399999999996
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -37.236399999999996
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -29.362399999999997,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -29.362399999999997,
+        2.7178,
+        -37.236399999999996
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -37.236399999999996
+      ],
+      [
+        -9.8552,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -9.8552,
+        2.7178,
+        -37.236399999999996
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -37.236399999999996
+      ]
+    ],
+    [
+      [
+        -26.1112,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -26.1112,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -26.1112,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -13.4112,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -13.4112,
+        2.8447999999999998,
+        -31.5214
+      ]
+    ],
+    [
+      [
+        -35.814,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -35.814,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -35.814,
+        2.8447999999999998,
+        -41.452799999999996
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -29.362399999999997,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -29.362399999999997,
+        2.8447999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -9.8552,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -3.4036,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -3.4036,
+        2.5907999999999998,
+        -7.2136
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -7.2136
+      ]
+    ],
+    [
+      [
+        -3.4036,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -3.4036,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -41.452799999999996
+      ],
+      [
+        -0.07619999999999999,
+        2.5907999999999998,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        2.8447999999999998,
+        2.7178
+      ],
+      [
+        -0.07619999999999999,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -0.07619999999999999,
+        2.8447999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -9.8552,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -9.8552,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -9.8552,
+        2.8447999999999998,
+        -41.452799999999996
+      ],
+      [
+        -3.4036,
+        2.5907999999999998,
+        -31.5214
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -3.4036,
+        2.5907999999999998,
+        -41.452799999999996
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -41.452799999999996
+      ]
+    ],
+    [
+      [
+        -7.5184,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -7.5184,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -7.5184,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -7.5184,
+        2.8447999999999998,
+        -31.5214
+      ],
+      [
+        -3.4036,
+        2.7178,
+        -7.2136
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -7.2136
+      ],
+      [
+        -3.4036,
+        2.7178,
+        -31.5214
+      ],
+      [
+        -3.4036,
+        2.8447999999999998,
+        -31.5214
+      ]
+    ],
+    [
+      [
+        -24.892,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -24.892,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -24.892,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -24.0792
+      ]
+    ],
+    [
+      [
+        -18.8722,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -18.8722,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -14.6304,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -14.6304,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -14.6304,
+        2.8447999999999998,
+        -24.0792
+      ]
+    ],
+    [
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -20.5232
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -20.5232
+      ],
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -24.0792
+      ],
+      [
+        -18.8722,
+        2.5907999999999998,
+        -20.5232
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -20.5232
+      ],
+      [
+        -18.8722,
+        2.5907999999999998,
+        -24.0792
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -24.0792
+      ]
+    ],
+    [
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -20.345399999999998,
+        2.5907999999999998,
+        -18.288
+      ],
+      [
+        -20.345399999999998,
+        2.8447999999999998,
+        -18.288
+      ],
+      [
+        -18.8722,
+        2.5907999999999998,
+        -14.681199999999999
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -14.681199999999999
+      ],
+      [
+        -18.8722,
+        2.5907999999999998,
+        -18.288
+      ],
+      [
+        -18.8722,
+        2.8447999999999998,
+        -18.288
+      ]
+    ]
+  ],
+  "world_surfaces": [
+    "concrete",
+    "concrete",
+    "concrete",
+    "tile",
+    "brick",
+    "brick",
+    "brick",
+    "brick",
+    "brick",
+    "brick",
+    "brick",
+    "brick",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "tile",
+    "tile",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "plaster",
+    "plaster",
+    "plaster",
+    "concrete",
+    "concrete",
+    "plaster",
+    "plaster",
+    "plaster",
+    "tile",
+    "tile",
+    "concrete",
+    "tile",
+    "tile",
+    "concrete",
+    "tile",
+    "tile",
+    "concrete",
+    "tile",
+    "tile",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "concrete",
+    "plaster",
+    "plaster",
+    "plaster",
+    "concrete",
+    "plaster",
+    "plaster",
+    "plaster",
+    "plaster",
+    "plaster",
+    "concrete",
+    "plaster",
+    "plaster",
+    "plaster",
+    "plaster"
+  ],
+  "ladder_hulls": [],
+  "static_collisions": [
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -39.09206637730598,
+            -0.19263644602298735,
+            -28.40127776708603
+          ],
+          [
+            -39.09206636519432,
+            -0.19263644602298735,
+            -28.13912223291397
+          ],
+          [
+            -39.02680711574554,
+            -0.10826953597068786,
+            -28.13912223291397
+          ],
+          [
+            -39.02680711574554,
+            -0.10826952991485594,
+            -28.40127776708603
+          ],
+          [
+            -38.86962954883575,
+            -0.19643862431049344,
+            -28.411889776802063
+          ],
+          [
+            -38.86962952461242,
+            -0.1964386333942413,
+            -28.128510247421264
+          ],
+          [
+            -38.966242547035215,
+            -0.32133954277038573,
+            -28.411889776802063
+          ],
+          [
+            -38.96624252281189,
+            -0.32133956699371335,
+            -28.128510247421264
+          ]
+        ],
+        [
+          [
+            -39.13426314229369,
+            -0.20475981576442717,
+            -28.3718
+          ],
+          [
+            -39.03116487421989,
+            -0.1289037325143814,
+            -28.3718
+          ],
+          [
+            -39.03116487421989,
+            -0.20475981576442717,
+            -28.3718
+          ],
+          [
+            -39.13426314229369,
+            -0.1289037325143814,
+            -28.3718
+          ],
+          [
+            -39.03116486816406,
+            -0.20475981576442717,
+            -28.16860000605583
+          ],
+          [
+            -39.13426313349381,
+            -0.20475981576442717,
+            -28.168599999999998
+          ],
+          [
+            -39.03116486816406,
+            -0.1289037325143814,
+            -28.16860000605583
+          ],
+          [
+            -39.13426313349381,
+            -0.1289037325143814,
+            -28.168599999999998
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -39.09206637730598,
+            -0.19263644602298735,
+            -10.646677767086029
+          ],
+          [
+            -39.09206636519432,
+            -0.19263644602298735,
+            -10.38452223291397
+          ],
+          [
+            -39.02680711574554,
+            -0.10826953597068786,
+            -10.38452223291397
+          ],
+          [
+            -39.02680711574554,
+            -0.10826952991485594,
+            -10.646677767086029
+          ],
+          [
+            -38.86962954883575,
+            -0.19643862431049344,
+            -10.657289776802061
+          ],
+          [
+            -38.86962952461242,
+            -0.1964386333942413,
+            -10.373910247421264
+          ],
+          [
+            -38.966242547035215,
+            -0.32133954277038573,
+            -10.657289776802061
+          ],
+          [
+            -38.96624252281189,
+            -0.32133956699371335,
+            -10.373910247421264
+          ]
+        ],
+        [
+          [
+            -39.13426314229369,
+            -0.20475981576442717,
+            -10.617199999999999
+          ],
+          [
+            -39.03116487421989,
+            -0.1289037325143814,
+            -10.617199999999999
+          ],
+          [
+            -39.03116487421989,
+            -0.20475981576442717,
+            -10.617199999999999
+          ],
+          [
+            -39.13426314229369,
+            -0.1289037325143814,
+            -10.617199999999999
+          ],
+          [
+            -39.03116486816406,
+            -0.20475981576442717,
+            -10.414000006055831
+          ],
+          [
+            -39.13426313349381,
+            -0.20475981576442717,
+            -10.414
+          ],
+          [
+            -39.03116486816406,
+            -0.1289037325143814,
+            -10.414000006055831
+          ],
+          [
+            -39.13426313349381,
+            -0.1289037325143814,
+            -10.414
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -0.12554057478904723,
+            -0.19065193779468537,
+            -10.38452223291397
+          ],
+          [
+            -0.1255406111240387,
+            -0.19065193779468537,
+            -10.646677767086029
+          ],
+          [
+            -0.19079986057281495,
+            -0.10628502774238588,
+            -10.646677754974364
+          ],
+          [
+            -0.1907998363494873,
+            -0.10628502168655396,
+            -10.384522220802307
+          ],
+          [
+            -0.3479773911476135,
+            -0.19445411608219146,
+            -10.373910198974608
+          ],
+          [
+            -0.3479774638175964,
+            -0.19445412516593932,
+            -10.657289728355407
+          ],
+          [
+            -0.25136440505981444,
+            -0.31935503454208375,
+            -10.373910211086272
+          ],
+          [
+            -0.25136445350646974,
+            -0.31935505876541137,
+            -10.657289740467071
+          ]
+        ],
+        [
+          [
+            -0.0833438130185008,
+            -0.2027753075361252,
+            -10.414
+          ],
+          [
+            -0.18644208393096923,
+            -0.1269192242860794,
+            -10.413999987888335
+          ],
+          [
+            -0.18644208393096923,
+            -0.2027753075361252,
+            -10.413999987888335
+          ],
+          [
+            -0.0833438130185008,
+            -0.1269192242860794,
+            -10.414
+          ],
+          [
+            -0.18644210815429688,
+            -0.2027753075361252,
+            -10.617199987888336
+          ],
+          [
+            -0.08334383960738778,
+            -0.2027753075361252,
+            -10.617199999999999
+          ],
+          [
+            -0.18644210815429688,
+            -0.1269192242860794,
+            -10.617199987888336
+          ],
+          [
+            -0.08334383960738778,
+            -0.1269192242860794,
+            -10.617199999999999
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -0.12554057478904723,
+            -0.19263644602298735,
+            -28.13912223291397
+          ],
+          [
+            -0.1255406111240387,
+            -0.19263644602298735,
+            -28.40127776708603
+          ],
+          [
+            -0.19079986057281495,
+            -0.10826953597068786,
+            -28.401277754974366
+          ],
+          [
+            -0.1907998363494873,
+            -0.10826952991485594,
+            -28.139122220802307
+          ],
+          [
+            -0.3479773911476135,
+            -0.19643862431049344,
+            -28.12851019897461
+          ],
+          [
+            -0.3479774638175964,
+            -0.1964386333942413,
+            -28.41188972835541
+          ],
+          [
+            -0.25136440505981444,
+            -0.32133954277038573,
+            -28.128510211086272
+          ],
+          [
+            -0.25136445350646974,
+            -0.32133956699371335,
+            -28.41188974046707
+          ]
+        ],
+        [
+          [
+            -0.0833438130185008,
+            -0.20475981576442717,
+            -28.168599999999998
+          ],
+          [
+            -0.18644208393096923,
+            -0.1289037325143814,
+            -28.168599987888335
+          ],
+          [
+            -0.18644208393096923,
+            -0.20475981576442717,
+            -28.168599987888335
+          ],
+          [
+            -0.0833438130185008,
+            -0.1289037325143814,
+            -28.168599999999998
+          ],
+          [
+            -0.18644210815429688,
+            -0.20475981576442717,
+            -28.371799987888334
+          ],
+          [
+            -0.08334383960738778,
+            -0.20475981576442717,
+            -28.3718
+          ],
+          [
+            -0.18644210815429688,
+            -0.1289037325143814,
+            -28.371799987888334
+          ],
+          [
+            -0.08334383960738778,
+            -0.1289037325143814,
+            -28.3718
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -6.041122232913971,
+            1.3567630695104598,
+            -41.403466380333896
+          ],
+          [
+            -6.303277767086029,
+            1.3567630695104598,
+            -41.4034663621664
+          ],
+          [
+            -6.303277767086029,
+            1.4411299795627595,
+            -41.33820711574554
+          ],
+          [
+            -6.041122232913971,
+            1.4411299856185913,
+            -41.33820711574554
+          ],
+          [
+            -6.030510223197937,
+            1.3529608912229538,
+            -41.18102954883575
+          ],
+          [
+            -6.313889752578736,
+            1.3529608821392058,
+            -41.18102952461242
+          ],
+          [
+            -6.030510223197937,
+            1.2280599727630614,
+            -41.277642547035214
+          ],
+          [
+            -6.313889752578736,
+            1.2280599485397339,
+            -41.27764252281189
+          ]
+        ],
+        [
+          [
+            -6.0706,
+            1.34463969976902,
+            -41.44566314352378
+          ],
+          [
+            -6.0706,
+            1.4204957830190659,
+            -41.34256487421989
+          ],
+          [
+            -6.0706,
+            1.34463969976902,
+            -41.34256487421989
+          ],
+          [
+            -6.0706,
+            1.4204957830190659,
+            -41.44566314352378
+          ],
+          [
+            -6.273799993944168,
+            1.34463969976902,
+            -41.34256486816406
+          ],
+          [
+            -6.2738000000000005,
+            1.34463969976902,
+            -41.44566313226372
+          ],
+          [
+            -6.273799993944168,
+            1.4204957830190659,
+            -41.34256486816406
+          ],
+          [
+            -6.2738000000000005,
+            1.4204957830190659,
+            -41.44566313226372
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -32.86352223291397,
+            1.3567630695104598,
+            -41.403466380333896
+          ],
+          [
+            -33.125677767086025,
+            1.3567630695104598,
+            -41.4034663621664
+          ],
+          [
+            -33.125677767086025,
+            1.4411299795627595,
+            -41.33820711574554
+          ],
+          [
+            -32.86352223291397,
+            1.4411299856185913,
+            -41.33820711574554
+          ],
+          [
+            -32.85291022319794,
+            1.3529608912229538,
+            -41.18102954883575
+          ],
+          [
+            -33.13628975257873,
+            1.3529608821392058,
+            -41.18102952461242
+          ],
+          [
+            -32.85291022319794,
+            1.2280599727630614,
+            -41.277642547035214
+          ],
+          [
+            -33.13628975257873,
+            1.2280599485397339,
+            -41.27764252281189
+          ]
+        ],
+        [
+          [
+            -32.893,
+            1.34463969976902,
+            -41.44566314352378
+          ],
+          [
+            -32.893,
+            1.4204957830190659,
+            -41.34256487421989
+          ],
+          [
+            -32.893,
+            1.34463969976902,
+            -41.34256487421989
+          ],
+          [
+            -32.893,
+            1.4204957830190659,
+            -41.44566314352378
+          ],
+          [
+            -33.09619999394417,
+            1.34463969976902,
+            -41.34256486816406
+          ],
+          [
+            -33.096199999999996,
+            1.34463969976902,
+            -41.44566313226372
+          ],
+          [
+            -33.09619999394417,
+            1.4204957830190659,
+            -41.34256486816406
+          ],
+          [
+            -33.096199999999996,
+            1.4204957830190659,
+            -41.44566313226372
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -33.125677767086025,
+            1.3567630695104598,
+            2.6684656082153317
+          ],
+          [
+            -32.86352223291397,
+            1.3567630695104598,
+            2.6684655839920044
+          ],
+          [
+            -32.86352223291397,
+            1.4411299795627595,
+            2.6032063405990598
+          ],
+          [
+            -33.125677767086025,
+            1.4411299856185913,
+            2.6032063405990598
+          ],
+          [
+            -33.13628978891373,
+            1.3529608912229538,
+            2.44602877368927
+          ],
+          [
+            -32.852910259532926,
+            1.3529608821392058,
+            2.4460287494659423
+          ],
+          [
+            -33.13628978891373,
+            1.2280599727630614,
+            2.5426417840003968
+          ],
+          [
+            -32.852910259532926,
+            1.2280599485397339,
+            2.542641735553741
+          ]
+        ],
+        [
+          [
+            -33.096199999999996,
+            1.34463969976902,
+            2.710662371594459
+          ],
+          [
+            -33.096199999999996,
+            1.4204957830190659,
+            2.6075641051292417
+          ],
+          [
+            -33.096199999999996,
+            1.34463969976902,
+            2.6075641051292417
+          ],
+          [
+            -33.096199999999996,
+            1.4204957830190659,
+            2.710662371594459
+          ],
+          [
+            -32.89300001211166,
+            1.34463969976902,
+            2.607564093017578
+          ],
+          [
+            -32.893,
+            1.34463969976902,
+            2.7106623539000747
+          ],
+          [
+            -32.89300001211166,
+            1.4204957830190659,
+            2.607564093017578
+          ],
+          [
+            -32.893,
+            1.4204957830190659,
+            2.7106623539000747
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -6.252477767086028,
+            1.3567630695104598,
+            2.6684656082153317
+          ],
+          [
+            -5.990322232913971,
+            1.3567630695104598,
+            2.6684655839920044
+          ],
+          [
+            -5.990322232913971,
+            1.4411299795627595,
+            2.6032063405990598
+          ],
+          [
+            -6.252477767086028,
+            1.4411299856185913,
+            2.6032063405990598
+          ],
+          [
+            -6.263089788913726,
+            1.3529608912229538,
+            2.44602877368927
+          ],
+          [
+            -5.979710259532928,
+            1.3529608821392058,
+            2.4460287494659423
+          ],
+          [
+            -6.263089788913726,
+            1.2280599727630614,
+            2.5426417840003968
+          ],
+          [
+            -5.979710259532928,
+            1.2280599485397339,
+            2.542641735553741
+          ]
+        ],
+        [
+          [
+            -6.223,
+            1.34463969976902,
+            2.710662371594459
+          ],
+          [
+            -6.223,
+            1.4204957830190659,
+            2.6075641051292417
+          ],
+          [
+            -6.223,
+            1.34463969976902,
+            2.6075641051292417
+          ],
+          [
+            -6.223,
+            1.4204957830190659,
+            2.710662371594459
+          ],
+          [
+            -6.019800012111664,
+            1.34463969976902,
+            2.607564093017578
+          ],
+          [
+            -6.019799999999999,
+            1.34463969976902,
+            2.7106623539000747
+          ],
+          [
+            -6.019800012111664,
+            1.4204957830190659,
+            2.607564093017578
+          ],
+          [
+            -6.019799999999999,
+            1.4204957830190659,
+            2.7106623539000747
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -19.714477767086027,
+            -0.19263644602298735,
+            -13.714535166931151
+          ],
+          [
+            -19.452322232913968,
+            -0.19263644602298735,
+            -13.71453519115448
+          ],
+          [
+            -19.452322232913968,
+            -0.10826953597068786,
+            -13.779794434547425
+          ],
+          [
+            -19.714477767086027,
+            -0.10826952991485594,
+            -13.779794434547425
+          ],
+          [
+            -19.725089788913724,
+            -0.19643862431049344,
+            -13.936972001457214
+          ],
+          [
+            -19.441710259532925,
+            -0.1964386333942413,
+            -13.936972025680541
+          ],
+          [
+            -19.725089788913724,
+            -0.32133954277038573,
+            -13.840358991146088
+          ],
+          [
+            -19.441710259532925,
+            -0.32133956699371335,
+            -13.840359039592743
+          ]
+        ],
+        [
+          [
+            -19.685,
+            -0.20475981576442717,
+            -13.672338403552025
+          ],
+          [
+            -19.685,
+            -0.1289037325143814,
+            -13.775436670017243
+          ],
+          [
+            -19.685,
+            -0.20475981576442717,
+            -13.775436670017243
+          ],
+          [
+            -19.685,
+            -0.1289037325143814,
+            -13.672338403552025
+          ],
+          [
+            -19.481800012111663,
+            -0.20475981576442717,
+            -13.775436682128905
+          ],
+          [
+            -19.481799999999996,
+            -0.20475981576442717,
+            -13.672338421246408
+          ],
+          [
+            -19.481800012111663,
+            -0.1289037325143814,
+            -13.775436682128905
+          ],
+          [
+            -19.481799999999996,
+            -0.1289037325143814,
+            -13.672338421246408
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -14.15187776708603,
+            -0.19263644602298735,
+            -21.817135166931152
+          ],
+          [
+            -13.88972223291397,
+            -0.19263644602298735,
+            -21.81713519115448
+          ],
+          [
+            -13.88972223291397,
+            -0.10826953597068786,
+            -21.882394434547425
+          ],
+          [
+            -14.15187776708603,
+            -0.10826952991485594,
+            -21.882394434547425
+          ],
+          [
+            -14.162489788913726,
+            -0.19643862431049344,
+            -22.039572001457216
+          ],
+          [
+            -13.879110259532927,
+            -0.1964386333942413,
+            -22.039572025680542
+          ],
+          [
+            -14.162489788913726,
+            -0.32133954277038573,
+            -21.94295899114609
+          ],
+          [
+            -13.879110259532927,
+            -0.32133956699371335,
+            -21.942959039592743
+          ]
+        ],
+        [
+          [
+            -14.122399999999999,
+            -0.20475981576442717,
+            -21.774938403552024
+          ],
+          [
+            -14.122399999999999,
+            -0.1289037325143814,
+            -21.87803667001724
+          ],
+          [
+            -14.122399999999999,
+            -0.20475981576442717,
+            -21.87803667001724
+          ],
+          [
+            -14.122399999999999,
+            -0.1289037325143814,
+            -21.774938403552024
+          ],
+          [
+            -13.919200012111663,
+            -0.20475981576442717,
+            -21.878036682128908
+          ],
+          [
+            -13.9192,
+            -0.20475981576442717,
+            -21.77493842124641
+          ],
+          [
+            -13.919200012111663,
+            -0.1289037325143814,
+            -21.878036682128908
+          ],
+          [
+            -13.9192,
+            -0.1289037325143814,
+            -21.77493842124641
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -25.63267776708603,
+            -0.19263644602298735,
+            -21.817135166931152
+          ],
+          [
+            -25.37052223291397,
+            -0.19263644602298735,
+            -21.81713519115448
+          ],
+          [
+            -25.37052223291397,
+            -0.10826953597068786,
+            -21.882394434547425
+          ],
+          [
+            -25.63267776708603,
+            -0.10826952991485594,
+            -21.882394434547425
+          ],
+          [
+            -25.643289788913727,
+            -0.19643862431049344,
+            -22.039572001457216
+          ],
+          [
+            -25.359910259532928,
+            -0.1964386333942413,
+            -22.039572025680542
+          ],
+          [
+            -25.643289788913727,
+            -0.32133954277038573,
+            -21.94295899114609
+          ],
+          [
+            -25.359910259532928,
+            -0.32133956699371335,
+            -21.942959039592743
+          ]
+        ],
+        [
+          [
+            -25.6032,
+            -0.20475981576442717,
+            -21.774938403552024
+          ],
+          [
+            -25.6032,
+            -0.1289037325143814,
+            -21.87803667001724
+          ],
+          [
+            -25.6032,
+            -0.20475981576442717,
+            -21.87803667001724
+          ],
+          [
+            -25.6032,
+            -0.1289037325143814,
+            -21.774938403552024
+          ],
+          [
+            -25.400000012111665,
+            -0.20475981576442717,
+            -21.878036682128908
+          ],
+          [
+            -25.4,
+            -0.20475981576442717,
+            -21.77493842124641
+          ],
+          [
+            -25.400000012111665,
+            -0.1289037325143814,
+            -21.878036682128908
+          ],
+          [
+            -25.4,
+            -0.1289037325143814,
+            -21.77493842124641
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -19.57932223291397,
+            -0.19263644602298735,
+            -24.99506483004093
+          ],
+          [
+            -19.84147776708603,
+            -0.19263644602298735,
+            -24.995064811873437
+          ],
+          [
+            -19.84147776708603,
+            -0.10826953597068786,
+            -24.929805565452575
+          ],
+          [
+            -19.57932223291397,
+            -0.10826952991485594,
+            -24.929805565452575
+          ],
+          [
+            -19.568710223197936,
+            -0.19643862431049344,
+            -24.772627998542784
+          ],
+          [
+            -19.852089752578735,
+            -0.1964386333942413,
+            -24.77262797431946
+          ],
+          [
+            -19.568710223197936,
+            -0.32133954277038573,
+            -24.86924099674225
+          ],
+          [
+            -19.852089752578735,
+            -0.32133956699371335,
+            -24.86924097251892
+          ]
+        ],
+        [
+          [
+            -19.6088,
+            -0.20475981576442717,
+            -25.037261593230813
+          ],
+          [
+            -19.6088,
+            -0.1289037325143814,
+            -24.934163323926924
+          ],
+          [
+            -19.6088,
+            -0.20475981576442717,
+            -24.934163323926924
+          ],
+          [
+            -19.6088,
+            -0.1289037325143814,
+            -25.037261593230813
+          ],
+          [
+            -19.81199999394417,
+            -0.20475981576442717,
+            -24.934163317871093
+          ],
+          [
+            -19.812,
+            -0.20475981576442717,
+            -25.037261581970753
+          ],
+          [
+            -19.81199999394417,
+            -0.1289037325143814,
+            -24.934163317871093
+          ],
+          [
+            -19.812,
+            -0.1289037325143814,
+            -25.037261581970753
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -13.78812223291397,
+            -0.19263644602298735,
+            -16.89246483004093
+          ],
+          [
+            -14.05027776708603,
+            -0.19263644602298735,
+            -16.892464811873435
+          ],
+          [
+            -14.05027776708603,
+            -0.10826953597068786,
+            -16.827205565452573
+          ],
+          [
+            -13.78812223291397,
+            -0.10826952991485594,
+            -16.827205565452573
+          ],
+          [
+            -13.777510223197938,
+            -0.19643862431049344,
+            -16.670027998542782
+          ],
+          [
+            -14.060889752578735,
+            -0.1964386333942413,
+            -16.670027974319456
+          ],
+          [
+            -13.777510223197938,
+            -0.32133954277038573,
+            -16.766640996742247
+          ],
+          [
+            -14.060889752578735,
+            -0.32133956699371335,
+            -16.766640972518918
+          ]
+        ],
+        [
+          [
+            -13.8176,
+            -0.20475981576442717,
+            -16.93466159323081
+          ],
+          [
+            -13.8176,
+            -0.1289037325143814,
+            -16.831563323926922
+          ],
+          [
+            -13.8176,
+            -0.20475981576442717,
+            -16.831563323926922
+          ],
+          [
+            -13.8176,
+            -0.1289037325143814,
+            -16.93466159323081
+          ],
+          [
+            -14.020799993944168,
+            -0.20475981576442717,
+            -16.83156331787109
+          ],
+          [
+            -14.0208,
+            -0.20475981576442717,
+            -16.93466158197075
+          ],
+          [
+            -14.020799993944168,
+            -0.1289037325143814,
+            -16.83156331787109
+          ],
+          [
+            -14.0208,
+            -0.1289037325143814,
+            -16.93466158197075
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -25.19272223291397,
+            -0.19263644602298735,
+            -16.89246483004093
+          ],
+          [
+            -25.45487776708603,
+            -0.19263644602298735,
+            -16.892464811873435
+          ],
+          [
+            -25.45487776708603,
+            -0.10826953597068786,
+            -16.827205565452573
+          ],
+          [
+            -25.19272223291397,
+            -0.10826952991485594,
+            -16.827205565452573
+          ],
+          [
+            -25.182110223197935,
+            -0.19643862431049344,
+            -16.670027998542782
+          ],
+          [
+            -25.465489752578733,
+            -0.1964386333942413,
+            -16.670027974319456
+          ],
+          [
+            -25.182110223197935,
+            -0.32133954277038573,
+            -16.766640996742247
+          ],
+          [
+            -25.465489752578733,
+            -0.32133956699371335,
+            -16.766640972518918
+          ]
+        ],
+        [
+          [
+            -25.222199999999997,
+            -0.20475981576442717,
+            -16.93466159323081
+          ],
+          [
+            -25.222199999999997,
+            -0.1289037325143814,
+            -16.831563323926922
+          ],
+          [
+            -25.222199999999997,
+            -0.20475981576442717,
+            -16.831563323926922
+          ],
+          [
+            -25.222199999999997,
+            -0.1289037325143814,
+            -16.93466159323081
+          ],
+          [
+            -25.42539999394417,
+            -0.20475981576442717,
+            -16.83156331787109
+          ],
+          [
+            -25.4254,
+            -0.20475981576442717,
+            -16.93466158197075
+          ],
+          [
+            -25.42539999394417,
+            -0.1289037325143814,
+            -16.83156331787109
+          ],
+          [
+            -25.4254,
+            -0.1289037325143814,
+            -16.93466158197075
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -29.38988998265266,
+            -0.19065193779468537,
+            -19.24912223291397
+          ],
+          [
+            -29.389890018987654,
+            -0.19065193779468537,
+            -19.51127776708603
+          ],
+          [
+            -29.45514926843643,
+            -0.10628502774238588,
+            -19.511277754974365
+          ],
+          [
+            -29.455149244213104,
+            -0.10628502168655396,
+            -19.249122220802306
+          ],
+          [
+            -29.612326799011228,
+            -0.19445411608219146,
+            -19.23851019897461
+          ],
+          [
+            -29.612326871681212,
+            -0.19445412516593932,
+            -19.521889728355408
+          ],
+          [
+            -29.51571381292343,
+            -0.31935503454208375,
+            -19.238510211086272
+          ],
+          [
+            -29.515713861370084,
+            -0.31935505876541137,
+            -19.52188974046707
+          ]
+        ],
+        [
+          [
+            -29.347693220882114,
+            -0.2027753075361252,
+            -19.278599999999997
+          ],
+          [
+            -29.450791491794583,
+            -0.1269192242860794,
+            -19.278599987888335
+          ],
+          [
+            -29.450791491794583,
+            -0.2027753075361252,
+            -19.278599987888335
+          ],
+          [
+            -29.347693220882114,
+            -0.1269192242860794,
+            -19.278599999999997
+          ],
+          [
+            -29.45079151601791,
+            -0.2027753075361252,
+            -19.481799987888333
+          ],
+          [
+            -29.347693247471003,
+            -0.2027753075361252,
+            -19.4818
+          ],
+          [
+            -29.45079151601791,
+            -0.1269192242860794,
+            -19.481799987888333
+          ],
+          [
+            -29.347693247471003,
+            -0.1269192242860794,
+            -19.4818
+          ]
+        ]
+      ]
+    },
+    {
+      "model": "models/props/de_train/Floodlight.mdl",
+      "surface": "metal",
+      "original_phy": true,
+      "hulls": [
+        [
+          [
+            -9.8312656021595,
+            -0.19263644602298735,
+            -19.48587776708603
+          ],
+          [
+            -9.831265590047837,
+            -0.19263644602298735,
+            -19.22372223291397
+          ],
+          [
+            -9.76600634059906,
+            -0.10826953597068786,
+            -19.22372223291397
+          ],
+          [
+            -9.76600634059906,
+            -0.10826952991485594,
+            -19.48587776708603
+          ],
+          [
+            -9.60882877368927,
+            -0.19643862431049344,
+            -19.496489776802065
+          ],
+          [
+            -9.608828749465943,
+            -0.1964386333942413,
+            -19.213110247421266
+          ],
+          [
+            -9.705441771888733,
+            -0.32133954277038573,
+            -19.496489776802065
+          ],
+          [
+            -9.705441747665406,
+            -0.32133956699371335,
+            -19.213110247421266
+          ]
+        ],
+        [
+          [
+            -9.873462367147207,
+            -0.20475981576442717,
+            -19.456400000000002
+          ],
+          [
+            -9.77036409907341,
+            -0.1289037325143814,
+            -19.456400000000002
+          ],
+          [
+            -9.77036409907341,
+            -0.20475981576442717,
+            -19.456400000000002
+          ],
+          [
+            -9.873462367147207,
+            -0.1289037325143814,
+            -19.456400000000002
+          ],
+          [
+            -9.770364093017578,
+            -0.20475981576442717,
+            -19.25320000605583
+          ],
+          [
+            -9.873462358347327,
+            -0.20475981576442717,
+            -19.2532
+          ],
+          [
+            -9.770364093017578,
+            -0.1289037325143814,
+            -19.25320000605583
+          ],
+          [
+            -9.873462358347327,
+            -0.1289037325143814,
+            -19.2532
+          ]
+        ]
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "entity": {
+        "origin": "-1529.32 1113 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "76"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1529.32 414 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "79"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-14.6804 414 -13",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "82"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-14.6805 1113 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "85"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-243 1620.32 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "88"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1299 1620.32 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "91"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1299 -95.3195 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "94"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-241 -95.3195 47.9219",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "97"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-771 549.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "100"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-552 868.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "103"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1004 868.68 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "106"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-776 974.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "109"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-548 655.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "112"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-997 655.32 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "115"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-1166.82 763 -13",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "118"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    },
+    {
+      "entity": {
+        "origin": "-377.32 762 -13.0781",
+        "_minlight": "0.0",
+        "renderfx": "0",
+        "rendermode": "9",
+        "renderamt": "150",
+        "rendercolor": "254 232 165",
+        "disablereceiveshadows": "0",
+        "mindxlevel": "0",
+        "maxdxlevel": "0",
+        "framerate": "10.0",
+        "model": "materials/Sprites/light_glow03.vmt",
+        "glowproxysize": "4",
+        "scale": ".75",
+        "spawnflags": "1",
+        "classname": "env_sprite",
+        "hammerid": "121"
+      },
+      "texture": "textures/sprites_light_glow03_glow.png",
+      "frames": 1,
+      "width": 128,
+      "height": 128
+    }
+  ],
+  "unsupported_weapons": {
+    "weapon_xm1014": 4,
+    "weapon_famas": 4,
+    "weapon_mp5navy": 8,
+    "weapon_galil": 4
+  }
+}

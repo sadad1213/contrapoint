@@ -1,0 +1,97 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-objective\\models\\weapons\\v_c4.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-objective",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 69,
+  "geometry": [
+    {
+      "name": "studio_v_c4_reference",
+      "vertices": 2603,
+      "triangles": 3128,
+      "materials": [
+        "C4_light",
+        "C4",
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "C4",
+      "image": "c4",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "C4_light",
+      "image": "c4_light",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 25.0,
+      "source_frames": 26,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "drop",
+      "source_name": "@drop",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "idle1",
+      "source_name": "@idle1",
+      "source_fps": 12.0,
+      "source_frames": 2,
+      "unkeyed_root_corrections": [],
+      "duration": 0.08333333333333333
+    },
+    {
+      "name": "pressbutton",
+      "source_name": "@pressbutton",
+      "source_fps": 30.0,
+      "source_frames": 84,
+      "unkeyed_root_corrections": [],
+      "duration": 2.7666666666666666
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\c4\\c4.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

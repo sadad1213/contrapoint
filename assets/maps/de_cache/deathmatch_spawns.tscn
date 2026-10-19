@@ -1,0 +1,756 @@
+[gd_scene format=3]
+
+[node name="DeathmatchSpawns" type="Node3D" unique_id=1571278392]
+
+[node name="Spawn_deathmatch_000" type="Marker3D" parent="." unique_id=2010553883]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -38.019867, -3.8048549, -3.9655285)
+
+[node name="Spawn_deathmatch_001" type="Marker3D" parent="." unique_id=1965173297]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 11.242671, -4.064, 28.48687)
+
+[node name="Spawn_deathmatch_002" type="Marker3D" parent="." unique_id=259287673]
+transform = Transform3D(-0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, -0.7071068, 10.576007, -4.064, 22.700207)
+
+[node name="Spawn_deathmatch_003" type="Marker3D" parent="." unique_id=957731726]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.973997, -3.9694903, 3.8202019)
+
+[node name="Spawn_deathmatch_004" type="Marker3D" parent="." unique_id=351216536]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 52.84267, -4.064, 23.686872)
+
+[node name="Spawn_deathmatch_005" type="Marker3D" parent="." unique_id=1507030007]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 53.742672, -4.064, 16.120207)
+
+[node name="Spawn_deathmatch_006" type="Marker3D" parent="." unique_id=397825167]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.576004, -1.8287997, -26.779797)
+
+[node name="Spawn_deathmatch_007" type="Marker3D" parent="." unique_id=1432475376]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -5.223999, -2.1843998, -53.979797)
+
+[node name="Spawn_deathmatch_008" type="Marker3D" parent="." unique_id=183239000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.623993, -3.6884155, 2.620201)
+
+[node name="Spawn_deathmatch_009" type="Marker3D" parent="." unique_id=649961419]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 53.736004, -4.064, -14.699797)
+
+[node name="Spawn_deathmatch_010" type="Marker3D" parent="." unique_id=135762943]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 21.64267, -4.064, 5.8868713)
+
+[node name="Spawn_deathmatch_011" type="Marker3D" parent="." unique_id=2027825831]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.975998, -4.064, 21.660202)
+
+[node name="Spawn_deathmatch_012" type="Marker3D" parent="." unique_id=1492836193]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -19.423996, -4.064, 1.6202049)
+
+[node name="Spawn_deathmatch_013" type="Marker3D" parent="." unique_id=2047005274]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20.642675, -1.8287997, -37.379795)
+
+[node name="Spawn_deathmatch_014" type="Marker3D" parent="." unique_id=982399432]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.223995, -4.064, -15.279797)
+
+[node name="Spawn_deathmatch_015" type="Marker3D" parent="." unique_id=1359596041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.309336, -4.064, 32.48687)
+
+[node name="Spawn_deathmatch_016" type="Marker3D" parent="." unique_id=1824320655]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 28.075998, -4.064, 21.653538)
+
+[node name="Spawn_deathmatch_017" type="Marker3D" parent="." unique_id=1044490857]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 43.17601, -4.064, -5.379795)
+
+[node name="Spawn_deathmatch_018" type="Marker3D" parent="." unique_id=98492504]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 25.975998, -1.8288002, -34.15313)
+
+[node name="Spawn_deathmatch_019" type="Marker3D" parent="." unique_id=317288190]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.823997, -4.064, -3.5797958)
+
+[node name="Spawn_deathmatch_020" type="Marker3D" parent="." unique_id=57904555]
+transform = Transform3D(0.3826836, 0, -0.92387944, 0, 1, 0, 0.92387944, 0, 0.3826836, 9.626003, -2.1844, -53.1798)
+
+[node name="Spawn_deathmatch_021" type="Marker3D" parent="." unique_id=878672051]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 9.253779, -2.1843998, -44.8798)
+
+[node name="Spawn_deathmatch_022" type="Marker3D" parent="." unique_id=1211212181]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 40.09029, -4.064, -20.122652)
+
+[node name="Spawn_deathmatch_023" type="Marker3D" parent="." unique_id=1347847064]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 46.861713, -4.064, -7.5797973)
+
+[node name="Spawn_deathmatch_024" type="Marker3D" parent="." unique_id=1320007173]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 37.776, -4.064, 16.420204)
+
+[node name="Spawn_deathmatch_025" type="Marker3D" parent="." unique_id=1356654121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.224, -4.027643, -9.579796)
+
+[node name="Spawn_deathmatch_026" type="Marker3D" parent="." unique_id=771377072]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -2.8239899, -2.1844003, -27.179798)
+
+[node name="Spawn_deathmatch_027" type="Marker3D" parent="." unique_id=924632237]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 23.776001, -4.064, -4.179796)
+
+[node name="Spawn_deathmatch_028" type="Marker3D" parent="." unique_id=254508866]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 16.016003, -1.8287997, -47.499794)
+
+[node name="Spawn_deathmatch_029" type="Marker3D" parent="." unique_id=1553060927]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, -33.623993, -4.064, -21.739796)
+
+[node name="Spawn_deathmatch_030" type="Marker3D" parent="." unique_id=1629113887]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, -16.823994, -2.1843998, -32.951225)
+
+[node name="Spawn_deathmatch_031" type="Marker3D" parent="." unique_id=1162754832]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 30.256002, -1.8288002, -40.779797)
+
+[node name="Spawn_deathmatch_032" type="Marker3D" parent="." unique_id=1633206892]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.709343, -4.064, -5.179798)
+
+[node name="Spawn_deathmatch_033" type="Marker3D" parent="." unique_id=708814067]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 44.976, -4.064, -14.913129)
+
+[node name="Spawn_deathmatch_034" type="Marker3D" parent="." unique_id=171805522]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 20.376007, -1.8287997, -41.3798)
+
+[node name="Spawn_deathmatch_035" type="Marker3D" parent="." unique_id=812393573]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.357326, -2.1843998, -52.046467)
+
+[node name="Spawn_deathmatch_036" type="Marker3D" parent="." unique_id=1365544359]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.723999, -2.8716226, 27.520203)
+
+[node name="Spawn_deathmatch_037" type="Marker3D" parent="." unique_id=763076420]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 45.576004, -4.064, 15.820206)
+
+[node name="Spawn_deathmatch_038" type="Marker3D" parent="." unique_id=827042413]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 38.376007, -4.064, -8.979796)
+
+[node name="Spawn_deathmatch_039" type="Marker3D" parent="." unique_id=1599063006]
+transform = Transform3D(-0.38268358, 0, -0.9238795, 0, 1, 0, 0.9238795, 0, -0.38268358, 25.975998, -4.064, -19.379797)
+
+[node name="Spawn_deathmatch_040" type="Marker3D" parent="." unique_id=275359429]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 13.64267, -1.8287997, -42.51313)
+
+[node name="Spawn_deathmatch_041" type="Marker3D" parent="." unique_id=1827960759]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, 31.576004, -1.8287997, -49.179794)
+
+[node name="Spawn_deathmatch_042" type="Marker3D" parent="." unique_id=1431460221]
+transform = Transform3D(-0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, -0.7071068, 23.17601, -1.8288002, -51.579796)
+
+[node name="Spawn_deathmatch_043" type="Marker3D" parent="." unique_id=5747033]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 59.490288, -4.064, -0.5512266)
+
+[node name="Spawn_deathmatch_044" type="Marker3D" parent="." unique_id=670740285]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -2.7573292, -4.0386, -11.246464)
+
+[node name="Spawn_deathmatch_045" type="Marker3D" parent="." unique_id=822085052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9093374, -2.1843998, -44.913128)
+
+[node name="Spawn_deathmatch_046" type="Marker3D" parent="." unique_id=1645736525]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -40.023994, -4.064, -26.179798)
+
+[node name="Spawn_deathmatch_047" type="Marker3D" parent="." unique_id=142052816]
+transform = Transform3D(0.3826836, 0, -0.92387944, 0, 1, 0, 0.92387944, 0, 0.3826836, 26.576008, -4.064, 5.2202034)
+
+[node name="Spawn_deathmatch_048" type="Marker3D" parent="." unique_id=264625381]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.926003, -4.064, 4.5202045)
+
+[node name="Spawn_deathmatch_049" type="Marker3D" parent="." unique_id=332987428]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, -26.783995, -4.064, 7.6602035)
+
+[node name="Spawn_deathmatch_050" type="Marker3D" parent="." unique_id=1138383602]
+transform = Transform3D(-0.38268358, 0, -0.9238795, 0, 1, 0, 0.9238795, 0, -0.38268358, 18.242666, -4.064, 32.48687)
+
+[node name="Spawn_deathmatch_051" type="Marker3D" parent="." unique_id=317158451]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -43.05257, -4.0146217, -7.779796)
+
+[node name="Spawn_deathmatch_052" type="Marker3D" parent="." unique_id=1241960651]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.023994, -4.064, -13.179798)
+
+[node name="Spawn_deathmatch_053" type="Marker3D" parent="." unique_id=1562204911]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.976003, -1.8287997, -37.2798)
+
+[node name="Spawn_deathmatch_054" type="Marker3D" parent="." unique_id=853628801]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, -10.623993, -4.064, 24.620201)
+
+[node name="Spawn_deathmatch_055" type="Marker3D" parent="." unique_id=1239586482]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 5.2260056, -2.1843998, -50.479797)
+
+[node name="Spawn_deathmatch_056" type="Marker3D" parent="." unique_id=1092349015]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 3.9760056, -4.064, 7.5202045)
+
+[node name="Spawn_deathmatch_057" type="Marker3D" parent="." unique_id=1194820634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.109715, -4.064, 16.020206)
+
+[node name="Spawn_deathmatch_058" type="Marker3D" parent="." unique_id=1202889701]
+transform = Transform3D(-0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, -0.7071068, -4.2906647, -4.064, 9.620206)
+
+[node name="Spawn_deathmatch_059" type="Marker3D" parent="." unique_id=1543536625]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 9.187119, -2.1843998, -39.546467)
+
+[node name="Spawn_deathmatch_060" type="Marker3D" parent="." unique_id=422252751]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, 32.176, -4.064, -3.7797985)
+
+[node name="Spawn_deathmatch_061" type="Marker3D" parent="." unique_id=317140934]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 83.06489, -4.064, -5.246464)
+
+[node name="Spawn_deathmatch_062" type="Marker3D" parent="." unique_id=1225409890]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -7.623996, -4.064, 18.540205)
+
+[node name="Spawn_deathmatch_063" type="Marker3D" parent="." unique_id=1830193908]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 58.876, -4.064, 23.08687)
+
+[node name="Spawn_deathmatch_064" type="Marker3D" parent="." unique_id=1735165806]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 24.742666, -4.064, 15.120204)
+
+[node name="Spawn_deathmatch_065" type="Marker3D" parent="." unique_id=1850952128]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -18.663998, -2.1843998, -28.379795)
+
+[node name="Spawn_deathmatch_066" type="Marker3D" parent="." unique_id=64665750]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 4.975998, -4.064, 14.820206)
+
+[node name="Spawn_deathmatch_067" type="Marker3D" parent="." unique_id=1590612490]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 3.9760056, -2.1843998, -35.179794)
+
+[node name="Spawn_deathmatch_068" type="Marker3D" parent="." unique_id=268217997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.423996, -3.8867126, 4.8202057)
+
+[node name="Spawn_deathmatch_069" type="Marker3D" parent="." unique_id=1588297374]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 2.1760101, -2.8716226, 35.820206)
+
+[node name="Spawn_deathmatch_070" type="Marker3D" parent="." unique_id=438627056]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -15.223999, -4.064, 22.620201)
+
+[node name="Spawn_deathmatch_071" type="Marker3D" parent="." unique_id=1747640767]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -17.423996, -4.064, 6.920204)
+
+[node name="Spawn_deathmatch_072" type="Marker3D" parent="." unique_id=509552271]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.975998, -4.064, 1.6202011)
+
+[node name="Spawn_deathmatch_073" type="Marker3D" parent="." unique_id=438162625]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 16.376003, -4.064, 23.300203)
+
+[node name="Spawn_deathmatch_074" type="Marker3D" parent="." unique_id=457669903]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.624, -4.064, 0.6202011)
+
+[node name="Spawn_deathmatch_075" type="Marker3D" parent="." unique_id=2081538082]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -14.8239975, -4.064, 10.820206)
+
+[node name="Spawn_deathmatch_076" type="Marker3D" parent="." unique_id=960933115]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 74.37601, -4.064, -3.129797)
+
+[node name="Spawn_deathmatch_077" type="Marker3D" parent="." unique_id=497875922]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 2.7474344, -4.064, 22.191633)
+
+[node name="Spawn_deathmatch_078" type="Marker3D" parent="." unique_id=487998848]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -11.023994, -2.1843998, -33.079796)
+
+[node name="Spawn_deathmatch_079" type="Marker3D" parent="." unique_id=410600062]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.998056, -1.8288003, -32.878773)
+
+[node name="Spawn_deathmatch_080" type="Marker3D" parent="." unique_id=1807815228]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 62.34743, -4.064, 6.7630606)
+
+[node name="Spawn_deathmatch_081" type="Marker3D" parent="." unique_id=320149521]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.576004, -4.064, 9.220203)
+
+[node name="Spawn_deathmatch_082" type="Marker3D" parent="." unique_id=265914887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 46.620453, -4.064, 3.3535376)
+
+[node name="Spawn_deathmatch_083" type="Marker3D" parent="." unique_id=802809950]
+transform = Transform3D(-0.38268358, 0, -0.9238795, 0, 1, 0, 0.9238795, 0, -0.38268358, -9.623993, -2.794, -0.97979736)
+
+[node name="Spawn_deathmatch_084" type="Marker3D" parent="." unique_id=1932768226]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -42.65257, -3.8503976, -0.5797968)
+
+[node name="Spawn_deathmatch_085" type="Marker3D" parent="." unique_id=680236686]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 14.176006, -3.9979591, -12.579797)
+
+[node name="Spawn_deathmatch_086" type="Marker3D" parent="." unique_id=1769220893]
+transform = Transform3D(-0.38268358, 0, -0.9238795, 0, 1, 0, 0.9238795, 0, -0.38268358, 22.17601, -1.8287997, -46.779797)
+
+[node name="Spawn_deathmatch_087" type="Marker3D" parent="." unique_id=1862119287]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, -26.112888, -4.064, 16.220207)
+
+[node name="Spawn_deathmatch_088" type="Marker3D" parent="." unique_id=895556531]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -44.224, -4.064, -26.779797)
+
+[node name="Spawn_deathmatch_089" type="Marker3D" parent="." unique_id=2029265280]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -20.395424, -2.1843998, -36.3798)
+
+[node name="Spawn_deathmatch_090" type="Marker3D" parent="." unique_id=106248389]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.576004, -1.8288, -20.579796)
+
+[node name="Spawn_deathmatch_091" type="Marker3D" parent="." unique_id=2138180708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.67601, -1.8287997, -30.979797)
+
+[node name="Spawn_deathmatch_092" type="Marker3D" parent="." unique_id=63954340]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -0.58399963, -4.0386, -7.819795)
+
+[node name="Spawn_deathmatch_093" type="Marker3D" parent="." unique_id=607000087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.82399, -4.0386, -7.7797966)
+
+[node name="Spawn_deathmatch_094" type="Marker3D" parent="." unique_id=462728227]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.1760101, -2.4383998, 25.820206)
+
+[node name="Spawn_deathmatch_095" type="Marker3D" parent="." unique_id=114490681]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.626, -4.064, 6.370205)
+
+[node name="Spawn_deathmatch_096" type="Marker3D" parent="." unique_id=1713202997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.924, -2.1843998, -34.929794)
+
+[node name="Spawn_deathmatch_097" type="Marker3D" parent="." unique_id=1274969794]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 13.776001, -1.8287997, -56.1798)
+
+[node name="Spawn_deathmatch_098" type="Marker3D" parent="." unique_id=2028141915]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.17601, -2.1843998, -32.979797)
+
+[node name="Spawn_deathmatch_099" type="Marker3D" parent="." unique_id=1791280732]
+transform = Transform3D(0.3826836, 0, -0.92387944, 0, 1, 0, 0.92387944, 0, 0.3826836, -13.8239975, -2.794, 2.620201)
+
+[node name="Spawn_deathmatch_100" type="Marker3D" parent="." unique_id=532541249]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 18.136005, -4.0386, -8.779798)
+
+[node name="Spawn_deathmatch_101" type="Marker3D" parent="." unique_id=1357530096]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 26.159332, -1.8288002, -39.12313)
+
+[node name="Spawn_deathmatch_102" type="Marker3D" parent="." unique_id=1356463692]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 39.876, -4.064, 23.420204)
+
+[node name="Spawn_deathmatch_103" type="Marker3D" parent="." unique_id=2020097668]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, -13.957332, -2.794, -3.513129)
+
+[node name="Spawn_deathmatch_104" type="Marker3D" parent="." unique_id=1805969440]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 20.975998, -4.064, 28.020203)
+
+[node name="Spawn_deathmatch_105" type="Marker3D" parent="." unique_id=1359299213]
+transform = Transform3D(-0.38268358, 0, -0.9238795, 0, 1, 0, 0.9238795, 0, -0.38268358, 5.376007, -2.1844, -57.1798)
+
+[node name="Spawn_deathmatch_106" type="Marker3D" parent="." unique_id=184910423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -33.796715, -3.8465188, -5.6610813)
+
+[node name="Spawn_deathmatch_107" type="Marker3D" parent="." unique_id=1620887139]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -8.223999, -2.1844003, -24.579796)
+
+[node name="Spawn_deathmatch_108" type="Marker3D" parent="." unique_id=1755768618]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 8.5029955, -4.0386, -5.1607447)
+
+[node name="Spawn_deathmatch_109" type="Marker3D" parent="." unique_id=1234497280]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 0.41600037, -4.0386, -2.819796)
+
+[node name="Spawn_deathmatch_110" type="Marker3D" parent="." unique_id=577496025]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 13.109334, -4.064, 33.153538)
+
+[node name="Spawn_deathmatch_111" type="Marker3D" parent="." unique_id=730126204]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 32.776, -4.064, 10.220207)
+
+[node name="Spawn_deathmatch_112" type="Marker3D" parent="." unique_id=1942790789]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 4.4553704, -4.0386, -7.6750326)
+
+[node name="Spawn_deathmatch_113" type="Marker3D" parent="." unique_id=1269847762]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 46.536007, -4.064, 21.340204)
+
+[node name="Spawn_deathmatch_114" type="Marker3D" parent="." unique_id=667172145]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -9.473999, -4.064, 31.620205)
+
+[node name="Spawn_deathmatch_115" type="Marker3D" parent="." unique_id=1209870794]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -29.223997, -4.0086126, -2.046463)
+
+[node name="Spawn_deathmatch_116" type="Marker3D" parent="." unique_id=565296451]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -37.24083, -3.9561372, 1.8172708)
+
+[node name="Spawn_deathmatch_117" type="Marker3D" parent="." unique_id=1008022389]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -4.423996, -2.8716226, 35.220207)
+
+[node name="Spawn_deathmatch_118" type="Marker3D" parent="." unique_id=1827238414]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 4.909332, -2.1843998, -45.846466)
+
+[node name="Spawn_deathmatch_119" type="Marker3D" parent="." unique_id=596171047]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10.82399, -2.1843998, -39.779797)
+
+[node name="Spawn_deathmatch_120" type="Marker3D" parent="." unique_id=855203290]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -34.823997, -4.064, -26.779797)
+
+[node name="Spawn_deathmatch_121" type="Marker3D" parent="." unique_id=941421859]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -43.323997, -4.064, -11.779797)
+
+[node name="Spawn_deathmatch_122" type="Marker3D" parent="." unique_id=1312444566]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 36.404583, -4.064, -16.265509)
+
+[node name="Spawn_deathmatch_123" type="Marker3D" parent="." unique_id=366330820]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 11.047116, -3.9194338, -8.353128)
+
+[node name="Spawn_deathmatch_124" type="Marker3D" parent="." unique_id=630408408]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 30.309341, -4.064, 1.4868723)
+
+[node name="Spawn_deathmatch_125" type="Marker3D" parent="." unique_id=645058007]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.776001, -4.0386, 3.0202026)
+
+[node name="Spawn_deathmatch_126" type="Marker3D" parent="." unique_id=414911626]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 8.876007, -4.064, 10.420204)
+
+[node name="Spawn_deathmatch_127" type="Marker3D" parent="." unique_id=1605780022]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.823997, -4.0386, 10.420204)
+
+[node name="Spawn_deathmatch_128" type="Marker3D" parent="." unique_id=1689868136]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.54743, -4.064, 5.391631)
+
+[node name="Spawn_deathmatch_129" type="Marker3D" parent="." unique_id=94041291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.542667, -4.064, 18.320204)
+
+[node name="Spawn_deathmatch_130" type="Marker3D" parent="." unique_id=1140969644]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 14.076, -1.8287997, -27.779797)
+
+[node name="Spawn_deathmatch_131" type="Marker3D" parent="." unique_id=229963973]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 49.17601, -4.064, -15.179798)
+
+[node name="Spawn_deathmatch_132" type="Marker3D" parent="." unique_id=837941071]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, 0.026000977, -2.1843998, -40.279797)
+
+[node name="Spawn_deathmatch_133" type="Marker3D" parent="." unique_id=1240334505]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.557333, -4.064, 23.886871)
+
+[node name="Spawn_deathmatch_134" type="Marker3D" parent="." unique_id=1080250987]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 4.975998, -2.8716226, 29.620201)
+
+[node name="Spawn_deathmatch_135" type="Marker3D" parent="." unique_id=685805063]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.024002, -2.8716226, 31.620201)
+
+[node name="Spawn_deathmatch_136" type="Marker3D" parent="." unique_id=1866191647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.786718, -4.0386, -2.445446)
+
+[node name="Spawn_deathmatch_137" type="Marker3D" parent="." unique_id=803102614]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.95379, -4.064, 0.15353632)
+
+[node name="Spawn_deathmatch_138" type="Marker3D" parent="." unique_id=165444769]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 4.7360015, -4.0386, -1.6397964)
+
+[node name="Spawn_deathmatch_139" type="Marker3D" parent="." unique_id=306285629]
+transform = Transform3D(0.3826836, 0, -0.92387944, 0, 1, 0, 0.92387944, 0, 0.3826836, 33.276, -4.064, 20.270205)
+
+[node name="Spawn_deathmatch_140" type="Marker3D" parent="." unique_id=1266237703]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -2.3440003, -2.1843998, -56.779797)
+
+[node name="Spawn_deathmatch_141" type="Marker3D" parent="." unique_id=855258583]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.256004, -4.064, -10.699797)
+
+[node name="Spawn_deathmatch_142" type="Marker3D" parent="." unique_id=631721597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.304001, -2.1843998, -30.899797)
+
+[node name="Spawn_deathmatch_143" type="Marker3D" parent="." unique_id=526802207]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 26.365997, -4.064, -24.723131)
+
+[node name="Spawn_deathmatch_144" type="Marker3D" parent="." unique_id=1516087302]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.233147, -4.064, -14.2369375)
+
+[node name="Spawn_deathmatch_145" type="Marker3D" parent="." unique_id=347201996]
+transform = Transform3D(-0.7071068, 0, -0.7071067, 0, 1, 0, 0.7071067, 0, -0.7071068, 30.456003, -4.064, -22.899796)
+
+[node name="Spawn_deathmatch_146" type="Marker3D" parent="." unique_id=776914360]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.37601, -4.064, -2.9797974)
+
+[node name="Spawn_deathmatch_147" type="Marker3D" parent="." unique_id=912846734]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -5.2906647, -4.064, 15.220204)
+
+[node name="Spawn_deathmatch_148" type="Marker3D" parent="." unique_id=1590498267]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -30.923998, -3.9609776, 7.8868713)
+
+[node name="Spawn_deathmatch_149" type="Marker3D" parent="." unique_id=1407819791]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.626007, -4.064, 9.870207)
+
+[node name="Spawn_deathmatch_150" type="Marker3D" parent="." unique_id=1026680348]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 63.376007, -4.064, 25.020203)
+
+[node name="Spawn_deathmatch_151" type="Marker3D" parent="." unique_id=1547019860]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 63.061714, -4.064, -2.379799)
+
+[node name="Spawn_deathmatch_152" type="Marker3D" parent="." unique_id=915510965]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0.5359986, -2.1844, -53.899796)
+
+[node name="Spawn_deathmatch_153" type="Marker3D" parent="." unique_id=1295056018]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.42044, -4.064, 7.97576)
+
+[node name="Spawn_deathmatch_154" type="Marker3D" parent="." unique_id=636538979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.975998, -4.064, -14.179795)
+
+[node name="Spawn_deathmatch_155" type="Marker3D" parent="." unique_id=857470924]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 23.975998, -4.064, 11.020203)
+
+[node name="Spawn_deathmatch_156" type="Marker3D" parent="." unique_id=429476532]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.64267, -1.8288, -16.179798)
+
+[node name="Spawn_deathmatch_157" type="Marker3D" parent="." unique_id=1196432648]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 17.376001, -1.8287997, -52.979797)
+
+[node name="Spawn_deathmatch_158" type="Marker3D" parent="." unique_id=139456094]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 34.718864, -4.064, -24.579796)
+
+[node name="Spawn_deathmatch_159" type="Marker3D" parent="." unique_id=752547825]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78.576004, -4.064, 0.92020416)
+
+[node name="Spawn_deathmatch_160" type="Marker3D" parent="." unique_id=1633469729]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.176121, -4.0386, -5.685913)
+
+[node name="Spawn_deathmatch_161" type="Marker3D" parent="." unique_id=1036627043]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, -26.55733, -4.064, -5.5797987)
+
+[node name="Spawn_deathmatch_162" type="Marker3D" parent="." unique_id=1021069788]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 45.776, -4.064, -21.979797)
+
+[node name="Spawn_deathmatch_163" type="Marker3D" parent="." unique_id=1124695683]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.210663, -4.0386, -3.7664628)
+
+[node name="Spawn_deathmatch_164" type="Marker3D" parent="." unique_id=406115290]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 49.876, -4.064, -19.479797)
+
+[node name="Spawn_deathmatch_165" type="Marker3D" parent="." unique_id=914644643]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 22.63315, -1.8287997, -56.751225)
+
+[node name="Spawn_deathmatch_166" type="Marker3D" parent="." unique_id=245107496]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.975998, -4.064, 28.0202)
+
+[node name="Spawn_deathmatch_167" type="Marker3D" parent="." unique_id=1580175916]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -6.024002, -2.1843998, -41.3798)
+
+[node name="Spawn_deathmatch_168" type="Marker3D" parent="." unique_id=1441525348]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.976, -4.064, 0.953537)
+
+[node name="Spawn_deathmatch_169" type="Marker3D" parent="." unique_id=1728699682]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -39.423996, -3.96978, 8.020203)
+
+[node name="Spawn_deathmatch_170" type="Marker3D" parent="." unique_id=1685915823]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -26.112888, -4.064, 23.153538)
+
+[node name="Spawn_deathmatch_171" type="Marker3D" parent="." unique_id=590807301]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 55.376, -4.064, -20.979797)
+
+[node name="Spawn_deathmatch_172" type="Marker3D" parent="." unique_id=390926966]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 21.376007, -4.064, -11.579796)
+
+[node name="Spawn_deathmatch_173" type="Marker3D" parent="." unique_id=1098107168]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 22.042673, -4.064, 1.6868719)
+
+[node name="Spawn_deathmatch_174" type="Marker3D" parent="." unique_id=649327443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.301, -4.064, 1.0202036)
+
+[node name="Spawn_deathmatch_175" type="Marker3D" parent="." unique_id=338647612]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.880646, -3.8683429, 0.811636)
+
+[node name="Spawn_deathmatch_176" type="Marker3D" parent="." unique_id=848023741]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.576004, -4.064, 35.953533)
+
+[node name="Spawn_deathmatch_177" type="Marker3D" parent="." unique_id=390222688]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -38.273994, -4.064, -21.179796)
+
+[node name="Spawn_deathmatch_178" type="Marker3D" parent="." unique_id=943205213]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.376007, -2.8447998, 8.270203)
+
+[node name="Spawn_deathmatch_179" type="Marker3D" parent="." unique_id=1685405736]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 26.736004, -1.8287997, -47.259796)
+
+[node name="Spawn_deathmatch_180" type="Marker3D" parent="." unique_id=945142713]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.7382836, -4.064, 20.163061)
+
+[node name="Spawn_deathmatch_181" type="Marker3D" parent="." unique_id=12075509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.975998, -4.064, 14.353535)
+
+[node name="Spawn_deathmatch_182" type="Marker3D" parent="." unique_id=1437880115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.490662, -4.064, -9.579797)
+
+[node name="Spawn_deathmatch_183" type="Marker3D" parent="." unique_id=864511270]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -15.423996, -4.064, 15.220207)
+
+[node name="Spawn_deathmatch_184" type="Marker3D" parent="." unique_id=443017021]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.82399, -2.1843998, -47.459797)
+
+[node name="Spawn_deathmatch_185" type="Marker3D" parent="." unique_id=492726346]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 25.576004, -4.064, -8.179796)
+
+[node name="Spawn_deathmatch_186" type="Marker3D" parent="." unique_id=1029730429]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, 71.71886, -4.064, -8.122655)
+
+[node name="Spawn_deathmatch_187" type="Marker3D" parent="." unique_id=1771916078]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, -12.924, -2.1843998, -29.429794)
+
+[node name="Spawn_deathmatch_188" type="Marker3D" parent="." unique_id=2112289093]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.096005, -2.1843998, -39.819798)
+
+[node name="Spawn_deathmatch_189" type="Marker3D" parent="." unique_id=697899290]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, -1.3668582, -4.064, 13.648774)
+
+[node name="Spawn_deathmatch_190" type="Marker3D" parent="." unique_id=273511147]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.890665, -4.064, 26.520206)
+
+[node name="Spawn_deathmatch_191" type="Marker3D" parent="." unique_id=781305314]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -30.157331, -4.0419254, -9.579796)
+
+[node name="Spawn_deathmatch_192" type="Marker3D" parent="." unique_id=1727267789]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -17.909714, -4.064, 19.477348)
+
+[node name="Spawn_deathmatch_193" type="Marker3D" parent="." unique_id=400251289]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 33.17601, -1.8288002, -35.809795)
+
+[node name="Spawn_deathmatch_194" type="Marker3D" parent="." unique_id=569860645]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.05257, -4.064, 11.7916355)
+
+[node name="Spawn_deathmatch_195" type="Marker3D" parent="." unique_id=1855758452]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.95378, -4.064, -3.0464642)
+
+[node name="Spawn_deathmatch_196" type="Marker3D" parent="." unique_id=2040814668]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -10.223999, -4.064, 10.220207)
+
+[node name="Spawn_deathmatch_197" type="Marker3D" parent="." unique_id=1066200471]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, -2.8239899, -2.1843998, -48.179794)
+
+[node name="Spawn_deathmatch_198" type="Marker3D" parent="." unique_id=386139852]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 37.004574, -4.064, -4.1512256)
+
+[node name="Spawn_deathmatch_199" type="Marker3D" parent="." unique_id=1410686582]
+transform = Transform3D(-0.9238795, 0, -0.38268343, 0, 1, 0, 0.38268343, 0, -0.9238795, 32.776, -4.064, -7.9797974)
+
+[node name="Spawn_deathmatch_200" type="Marker3D" parent="." unique_id=1905561471]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -26.223999, -2.1843998, -34.299797)
+
+[node name="Spawn_deathmatch_201" type="Marker3D" parent="." unique_id=2123648304]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, -44.224, -4.064, -21.779797)
+
+[node name="Spawn_deathmatch_202" type="Marker3D" parent="." unique_id=756374876]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.233147, -4.064, -7.8083696)
+
+[node name="Spawn_deathmatch_203" type="Marker3D" parent="." unique_id=472821126]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 25.909338, -4.064, -0.24646258)
+
+[node name="Spawn_deathmatch_204" type="Marker3D" parent="." unique_id=1203449653]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -10.82399, -2.1843998, -56.779797)
+
+[node name="Spawn_deathmatch_205" type="Marker3D" parent="." unique_id=408040787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -34.823997, -3.9040802, 9.420204)
+
+[node name="Spawn_deathmatch_206" type="Marker3D" parent="." unique_id=2008608159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 79.37601, -4.064, -3.2797966)
+
+[node name="Spawn_deathmatch_207" type="Marker3D" parent="." unique_id=787227544]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 79.776, -4.064, -8.979797)
+
+[node name="Spawn_deathmatch_208" type="Marker3D" parent="." unique_id=1453241797]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 5.833141, -4.0386, -11.979797)
+
+[node name="Spawn_deathmatch_209" type="Marker3D" parent="." unique_id=2058243994]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -1.223993, -2.1843998, -35.059795)
+
+[node name="Spawn_deathmatch_210" type="Marker3D" parent="." unique_id=2017627758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.97601, -4.064, -0.9131303)
+
+[node name="Spawn_deathmatch_211" type="Marker3D" parent="." unique_id=723431019]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 29.64267, -4.064, 17.220205)
+
+[node name="Spawn_deathmatch_212" type="Marker3D" parent="." unique_id=1626099820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.80457, -4.064, 7.420204)
+
+[node name="Spawn_deathmatch_213" type="Marker3D" parent="." unique_id=746440010]
+transform = Transform3D(-0.3826834, 0, 0.92387956, 0, 1, 0, -0.92387956, 0, -0.3826834, 43.17601, -4.064, -10.979796)
+
+[node name="Spawn_deathmatch_214" type="Marker3D" parent="." unique_id=1875275146]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -22.10971, -2.1843998, -31.808369)
+
+[node name="Spawn_deathmatch_215" type="Marker3D" parent="." unique_id=1608302000]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 40.426003, -4.064, 13.320206)
+
+[node name="Spawn_deathmatch_216" type="Marker3D" parent="." unique_id=2086690874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.376007, -4.064, 10.820206)
+
+[node name="Spawn_deathmatch_217" type="Marker3D" parent="." unique_id=757123439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.442668, -1.8287997, -33.379795)
+
+[node name="Spawn_deathmatch_218" type="Marker3D" parent="." unique_id=262588618]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.223999, -4.064, 26.220205)
+
+[node name="Spawn_deathmatch_219" type="Marker3D" parent="." unique_id=1170009847]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.06489, -4.064, 3.3757596)
+
+[node name="Spawn_deathmatch_220" type="Marker3D" parent="." unique_id=926162923]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 75.776, -4.064, -8.979797)
+
+[node name="Spawn_deathmatch_221" type="Marker3D" parent="." unique_id=983625149]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 65.204575, -4.064, 3.1059165)
+
+[node name="Spawn_deathmatch_222" type="Marker3D" parent="." unique_id=1708734433]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 32.626003, -1.8287997, -44.229797)
+
+[node name="Spawn_deathmatch_223" type="Marker3D" parent="." unique_id=1055459946]
+transform = Transform3D(1.1924881e-08, 0, -1, 0, 1, 0, 1, 0, 1.1924881e-08, 16.126, -4.064, 28.620201)
+
+[node name="Spawn_deathmatch_224" type="Marker3D" parent="." unique_id=1323688357]
+transform = Transform3D(0.3826836, 0, -0.92387944, 0, 1, 0, 0.92387944, 0, 0.3826836, 15.376007, -4.064, 36.6202)
+
+[node name="Spawn_deathmatch_225" type="Marker3D" parent="." unique_id=886055075]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -12.024002, -4.064, 6.420204)
+
+[node name="Spawn_deathmatch_226" type="Marker3D" parent="." unique_id=696162494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.624, -4.0386, -10.979797)
+
+[node name="Spawn_deathmatch_227" type="Marker3D" parent="." unique_id=992718549]
+transform = Transform3D(0.38268343, 0, 0.9238795, 0, 1, 0, -0.9238795, 0, 0.38268343, 50.026, -4.064, 18.120205)
+
+[node name="Spawn_deathmatch_228" type="Marker3D" parent="." unique_id=236508405]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.723999, -2.8716226, 27.420204)
+
+[node name="Spawn_deathmatch_229" type="Marker3D" parent="." unique_id=383051676]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.557331, -4.064, 5.820203)
+
+[node name="Spawn_deathmatch_230" type="Marker3D" parent="." unique_id=743958542]
+transform = Transform3D(0.70710665, 0, -0.7071069, 0, 1, 0, 0.7071069, 0, 0.70710665, 24.376007, -1.8287997, -43.3798)
+
+[node name="Spawn_deathmatch_231" type="Marker3D" parent="." unique_id=1214120970]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.976006, -4.064, 25.020203)
+
+[node name="Spawn_deathmatch_232" type="Marker3D" parent="." unique_id=639040794]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 42.056004, -4.064, -24.579796)
+
+[node name="Spawn_deathmatch_233" type="Marker3D" parent="." unique_id=948315475]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -6.923996, -2.1843998, -48.3798)
+
+[node name="Spawn_deathmatch_234" type="Marker3D" parent="." unique_id=1798556730]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.42045, -4.064, -0.6464631)
+
+[node name="Spawn_deathmatch_235" type="Marker3D" parent="." unique_id=118315045]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.62045, -4.064, 4.420204)
+
+[node name="Spawn_deathmatch_236" type="Marker3D" parent="." unique_id=39634550]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -9.623993, -2.794, -6.379795)
+
+[node name="Spawn_deathmatch_237" type="Marker3D" parent="." unique_id=1447142340]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 48.97601, -4.064, 25.020203)
+
+[node name="Spawn_deathmatch_238" type="Marker3D" parent="." unique_id=976631462]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -23.183996, -2.1843998, -27.899796)
+
+[node name="Spawn_deathmatch_239" type="Marker3D" parent="." unique_id=2047155571]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, -32.023994, -4.064, -17.099794)
+
+[node name="Spawn_deathmatch_240" type="Marker3D" parent="." unique_id=1647657130]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 39.20458, -4.064, -13.379795)
+
+[node name="Spawn_deathmatch_241" type="Marker3D" parent="." unique_id=730187845]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -7.82399, -4.0132, -11.579796)
+
+[node name="Spawn_deathmatch_242" type="Marker3D" parent="." unique_id=1857451645]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -7.82399, -4.064, 6.620201)
+
+[node name="Spawn_deathmatch_243" type="Marker3D" parent="." unique_id=1618019229]
+transform = Transform3D(-0.9238795, 0, 0.3826835, 0, 1, 0, -0.3826835, 0, -0.9238795, -0.82398987, -4.064, 7.2202034)
+
+[node name="Spawn_deathmatch_244" type="Marker3D" parent="." unique_id=1877696759]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 41.616, -4.064, 18.340204)
+
+[node name="Spawn_deathmatch_245" type="Marker3D" parent="." unique_id=990980807]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.176004, -3.2455935, 2.620206)
+
+[node name="Spawn_deathmatch_246" type="Marker3D" parent="." unique_id=1569496512]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -6.223996, -4.064, 22.900206)
+
+[node name="Spawn_deathmatch_247" type="Marker3D" parent="." unique_id=161931246]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -14.566851, -2.1843998, -36.3798)
+
+[node name="Spawn_deathmatch_248" type="Marker3D" parent="." unique_id=1958809982]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, -3.223999, -2.1843998, -31.246462)
+
+[node name="Spawn_deathmatch_249" type="Marker3D" parent="." unique_id=2122661704]
+transform = Transform3D(0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, 0.70710677, 33.86172, -4.064, -20.06551)
+
+[node name="Spawn_deathmatch_250" type="Marker3D" parent="." unique_id=235198868]
+transform = Transform3D(0.9238795, 0, 0.38268346, 0, 1, 0, -0.38268346, 0, 0.9238795, 29.576004, -4.064, 36.6202)

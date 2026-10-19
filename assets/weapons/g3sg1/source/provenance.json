@@ -1,0 +1,93 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_awp/v_awp_scope.vmt",
+      "sha256": "3d23655d14867254621153654736b379770936deb78cfd43a1becc2b3b6cfa0d"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_awp/v_awp_scope.vtf",
+      "sha256": "b5d1bdaa5bab5d22b775262a2c0320dfc3ce9e5d22fdd7544af7a041db579a31"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_awp/v_awp_scope_ref.vtf",
+      "sha256": "a86a29c728140594d8d486dccb496c9f8b4d6178debda49475cc10d2d938cb02"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_g3sg1/snip_g3sg1.vmt",
+      "sha256": "2f059bea98f6f198a8591797a54ce23d696650fc94967f0f3c491d8ca2f9eab7"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_g3sg1/snip_g3sg1.vtf",
+      "sha256": "81bc87fe8b9f50e6a70f9884270fd682f6608e0d1d019218547a1caac6f862cd"
+    },
+    {
+      "path": "materials/models/weapons/v_models/snip_g3sg1/snip_g3sg1_ref.vtf",
+      "sha256": "af1d038ce49c28886d8cbe33a31f36a5e2aa1ee33836b58e420e53499e31a3dc"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_snip_g3sg1/w_snip_g3sg1.vmt",
+      "sha256": "eed7d116035c6b4ddb1ba0527b3b9f00a0f7b8a58a9b8f2ee47fa177457e6bc8"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_snip_g3sg1/w_snip_g3sg1.vtf",
+      "sha256": "30831264db9a6f9004f9112e7c23c72f91fb2954b0fe5a8b46f258054b88ca79"
+    },
+    {
+      "path": "models/weapons/v_snip_g3sg1.dx90.vtx",
+      "sha256": "abd93cd379ea237ed2be2e0f3549d8c7a62ec2bec8e857bffac5640feaffbcc1"
+    },
+    {
+      "path": "models/weapons/v_snip_g3sg1.mdl",
+      "sha256": "753e8fb0069e1266f2e082e9c47e42f773038e2bd52ca3aa47002a0d8e2f73d2"
+    },
+    {
+      "path": "models/weapons/v_snip_g3sg1.vvd",
+      "sha256": "ce1e41fe2197a32583f217ef7f8917924fb0b32d84488b01c6049da933c7dcef"
+    },
+    {
+      "path": "models/weapons/w_snip_g3sg1.dx90.vtx",
+      "sha256": "9ad253b4f9d536a39b8ed5557ec1ade1e0ba655a9398000d7a86aee07b5e2f00"
+    },
+    {
+      "path": "models/weapons/w_snip_g3sg1.mdl",
+      "sha256": "db94084ca6ae741ff98c43ffdb43f3c91be4e15c771a463a1938b2cc4fc3b5d5"
+    },
+    {
+      "path": "models/weapons/w_snip_g3sg1.phy",
+      "sha256": "ab1aabdc73d01fead1bcb5f7902d98b37d26d401db90773543e658f0df998eb1"
+    },
+    {
+      "path": "models/weapons/w_snip_g3sg1.vvd",
+      "sha256": "b117dad7a196fcb92cbd0b973c2010c9e948042bc57deacbcd03f46ce8810145"
+    },
+    {
+      "path": "sound/weapons/g3sg1/g3sg1-1.wav",
+      "sha256": "0d595c2181693900ad758a915c85b1310b4c3d296c704a8318a25f97b8fc8524"
+    },
+    {
+      "path": "sound/weapons/g3sg1/g3sg1_clipin.wav",
+      "sha256": "8e2889175e1bd4bec6bcf393d998e51d30b1f31151c83e38d66907537289c714"
+    },
+    {
+      "path": "sound/weapons/g3sg1/g3sg1_clipout.wav",
+      "sha256": "785a05ca9de059c6638928a8ba1ba374d8ed8b0492f1bf1194d63cf57a50a073"
+    },
+    {
+      "path": "sound/weapons/g3sg1/g3sg1_slide.wav",
+      "sha256": "a164a810e5e1be456f23a2705563299541d4d4264e454c822bc99ea131e4b10b"
+    }
+  ]
+}

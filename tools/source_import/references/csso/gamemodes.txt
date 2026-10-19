@@ -1,0 +1,447 @@
+// Default game modes config file for Counter-Strike: Source Offensive.
+// It is used to register all playable game modes.
+//
+// Example usage:
+//
+//	"gametype"											// game type category, game types are selected by their order number via game_type command in-game
+//	{
+//		"gamemode"										// game type name, game modes are selected by their order number via game_mode command in-game
+//		{
+//			"base"						"basegamemode"	// if specified, will inherit rule set of that game mode in your custom mode, allowing to add derivatives of modes like arms race or demolition that use hardcoded rules
+//			"maxplayers"				"0"				// max number of players allowed in-game; defaults to maxplayers command value
+//			"uiattributes"								// in-game hud tweaks associated with each mode; can be removed
+//			{
+//				"scoreboard_unified"		"1"			// decides whether to use a unified player scoreboard layout or separate players into their own team's player lists
+//				"teamcounter_largeavatars"	"1"			// removes team-specific information from the round timer, only leaving large avatars of players on-screen
+//				"teamcounter_noroundtimer"	"1"			// for gamemodes that don't end from round time (such as arms race), hides the round timer in question
+//			}
+//			"config"									// all gamemode-specific settings, can be unique to each mode; available through VScripts using ScriptGetGameModeConfig() function; can be removed
+//			{
+//				"some_parameter_block"
+//				{
+//					"first_parameter"	"first_value"
+//					"second_parameter"	"second_value"
+//				}
+//				"first_parameter"		"first_value"
+//				"second_parameter"		"second_value"
+//			}
+//			"exec"										// all console commands that are executed with this game mode upon map load; if removed, will unlock gameplay settings in server creation panel
+//			{
+//				"command"				"arguments"
+//				"command"				"arguments"
+//				"command"				"arguments"
+//			}
+//			"maps"										// all maps that are available in server creation ui with this game mode; if none are specified, all will be available
+//			{
+//				"0"						"first_map"
+//				"1"						"second_map"
+//				"2"						"third_map"
+//			}
+//		}
+//	}
+//
+// This file MUST contain these game types, in order:
+//	"classic"
+//	{
+//		"casual"
+//		{
+//		}
+//		"competitive"
+//		{
+//		}
+//	}
+//	"gungame"
+//	{
+//		"armsrace"
+//		{
+//		}
+//		"demolition"
+//		{
+//		}
+//		"deathmatch"
+//		{
+//		}
+//	}
+//	"training"
+//	{
+//	}
+//	"custom"
+//	{
+//	}
+//
+// It MUST also contain these bot difficulties, in order:
+//	"none"
+//	{
+//	}
+//	"harmless"
+//	{
+//	}
+//
+
+"GameModes"
+{
+	"gametypes"
+	{
+		"classic"
+		{
+			"casual"
+			{
+				"exec"
+				{
+					"execifexists"			"gamemode_casual.cfg"
+					"execifexists"			"gamemode_casual_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_canals_go"
+					"1"						"de_vertigo_go"
+					"2"						"de_cbble_go"
+					"3"						"de_ancient_go"
+					"4"						"de_cache_go"
+					"4"						"de_cache_old_go"
+					"5"						"de_tuscan_go"
+					"6"						"de_anubis_go"
+					"7"						"de_mirage_go"
+					"8"						"de_inferno_go"
+					"8"						"de_inferno_old_go"
+					"9"						"de_overpass_go"
+					"10"					"de_nuke_go"
+					"10"					"de_nuke_old_go"
+					"11"					"de_train_go"
+					"11"					"de_train_old_go"
+					"12"					"de_dust2_go"
+					"12"					"de_dust2_old_go"
+					"13"					"cs_agency_go"
+					"14"					"cs_militia_go"
+					"14"					"cs_militia_old_go"
+					"15"					"cs_office_go"
+					"16"					"cs_italy_go"
+					"17"					"cs_assault_go"
+				}
+			}
+			"competitive"
+			{
+				"maxplayers"				"10"
+				"exec"
+				{
+					"execifexists"			"gamemode_competitive.cfg"
+					"execifexists"			"gamemode_competitive_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_ancient_go"
+					"1"						"de_anubis_go"
+					"2"						"de_inferno_go"
+					"2"						"de_inferno_old_go"
+					"3"						"de_mirage_go"
+					"4"						"de_nuke_go"
+					"4"						"de_nuke_old_go"
+					"5"						"de_overpass_go"
+					"6"						"de_vertigo_go"
+					"7"						"de_tuscan_go"
+					"8"						"de_dust2_go"
+					"8"						"de_dust2_old_go"
+					"9"						"de_train_go"
+					"9"						"de_train_old_go"
+					"10"					"de_cache_go"
+					"10"					"de_cache_old_go"
+					"11"					"cs_agency_go"
+					"12"					"cs_office_go"
+				}
+			}
+			"competitive2v2"
+			{
+				"base"						"competitive"
+				"maxplayers"				"4"
+				"exec"
+				{
+					"execifexists"			"gamemode_competitive2v2.cfg"
+					"execifexists"			"gamemode_competitive2v2_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_boyard_go"
+					"1"						"de_chalice_go"
+					"2"						"de_vertigo_go"
+					"3"						"de_inferno_go"
+					"4"						"de_overpass_go"
+					"5"						"de_cbble_go"
+					"6"						"de_train_go"
+					"7"						"de_cache_go"
+					"8"						"de_shortnuke_go"
+					"9"						"de_shortdust_go"
+					"10"					"de_lake_go"
+				}
+			}
+		}
+		"gungame"
+		{
+			"armsrace"
+			{
+				"maxplayers"				"10"
+				"uiattributes"
+				{
+					"scoreboard_unified"		"1"
+					"teamcounter_largeavatars"	"1"
+					"teamcounter_noroundtimer"	"1"
+				}
+				"config"
+				{
+					"weaponprogression_t"
+					{
+						// weapon name		// number of kills to progress
+						"bizon"				"2"
+						"ump45"				"2"
+						"p90"				"2"
+						"nova"				"2"
+						"mag7"				"2"
+						"xm1014"			"2"
+						"sawedoff"			"2"
+						"galilar"			"2"
+						"ak47"				"2"
+						"m4a4"				"2"
+						"sg553"				"2"
+						"aug"				"2"
+						"awp"				"2"
+						"scar20"			"2"
+						"negev"				"2"
+						"tec9"				"2"
+						"p250"				"2"
+						"deagle"			"2"
+						"fiveseven"			"2"
+						"elite"				"2"
+						"knife_t"			"1"
+					}
+					"weaponprogression_ct"
+					{
+						// weapon name		// number of kills to progress
+						"bizon"				"2"
+						"ump45"				"2"
+						"p90"				"2"
+						"nova"				"2"
+						"mag7"				"2"
+						"xm1014"			"2"
+						"sawedoff"			"2"
+						"galilar"			"2"
+						"ak47"				"2"
+						"m4a4"				"2"
+						"sg553"				"2"
+						"aug"				"2"
+						"awp"				"2"
+						"scar20"			"2"
+						"negev"				"2"
+						"tec9"				"2"
+						"p250"				"2"
+						"deagle"			"2"
+						"fiveseven"			"2"
+						"elite"				"2"
+						"knife"				"1"
+					}
+				}
+				"exec"
+				{
+					"execifexists"			"gamemode_armsrace.cfg"
+					"execifexists"			"gamemode_armsrace_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_lake_go"
+					"1"						"de_stmarc_go"
+					"2"						"de_safehouse_go"
+					"3"						"ar_shoots_go"
+					"4"						"ar_baggage_go"
+					"5"						"ar_lunacy_go"
+					"6"						"ar_monastery_go"
+				}
+			}
+			"demolition"
+			{
+				"maxplayers"				"10"
+				"config"
+				{
+					"weaponprogression_t"
+					{
+						// weapon name		// number of kills to progress
+						"ak47"				"1"
+						"galilar"			"1"
+						"p90"				"1"
+						"mac10"				"1"
+						"xm1014"			"1"
+						"deagle"			"1"
+						"tec9"				"1"
+						"ssg08"				"1"
+						"awp"				"1"
+						"g3sg1"				"1"
+					}
+					"weaponprogression_ct"
+					{
+						// weapon name		// number of kills to progress
+						"m4a4"				"1"
+						"famas"				"1"
+						"p90"				"1"
+						"mp9"				"1"
+						"xm1014"			"1"
+						"deagle"			"1"
+						"fiveseven"			"1"
+						"ssg08"				"1"
+						"awp"				"1"
+						"scar20"			"1"
+					}
+					"bonusgrenades_t"
+					{
+						// grenade name		// number of kills to receive
+						"molotov"			"4"
+						"flashbang"			"3"
+						"hegrenade"			"2"
+					}
+					"bonusgrenades_ct"
+					{
+						// grenade name		// number of kills to receive
+						"incendiarygrenade"	"4"
+						"flashbang"			"3"
+						"hegrenade"			"2"
+					}
+				}
+				"exec"
+				{
+					"execifexists"			"gamemode_demolition.cfg"
+					"execifexists"			"gamemode_demolition_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_lake_go"
+					"1"						"de_stmarc_go"
+					"2"						"de_sugarcane_go"
+					"3"						"de_bank_go"
+					"4"						"de_safehouse_go"
+					"5"						"de_shortdust_go"
+				}
+			}
+			"deathmatch"
+			{
+				"maxplayers"				"16"
+				"uiattributes"
+				{
+					"scoreboard_unified"		"1"
+					"teamcounter_largeavatars"	"1"
+				}
+				"exec"
+				{
+					"execifexists"			"gamemode_deathmatch.cfg"
+					"execifexists"			"gamemode_deathmatch_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"de_canals_go"
+					"1"						"de_vertigo_go"
+					"2"						"de_cbble_go"
+					"3"						"de_ancient_go"
+					"4"						"de_cache_go"
+					"4"						"de_cache_old_go"
+					"5"						"de_tuscan_go"
+					"6"						"de_anubis_go"
+					"7"						"de_mirage_go"
+					"8"						"de_inferno_go"
+					"8"						"de_inferno_old_go"
+					"9"						"de_overpass_go"
+					"10"					"de_nuke_go"
+					"10"					"de_nuke_old_go"
+					"11"					"de_train_go"
+					"11"					"de_train_old_go"
+					"12"					"de_dust2_go"
+					"12"					"de_dust2_old_go"
+					"13"					"cs_agency_go"
+					"14"					"cs_militia_go"
+					"14"					"cs_militia_old_go"
+					"15"					"cs_office_go"
+					"16"					"cs_italy_go"
+					"17"					"cs_assault_go"
+				}
+			}
+		}
+		"training"
+		{
+			"training"
+			{
+				"maxplayers"				"1"
+				"uiattributes"
+				{
+					"scoreboard_unified"		"1"
+				}
+				"exec"
+				{
+					"execifexists"			"gamemode_training.cfg"
+					"execifexists"			"gamemode_training_server.cfg"
+				}
+				"maps"
+				{
+					"0"						"training1_go"
+				}
+			}
+		}
+		"custom"
+		{
+			// NOTE: only this game type allows map cfg files (maps/cfg/mapname.cfg)
+			"custom"
+			{
+				"base"						"casual"
+				// unlimited max players
+				// define your own config via server creation panel
+				// play on any map
+			}
+			// NEW MODES GO HERE
+		}
+	}
+	"botdifficulties"
+	{
+		"none"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"0"
+				"bot_dont_shoot"			"1"
+				"bot_quota"					"0"
+			}
+		}
+		"harmless"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"0"
+				"bot_dont_shoot"			"1"
+			}
+		}
+		"easy"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"0"
+				"bot_dont_shoot"			"0"
+			}
+		}
+		"normal"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"1"
+				"bot_dont_shoot"			"0"
+			}
+		}
+		"hard"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"2"
+				"bot_dont_shoot"			"0"
+			}
+		}
+		"expert"
+		{
+			"exec"
+			{
+				"bot_difficulty"			"3"
+				"bot_dont_shoot"			"0"
+			}
+		}
+	}
+}

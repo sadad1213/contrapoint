@@ -1,0 +1,17 @@
+{
+  "de_dust2": {
+    "pos_x": -2440.0,
+    "pos_y": 3383.0,
+    "scale": 4.4
+  },
+  "de_cpl_strike": {
+    "pos_x": -3082.0,
+    "pos_y": 2114.0,
+    "scale": 5.0
+  },
+  "de_inferno": {
+    "pos_x": -2087.0,
+    "pos_y": 3840.0,
+    "scale": 4.8
+  }
+}

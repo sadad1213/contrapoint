@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models/weapons/v_models/arms/bare/bare_arm_135"
+	"$bumpmap"						"models/weapons/v_models/arms/bare/bare_arm_normal"
+
+	"$phong"						"1"
+	"$phongexponenttexture"			"models/weapons/v_models/arms/bare/bare_arm_133_exp"
+	"$phongboost"					"2"
+	"$phongalbedotint"				"1"
+	"$phongalbedoboost"				"80"
+	"$phongtint"					"[0.7 0.8 1]"
+	"$phongfresnelranges"			"[0.3 0.5 1]"
+	"$phongdisablehalflambert"		"1"
+	"$lightwarptexture"				"models/weapons/v_models/arms/skin_gradient"
+
+	"$envmap"						"env_cubemap"
+	"$basealphaenvmapmask"			"1"
+	"$basealphaenvmapmaskminmaxexp"	"[0.0 1.0 1.0]"
+
+	"$rimlight"						"1"
+	"$rimlightexponent"				"14"
+	"$rimlightboost"				"0.05"
+	"$rimmask"						"1"
+}

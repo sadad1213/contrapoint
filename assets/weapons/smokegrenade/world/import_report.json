@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-grenades\\models\\weapons\\w_eq_smokegrenade.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-grenades",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 2,
+  "geometry": [
+    {
+      "name": "studio_w_eq_smokegrenade.smd",
+      "vertices": 280,
+      "triangles": 238,
+      "materials": [
+        "w_eq_smokegrenade"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "w_eq_smokegrenade",
+      "image": "w_eq_smokegrenade",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\smokegrenade\\world\\smokegrenade_world.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

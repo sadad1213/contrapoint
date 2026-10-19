@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/debug/KzChecks.cs" id="1"]
+
+[node name="KzChecks" type="Node3D"]
+script = ExtResource("1")

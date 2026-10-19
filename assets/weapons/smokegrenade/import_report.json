@@ -1,0 +1,133 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-grenades\\models\\weapons\\v_eq_smokegrenade.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-grenades",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 59,
+  "geometry": [
+    {
+      "name": "studio_smokegrenade_reference.smd",
+      "vertices": 667,
+      "triangles": 775,
+      "materials": [
+        "smokegrenade"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "smokegrenade",
+      "image": "smokegrenade",
+      "size": [
+        512,
+        256
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "deploy",
+      "source_name": "@deploy",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "idle",
+      "source_name": "@idle",
+      "source_fps": 30.0,
+      "source_frames": 9,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.26666666666666666
+    },
+    {
+      "name": "pullpin",
+      "source_name": "@pullpin",
+      "source_fps": 41.0,
+      "source_frames": 40,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.9512195121951219
+    },
+    {
+      "name": "pullpin2",
+      "source_name": "@pullpin2",
+      "source_fps": 41.0,
+      "source_frames": 40,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.9512195121951219
+    },
+    {
+      "name": "pullpin3",
+      "source_name": "@pullpin3",
+      "source_fps": 41.0,
+      "source_frames": 40,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.9512195121951219
+    },
+    {
+      "name": "pullpin4",
+      "source_name": "@pullpin4",
+      "source_fps": 41.0,
+      "source_frames": 40,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.9512195121951219
+    },
+    {
+      "name": "throw",
+      "source_name": "@throw",
+      "source_fps": 30.0,
+      "source_frames": 24,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.7666666666666667
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\smokegrenade\\smokegrenade.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

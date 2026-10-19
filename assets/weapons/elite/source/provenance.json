@@ -1,0 +1,109 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_elite/pist_elite.vmt",
+      "sha256": "1ae78e26145bf7a00fafa3bbe9923f3109319bb18a326b35033697c662252edf"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_elite/pist_elite.vtf",
+      "sha256": "0b30c950580e66907ddddc488359ff5c113dcfac36237f9b56ddf30f5aec4593"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_elite/pist_elite_ref.vtf",
+      "sha256": "ce11d7510bac6c43f605eecd88c65745da0fd1fb6193d5185eba4fe6e45d0d0e"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_elite/w_pist_elite.vmt",
+      "sha256": "a4379cdfead4b6623ec75b46e0aff1a1d0bc8f6060a78670518b45984a933034"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_elite/w_pist_elite.vtf",
+      "sha256": "932572b350c32ba5352349fe261502023a8b993433f19bc8acee95cb91e94988"
+    },
+    {
+      "path": "models/weapons/v_pist_elite.dx90.vtx",
+      "sha256": "8732ef7f0553c5abac1207a1ac7e01eb4b573d59d2470031295ec9a60023e0b8"
+    },
+    {
+      "path": "models/weapons/v_pist_elite.mdl",
+      "sha256": "31d3ef6f557121c4f6a0b5f8d969a089915bd5cff9210a1dd6e89628920b4234"
+    },
+    {
+      "path": "models/weapons/v_pist_elite.vvd",
+      "sha256": "eac27d4f65a2753cc29f45561b215f8424d3b2fdbd623aff2a60c21493107074"
+    },
+    {
+      "path": "models/weapons/w_pist_elite.dx90.vtx",
+      "sha256": "1a3aa65d5aecb852f8c35224178f4c19cb97906907994ec4328ec7653a26b4c1"
+    },
+    {
+      "path": "models/weapons/w_pist_elite.mdl",
+      "sha256": "d17ed5031af58b5b471474e4c9c159767006bf9c6ff00e5e27b0416bc68d4f98"
+    },
+    {
+      "path": "models/weapons/w_pist_elite.phy",
+      "sha256": "f93f28117ae2f40aa403576de7fde73f27a689edb04162a31ae09b0282900e99"
+    },
+    {
+      "path": "models/weapons/w_pist_elite.vvd",
+      "sha256": "c04b60b8cc0dfb417c02e7cc11ac4e29bd93701a9effd6ecb4290dd059054c7b"
+    },
+    {
+      "path": "models/weapons/w_pist_elite_dropped.dx90.vtx",
+      "sha256": "4608795c0a0e9679ce4cc9f8471550a4389de9eadff1340605bd9671873ed83f"
+    },
+    {
+      "path": "models/weapons/w_pist_elite_dropped.mdl",
+      "sha256": "a4631b1451e58a98bc7e85ed7724596a446a1cbfbf936b1e7cc1e7bbd84f3e0a"
+    },
+    {
+      "path": "models/weapons/w_pist_elite_dropped.phy",
+      "sha256": "9d2fc86d275794d1663d43d0b71a978db8f61fa4a6104ffd8a7c085d94753a93"
+    },
+    {
+      "path": "models/weapons/w_pist_elite_dropped.vvd",
+      "sha256": "905822731e264f6c3fa22f9e6613ca311605a66c86eb0168dc3ff43ce9313f9e"
+    },
+    {
+      "path": "sound/weapons/elite/elite-1.wav",
+      "sha256": "0cd6fa55eb89cea4308e1ffefd43228d340d556c081d0053e2f66e8baa35c26f"
+    },
+    {
+      "path": "sound/weapons/elite/elite_clipout.wav",
+      "sha256": "4d559556bc62fbf6e2740818ab71b56407dc4eabe573b2f76c5cecd947d03ab6"
+    },
+    {
+      "path": "sound/weapons/elite/elite_deploy.wav",
+      "sha256": "80239b058da69c39ecf9d4bb0a80fefd87c3de1b489c2e44e5788752d787218c"
+    },
+    {
+      "path": "sound/weapons/elite/elite_leftclipin.wav",
+      "sha256": "7c894d083354855c4f08cc40c153926a063533f0c26d88aee61d0a882d11ce74"
+    },
+    {
+      "path": "sound/weapons/elite/elite_reloadstart.wav",
+      "sha256": "ebee042360951b65c927f5b56a658460f922b4a3686b466784bf41a27c12a3d5"
+    },
+    {
+      "path": "sound/weapons/elite/elite_rightclipin.wav",
+      "sha256": "d7d2f230f7d6428206e5524fcd28ad80b35d6ebe58cdfef09fda24e12dff2ba4"
+    },
+    {
+      "path": "sound/weapons/elite/elite_sliderelease.wav",
+      "sha256": "f2cccef0d3ec26a6539dca1c6ab0b95b00168398534421ea7c2825e61d75a278"
+    }
+  ]
+}

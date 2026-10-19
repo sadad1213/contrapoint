@@ -1,0 +1,64 @@
+{
+  "animations": [
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 248,
+      "name": "draw",
+      "tracks": 50
+    },
+    {
+      "duration": 1.86666667461395,
+      "moving_bone_samples": 0,
+      "name": "idle1",
+      "tracks": 50
+    },
+    {
+      "duration": 2.16666674613953,
+      "moving_bone_samples": 248,
+      "name": "reload",
+      "tracks": 50
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 248,
+      "name": "shoot1",
+      "tracks": 50
+    },
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 248,
+      "name": "shoot2",
+      "tracks": 50
+    },
+    {
+      "duration": 0.566666662693024,
+      "moving_bone_samples": 248,
+      "name": "shoot_empty",
+      "tracks": 50
+    }
+  ],
+  "bones": 64,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/deagle/deagle.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "hands___\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "deagle_skin1",
+      "mesh": "studio_deagle_reference_smd",
+      "texture_size": "(512.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in idle1; verify whether this is an intentional pose clip"
+  ]
+}

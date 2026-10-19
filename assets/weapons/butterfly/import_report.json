@@ -1,0 +1,240 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\Documents\\contrapoint\\.godot\\csso_butterfly_content\\models\\weapons\\v_knife_butterfly.mdl",
+  "content_root": "C:\\Users\\Hueglot\\Documents\\contrapoint\\.godot\\csso_butterfly_content",
+  "mdl_version": 49,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 95,
+  "geometry": [
+    {
+      "name": "v_knife_butterfly.smd",
+      "vertices": 10197,
+      "triangles": 11996,
+      "materials": [
+        "knife_butterfly"
+      ]
+    },
+    {
+      "name": "v_glove_fullfinger.smd",
+      "vertices": 4892,
+      "triangles": 8000,
+      "materials": [
+        "glove_fullfinger"
+      ]
+    },
+    {
+      "name": "v_glove_fullfinger_arms.smd",
+      "vertices": 640,
+      "triangles": 1136,
+      "materials": [
+        "bare_arm_133"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "bare_arm_133",
+      "image": "bare_arm_133",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "material": "bare_arm_133",
+      "image": "bare_arm_normal",
+      "size": [
+        1024,
+        2048
+      ]
+    },
+    {
+      "material": "bare_arm_133",
+      "image": "bare_arm_133_exp",
+      "size": [
+        256,
+        512
+      ]
+    },
+    {
+      "material": "glove_fullfinger",
+      "image": "glove_fullfinger",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "glove_fullfinger",
+      "image": "glove_fullfinger_normal",
+      "size": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "material": "glove_fullfinger",
+      "image": "glove_fullfinger_exp",
+      "size": [
+        256,
+        256
+      ]
+    },
+    {
+      "material": "knife_butterfly",
+      "image": "knife_butterfly",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "material": "knife_butterfly",
+      "image": "knife_butterfly_exponent",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "draw2",
+      "source_name": "@draw2",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0
+    },
+    {
+      "name": "heavy_backstab",
+      "source_name": "@heavy_backstab",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "heavy_hit1",
+      "source_name": "@heavy_hit1",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "heavy_miss1",
+      "source_name": "@heavy_miss1",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "idle1",
+      "source_name": "@idle1",
+      "source_fps": 30.0,
+      "source_frames": 61,
+      "unkeyed_root_corrections": [],
+      "duration": 2.0
+    },
+    {
+      "name": "idle2",
+      "source_name": "@idle2",
+      "source_fps": 30.0,
+      "source_frames": 121,
+      "unkeyed_root_corrections": [],
+      "duration": 4.0
+    },
+    {
+      "name": "light_backstab",
+      "source_name": "@light_backstab",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "light_backstab2",
+      "source_name": "@light_backstab2",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "light_hit1",
+      "source_name": "@light_hit1",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "light_hit2",
+      "source_name": "@light_hit2",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "light_miss1",
+      "source_name": "@light_miss1",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "light_miss2",
+      "source_name": "@light_miss2",
+      "source_fps": 30.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [],
+      "duration": 1.1666666666666667
+    },
+    {
+      "name": "lookat01",
+      "source_name": "@lookat01",
+      "source_fps": 30.0,
+      "source_frames": 123,
+      "unkeyed_root_corrections": [],
+      "duration": 4.066666666666666
+    },
+    {
+      "name": "lookat02",
+      "source_name": "@lookat02",
+      "source_fps": 30.0,
+      "source_frames": 136,
+      "unkeyed_root_corrections": [],
+      "duration": 4.5
+    },
+    {
+      "name": "lookat03",
+      "source_name": "@lookat03",
+      "source_fps": 30.0,
+      "source_frames": 147,
+      "unkeyed_root_corrections": [],
+      "duration": 4.866666666666666
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\butterfly\\butterfly.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ],
+  "bonemerge_source": "C:\\Users\\Hueglot\\Documents\\contrapoint\\.godot\\csso_butterfly_content\\models\\weapons\\v_models\\arms\\glove_fullfinger\\v_glove_fullfinger.mdl"
+}

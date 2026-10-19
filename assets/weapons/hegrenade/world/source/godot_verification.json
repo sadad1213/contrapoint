@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 2,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/hegrenade/world/hegrenade_world.glb",
+  "skinned_meshes": 1,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_eq_fraggrenade",
+      "mesh": "studio_w_eq_fraggrenade_smd",
+      "texture_size": "(1024.0, 1024.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

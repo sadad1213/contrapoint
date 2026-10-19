@@ -1,0 +1,261 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "scripts/game_sounds.txt",
+      "sha256": "60a5fd6093fd713ca48bd57a66310c1c0cf2d72fe6ec7443cf1403ead6a64325"
+    },
+    {
+      "path": "scripts/game_sounds_physics.txt",
+      "sha256": "1053300d3d9ed39c5ceb25095b4854fca16db0fbf5b4a249b1866d9da68d65d5"
+    },
+    {
+      "path": "scripts/game_sounds_world.txt",
+      "sha256": "5dbfd2a186af71c0eb25dedad5d2c53d4bc24f8a60319e7a7e30357bbf8bd2e5"
+    },
+    {
+      "path": "scripts/dsp_presets.txt",
+      "sha256": "acce75459c06612abc85b23dc8284c2460f5f7503b6a7cc42ac1f519d21a1ba7"
+    },
+    {
+      "path": "scripts/weapon_ak47.ctx",
+      "sha256": "b65ce6907f6302abadf14f11c608a2adebe1c42e6a617c33a7b362434edd99a8"
+    },
+    {
+      "path": "scripts/weapon_aug.ctx",
+      "sha256": "73fba95066ebcfdb11fc221cba9aaed6f80bdd9828ad95f69f7f2d53901fd4d6"
+    },
+    {
+      "path": "scripts/weapon_awp.ctx",
+      "sha256": "06f63158f9a469fe4d66dc44ecd21fa464c705f8eb165865a6e3af4f4e4b10ac"
+    },
+    {
+      "path": "scripts/weapon_c4.ctx",
+      "sha256": "b7ea30d2060740668d3b7d3c820ea838c18791267670cda74cdeba71ada0093a"
+    },
+    {
+      "path": "scripts/weapon_deagle.ctx",
+      "sha256": "d6da8de7a192455ba15df0a02a9152920fee4881108154e07c00f01df9f5c459"
+    },
+    {
+      "path": "scripts/weapon_elite.ctx",
+      "sha256": "733f5bf9ead3e2103364b28c332fe62ff9a723c8af6201bb60d142f6d903ffbf"
+    },
+    {
+      "path": "scripts/weapon_famas.ctx",
+      "sha256": "61c0aa08adc543071d7915117b385d467036eba496b3aff425f4b6b8606a9ddb"
+    },
+    {
+      "path": "scripts/weapon_fiveseven.ctx",
+      "sha256": "f95cca4ec7b1ba9701325b1df56589138779d2a16db9aab6d85031ad9c1c2c4a"
+    },
+    {
+      "path": "scripts/weapon_flashbang.ctx",
+      "sha256": "9c1759e43237dffb5ea407587127f0cf5aa0140912a3a86c915f35e1b829466a"
+    },
+    {
+      "path": "scripts/weapon_g3sg1.ctx",
+      "sha256": "bb901000bcbc687da992747673d63f04e5082018cf3a263c077732164703c47c"
+    },
+    {
+      "path": "scripts/weapon_galil.ctx",
+      "sha256": "12420ebee4a11e6254212e47753440b8c28fd2dc36cea27defc9ea2f0985f12d"
+    },
+    {
+      "path": "scripts/weapon_glock.ctx",
+      "sha256": "7e0f0efc6f2f427b2403ae4bc13d52c9451b84a0c5730ec31625aecfa5d09d7d"
+    },
+    {
+      "path": "scripts/weapon_hegrenade.ctx",
+      "sha256": "c6b8760d3be305949d3d70e84aa4d18fb86f4ccc953e4fdd65c7450c44f0a0e5"
+    },
+    {
+      "path": "scripts/weapon_knife.ctx",
+      "sha256": "d8693e57bb2776945db5d9ee5aea0be40499bb2af8e47577f19d3cbfe2d11c5f"
+    },
+    {
+      "path": "scripts/weapon_m249.ctx",
+      "sha256": "0ec53868bd69ccccefc28ea569bcd429677cbbcde008e865556051e38328c3d9"
+    },
+    {
+      "path": "scripts/weapon_m3.ctx",
+      "sha256": "d4cbde565e5474edb0d58bf87bae4e2c41e12628a813a165e020292f82aaac3d"
+    },
+    {
+      "path": "scripts/weapon_m4a1.ctx",
+      "sha256": "d8985a757e16e6958838b5a82e87d9cda26e778feb255c2e47c1b6b330f449e2"
+    },
+    {
+      "path": "scripts/weapon_mac10.ctx",
+      "sha256": "a20b8c469b88156b1521e2a39ba0c9dc2f8e6c2ebd98d654328211bfeab40ac6"
+    },
+    {
+      "path": "scripts/weapon_mp5navy.ctx",
+      "sha256": "2bd231b88020897503e81e5cd345f3235f2149da465aa05128db0353e97c1c10"
+    },
+    {
+      "path": "scripts/weapon_p228.ctx",
+      "sha256": "24dcc854194693a04d93e7c192031acd23f4208aea3115dad9e9ac766afa6dae"
+    },
+    {
+      "path": "scripts/weapon_p90.ctx",
+      "sha256": "c183c100a11f9693c6f5d6c08ee527711ce06172b61115349db42a064fcc2342"
+    },
+    {
+      "path": "scripts/weapon_scout.ctx",
+      "sha256": "94e2e57dfae63b88d1c6f1215d849edccb8fb5db2333807395782b35443d4206"
+    },
+    {
+      "path": "scripts/weapon_sg550.ctx",
+      "sha256": "9a1a441fe0b6697854d5614f02a259d89afe317fa7042d8a0abf0c9333f16515"
+    },
+    {
+      "path": "scripts/weapon_sg552.ctx",
+      "sha256": "49bdd6a35d5440cb048a29866ae521d232b2aceaef92b53ebb268902c1295dce"
+    },
+    {
+      "path": "scripts/weapon_smokegrenade.ctx",
+      "sha256": "aed4e3cfc1688e7a054e3283e264f3f41bf666feea8f9910d8b0e61944064914"
+    },
+    {
+      "path": "scripts/weapon_tmp.ctx",
+      "sha256": "9dd9cef73d1eead465d30bd10f45bab668736f2a69007af08117de54ef02b333"
+    },
+    {
+      "path": "scripts/weapon_ump45.ctx",
+      "sha256": "3b9fe058b82b77979c8a597f61d3537f0567f3212ffaca56f839713bdd0773fc"
+    },
+    {
+      "path": "scripts/weapon_usp.ctx",
+      "sha256": "6101ee8b84c4b5fe3a9b8ac47537937a8ba2ab08e47a6668c56bcbe8bae7be04"
+    },
+    {
+      "path": "scripts/weapon_xm1014.ctx",
+      "sha256": "c564e5ecc2ab683c2e9059653006be45f6b11bcbc9216b38a9a3d4d9a4b215c1"
+    },
+    {
+      "path": "sound/player/bhit_helmet-1.wav",
+      "sha256": "7f1580af4027326e93e53f70f377b2af7d7d0bab676174c6a3ca6e5db2e1f9a8"
+    },
+    {
+      "path": "sound/player/damage1.wav",
+      "sha256": "f036d3ef984f1519c23d7a77c47c9723732cee3f677ecf086e78f5990474389d"
+    },
+    {
+      "path": "sound/player/damage2.wav",
+      "sha256": "3b8e337a772c0d1b7540627358ae5718c94f8426e29e8e2172f9cafa396bcaae"
+    },
+    {
+      "path": "sound/player/damage3.wav",
+      "sha256": "4682362bd8720720df7ea4f71a937cd42c3f4bbd8432c9076a15da9090ce7413"
+    },
+    {
+      "path": "sound/player/death1.wav",
+      "sha256": "c56c95e7ac37ece30652596e03f478402354a169b3f48c87c96736894e659874"
+    },
+    {
+      "path": "sound/player/death2.wav",
+      "sha256": "53d17350c0b8f0d43240f1673e24325f7c5275bb495f2905253a99502fecdd99"
+    },
+    {
+      "path": "sound/player/death3.wav",
+      "sha256": "a75b4445c2af6f7f9752823bb393e6ae18fad84b0406c8014f89ac254dc3961c"
+    },
+    {
+      "path": "sound/player/death4.wav",
+      "sha256": "ff6ae4e059ef5536bfd8befc6f3bc4c300857fd8d28d6c53b6674a21b21fd2f5"
+    },
+    {
+      "path": "sound/player/death5.wav",
+      "sha256": "fefb689674a25e1fb6cb9052ecaa9978e78effd77ff23c2cbca20bcae78305be"
+    },
+    {
+      "path": "sound/player/death6.wav",
+      "sha256": "696ccd9b6fbee9ed56f067800a44442080b21d61672a6ed6d0cbb45c3ef72540"
+    },
+    {
+      "path": "sound/player/headshot1.wav",
+      "sha256": "fc8d8ac7c9740d85371df29893914b7e9d3c841b111d28c0a39739bde8bc5e80"
+    },
+    {
+      "path": "sound/player/headshot2.wav",
+      "sha256": "7051de995d36ce89f1fbf2d9e56545297022e41530870f4f99bb193b485857b3"
+    },
+    {
+      "path": "sound/player/kevlar1.wav",
+      "sha256": "8bb907cf9761a13adaa1d85c96a5ba91e574a34cc0ad76ed7120e4755b57e56a"
+    },
+    {
+      "path": "sound/player/kevlar2.wav",
+      "sha256": "c2d6b907618a6104c0e8ebbe12b2a370dbe276791f19f5b9b129a155c2bff7cf"
+    },
+    {
+      "path": "sound/player/kevlar3.wav",
+      "sha256": "126667a58ec095208b8bffaabf4860e647b53f5a8ba43bf272f4bb0b76c4f0b2"
+    },
+    {
+      "path": "sound/player/kevlar4.wav",
+      "sha256": "d5b25547e78d90ab42a5734ffcc4e70572668712a7902995b98f29683adf2b82"
+    },
+    {
+      "path": "sound/player/kevlar5.wav",
+      "sha256": "bf542c359f43f4ec57e8e94244cdb94bb5a568f505d77f01592da73e2bcc4b22"
+    },
+    {
+      "path": "sound/physics/body/body_medium_impact_soft1.wav",
+      "sha256": "6964d1905bd2590be0b874db7eef5a8f1f0d46dd91c031a601fd12dd1d2dd3db"
+    },
+    {
+      "path": "sound/physics/body/body_medium_impact_soft2.wav",
+      "sha256": "6c2366bd6e3a7642e137930a7e2cb08763febc6683c76ab3d9cbaa9375bd1639"
+    },
+    {
+      "path": "sound/physics/body/body_medium_impact_soft5.wav",
+      "sha256": "e3ab0531574b81f13e97de504f2d02f326064382c27fc57cc0caa8dd759aad8b"
+    },
+    {
+      "path": "sound/physics/body/body_medium_impact_soft6.wav",
+      "sha256": "dc948b887b80b2207e4ca3558ae6b47240e943ed3e51a2d8b1ad5a616cc77f71"
+    },
+    {
+      "path": "sound/physics/body/body_medium_impact_soft7.wav",
+      "sha256": "2bf90e01b14eb120aeb9f06da46c7e08dc4407b892d2d54fd7209d882b0f63fb"
+    },
+    {
+      "path": "sound/physics/flesh/flesh_impact_bullet1.wav",
+      "sha256": "314a392a20554ba19df4b5a21797897a2f065d17883cb05ec43b6767917088b3"
+    },
+    {
+      "path": "sound/physics/flesh/flesh_impact_bullet2.wav",
+      "sha256": "2738de009b8105be0307535117b3dc5aefad3b8ed85af3db19807ea18fa1a3f3"
+    },
+    {
+      "path": "sound/physics/flesh/flesh_impact_bullet3.wav",
+      "sha256": "3bbcf66d00b5819db36ab5d29a866adc97416e8f3595141270c830fbebde3751"
+    },
+    {
+      "path": "sound/physics/flesh/flesh_impact_bullet4.wav",
+      "sha256": "7c161f9c873b1f9c27e4013849b7d78eb8447eb57492997454061020a6017106"
+    },
+    {
+      "path": "sound/physics/flesh/flesh_impact_bullet5.wav",
+      "sha256": "ecb06e8ac18ad9b753a282a13615e8870626cfdf613da529a25118215a8a203a"
+    },
+    {
+      "path": "assets\\players\\phoenix\\source\\css\\models\\player\\t_phoenix.mdl",
+      "sha256": "cd89f1e2678649763b6569fc3338db1b3f89ddec925533ae2039a332fe253cc7"
+    },
+    {
+      "path": "assets\\players\\arctic\\source\\css\\models\\player\\t_arctic.mdl",
+      "sha256": "4e984f509a0245f2c581c03cd893a33ac244a649898f8445610f1bf12d96153a"
+    },
+    {
+      "path": "assets\\players\\guerilla\\source\\css\\models\\player\\t_guerilla.mdl",
+      "sha256": "8018c7c89c1a710628831d4a2c62778f3136ece08c556876b7f1d7038f84ce7a"
+    },
+    {
+      "path": "assets\\players\\leet\\source\\css\\models\\player\\t_leet.mdl",
+      "sha256": "1d62ad9b4c12935dca8d0e99e537ce24ff5d134ffc6ef380ff33225c42c7e658"
+    }
+  ]
+}

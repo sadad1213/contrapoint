@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/debug/ViewmodelMotionChecks.cs" id="1"]
+
+[node name="ViewmodelMotionChecks" type="Node3D"]
+script = ExtResource("1")

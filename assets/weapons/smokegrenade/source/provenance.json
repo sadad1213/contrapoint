@@ -1,0 +1,89 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/eq_smokegrenade/smokegrenade.vmt",
+      "sha256": "c3876625b3e031afe02c173a1749550c9cbbdc0a860259506dcc815bcea5ec19"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_smokegrenade/smokegrenade.vtf",
+      "sha256": "59a66a5776cf2a543c4ee1db89e1632c35a9d50281d956d74948ca89d18c88ec"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_smokegrenade/smokegrenade_ref.vtf",
+      "sha256": "5f5f28b1c07fc9890889d593ae1b682ad1913ea2baf41d21d3aaaf31b973d50e"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_smokegrenade/w_eq_smokegrenade.vmt",
+      "sha256": "b0c80985916501c4ee04270ebc9ced155204d04c8926fbd085dad385730de4f4"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_smokegrenade/w_eq_smokegrenade.vtf",
+      "sha256": "36bc1047b2fe378fd34e563993bb60ad2f0d2d851e32a9dd9e18d82d710df3e4"
+    },
+    {
+      "path": "models/weapons/v_eq_smokegrenade.dx90.vtx",
+      "sha256": "fc44958893d638a4d93a8c08645e54e4c81594b140bac92a0f36a03f0a581f8f"
+    },
+    {
+      "path": "models/weapons/v_eq_smokegrenade.mdl",
+      "sha256": "e5355047fb3c6fcb53d893912f598bbafb4dc71abd384c5bb2192a44f754da85"
+    },
+    {
+      "path": "models/weapons/v_eq_smokegrenade.vvd",
+      "sha256": "3dcd235482a3daf388574c9b654c55d913ecae2395b1a6ad36ce4899da28f980"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade.dx90.vtx",
+      "sha256": "cbd718addd34e89cb409a17d1adf09e92148cb504bd259b1def3536216bd5dc4"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade.mdl",
+      "sha256": "e62337c3fea0e48e28eff26e36da4b8e375eb9052f023196f56c91abe5939520"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade.phy",
+      "sha256": "2c7d91892b411f0aad033102a03159e4ee7787d3f0c4c76db47e4e058d7e917b"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade.vvd",
+      "sha256": "8fa3f2acc85c1f9349ccc23be92f4f930b6b61f594b0d900ba5d764dd5a23dd6"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade_thrown.dx90.vtx",
+      "sha256": "0ed1a5f5c423f81e4e703b7f71166fde893ac1d4cf4029d270ee63827d15b06d"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade_thrown.mdl",
+      "sha256": "d9dd51ba39d4fafa9dace44764a0e31c29897ce59a06967dc75abe69b5820f09"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade_thrown.phy",
+      "sha256": "47bdd527d13a24d900ef97942437f3aeba94a9fc31a0cda827c7b3c40104ac07"
+    },
+    {
+      "path": "models/weapons/w_eq_smokegrenade_thrown.vvd",
+      "sha256": "d30750b03ca0e55858b78cf191a550e194f8ab0e631e3adfead770d9ec2feb05"
+    },
+    {
+      "path": "sound/weapons/smokegrenade/grenade_hit1.wav",
+      "sha256": "5364d616ebecdd716c9f8b71c77b89f9dcf8df74a135956e014a0c80b65576fc"
+    },
+    {
+      "path": "sound/weapons/smokegrenade/sg_explode.wav",
+      "sha256": "c1676094892bab13b106133fbd55aabf005286d283a9e5453a2eec5f55205c8a"
+    }
+  ]
+}

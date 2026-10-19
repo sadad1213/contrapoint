@@ -1,0 +1,80 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "textures": [
+    {
+      "source": "materials/decals/concrete/shot1.vtf",
+      "sha256": "9f0b11e656e1906cd7c2e7d3dae2a7dd000c12b2831ca356ec41122b4cc823ba",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/concrete/SHOT1\"\n\t\"$decalscale\" 0.06\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/concrete/shot2.vtf",
+      "sha256": "7159adf13947009263ea2c286d12b66677e0b3074a213fbb7929f4ba99d4abb7",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/concrete/SHOT2\"\n\t\"$decalscale\" 0.06\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/concrete/shot3.vtf",
+      "sha256": "f970764ef713e5110a3b7fcac36dd03564f1603498a49a0635d531ce924aa2ab",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/concrete/SHOT3\"\n\t\"$decalscale\" 0.06\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/concrete/shot4.vtf",
+      "sha256": "c184e8726a6b8ba477956d4abd2dc01e747dcb989df7a8b0ae2735f8fd1d6935",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/concrete/SHOT4\"\n\t\"$decalscale\" 0.06\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/concrete/shot5.vtf",
+      "sha256": "017dc9fc9c96403306734fa1b6e2482425cc3cc66276cc146655d550a5e4cdce",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/concrete/SHOT5\"\n\t\"$decalscale\" 0.06\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/wood/shot1.vtf",
+      "sha256": "ca6a9adef06513bfed4e64fff1b97b6ce028e5e91e542dda3148062feb015ec4",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/wood/shot1\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/wood/shot2.vtf",
+      "sha256": "4e6fdac2814a88fddfabf79008f6d6bdb730f9f8179cd2b463e8f192ba08d491",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/wood/shot2\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/wood/shot3.vtf",
+      "sha256": "f2c9856aed3bb61a2b4cd7dc04c1e59972317a8c55e20a04743f5bf76af46b08",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/wood/shot3\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/wood/shot4.vtf",
+      "sha256": "01c02832d7350e76213e824fe9bb850a07c991dac40c5c5c11b0a34e72cac8ad",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/wood/shot4\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/wood/shot5.vtf",
+      "sha256": "3fd62aca1b76c58a06e2684dcbab716d9450d1d46ca95834643d85cafef0b092",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/wood/shot5\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/metal/shot6.vtf",
+      "sha256": "f76285c7dbd588d9fe4900c7be870f1c084670a613930b0777597790630d366b",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/metal/shot6\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/metal/shot7.vtf",
+      "sha256": "04d08265c5356ac7a66f797f448f35590ad2ce469557142057d906db06769b01",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/metal/shot7\"\n\t\"$decalscale\" 0.10\n\t\"$decalDynamicScale\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/manhackcut.vtf",
+      "sha256": "860d17c1203e6246583d0a3679df3f80cf73287d22c49863fde63d48871f8d15",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/manhackcut\"\n\t\"$decalscale\" 0.10\n\t\"$translucent\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/manhackcut2.vtf",
+      "sha256": "855756a480314152719466696a5c37f80e7f5405089746b4d03af7e8b6c576b2",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/manhackcut2\"\n\t\"$decalscale\" 0.40\n\t\"$translucent\" 1\n}\n"
+    },
+    {
+      "source": "materials/decals/manhackcut3.vtf",
+      "sha256": "9a6e2313d39d09c638dbfafcb3114c69527b04d901f79cab2244e0a0c1989033",
+      "material": "\"DecalModulate\"\n{\n\t\"$basetexture\" \"Decals/manhackcut3\"\n\t\"$decalscale\" 0.40\n\t\"$translucent\" 1\n}\n"
+    }
+  ]
+}

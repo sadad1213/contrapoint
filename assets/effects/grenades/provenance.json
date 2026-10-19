@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade.vtf",
+      "sha256": "72b4a423940c530157b3a1f9787a7411b84398ede765a3bdc94d0ed1406a6147",
+      "frames": 1,
+      "columns": 1,
+      "rows": 1,
+      "frame_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade_thick.vtf",
+      "sha256": "53e1b1dbaaf328ec3325e12debf179ffe22119bcdd1cf89ba32664d5e8f98c5a",
+      "frames": 1,
+      "columns": 1,
+      "rows": 1,
+      "frame_size": [
+        64,
+        64
+      ]
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\hl2\\hl2_textures_dir.vpk",
+      "path": "materials/sprites/zerogxplode.vtf",
+      "sha256": "c07daa5f917b3b52417e89b6c2b1f1f18fad7504f2945c17c5ec4c4afa51d652",
+      "frames": 15,
+      "columns": 4,
+      "rows": 4,
+      "frame_size": [
+        64,
+        64
+      ]
+    }
+  ]
+}

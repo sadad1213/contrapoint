@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal\\models\\weapons\\w_smg_mp5.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 4,
+  "geometry": [
+    {
+      "name": "studio_w_smg_mp5",
+      "vertices": 502,
+      "triangles": 410,
+      "materials": [
+        "w_smg_mp5"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "w_smg_mp5",
+      "image": "w_smg_mp5",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\mp5navy\\world\\mp5navy_world.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

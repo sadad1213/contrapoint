@@ -1,0 +1,50 @@
+[
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/scoreboard.res",
+    "sha256": "b0812c43401a2fe5a4db3bd16b35703775b39504bc1f8cb03d09ff85ffe399da"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/clientscheme.res",
+    "sha256": "66f1da248dd753e5bf6b2a46434cb1d8891dae247c92e52c5d3027f1ed7a74f1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/scoreboard/panel-scoreboard.vtf",
+    "sha256": "f6c09c3fc58ad9acfafebfd908af8925a14e3842b1fde82906fc3c676c26f561"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/scoreboard/scoreboard-select.vtf",
+    "sha256": "e8fccf158a998a7ba7cc1b4377c52ec3d38f69b072a2cca58a0347ddfed2d78d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/scoreboard_dead.vtf",
+    "sha256": "2eb7fa86ae5f1c43f4c7b056eb83e778cd8933bc53d02ee281fd0fe5d9ff7082"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/scoreboard_clock.vtf",
+    "sha256": "30ebad59bd283fe93296bf542e31875d4001d3f22e0ecdaa18c9dbacef8492d7"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/avatar_default_64.vtf",
+    "sha256": "a985a59ef689924ccdc3d88b2c9c34bd1cc0d03dbdb5f3ad4a70b75d41369697"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/avatar_default-t_64.vtf",
+    "sha256": "a4853cd3e883357f9535f675f382f607dbfd39fb94f287dc6725cb37ab062c5d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_english.txt",
+    "sha256": "84b31b9da2c0fb3d303a549c27825bfecd9ee97aae11b829a8382d94bb8baf8c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_russian.txt",
+    "sha256": "35b5f7121581866c855c50e30dc3119cef59e41e8b3f3d139bb16817975b0b0d"
+  },
+  {
+    "source": "C:\\Windows\\Fonts\\verdana.ttf",
+    "sha256": "6a8481fe107ee547893c018b13dba291c2020bec3de5da6525d9ac09f6bc2105"
+  },
+  {
+    "source": "C:\\Windows\\Fonts\\verdanab.ttf",
+    "sha256": "f3245f5f38f61bd1ceefb0f1338a5b88a21e6220832c2f43a38bbc7e1547c36f"
+  }
+]

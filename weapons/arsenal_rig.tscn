@@ -1,0 +1,59 @@
+[gd_scene load_steps=20 format=3]
+
+[ext_resource type="PackedScene" path="res://weapons/weapon_rig.tscn" id="1_base"]
+[ext_resource type="PackedScene" path="res://weapons/aug_view.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://weapons/elite_view.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://weapons/famas_view.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://weapons/fiveseven_view.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://weapons/g3sg1_view.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://weapons/galil_view.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://weapons/glock_view.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://weapons/m249_view.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://weapons/m3_view.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://weapons/mac10_view.tscn" id="11"]
+[ext_resource type="PackedScene" path="res://weapons/mp5navy_view.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://weapons/p228_view.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://weapons/p90_view.tscn" id="14"]
+[ext_resource type="PackedScene" path="res://weapons/sg550_view.tscn" id="15"]
+[ext_resource type="PackedScene" path="res://weapons/sg552_view.tscn" id="16"]
+[ext_resource type="PackedScene" path="res://weapons/tmp_view.tscn" id="17"]
+[ext_resource type="PackedScene" path="res://weapons/ump45_view.tscn" id="18"]
+[ext_resource type="PackedScene" path="res://weapons/xm1014_view.tscn" id="19"]
+
+[node name="Weapons" instance=ExtResource("1_base")]
+
+[node name="AUG" parent="." instance=ExtResource("2")]
+
+[node name="Elite" parent="." instance=ExtResource("3")]
+
+[node name="Famas" parent="." instance=ExtResource("4")]
+
+[node name="FiveSeven" parent="." instance=ExtResource("5")]
+
+[node name="G3SG1" parent="." instance=ExtResource("6")]
+
+[node name="Galil" parent="." instance=ExtResource("7")]
+
+[node name="Glock" parent="." instance=ExtResource("8")]
+
+[node name="M249" parent="." instance=ExtResource("9")]
+
+[node name="M3" parent="." instance=ExtResource("10")]
+
+[node name="MAC10" parent="." instance=ExtResource("11")]
+
+[node name="MP5Navy" parent="." instance=ExtResource("12")]
+
+[node name="P228" parent="." instance=ExtResource("13")]
+
+[node name="P90" parent="." instance=ExtResource("14")]
+
+[node name="SG550" parent="." instance=ExtResource("15")]
+
+[node name="SG552" parent="." instance=ExtResource("16")]
+
+[node name="TMP" parent="." instance=ExtResource("17")]
+
+[node name="UMP45" parent="." instance=ExtResource("18")]
+
+[node name="XM1014" parent="." instance=ExtResource("19")]

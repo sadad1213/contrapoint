@@ -1,0 +1,93 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/eq_flashbang/flashbang.vmt",
+      "sha256": "d2e78fc6a783e36e430a46d2b1219bf1a51fd9e630f2235585bf34d01afb6a72"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_flashbang/flashbang.vtf",
+      "sha256": "427ed1ed1363bdfef01b2a5e64b6fc526dc1a2478cef6ed392e8dcb6c221c741"
+    },
+    {
+      "path": "materials/models/weapons/v_models/eq_flashbang/flashbang_ref.vtf",
+      "sha256": "cec79f3b2df4847577568657cc1a8f40f6f3cc1e1f23720e660569f520e3c65c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_flashbang/w_eq_flashbang.vmt",
+      "sha256": "af62f0ddcb515a8ddcc501a14cf250fc00f8fa807215dda65561e1343d3668b8"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_eq_flashbang/w_eq_flashbang.vtf",
+      "sha256": "f9ff938d1ad7023cbf5a8bf01c954ba82487375fdc9219b4f85dcfd3c4b26afa"
+    },
+    {
+      "path": "models/weapons/v_eq_flashbang.dx90.vtx",
+      "sha256": "603031cc1ed8af174064979fdabee21ecdf98e7870ffaea503be08bbba0db25e"
+    },
+    {
+      "path": "models/weapons/v_eq_flashbang.mdl",
+      "sha256": "53eb513843528c73bf0c92090b21269adaf1afacb4687da3990c72fa61af69df"
+    },
+    {
+      "path": "models/weapons/v_eq_flashbang.vvd",
+      "sha256": "39cb7231dce63c63885dd7a622112b875e295b71705a78dc0d8f16e53dd0dd32"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang.dx90.vtx",
+      "sha256": "237a927db24153d49144572c3be081e72662905ad2459904c62f1299f1d5bd43"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang.mdl",
+      "sha256": "e00ec1d7d461289281e5b6cccaca2bad8d5bb6ca51a99f4a4c2e96639176e77b"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang.phy",
+      "sha256": "85d6afefe587cae6167b211006d143250ed103d6b79148b822195435852ece75"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang.vvd",
+      "sha256": "c824e12b13fb4797fd56f08bb02bcf148d3cce7fd453099c13f28dedfc7ff6c3"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang_thrown.dx90.vtx",
+      "sha256": "8682c867331d056593ca118184f4a96f79b9b3aa7e572b2c7d36d3ba45b90372"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang_thrown.mdl",
+      "sha256": "4646d74d220fc8203dd624dcab8c6a137fb9e369e25961cbbed68a310a727637"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang_thrown.phy",
+      "sha256": "bf00dd76bfda8ade439e278947d7e0ee3e45b86859ffc590670fa38a6f710ce8"
+    },
+    {
+      "path": "models/weapons/w_eq_flashbang_thrown.vvd",
+      "sha256": "0684a0c0fb07a38080dfbf78cc2c3f3f1b671026efc00215fb4dd9d225620e1c"
+    },
+    {
+      "path": "sound/weapons/flashbang/flashbang_explode1.wav",
+      "sha256": "fb300b3cf51f10a8199e45221e522e16aee5fc1764e06ace267dfe38ce0bb6f8"
+    },
+    {
+      "path": "sound/weapons/flashbang/flashbang_explode2.wav",
+      "sha256": "5c493c75c172d5a65bff638c994e823e50484e263db2563a131bbc9932d9b3fa"
+    },
+    {
+      "path": "sound/weapons/flashbang/grenade_hit1.wav",
+      "sha256": "5364d616ebecdd716c9f8b71c77b89f9dcf8df74a135956e014a0c80b65576fc"
+    }
+  ]
+}

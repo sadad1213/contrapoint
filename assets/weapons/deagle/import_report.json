@@ -1,0 +1,105 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-arsenal\\models\\weapons\\v_pist_deagle.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 64,
+  "geometry": [
+    {
+      "name": "studio_deagle_reference.smd",
+      "vertices": 1252,
+      "triangles": 990,
+      "materials": [
+        "deagle_skin1"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "deagle_skin1",
+      "image": "deagle_skin1",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "duration": 1.0
+    },
+    {
+      "name": "idle1",
+      "source_name": "@idle1",
+      "source_fps": 16.0,
+      "source_frames": 31,
+      "duration": 1.875
+    },
+    {
+      "name": "reload",
+      "source_name": "@reload",
+      "source_fps": 30.0,
+      "source_frames": 66,
+      "duration": 2.1666666666666665
+    },
+    {
+      "name": "shoot1",
+      "source_name": "@shoot1",
+      "source_fps": 40.0,
+      "source_frames": 28,
+      "duration": 0.675
+    },
+    {
+      "name": "shoot2",
+      "source_name": "@shoot2",
+      "source_fps": 40.0,
+      "source_frames": 28,
+      "duration": 0.675
+    },
+    {
+      "name": "shoot_empty",
+      "source_name": "@shoot_empty",
+      "source_fps": 40.0,
+      "source_frames": 24,
+      "duration": 0.575
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\deagle\\deagle.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/t_arctic/t_arctic.vmt",
+      "sha256": "ed4c3366ecbb50273168d783bfc057af55ec4b30bdbdbd5e2dc325bc82e712ba"
+    },
+    {
+      "path": "materials/models/player/t_arctic/t_arctic.vtf",
+      "sha256": "90e0482f1c006e5b50affe11a7b5fa2c95496a3cddc765b36d3777b234e0d1f7"
+    },
+    {
+      "path": "materials/models/player/t_arctic/t_arctic_normal.vtf",
+      "sha256": "2ceaec105ea433c2a42caf01cd532dc7f898651bcf04ffa6d30b9f72eda7c150"
+    },
+    {
+      "path": "models/player/ak_anims_t.mdl",
+      "sha256": "d68e3409fc4393e22c3180b961b7593897b5086cafca7c6a3e8beda84d6519b7"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/t_arctic.dx90.vtx",
+      "sha256": "8e91a50e2fc0a206d78eab00dd1394cce78a9187fa5555b9553de9cf66aae3ce"
+    },
+    {
+      "path": "models/player/t_arctic.mdl",
+      "sha256": "4e984f509a0245f2c581c03cd893a33ac244a649898f8445610f1bf12d96153a"
+    },
+    {
+      "path": "models/player/t_arctic.phy",
+      "sha256": "ad5b357f8b70f55e3d5e4522b3af50ca5f9f0e40949adb7a8958214715b07a8d"
+    },
+    {
+      "path": "models/player/t_arctic.vvd",
+      "sha256": "cc8245fe61c1be14380bead18f640799c4431fb606aeaa3e9101a57d44703e91"
+    }
+  ]
+}

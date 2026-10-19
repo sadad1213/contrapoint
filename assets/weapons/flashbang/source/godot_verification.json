@@ -1,0 +1,70 @@
+{
+  "animations": [
+    {
+      "duration": 0.666666686534882,
+      "moving_bone_samples": 112,
+      "name": "deploy",
+      "tracks": 46
+    },
+    {
+      "duration": 0.266666680574417,
+      "moving_bone_samples": 0,
+      "name": "idle",
+      "tracks": 46
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 220,
+      "name": "pullpin",
+      "tracks": 46
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 220,
+      "name": "pullpin2",
+      "tracks": 46
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 220,
+      "name": "pullpin3",
+      "tracks": 46
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 220,
+      "name": "pullpin4",
+      "tracks": 46
+    },
+    {
+      "duration": 0.766666650772095,
+      "moving_bone_samples": 112,
+      "name": "throw",
+      "tracks": 46
+    }
+  ],
+  "bones": 59,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/flashbang/flashbang.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "hands___\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "flashbang",
+      "mesh": "studio_flashbang_reference_smd",
+      "texture_size": "(512.0, 256.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in idle; verify whether this is an intentional pose clip"
+  ]
+}

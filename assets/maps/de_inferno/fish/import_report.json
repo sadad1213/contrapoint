@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-inferno-fish\\models\\props\\de_inferno\\goldfish.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-inferno-fish",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 0,
+  "geometry": [
+    {
+      "name": "Body_GoldFish_REF.smd",
+      "vertices": 676,
+      "triangles": 992,
+      "materials": [
+        "goldfish"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "goldfish",
+      "image": "goldfish",
+      "size": [
+        256,
+        256
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\maps\\de_inferno\\fish\\goldfish.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

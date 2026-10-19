@@ -1,0 +1,44 @@
+{
+  "idle": [],
+  "pullpin": [
+    {
+      "cycle": 0.692307710647583,
+      "id": 5004,
+      "type": 0,
+      "option": "Default.PullPin_Grenade"
+    }
+  ],
+  "pullpin2": [
+    {
+      "cycle": 0.692307710647583,
+      "id": 5004,
+      "type": 0,
+      "option": "Default.PullPin_Grenade"
+    }
+  ],
+  "pullpin3": [
+    {
+      "cycle": 0.692307710647583,
+      "id": 5004,
+      "type": 0,
+      "option": "Default.PullPin_Grenade"
+    }
+  ],
+  "pullpin4": [
+    {
+      "cycle": 0.692307710647583,
+      "id": 5004,
+      "type": 0,
+      "option": "Default.PullPin_Grenade"
+    }
+  ],
+  "throw": [
+    {
+      "cycle": 0.43478259444236755,
+      "id": 3005,
+      "type": 0,
+      "option": ""
+    }
+  ],
+  "deploy": []
+}

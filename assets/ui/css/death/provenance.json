@@ -1,0 +1,72 @@
+[
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/ui/freeze_cam.wav",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\audio\\css\\ui\\freeze_cam.wav",
+    "sha256": "d1809ccfaf2529ecf9230b3a0841df70a17062c19389c4b4952accc23de9b13e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/ui/freezepanel_basic.res",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\tools\\source_import\\references\\death\\freezepanel_basic.res",
+    "sha256": "1fccb35b1fda3807bcce2d16b13ef01bd50158d3bf78eee6e6cba30db7b1342a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:resource/clientscheme.res",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\tools\\source_import\\references\\death\\clientscheme.res",
+    "sha256": "66f1da248dd753e5bf6b2a46434cb1d8891dae247c92e52c5d3027f1ed7a74f1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/avatar_glow_64.vtf",
+    "output": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-freezepanel-w9408v67\\materials\\hud\\avatar_glow_64.vtf",
+    "sha256": "c1c5a8f13a5ea74b56f43d80a8b93a9b7822d7a7e5ce9d98fc85ab8de34272f3"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/freeze_nemesis.vtf",
+    "output": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-freezepanel-w9408v67\\materials\\hud\\freeze_nemesis.vtf",
+    "sha256": "f6906343939fd4035a1ce944853e9b362b6a5d1c91178f2e709c9a12fd5496ec"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/hud/freeze_revenge.vtf",
+    "output": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-freezepanel-w9408v67\\materials\\hud\\freeze_revenge.vtf",
+    "sha256": "58a2a93d54ad4f0369d56f26863eeffd5c112f8a54d526df50a83677f620c1c0"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/avatar_default-t_64.vtf",
+    "output": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-freezepanel-w9408v67\\materials\\vgui\\avatar_default-t_64.vtf",
+    "sha256": "a4853cd3e883357f9535f675f382f607dbfd39fb94f287dc6725cb37ab062c5d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/avatar_default_64.vtf",
+    "output": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-freezepanel-w9408v67\\materials\\vgui\\avatar_default_64.vtf",
+    "sha256": "a985a59ef689924ccdc3d88b2c9c34bd1cc0d03dbdb5f3ad4a70b75d41369697"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_english.txt",
+    "output": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_english.txt",
+    "sha256": "84b31b9da2c0fb3d303a549c27825bfecd9ee97aae11b829a8382d94bb8baf8c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_russian.txt",
+    "output": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike_russian.txt",
+    "sha256": "35b5f7121581866c855c50e30dc3119cef59e41e8b3f3d139bb16817975b0b0d"
+  },
+  {
+    "source": "C:\\Windows\\Fonts\\verdanab.ttf",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\ui\\css\\death\\verdanab.ttf",
+    "sha256": "f3245f5f38f61bd1ceefb0f1338a5b88a21e6220832c2f43a38bbc7e1547c36f"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/cs_hud_freezepanel.cpp",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\tools\\source_import\\references\\death\\cs_hud_freezepanel.cpp",
+    "sha256": "984dd50d3d5c6bbf841f0fc01c0ed3be68fe36cd160cc675caf4a2ad7e54b959"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/VGUI/bordered_panel.cpp",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\tools\\source_import\\references\\death\\bordered_panel.cpp",
+    "sha256": "86e32c97c7be298d8e024024fa1b8a6119b388c0b913b9b00366dd5525979751"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/nillerusr/source-engine/master/game/client/cstrike/VGUI/backgroundpanel.cpp",
+    "output": "C:\\Users\\Hueglot\\Documents\\contrapoint\\tools\\source_import\\references\\death\\backgroundpanel.cpp",
+    "sha256": "6ad82d7eaecedf5e89a9ab2e13a9cefa5ff2dd6e7d60f9b451915e459fd7de20"
+  }
+]

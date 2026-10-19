@@ -1,0 +1,60 @@
+﻿{
+    "before":  [
+                   {
+                       "bots":  4,
+                       "mean_ms":  1.3787303030303026,
+                       "median_ms":  1.015,
+                       "p95_ms":  3.056,
+                       "max_ms":  29.318,
+                       "allocated_bytes_per_tick":  5563,
+                       "paths":  47
+                   },
+                   {
+                       "bots":  8,
+                       "mean_ms":  1.8677969696969687,
+                       "median_ms":  1.623,
+                       "p95_ms":  3.376,
+                       "max_ms":  37.854,
+                       "allocated_bytes_per_tick":  10772,
+                       "paths":  134
+                   },
+                   {
+                       "bots":  15,
+                       "mean_ms":  6.342468181818181,
+                       "median_ms":  3.996,
+                       "p95_ms":  15.495,
+                       "max_ms":  158.644,
+                       "allocated_bytes_per_tick":  25862,
+                       "paths":  310
+                   }
+               ],
+    "after":  [
+                  {
+                      "bots":  4,
+                      "mean_ms":  1.1243757575757578,
+                      "median_ms":  0.888,
+                      "p95_ms":  1.88,
+                      "max_ms":  50.123,
+                      "allocated_bytes_per_tick":  2633,
+                      "paths":  8
+                  },
+                  {
+                      "bots":  8,
+                      "mean_ms":  1.3152939393939396,
+                      "median_ms":  1.201,
+                      "p95_ms":  1.983,
+                      "max_ms":  20.692,
+                      "allocated_bytes_per_tick":  4773,
+                      "paths":  23
+                  },
+                  {
+                      "bots":  15,
+                      "mean_ms":  2.0464363636363636,
+                      "median_ms":  1.903,
+                      "p95_ms":  2.937,
+                      "max_ms":  22.519,
+                      "allocated_bytes_per_tick":  9827,
+                      "paths":  45
+                  }
+              ]
+}

@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 4,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/deagle/world/deagle_world.glb",
+  "skinned_meshes": 1,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_pist_deagle",
+      "mesh": "studio_w_pist_deagle",
+      "texture_size": "(512.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

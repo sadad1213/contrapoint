@@ -1,0 +1,58 @@
+{
+  "animations": [
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 236,
+      "name": "awm_draw",
+      "tracks": 48
+    },
+    {
+      "duration": 1.36666667461395,
+      "moving_bone_samples": 236,
+      "name": "awm_fire",
+      "tracks": 48
+    },
+    {
+      "duration": 0.333333343267441,
+      "moving_bone_samples": 0,
+      "name": "awm_idle",
+      "tracks": 48
+    },
+    {
+      "duration": 3.66666674613953,
+      "moving_bone_samples": 236,
+      "name": "awm_reload",
+      "tracks": 48
+    }
+  ],
+  "bones": 61,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/awp/awp.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "__\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "v_AWP_scope",
+      "mesh": "awm_reference_smd",
+      "texture_size": "(64.0, 64.0)",
+      "textured": true
+    },
+    {
+      "material": "v_AWP",
+      "mesh": "awm_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in awm_idle; verify whether this is an intentional pose clip"
+  ]
+}

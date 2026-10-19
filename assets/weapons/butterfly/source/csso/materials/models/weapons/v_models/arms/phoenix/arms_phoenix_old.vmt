@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"				"models/weapons/v_models/arms/phoenix/arms_phoenix_old"
+	"$bumpmap"					"models/weapons/v_models/arms/phoenix/arms_phoenix_old_normal"
+
+	"$phong"					"1"
+	"$phongexponenttexture"		"models/weapons/v_models/arms/phoenix/arms_phoenix_old_exponent"
+	"$phongboost"				"0.5"
+	"$phongtint"				"[1 1 1]"
+	"$phongfresnelranges"		"[.2 .2 1]"
+	"$phongdisablehalflambert"	"1"
+
+	"$rimlight"					"1"
+	"$rimlightexponent"			"9"
+	"$rimlightboost"			"0.2"
+	"$rimmask" 					"1"
+}

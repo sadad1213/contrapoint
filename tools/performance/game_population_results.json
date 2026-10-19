@@ -1,0 +1,206 @@
+{
+    "date":  "2026-10-19",
+    "scope":  "Mirage de_cpl_strike, 1920x1080, D3D12 Forward+, GTX 1060 6GB; rendered wall-clock FPS; 90 warmup and 240 sample frames",
+    "before":  {
+                   "value":  [
+                                 {
+                                     "scenario":  "solo",
+                                     "fps":  283.8295225277854,
+                                     "median_ms":  3.47,
+                                     "p95_ms":  4.613,
+                                     "render_cpu_ms":  1.0665583277742068,
+                                     "render_gpu_ms":  1.1795083314180375,
+                                     "weapon_cpu_ms":  0.2265999998897314,
+                                     "weapon_gpu_ms":  0.5702208319058021,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 },
+                                 {
+                                     "scenario":  "bots_2_live",
+                                     "fps":  224.89598560665695,
+                                     "median_ms":  4.22,
+                                     "p95_ms":  5.69,
+                                     "render_cpu_ms":  1.1305083302160104,
+                                     "render_gpu_ms":  1.1068874989946684,
+                                     "weapon_cpu_ms":  0.23959166705608367,
+                                     "weapon_gpu_ms":  0.5530375016232332,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 },
+                                 {
+                                     "scenario":  "bots_5_live",
+                                     "fps":  163.0204427635225,
+                                     "median_ms":  5.766,
+                                     "p95_ms":  8.434,
+                                     "render_cpu_ms":  1.2621458356579145,
+                                     "render_gpu_ms":  1.1213125045100847,
+                                     "weapon_cpu_ms":  0.247070832674702,
+                                     "weapon_gpu_ms":  0.5569958326717218,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 },
+                                 {
+                                     "scenario":  "bots_10_live",
+                                     "fps":  116.38248327244264,
+                                     "median_ms":  8.868,
+                                     "p95_ms":  11.174,
+                                     "render_cpu_ms":  1.488137499988079,
+                                     "render_gpu_ms":  1.1164833342035612,
+                                     "weapon_cpu_ms":  0.26688749908159176,
+                                     "weapon_gpu_ms":  0.553570834795634,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 },
+                                 {
+                                     "scenario":  "bots_10_combat",
+                                     "fps":  94.15460735763334,
+                                     "median_ms":  10.149,
+                                     "p95_ms":  16.696,
+                                     "render_cpu_ms":  1.5680708333849906,
+                                     "render_gpu_ms":  1.1158625021576882,
+                                     "weapon_cpu_ms":  0.29327500009288393,
+                                     "weapon_gpu_ms":  0.5589999998609225,
+                                     "draw_calls":  125.0125,
+                                     "primitives":  15759.025
+                                 },
+                                 {
+                                     "scenario":  "bots_5_repeat",
+                                     "fps":  173.26305591271006,
+                                     "median_ms":  5.632,
+                                     "p95_ms":  7.432,
+                                     "render_cpu_ms":  1.2055500000715256,
+                                     "render_gpu_ms":  1.1126375064253806,
+                                     "weapon_cpu_ms":  0.23435416569312414,
+                                     "weapon_gpu_ms":  0.5531541682779789,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 },
+                                 {
+                                     "scenario":  "bots_5_visible",
+                                     "fps":  176.63514465314393,
+                                     "median_ms":  5.563,
+                                     "p95_ms":  6.746,
+                                     "render_cpu_ms":  1.3364708319306373,
+                                     "render_gpu_ms":  1.6631083364288013,
+                                     "weapon_cpu_ms":  0.24260833313067753,
+                                     "weapon_gpu_ms":  0.5594416665534179,
+                                     "draw_calls":  141,
+                                     "primitives":  43293
+                                 },
+                                 {
+                                     "scenario":  "bots_5_hidden",
+                                     "fps":  186.0041199912578,
+                                     "median_ms":  5.311,
+                                     "p95_ms":  6.518,
+                                     "render_cpu_ms":  1.252187502880891,
+                                     "render_gpu_ms":  1.1045791690548261,
+                                     "weapon_cpu_ms":  0.23834166650970776,
+                                     "weapon_gpu_ms":  0.5552458326021831,
+                                     "draw_calls":  125,
+                                     "primitives":  15759
+                                 }
+                             ],
+                   "Count":  8
+               },
+    "after":  {
+                  "value":  [
+                                {
+                                    "scenario":  "solo",
+                                    "fps":  287.39554967991324,
+                                    "median_ms":  3.287,
+                                    "p95_ms":  4.758,
+                                    "render_cpu_ms":  1.0162708342075348,
+                                    "render_gpu_ms":  1.146020831912756,
+                                    "weapon_cpu_ms":  0.22815000008170802,
+                                    "weapon_gpu_ms":  0.5175791690746944,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_2_live",
+                                    "fps":  252.793632971031,
+                                    "median_ms":  3.6,
+                                    "p95_ms":  5.274,
+                                    "render_cpu_ms":  1.1916958334545293,
+                                    "render_gpu_ms":  1.0784041650593281,
+                                    "weapon_cpu_ms":  0.23377916648363073,
+                                    "weapon_gpu_ms":  0.5086125017454227,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_5_live",
+                                    "fps":  200.5128115154507,
+                                    "median_ms":  4.7,
+                                    "p95_ms":  7.343,
+                                    "render_cpu_ms":  1.3100208275020122,
+                                    "render_gpu_ms":  1.0854666690031687,
+                                    "weapon_cpu_ms":  0.2771958331887921,
+                                    "weapon_gpu_ms":  0.5123291683693727,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_10_live",
+                                    "fps":  152.68438229624584,
+                                    "median_ms":  5.976,
+                                    "p95_ms":  10.65,
+                                    "render_cpu_ms":  1.5646166702111561,
+                                    "render_gpu_ms":  1.056658331056436,
+                                    "weapon_cpu_ms":  0.28275833316147325,
+                                    "weapon_gpu_ms":  0.5132999996344249,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_10_combat",
+                                    "fps":  134.78648136520727,
+                                    "median_ms":  6.208,
+                                    "p95_ms":  15.804,
+                                    "render_cpu_ms":  1.4951124926408133,
+                                    "render_gpu_ms":  1.081270827849706,
+                                    "weapon_cpu_ms":  0.2831333333005508,
+                                    "weapon_gpu_ms":  0.5086458332836628,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_5_repeat",
+                                    "fps":  223.35970218706368,
+                                    "median_ms":  4.14,
+                                    "p95_ms":  6.33,
+                                    "render_cpu_ms":  1.3079374983906746,
+                                    "render_gpu_ms":  1.066487501313289,
+                                    "weapon_cpu_ms":  0.24599583347638448,
+                                    "weapon_gpu_ms":  0.5166374996304512,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                },
+                                {
+                                    "scenario":  "bots_5_visible",
+                                    "fps":  184.044704458713,
+                                    "median_ms":  5.381,
+                                    "p95_ms":  6.808,
+                                    "render_cpu_ms":  1.3786624997854233,
+                                    "render_gpu_ms":  1.4988666618863742,
+                                    "weapon_cpu_ms":  0.2613708342735966,
+                                    "weapon_gpu_ms":  0.5034541681408882,
+                                    "draw_calls":  141,
+                                    "primitives":  43293
+                                },
+                                {
+                                    "scenario":  "bots_5_hidden",
+                                    "fps":  198.6692471594436,
+                                    "median_ms":  5.072,
+                                    "p95_ms":  6.315,
+                                    "render_cpu_ms":  1.4011458332339923,
+                                    "render_gpu_ms":  1.034533333281676,
+                                    "weapon_cpu_ms":  0.2909624997526407,
+                                    "weapon_gpu_ms":  0.5102333308507999,
+                                    "draw_calls":  125,
+                                    "primitives":  15759
+                                }
+                            ],
+                  "Count":  8
+              }
+}

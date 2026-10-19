@@ -1,0 +1,96 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"220"
+	"WeaponType"						"Shotgun"
+	"FullAuto"							"0"
+	"WeaponPrice"						"1050"
+	"KillAward"							"900"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.0"
+	"CrosshairMinDistance"				"8"
+	"CrosshairDeltaDistance"			"6"
+	"Team"								"ANY"
+	"PlayerAnimationExtension" 			"m3s90"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_autoshotgun"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_autoshotgun"
+	"TracerEffect"						"weapon_tracers_shot"
+	"TracerFrequency"					"1"
+	"EjectBrassEffect"					"weapon_shell_casing_nova"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"1.5"
+	"ReloadsSingly"						"1"
+	"AddonScale"						"0.9"
+	"AddonLocation"						"primary_shotgun"
+
+	// Weapon characteristics:
+	"Penetration"						"1.0"
+	"Damage"							"26"
+	"Range"								"3000.0"
+	"RangeModifier"						"0.7"
+	"Bullets"							"9"
+	"CycleTime"							"0.88"
+	"TimeToIdle"						"2.0"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.040000"
+	"InaccuracyCrouch"					"0.005250"
+	"InaccuracyStand"					"0.007000"
+	"InaccuracyJump"					"0.126310"
+	"InaccuracyJumpInitial"				"0.109700"
+	"InaccuracyLand"					"0.000236"
+	"InaccuracyLadder"					"0.078750"
+	"InaccuracyFire"					"0.009720"
+	"InaccuracyMove"					"0.036750"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"20.00000"
+	"RecoilMagnitude"					"143.0000"
+	"RecoilMagnitudeVariance"			"22.00000"
+	"RecoilSeed"						"7763"
+
+	"RecoveryTimeCrouch"				"0.328941"
+	"RecoveryTimeStand"					"0.460517"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"FlinchVelocityModifierLarge"		"0.4"
+	"FlinchVelocityModifierSmall"		"0.45"
+
+	"ReserveAmmoMax"					"32"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_Nova"
+	"viewmodel"							"models/weapons/v_shot_nova.mdl"
+	"playermodel"						"models/weapons/w_shot_nova.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"8"
+	"primary_ammo"						"BULLET_PLAYER_BUCKSHOT"
+	"secondary_ammo"					"None"
+	"weight"							"20"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_Nova.Single"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/shot_nova/shot_nova.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"39.695"
+			"uvscale"					"0.744"
+		}
+	}
+}

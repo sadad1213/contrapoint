@@ -1,0 +1,128 @@
+{
+  "animations": [
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 316,
+      "name": "draw",
+      "tracks": 167
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 316,
+      "name": "draw2",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "heavy_backstab",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "heavy_hit1",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "heavy_miss1",
+      "tracks": 167
+    },
+    {
+      "duration": 2.0,
+      "moving_bone_samples": 316,
+      "name": "idle1",
+      "tracks": 167
+    },
+    {
+      "duration": 4.0,
+      "moving_bone_samples": 316,
+      "name": "idle2",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_backstab",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_backstab2",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_hit1",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_hit2",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_miss1",
+      "tracks": 167
+    },
+    {
+      "duration": 1.16666662693024,
+      "moving_bone_samples": 316,
+      "name": "light_miss2",
+      "tracks": 167
+    },
+    {
+      "duration": 4.06666660308838,
+      "moving_bone_samples": 316,
+      "name": "lookat01",
+      "tracks": 167
+    },
+    {
+      "duration": 4.5,
+      "moving_bone_samples": 316,
+      "name": "lookat02",
+      "tracks": 167
+    },
+    {
+      "duration": 4.86666679382324,
+      "moving_bone_samples": 316,
+      "name": "lookat03",
+      "tracks": 167
+    }
+  ],
+  "bones": 95,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 3,
+  "model": "res://assets/weapons/butterfly/butterfly.glb",
+  "skinned_meshes": 3,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "glove_fullfinger",
+      "mesh": "v_glove_fullfinger_smd",
+      "texture_size": "(1024.0, 1024.0)",
+      "textured": true
+    },
+    {
+      "material": "bare_arm_133",
+      "mesh": "v_glove_fullfinger_arms_smd",
+      "texture_size": "(1024.0, 2048.0)",
+      "textured": true
+    },
+    {
+      "material": "knife_butterfly",
+      "mesh": "v_knife_butterfly_smd",
+      "texture_size": "(2048.0, 2048.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

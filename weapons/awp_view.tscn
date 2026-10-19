@@ -1,0 +1,21 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://weapons/FirearmView.cs" id="1_controller"]
+[ext_resource type="Script" path="res://weapons/WeaponSway.cs" id="2_sway"]
+[ext_resource type="PackedScene" path="res://assets/weapons/awp/awp.glb" id="3_model"]
+[ext_resource type="Script" path="res://weapons/ModelMaterialOverride.cs" id="4_override"]
+[ext_resource type="Material" path="res://weapons/materials/awp_scope_glass.tres" id="5_glass"]
+
+[node name="AWP" type="Node3D"]
+script = ExtResource("1_controller")
+Kind = 4
+
+[node name="WeaponSway" type="Node3D" parent="."]
+script = ExtResource("2_sway")
+
+[node name="Model" parent="WeaponSway" instance=ExtResource("3_model")]
+script = ExtResource("4_override")
+SourceMaterialName = "v_AWP_scope"
+Replacement = ExtResource("5_glass")
+rotation_degrees = Vector3(0, 180, 0)
+scale = Vector3(-1, 1, 1)

@@ -1,0 +1,99 @@
+{
+    "archive":  "C:/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/cstrike_pak_dir.vpk",
+    "extracted_with":  "CSS bin/vpk.exe x",
+    "custom_content_mounted":  false,
+    "files":  [
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands.vmt",
+                      "sha256":  "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands.vtf",
+                      "sha256":  "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+                      "sha256":  "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/rif_ak47/rif_ak47skin1.vmt",
+                      "sha256":  "258340cdc29f0b72a37737108c5b2eb05af0793a35007ef772d633b651a61ae5"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/rif_ak47/rif_ak47skin1.vtf",
+                      "sha256":  "7460e132a87d75285b1b2918f695b23e0358ffbbf25e111b0d9e7e224d9a0246"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/rif_ak47/rif_ak47skin1_ref.vtf",
+                      "sha256":  "a4f5d62971d421b5c32a1e359980180b91a3165eeca7dd2c93b4ba2260629ae2"
+                  },
+                  {
+                      "path":  "materials/models/weapons/w_models/w_rif_ak47/w_rif_ak47.vmt",
+                      "sha256":  "c5647f88d25f42d40adc3b6488ec18223973e1c92f687be8738cc69d7463efa1"
+                  },
+                  {
+                      "path":  "materials/models/weapons/w_models/w_rif_ak47/w_rif_ak47.vtf",
+                      "sha256":  "acb2fe6aad49aca36dfe4821907361697f0a7f74d55eb4b789357235c24e83dd"
+                  },
+                  {
+                      "path":  "models/weapons/v_rif_ak47.dx80.vtx",
+                      "sha256":  "7a89f7c4f759a144a4b200d245bc8d042abdcdb8e5f7d7894253f329532cb85a"
+                  },
+                  {
+                      "path":  "models/weapons/v_rif_ak47.dx90.vtx",
+                      "sha256":  "c5e335eb3271f09d7d4ebc079d1457c3f32ac7d8c43fa453e291a521447695fe"
+                  },
+                  {
+                      "path":  "models/weapons/v_rif_ak47.mdl",
+                      "sha256":  "c233de2e495fdeb6393c1e463dd1ce2c51ddd1c9f7f2619f33c18acc5537b721"
+                  },
+                  {
+                      "path":  "models/weapons/v_rif_ak47.sw.vtx",
+                      "sha256":  "8edb7feb6ab54bdc57c23e18d3a3449e9bde4e947a4fea064f0095c57cc3c512"
+                  },
+                  {
+                      "path":  "models/weapons/v_rif_ak47.vvd",
+                      "sha256":  "588ce8440f7c84c5305af580d9f5186547d416c710ad435da4324eb30b9f93a3"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.dx80.vtx",
+                      "sha256":  "54450ca5a96980871314467a1a75a1d8546d81e1627d7b6d6627be41ce567234"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.dx90.vtx",
+                      "sha256":  "90d07b5285affd30b83defe7ef49a4eb1768c7557963d00b552c7240f42cb40b"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.mdl",
+                      "sha256":  "69426bb50e8d2a87f2084498fce472bf99646495b59b5051134deda3f4a54b5c"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.phy",
+                      "sha256":  "809f454909ea0d2cfbc1e7600d260b108376807db6df5344a80d1b8240731a7a"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.sw.vtx",
+                      "sha256":  "45343ffa7447ee421ffa0aa9af092d9d877a6298c042a96ca32d4cac7f4d7421"
+                  },
+                  {
+                      "path":  "models/weapons/w_rif_ak47.vvd",
+                      "sha256":  "c9ca7b9833216f2c84d9288fe864366d11ff8af61dc0b215c8e8f79d68a414c6"
+                  },
+                  {
+                      "path":  "sound/weapons/ak47/ak47-1.wav",
+                      "sha256":  "d7bf5a825ebb5183e6a7054784673da860384b32379bd91e8c38919cecff9712"
+                  },
+                  {
+                      "path":  "sound/weapons/ak47/ak47_boltpull.wav",
+                      "sha256":  "2cb668bd98e6a1f77105eb583e0941aa8af3272619ea5a1ad14836aa08cc819c"
+                  },
+                  {
+                      "path":  "sound/weapons/ak47/ak47_clipin.wav",
+                      "sha256":  "587f2c41668cd3aa34280cf24468eba6da5551fb467b6163e16015716f687afd"
+                  },
+                  {
+                      "path":  "sound/weapons/ak47/ak47_clipout.wav",
+                      "sha256":  "c6eca4302cc07dc6d8b8f715e4fd567f52b596733a32b3606794023e78cc7cb9"
+                  }
+              ]
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/game_sounds_weapons.txt",
+    "sha256": "48c42dfe4a5b923e3ca014061fedbbeca87df6e279c5625839b4be2e6c407456"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_ak47.ctx",
+    "sha256": "b65ce6907f6302abadf14f11c608a2adebe1c42e6a617c33a7b362434edd99a8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_deagle.ctx",
+    "sha256": "d6da8de7a192455ba15df0a02a9152920fee4881108154e07c00f01df9f5c459"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_usp.ctx",
+    "sha256": "6101ee8b84c4b5fe3a9b8ac47537937a8ba2ab08e47a6668c56bcbe8bae7be04"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_m4a1.ctx",
+    "sha256": "d8985a757e16e6958838b5a82e87d9cda26e778feb255c2e47c1b6b330f449e2"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_awp.ctx",
+    "sha256": "06f63158f9a469fe4d66dc44ecd21fa464c705f8eb165865a6e3af4f4e4b10ac"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_scout.ctx",
+    "sha256": "94e2e57dfae63b88d1c6f1215d849edccb8fb5db2333807395782b35443d4206"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_aug.ctx",
+    "sha256": "73fba95066ebcfdb11fc221cba9aaed6f80bdd9828ad95f69f7f2d53901fd4d6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_elite.ctx",
+    "sha256": "733f5bf9ead3e2103364b28c332fe62ff9a723c8af6201bb60d142f6d903ffbf"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_famas.ctx",
+    "sha256": "61c0aa08adc543071d7915117b385d467036eba496b3aff425f4b6b8606a9ddb"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_fiveseven.ctx",
+    "sha256": "f95cca4ec7b1ba9701325b1df56589138779d2a16db9aab6d85031ad9c1c2c4a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_g3sg1.ctx",
+    "sha256": "bb901000bcbc687da992747673d63f04e5082018cf3a263c077732164703c47c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_galil.ctx",
+    "sha256": "12420ebee4a11e6254212e47753440b8c28fd2dc36cea27defc9ea2f0985f12d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_glock.ctx",
+    "sha256": "7e0f0efc6f2f427b2403ae4bc13d52c9451b84a0c5730ec31625aecfa5d09d7d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_m249.ctx",
+    "sha256": "0ec53868bd69ccccefc28ea569bcd429677cbbcde008e865556051e38328c3d9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_m3.ctx",
+    "sha256": "d4cbde565e5474edb0d58bf87bae4e2c41e12628a813a165e020292f82aaac3d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_mac10.ctx",
+    "sha256": "a20b8c469b88156b1521e2a39ba0c9dc2f8e6c2ebd98d654328211bfeab40ac6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_mp5navy.ctx",
+    "sha256": "2bd231b88020897503e81e5cd345f3235f2149da465aa05128db0353e97c1c10"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_p228.ctx",
+    "sha256": "24dcc854194693a04d93e7c192031acd23f4208aea3115dad9e9ac766afa6dae"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_p90.ctx",
+    "sha256": "c183c100a11f9693c6f5d6c08ee527711ce06172b61115349db42a064fcc2342"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_sg550.ctx",
+    "sha256": "9a1a441fe0b6697854d5614f02a259d89afe317fa7042d8a0abf0c9333f16515"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_sg552.ctx",
+    "sha256": "49bdd6a35d5440cb048a29866ae521d232b2aceaef92b53ebb268902c1295dce"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_tmp.ctx",
+    "sha256": "9dd9cef73d1eead465d30bd10f45bab668736f2a69007af08117de54ef02b333"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_ump45.ctx",
+    "sha256": "3b9fe058b82b77979c8a597f61d3537f0567f3212ffaca56f839713bdd0773fc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:scripts/weapon_xm1014.ctx",
+    "sha256": "c564e5ecc2ab683c2e9059653006be45f6b11bcbc9216b38a9a3d4d9a4b215c1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_ak47.txt",
+    "sha256": "891d14a647f9ede8a06be3eb3bca0b1c5b47c25ab7d936799fd6764e86947a7d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_deagle.txt",
+    "sha256": "edf5c8cc40b905396b3f2a12b53e8b6bd772d379ed061352f25b604d40b99282"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_usp_silencer.txt",
+    "sha256": "05f36b47df7dbf22bc0a607392a8a37d6383f938b0d5bc9a5a425a2216018983"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_m4a1_silencer.txt",
+    "sha256": "69957265aae9c982c26c28ff9c71c81ddf1461046efef50ddd7122817b76b0f9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_awp.txt",
+    "sha256": "2ddbc880e498794991240669d35ea5a1175fcf0a51590e2d7e8d31a4db244dc4"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_ssg08.txt",
+    "sha256": "c0f869dd8bfe31ab983461d2d2db4009d94654b757cabae4f52c5680454c7a22"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_aug.txt",
+    "sha256": "fd989e4772cc6272cfd046cbd4fa171254f296ff5d30e2483126655b59b6f95e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_elite.txt",
+    "sha256": "798657b37d048e6a7f9f6ae26272a62cdc3393ef66683f37e2a6daab1869a67f"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_famas.txt",
+    "sha256": "5794ba4fa50be0821b487f43e293ab8b41e8d4c190ea97027ca6695f48f81848"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_fiveseven.txt",
+    "sha256": "23c4e8843ab6065c6cfdfada6c82e9b9f6e513965ac8150177177ff8d7b54efa"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_g3sg1.txt",
+    "sha256": "416aa07db5292a8b5ba1ad6862fdfaef3fc34d14292428657d0ab9353a695c6f"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_galilar.txt",
+    "sha256": "7b9872e373c91ef0a0c7d8957a44e826fa5ed67dca461600d67db0cc417bd961"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_glock18.txt",
+    "sha256": "d7aa607b26004c7b37359793f6c051daf4740c7818efc5f3a303445387b1e841"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_m249.txt",
+    "sha256": "3e460549c62e55ddaf9f9f30beb7b627afaac9c0818359023d09f4cb8e9ad024"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_nova.txt",
+    "sha256": "f323e148ef6e7a61d68ba7b2113dc271bdc33a6bdda263fd5bb29bf7993e8688"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_mac10.txt",
+    "sha256": "42170953a0dd29efbd23f06893cc2285343d80358f4e74e3439e9a261f4de6b9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_mp5sd.txt",
+    "sha256": "b8023928ab44d7b2e505ebfd89974d230ed5c35986cc561042fe0f89f3fda56c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_p250.txt",
+    "sha256": "6f93178fddc405e9c0ee28906ce723c47d0d955d8266fbe7cfda672ce6d1b808"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_p90.txt",
+    "sha256": "b5b9c6aec4b5501349f5456bcc2ed3e5bd144633ca1d308ee14a698c61e2f756"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_scar20.txt",
+    "sha256": "9729f3e0f38cbd20446cfd6683c8cb4186a91784e93cae35ddd26e0d59682faf"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_sg553.txt",
+    "sha256": "7f6e1cfb97dc8a3584d9526f14720e87f3b10fb2444600db0cf1afccb75269de"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_mp9.txt",
+    "sha256": "5b10960cba08794830b86a006f27dc06e55f7946bcdc2f6841d74efd91209a52"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_ump45.txt",
+    "sha256": "e61f1d5bae65f8b908cc2625aaef2f3625fd1d6169d8159fd1b3afdd89e52e20"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\weapon_xm1014.txt",
+    "sha256": "eed9dcead787c145a1dc0101bfdb03bf117092726fec17991311c55cc42eb9b9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ak47/ak47-1.wav",
+    "sha256": "d7bf5a825ebb5183e6a7054784673da860384b32379bd91e8c38919cecff9712"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ak47/ak47_boltpull.wav",
+    "sha256": "2cb668bd98e6a1f77105eb583e0941aa8af3272619ea5a1ad14836aa08cc819c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ak47/ak47_clipin.wav",
+    "sha256": "587f2c41668cd3aa34280cf24468eba6da5551fb467b6163e16015716f687afd"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ak47/ak47_clipout.wav",
+    "sha256": "c6eca4302cc07dc6d8b8f715e4fd567f52b596733a32b3606794023e78cc7cb9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug-1.wav",
+    "sha256": "6f498c3458b3717d0e5e93fb42fc8605f8bd59186a84ba9124a8f9b560a4dc30"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug_boltpull.wav",
+    "sha256": "6f1e557bc2a7721530d078bd13e3b1e7dab1693318fc0db3d814fe59ee120cf9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug_boltslap.wav",
+    "sha256": "9c6e01989d1b4f101a7f911e0f59f17c585906a335fdfa38be6c489a85b9b1a7"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug_clipin.wav",
+    "sha256": "13a659b748b1ed9f83f8eb30dad04d358df945f5771547e8d52ff35f6cae7fc8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug_clipout.wav",
+    "sha256": "676625ec6e1b323243d0d62988606c7b3b509ffb2e5b6c2cbc9a225ace6f8f79"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/aug/aug_forearm.wav",
+    "sha256": "b1f8baada80269d0b96c8b14c92bbc8062e5f576db7760b7c595218b96cb5ee6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/awp/awp1.wav",
+    "sha256": "7945b6c93228d25bf2c7f50bfe1f57f290ab716b0ea9bfd48d769f5892465c57"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/awp/awp_bolt.wav",
+    "sha256": "61ec46526753f4cf4d61107f57040b8e63dc438f006bced554d5d5cb7894e40c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/awp/awp_clipin.wav",
+    "sha256": "0cafe63e3418f530a551ebaf703fdb712180bd8571776879c6df94de4a9deb06"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/awp/awp_clipout.wav",
+    "sha256": "cb7e27f0bc1e9d1e6163260d51f9370774ed431c0a22d8f2c9309730bfd226e1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/clipempty_pistol.wav",
+    "sha256": "4dc232228ec1a28956fb0e53203d16470e457bbda3266dce89cee02ebcae3768"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/clipempty_rifle.wav",
+    "sha256": "c265a1b30ac073153bf196a8546e7de5dcf7c8d8f2c055ec4f9f6963200a4d81"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/deagle/de_clipin.wav",
+    "sha256": "905e90388fb267395bf4110d40cdb57448b7b0a6f2d6174636480b9d52f3f0b6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/deagle/de_clipout.wav",
+    "sha256": "ba5cf5deeeddb0eaf97226d673ccf89e96ef6995fab19e14653fb50a94121958"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/deagle/de_deploy.wav",
+    "sha256": "263e79551e04bc2cc232113706ae459c7f48e263efcc177164b750696fad5e1b"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/deagle/de_slideback.wav",
+    "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/deagle/deagle-1.wav",
+    "sha256": "4a50127ea1281af6f0b634a7c56664b425f4e9a61af143c092cb0a7e89f8907c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite-1.wav",
+    "sha256": "0cd6fa55eb89cea4308e1ffefd43228d340d556c081d0053e2f66e8baa35c26f"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_clipout.wav",
+    "sha256": "4d559556bc62fbf6e2740818ab71b56407dc4eabe573b2f76c5cecd947d03ab6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_deploy.wav",
+    "sha256": "80239b058da69c39ecf9d4bb0a80fefd87c3de1b489c2e44e5788752d787218c"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_leftclipin.wav",
+    "sha256": "7c894d083354855c4f08cc40c153926a063533f0c26d88aee61d0a882d11ce74"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_reloadstart.wav",
+    "sha256": "ebee042360951b65c927f5b56a658460f922b4a3686b466784bf41a27c12a3d5"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_rightclipin.wav",
+    "sha256": "d7d2f230f7d6428206e5524fcd28ad80b35d6ebe58cdfef09fda24e12dff2ba4"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/elite/elite_sliderelease.wav",
+    "sha256": "f2cccef0d3ec26a6539dca1c6ab0b95b00168398534421ea7c2825e61d75a278"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/famas/famas-1.wav",
+    "sha256": "ffa3c5b74f703b4508c48c3f67459147ae7bd7876935541b5ab56a23ab091821"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/famas/famas_clipin.wav",
+    "sha256": "13a659b748b1ed9f83f8eb30dad04d358df945f5771547e8d52ff35f6cae7fc8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/famas/famas_clipout.wav",
+    "sha256": "676625ec6e1b323243d0d62988606c7b3b509ffb2e5b6c2cbc9a225ace6f8f79"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/famas/famas_forearm.wav",
+    "sha256": "b1f8baada80269d0b96c8b14c92bbc8062e5f576db7760b7c595218b96cb5ee6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven-1.wav",
+    "sha256": "8eec8c12ef192cfda1ac0e12e1123c1c29a3d219401f305cd7a75fcb4a6eeab8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven_clipin.wav",
+    "sha256": "6c285c01c0c1e32360ca39a7fc9195f17c1de24b7234b950d06e7a4aac3e91a5"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven_clipout.wav",
+    "sha256": "976fc0bee9a18b3384e3e5200750d9a321b96b742ccdadba14b529db785920b9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven_slideback.wav",
+    "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven_slidepull.wav",
+    "sha256": "2113e38a06dad60f31cccf35e4e8e8e9958ea41a1fdf872616526dedbf5c34ff"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/fiveseven/fiveseven_sliderelease.wav",
+    "sha256": "bfaff102fa7d195ddde701987b3db1c21bce4e46a7654505c0faaddfd09914fd"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/g3sg1/g3sg1-1.wav",
+    "sha256": "0d595c2181693900ad758a915c85b1310b4c3d296c704a8318a25f97b8fc8524"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/g3sg1/g3sg1_clipin.wav",
+    "sha256": "8e2889175e1bd4bec6bcf393d998e51d30b1f31151c83e38d66907537289c714"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/g3sg1/g3sg1_clipout.wav",
+    "sha256": "785a05ca9de059c6638928a8ba1ba374d8ed8b0492f1bf1194d63cf57a50a073"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/g3sg1/g3sg1_slide.wav",
+    "sha256": "a164a810e5e1be456f23a2705563299541d4d4264e454c822bc99ea131e4b10b"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/galil/galil-1.wav",
+    "sha256": "76ebd69c5124987f36e3441cb40eadb4d22d7272dc45b9df9873a7190b6fae60"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/galil/galil_boltpull.wav",
+    "sha256": "5b71cc8c0d6a6834a1c4abb165d33832f23852769a0bbf88b0912e35e2dac240"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/galil/galil_clipin.wav",
+    "sha256": "20e4a9e5e8e0795a6f3e0d159eb2485e98a9f54e5ba07ec8708ab142c01dc0fe"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/galil/galil_clipout.wav",
+    "sha256": "5af31e2c754f74fec59991c1140c449aa2de8a5d13e2d5feea9107939ff3ea07"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/glock/glock18-1.wav",
+    "sha256": "dde24457eecd86b4ed22bc479581fd614c9129a32aa56747db974341bbe2a89b"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/glock/glock_clipin.wav",
+    "sha256": "3dbfdffb1e83fd2256efa4df6d671b52c345158fa2e9638ca6ad8097d2e12d78"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/glock/glock_clipout.wav",
+    "sha256": "976fc0bee9a18b3384e3e5200750d9a321b96b742ccdadba14b529db785920b9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/glock/glock_slideback.wav",
+    "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/glock/glock_sliderelease.wav",
+    "sha256": "d170848172df6dd10d8d42c045e9085ce500b58eea338b8c71aff5b2f1ff0dc2"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249-1.wav",
+    "sha256": "1c2dbd054ff7dbaf203c527882eeeef7d97391122afc0a5cb62e69e0ff6f083a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249_boxin.wav",
+    "sha256": "d39931d5ce038d8a494d2f572e71f3e0bd4ca6dd67e29637a95f049ff58ae19a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249_boxout.wav",
+    "sha256": "b0134b78584287139648590fa006c591752750bae8e5528c204c2192d63ed25e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249_chain.wav",
+    "sha256": "c8c52a69d2a5cca30fb41d0df6a11c98a00be4369e26d88fe7e6fc7d5891d01d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249_coverdown.wav",
+    "sha256": "584f5ec9642bd0af3420fe5c4d4de5394e816e943fc30608804bbb43c63b92b3"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m249/m249_coverup.wav",
+    "sha256": "f5cfa849092b606d629d397ca20ae8709b1915ccfc36e74c3ba40ff8c3b924e9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m3/m3-1.wav",
+    "sha256": "1ceb3314e7c887e997a97537c7b52f5283744482026b4268bcc939a084564ffe"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m3/m3_insertshell.wav",
+    "sha256": "2a4af14ad9c9b1c868a981855eb39e5249b5e77863ac3b070adfe145dce4e1dc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m3/m3_pump.wav",
+    "sha256": "73bfb511d05cb4d69d8c10af5ff40faf78fa63abb57f8598dd3afd157261ca54"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_boltpull.wav",
+    "sha256": "99359178d8dd8d6a1ae6d113ebae126da9b71d64a93d48c80bc6bc4edd3d92c8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_clipin.wav",
+    "sha256": "99c512e5b9ca3a6bd626b6d4249a0e3f73e2e203c0e17ad1a8b53c65e04bfc40"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_clipout.wav",
+    "sha256": "c1542bce126b46aefce5000b1a4de3500ef031194a6ca240a2b2ff63da7676bb"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_deploy.wav",
+    "sha256": "7e8dd5a5103706c78ce454668496b99986be827acc53becd30f76ec9f50d3881"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_silencer_off.wav",
+    "sha256": "c57a78d2d692a190c59419f400a4c6d7d2672f3b882fba4b0a0df2f027535861"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_silencer_on.wav",
+    "sha256": "e58615564ac9d295b19446fe361d20199d39bc1eaee313ec36a6f034b57d320e"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/m4a1/m4a1_unsil-1.wav",
+    "sha256": "cd9a04d91dec4add31313d266ec33d8625a976f11e8884c3d70597d8b1ddc9cb"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mac10/mac10-1.wav",
+    "sha256": "2d82bc5609b9c1ccba592925db9215b540f6eb124a99182baf5a98f54e67b176"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mac10/mac10_boltpull.wav",
+    "sha256": "2478969213bb0ed45c1afaaa116699324e3f48aa8398698daaf39cfb79533a03"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mac10/mac10_clipin.wav",
+    "sha256": "ad9d7baed3176f96e4dc00c31261b8aa5c891597ec440295da86b640095e0e02"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mac10/mac10_clipout.wav",
+    "sha256": "ca65e86c1c69a9857dbca9fd731ecc63acf8334a9ff0f2695fdf60c24e16da91"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mp5navy/mp5-1.wav",
+    "sha256": "b8c8d6cddbc187cebc8edc54e3a4923db48f271769982bd935104822e93e2008"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mp5navy/mp5_clipin.wav",
+    "sha256": "e22fe25e3210b83f774fb17e72b68686ee497dc8f9baba72fcaa1f3d3ed6b652"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mp5navy/mp5_clipout.wav",
+    "sha256": "38c537f4772166a828f798f2019115fe90d4d1b6f5f178eecfe95b58a7c35809"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/mp5navy/mp5_slideback.wav",
+    "sha256": "d9f7a30d272cdb2a3108223a01c15d4816f1213d2d83da439b4956376c84835b"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228-1.wav",
+    "sha256": "e01b30d99100a691de1d756b2b67f61116144adb827d4ce6c8ded532b2171d41"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228_clipin.wav",
+    "sha256": "7a11457a5a7ef2775775e4171453ea6e6e374ba2193a1a7f67d485f4c6a5dd21"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228_clipout.wav",
+    "sha256": "d8ab02475e947f57bb008ad7e9cab6db43a4359d2f37e0a6dbbb5a580414b19d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228_slideback.wav",
+    "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228_slidepull.wav",
+    "sha256": "bd983da7a816908d5b48d6f19ce0ed8ed158613116b324a78e122176e53cf9c6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p228/p228_sliderelease.wav",
+    "sha256": "6092e8a6bc386a28032996ba32ac01222817acd1b0e158fd1d6b23a56f4252a0"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p90/p90-1.wav",
+    "sha256": "12566068cafcb742660455dcdb1d819a5776c53acc0a812d571886e2cf6e597a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p90/p90_boltpull.wav",
+    "sha256": "1c1510894ab697f7d7f7e9646a8e0f5da0ff6cbe7705d365104cfa459f786ae3"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p90/p90_clipin.wav",
+    "sha256": "b502f5cb75d5ccb8bda1b6f01bc1cbc5d15d57106425be88a5f3a3fa4bfbedfc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p90/p90_clipout.wav",
+    "sha256": "a4e50d7924a61aad3b8b44e479fab5d2a47f938e8828d8c4e9bc46ae43dd4e56"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/p90/p90_cliprelease.wav",
+    "sha256": "a55350f2f7e759745795dba75323792ba8731100916e590f14e2c1991e4aa947"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/scout/scout_bolt.wav",
+    "sha256": "91ece57bf2c02901082a7a2cb21e60deadcd4584124f7a86e9454e05b8a497e5"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/scout/scout_clipin.wav",
+    "sha256": "dce8396e71af12bab969137eec6945aa6d2bfdfd9e4330e20cc43d0f112366b6"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/scout/scout_clipout.wav",
+    "sha256": "2a43f6de7481a6cfefca5984770f8c3dd9c93690e43071b0913c31d93a6d3d20"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/scout/scout_fire-1.wav",
+    "sha256": "fc75b54774355f98e4eb687116a6e493906b53de55072d78359122d56ed6b83a"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg550/sg550-1.wav",
+    "sha256": "8df7858c131b444cd6deffeebfddec0a5ef368b8f39183d0c6aebf0346c1ed29"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg550/sg550_boltpull.wav",
+    "sha256": "bdfa15c4bbc24ec951f1d8355e41c05c84ffa4bc630b649aa257dd8afac5a883"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg550/sg550_clipin.wav",
+    "sha256": "f2e1c3488989f62c761fc23b9b2f0584af5d793c55fe40d0aa14698e3afeb432"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg550/sg550_clipout.wav",
+    "sha256": "c1542bce126b46aefce5000b1a4de3500ef031194a6ca240a2b2ff63da7676bb"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg552/sg552-1.wav",
+    "sha256": "4e8df308ce1c353fbbc294f59a46fe41b0e1a9e65a1ead66ef2ec9bc7dfa40a7"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg552/sg552_boltpull.wav",
+    "sha256": "1ac5bf2f8b6d697b00995bddaaaa7aad8bedd254f6ad62aa64ef942e5a8a9326"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg552/sg552_clipin.wav",
+    "sha256": "20fe0dcc15f2e4f7d0b3194f35af3de1cc2a9feaa1fbf5a4d10e889928ca1f90"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/sg552/sg552_clipout.wav",
+    "sha256": "3e254788ab9349ef9246fab5eeaa9423427837b600c8614775474cff7bcfb967"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/tmp/tmp-1.wav",
+    "sha256": "ceee6e19960a7de78e34b454435595ac73d85319f29fea0b1ee8131d37c4cbfc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/tmp/tmp_clipin.wav",
+    "sha256": "5782dffaa9a5658c00c8ce38ac74da2f56d14e9f2565c95c66cc2bfae5c949f1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/tmp/tmp_clipout.wav",
+    "sha256": "ed42a1b2b755015baeb5396a6991e5d2e66dd9b234db3ae414d52ee63ff5e5ab"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ump45/ump45-1.wav",
+    "sha256": "41661e097bdd3d988981c3282434005df0299c5ce7231f7d945cc651979e2340"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ump45/ump45_boltslap.wav",
+    "sha256": "5a02b520b191e6f0f566c88c2078db887ab2a6d3fd6cdbe236808c6b5d4e47a8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ump45/ump45_clipin.wav",
+    "sha256": "e7fab397912d0d584752b7d05bab3531102257bda2abeedc1472299ff2aa37ed"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/ump45/ump45_clipout.wav",
+    "sha256": "6443fab4c62645268b1ad58ca4bf400c8254dcdb163c43770a17f14e18614969"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_clipin.wav",
+    "sha256": "aae50161f7f81feb80cea58e8e3c7d10c721f9cb65a6b3d00cff63c4ca8164a1"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_clipout.wav",
+    "sha256": "32ca37896d19f5524a0242eb5a4529f19f5505ed2d446695939c84c722b6e434"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_silencer_off.wav",
+    "sha256": "636917f9c7d70bd25938765dcc5e5322bd610d54b3bb6e080bc64a5ae9da12d8"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_silencer_on.wav",
+    "sha256": "abd07ae3462b68d9d22e0eb19ea2434b56434c5887f0792236573a5fe75b613d"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_slideback.wav",
+    "sha256": "a7faa1bb76ba75bb896d1e48d28ba4990c36df54b2c360f11a3fff86b527e7ea"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_slideback2.wav",
+    "sha256": "eb191aa6d32c1fa96e6cf780d2afd64179fd53559f980b3c7df9b893312814cc"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_sliderelease.wav",
+    "sha256": "146bdd0ded8ccc87b6cd5f609b0b232eb3c9ef7794e5032a5f9291ffb4fef3c9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/usp/usp_unsil-1.wav",
+    "sha256": "0cd857c83de51f1c9950243f9c118a40c5c9f14f2e2b074c06fc719145a3b297"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/xm1014/xm1014-1.wav",
+    "sha256": "0fbae07274a5f215b836c5c59589d8fdfccd7d9dffa2c559bb32745eed0acab9"
+  },
+  {
+    "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:sound/weapons/xm1014/xm1014_insertshell.wav",
+    "sha256": "590e719162eaa306bbfad5862ef7b31d38da098e9626ccc44266f5494f0e7c7d"
+  }
+]

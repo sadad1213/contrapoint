@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 0,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/smokegrenade/thrown/smokegrenade_thrown.glb",
+  "skinned_meshes": 0,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_eq_smokegrenade",
+      "mesh": "studio_w_eq_smokegrenade_thrown",
+      "texture_size": "(1024.0, 1024.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,41 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/ct_gsg9/ct_gsg9.vmt",
+      "sha256": "9061bc3020277b306f69e22497e863140f79a422b298a96c35eb7c964354b2ff"
+    },
+    {
+      "path": "materials/models/player/ct_gsg9/ct_gsg9.vtf",
+      "sha256": "8b25276cad9f43f170af23ffbe0596e55c754c1ddd330c8bec2cc895f9f7697c"
+    },
+    {
+      "path": "materials/models/player/ct_gsg9/ct_gsg9_normal.vtf",
+      "sha256": "a127a5a9ed1d944be1aac71cf86ed78c495ed32de0e3570fa3bf9b694221d84b"
+    },
+    {
+      "path": "models/player/ak_anims_ct.mdl",
+      "sha256": "db5653d3d05c4dd729a2e50899b7278841a9bd9a764ebfc539d414fd682f7a0e"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/ct_gsg9.dx90.vtx",
+      "sha256": "4aac2c1002e94cec04a65a07ba5192c7cb11d7dac5107a884b21f7298d9be036"
+    },
+    {
+      "path": "models/player/ct_gsg9.mdl",
+      "sha256": "3b2bd922baf6152b1f65cf8a1f0d4fff48226b6861340c26a776d3e22aece3bc"
+    },
+    {
+      "path": "models/player/ct_gsg9.phy",
+      "sha256": "f2b0651ee92b8b500b7cb40f748cac4be9c379eb865c5b06380ddf4bbedc0c61"
+    },
+    {
+      "path": "models/player/ct_gsg9.vvd",
+      "sha256": "69b83065d0931e47921b4b39ddf2cf7693cfbc34f03cc8bd1a40f3e5017c08f8"
+    }
+  ]
+}

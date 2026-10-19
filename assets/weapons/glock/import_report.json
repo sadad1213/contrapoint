@@ -1,0 +1,119 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal\\models\\weapons\\v_pist_glock18.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 62,
+  "geometry": [
+    {
+      "name": "studio_glock18_reference.smd",
+      "vertices": 932,
+      "triangles": 748,
+      "materials": [
+        "Glock18"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "Glock18",
+      "image": "glock18",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "glock_draw",
+      "source_name": "@glock_draw",
+      "source_fps": 45.0,
+      "source_frames": 49,
+      "unkeyed_root_corrections": [],
+      "duration": 1.0666666666666667
+    },
+    {
+      "name": "glock_fireburst1",
+      "source_name": "@glock_fireburst1",
+      "source_fps": 40.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 0.75
+    },
+    {
+      "name": "glock_fireburst2",
+      "source_name": "@glock_fireburst2",
+      "source_fps": 40.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [],
+      "duration": 0.75
+    },
+    {
+      "name": "glock_firelast",
+      "source_name": "@glock_firelast",
+      "source_fps": 35.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.5714285714285714
+    },
+    {
+      "name": "glock_firesingle",
+      "source_name": "@glock_firesingle",
+      "source_fps": 40.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [],
+      "duration": 0.5
+    },
+    {
+      "name": "glock_idle",
+      "source_name": "@glock_idle",
+      "source_fps": 30.0,
+      "source_frames": 10,
+      "unkeyed_root_corrections": [],
+      "duration": 0.3
+    },
+    {
+      "name": "glock_reload",
+      "source_name": "@glock_reload",
+      "source_fps": 35.0,
+      "source_frames": 76,
+      "unkeyed_root_corrections": [],
+      "duration": 2.142857142857143
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\glock\\glock.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

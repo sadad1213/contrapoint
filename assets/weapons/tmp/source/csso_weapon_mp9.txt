@@ -1,0 +1,96 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"240"
+	"WeaponType"						"Submachine Gun"
+	"FullAuto"							"1"
+	"WeaponPrice"						"1250"
+	"KillAward"							"600"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.2"
+	"CrosshairMinDistance"				"7"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"CT"
+	"PlayerAnimationExtension"			"tmp"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_smg"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_smg"
+	"TracerEffect"						"weapon_tracers_smg"
+	"TracerFrequency"					"3"
+	"EjectBrassEffect"					"weapon_shell_casing_9mm"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.3"
+	"AddonLocation"						"primary_smg"
+
+	// Weapon characteristics:
+	"Penetration"						"1.0"
+	"Damage"							"26"
+	"Range"								"3600.0"
+	"RangeModifier"						"0.87"
+	"Bullets"							"1"
+	"CycleTime"							"0.07"
+	"TimeToIdle"						"2.0"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.000600"
+	"InaccuracyCrouch"					"0.008000"
+	"InaccuracyStand"					"0.009000"
+	"InaccuracyJump"					"0.050000"
+	"InaccuracyJumpInitial"				"0.037280"
+	"InaccuracyLand"					"0.000056"
+	"InaccuracyLadder"					"0.148913"
+	"InaccuracyFire"					"0.003700"
+	"InaccuracyMove"					"0.029040"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"70.00000"
+	"RecoilMagnitude"					"21.00000"
+	"RecoilMagnitudeVariance"			"1.000000"
+	"RecoilSeed"						"50729"
+
+	"RecoveryTimeCrouch"				"0.184207"
+	"RecoveryTimeStand"					"0.257890"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"FlinchVelocityModifierLarge"		"0.0"
+	"FlinchVelocityModifierSmall"		"0.0"
+
+	"ReserveAmmoMax"					"120"
+	"MagazinesMax"						"2"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_MP9"
+	"viewmodel"							"models/weapons/v_smg_mp9.mdl"
+	"playermodel"						"models/weapons/w_smg_mp9.mdl"
+	"MagazineModel"						"models/weapons/w_smg_mp9_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"30"
+	"primary_ammo"						"BULLET_PLAYER_9MM"
+	"secondary_ammo"					"None"
+	"weight"							"25"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_MP9.Single"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/smg_mp9/smg_mp9.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"22.126101"
+			"uvscale"					"0.485"
+		}
+	}
+}

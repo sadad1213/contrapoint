@@ -1,0 +1,99 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"215"
+	"WeaponType"						"Rifle"
+	"FullAuto"							"1"
+	"WeaponPrice"						"1800"
+	"KillAward"							"300"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.55"
+	"CrosshairMinDistance"				"4"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"TERRORIST"
+	"PlayerAnimationExtension"			"galil"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_assaultrifle"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_assaultrifle"
+	"TracerEffect"						"weapon_tracers_assrifle"
+	"TracerFrequency"					"3"
+	"EjectBrassEffect"					"weapon_shell_casing_rifle"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.35"
+	"AddonScale"						"0.9"
+	"AddonLocation"						"primary_rifle"
+
+	// Weapon characteristics:
+	"Penetration"						"2.0"
+	"Damage"							"30"
+	"Range"								"8192.0"
+	"RangeModifier"						"0.98"
+	"Bullets"							"1"
+	"CycleTime"							"0.09"
+	"TimeToIdle"						"1.28"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.000600"
+	"InaccuracyCrouch"					"0.006580"
+	"InaccuracyStand"					"0.008770"
+	"InaccuracyJump"					"0.149780"
+	"InaccuracyJumpInitial"				"0.105390"
+	"InaccuracyLand"					"0.000256"
+	"InaccuracyLadder"					"0.113580"
+	"InaccuracyFire"					"0.007000"
+	"InaccuracyMove"					"0.123560"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"70.00000"
+	"RecoilMagnitude"					"21.00000"
+	"RecoilMagnitudeVariance"			"1.000000"
+	"RecoilSeed"						"51191"
+
+	"RecoveryTimeCrouch"				"0.150000"
+	"RecoveryTimeStand"					"0.300000"
+	"RecoveryTimeCrouchFinal"			"0.470000"
+	"RecoveryTimeStandFinal"			"0.500000"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"FlinchVelocityModifierLarge"		"0.4"
+	"FlinchVelocityModifierSmall"		"0.55"
+
+	"ReserveAmmoMax"					"90"
+	"MagazinesMax"						"4"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_GalilAR"
+	"viewmodel"							"models/weapons/v_rif_galilar.mdl"
+	"playermodel"						"models/weapons/w_rif_galilar.mdl"
+	"MagazineModel"						"models/weapons/w_rif_galilar_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"35"
+	"primary_ammo"						"BULLET_PLAYER_556MM"
+	"secondary_ammo"					"None"
+	"weight"							"25"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_GalilAR.Single"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/rif_galilar/rif_galilar.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"32.973701"
+			"uvscale"					"0.75"
+		}
+	}
+}

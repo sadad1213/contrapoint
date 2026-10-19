@@ -1,0 +1,45 @@
+{
+  "archive": "C:/Program Files (x86)/Steam/steamapps/common/Counter-Strike Source/cstrike/cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "sound/weapons/pinpull.wav",
+      "sha256": "12c801feb82675306bed6364edfea06bd04f7e4d910d5a68d64e4a652297711a"
+    },
+    {
+      "path": "sound/weapons/flashbang/grenade_hit1.wav",
+      "sha256": "5364d616ebecdd716c9f8b71c77b89f9dcf8df74a135956e014a0c80b65576fc"
+    },
+    {
+      "path": "sound/weapons/flashbang/flashbang_explode1.wav",
+      "sha256": "fb300b3cf51f10a8199e45221e522e16aee5fc1764e06ace267dfe38ce0bb6f8"
+    },
+    {
+      "path": "sound/weapons/flashbang/flashbang_explode2.wav",
+      "sha256": "5c493c75c172d5a65bff638c994e823e50484e263db2563a131bbc9932d9b3fa"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode3.wav",
+      "sha256": "37db559314b89be5ade4b44d283c5f6fa6220bf6ae26508f73ba84a87a93b524"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode4.wav",
+      "sha256": "e878c1dd8b47352378bdd1eef089a0ad91756ddd44464cfb32021d3804361b24"
+    },
+    {
+      "path": "sound/weapons/hegrenade/explode5.wav",
+      "sha256": "6ebd5a2475606d2377fed020b137527ea159665d90a245884090ee9bb35302f4"
+    },
+    {
+      "path": "sound/weapons/smokegrenade/grenade_hit1.wav",
+      "sha256": "5364d616ebecdd716c9f8b71c77b89f9dcf8df74a135956e014a0c80b65576fc"
+    },
+    {
+      "path": "sound/weapons/hegrenade/he_bounce-1.wav",
+      "sha256": "97712abac8f820dcc2a9c89c8b0b15b2d1428a12ffe1b4d29e391b8f8279ec4b"
+    },
+    {
+      "path": "sound/weapons/smokegrenade/sg_explode.wav",
+      "sha256": "c1676094892bab13b106133fbd55aabf005286d283a9e5453a2eec5f55205c8a"
+    }
+  ]
+}

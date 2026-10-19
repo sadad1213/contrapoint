@@ -1,0 +1,93 @@
+﻿{
+    "archive":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+    "files":  [
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands.vmt",
+                      "sha256":  "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands.vtf",
+                      "sha256":  "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+                      "sha256":  "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_scout/snip_scout.vmt",
+                      "sha256":  "00e563f9e78da4b65247a18b2df380e5a206f811918680ca839263c409c08f76"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_scout/snip_scout.vtf",
+                      "sha256":  "db1e1f8d1f9c90fff9e47346c1383ef6d70f4a1af2cdd76aad789e59f3247633"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_scout/snip_scout_ref.vtf",
+                      "sha256":  "e77503be0045efdd5048fd1b56fd0f3397492a9de8555eb015cfc7f88896c173"
+                  },
+                  {
+                      "path":  "materials/models/weapons/w_models/w_snip_scout/w_snip_scout.vmt",
+                      "sha256":  "ce13ac60f6b92a013b24304fa995127b1dbb57d6e8ebed7bbdea3d27398d9c86"
+                  },
+                  {
+                      "path":  "materials/models/weapons/w_models/w_snip_scout/w_snip_scout.vtf",
+                      "sha256":  "487e7f2eaf569c73227d0963259910e59c237edc3ddf3dc6f70b557105aa2432"
+                  },
+                  {
+                      "path":  "models/weapons/v_snip_scout.dx90.vtx",
+                      "sha256":  "c7e571ff7767918bea27d1caeddfae1d291cb59327d10320a93d017f86fb1110"
+                  },
+                  {
+                      "path":  "models/weapons/v_snip_scout.mdl",
+                      "sha256":  "153eb587fb4af30e71d5fb87aa3aacac51367dde7c9679ae5b9bab398b33f5af"
+                  },
+                  {
+                      "path":  "models/weapons/v_snip_scout.vvd",
+                      "sha256":  "867afbf6931725a088c2e745919d670e0a2c563235d8dd9e1bc10269569751f4"
+                  },
+                  {
+                      "path":  "models/weapons/w_snip_scout.dx90.vtx",
+                      "sha256":  "60029516761510c86eaced9ff7e65569025c6455362eaab7ab4bd3696907521e"
+                  },
+                  {
+                      "path":  "models/weapons/w_snip_scout.mdl",
+                      "sha256":  "769b08f8722257fe08a13d1ad702858922630156b1298054b220e88a2cd6a8bd"
+                  },
+                  {
+                      "path":  "models/weapons/w_snip_scout.phy",
+                      "sha256":  "5977a1ab15fcdbf233b22258826141a7875bbf7d9120033dc199757126a0f522"
+                  },
+                  {
+                      "path":  "models/weapons/w_snip_scout.vvd",
+                      "sha256":  "3e8b9dd945ad2a5ea0d459eb9b6d21109d104b2e98e916410608a584f73bcbb2"
+                  },
+                  {
+                      "path":  "sound/weapons/scout/scout_bolt.wav",
+                      "sha256":  "91ece57bf2c02901082a7a2cb21e60deadcd4584124f7a86e9454e05b8a497e5"
+                  },
+                  {
+                      "path":  "sound/weapons/scout/scout_clipin.wav",
+                      "sha256":  "dce8396e71af12bab969137eec6945aa6d2bfdfd9e4330e20cc43d0f112366b6"
+                  },
+                  {
+                      "path":  "sound/weapons/scout/scout_clipout.wav",
+                      "sha256":  "2a43f6de7481a6cfefca5984770f8c3dd9c93690e43071b0913c31d93a6d3d20"
+                  },
+                  {
+                      "path":  "sound/weapons/scout/scout_fire-1.wav",
+                      "sha256":  "fc75b54774355f98e4eb687116a6e493906b53de55072d78359122d56ed6b83a"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_awp/v_awp_scope.vmt",
+                      "sha256":  "3d23655d14867254621153654736b379770936deb78cfd43a1becc2b3b6cfa0d"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_awp/v_awp_scope.vtf",
+                      "sha256":  "b5d1bdaa5bab5d22b775262a2c0320dfc3ce9e5d22fdd7544af7a041db579a31"
+                  },
+                  {
+                      "path":  "materials/models/weapons/v_models/snip_awp/v_awp_scope_ref.vtf",
+                      "sha256":  "a86a29c728140594d8d486dccb496c9f8b4d6178debda49475cc10d2d938cb02"
+                  }
+              ]
+}

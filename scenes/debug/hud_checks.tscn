@@ -1,0 +1,6 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scenes/debug/HudChecks.cs" id="1"]
+
+[node name="HudChecks" type="Node3D"]
+script = ExtResource("1")

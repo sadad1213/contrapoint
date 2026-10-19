@@ -1,0 +1,133 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal\\models\\weapons\\v_shot_xm1014.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 63,
+  "geometry": [
+    {
+      "name": "studio_xm1014_reference.smd",
+      "vertices": 1658,
+      "triangles": 1324,
+      "materials": [
+        "shot_xm1014"
+      ]
+    },
+    {
+      "name": "hands_..\\hands\\hands_reference.smd",
+      "vertices": 1286,
+      "triangles": 1778,
+      "materials": [
+        "v_hands"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "shot_xm1014",
+      "image": "shot_xm1014",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands",
+      "size": [
+        1024,
+        512
+      ]
+    },
+    {
+      "material": "v_hands",
+      "image": "v_hands_normal",
+      "size": [
+        1024,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [
+    {
+      "name": "after_reload",
+      "source_name": "@after_reload",
+      "source_fps": 30.0,
+      "source_frames": 13,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.4
+    },
+    {
+      "name": "draw",
+      "source_name": "@draw",
+      "source_fps": 30.0,
+      "source_frames": 31,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 1.0
+    },
+    {
+      "name": "idle",
+      "source_name": "@idle",
+      "source_fps": 12.0,
+      "source_frames": 9,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.6666666666666666
+    },
+    {
+      "name": "insert",
+      "source_name": "@insert",
+      "source_fps": 90.0,
+      "source_frames": 36,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.3888888888888889
+    },
+    {
+      "name": "shoot1",
+      "source_name": "@shoot1",
+      "source_fps": 40.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.5
+    },
+    {
+      "name": "shoot2",
+      "source_name": "@shoot2",
+      "source_fps": 40.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.5
+    },
+    {
+      "name": "start_reload",
+      "source_name": "@start_reload",
+      "source_fps": 30.0,
+      "source_frames": 21,
+      "unkeyed_root_corrections": [
+        "v_weapon"
+      ],
+      "duration": 0.6666666666666666
+    }
+  ],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\xm1014\\xm1014.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

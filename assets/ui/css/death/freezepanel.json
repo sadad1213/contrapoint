@@ -1,0 +1,170 @@
+{
+  "panel": {
+    "controlname": "BorderedPanel",
+    "xpos": "c-110",
+    "ypos": "140",
+    "zpos": "0",
+    "wide": "220",
+    "tall": "56",
+    "visible": "1",
+    "bgcolor_override": "0 0 0 192",
+    "fgcolor_override": "251 176 59 255",
+    "killername": {
+      "controlname": "Label",
+      "font": "FreezeMedium",
+      "xpos": "40",
+      "ypos": "4",
+      "zpos": "3",
+      "wide": "140",
+      "tall": "15",
+      "autoresize": "1",
+      "visible": "1",
+      "enabled": "1",
+      "labeltext": "%killername%",
+      "textalignment": "south",
+      "fgcolor_override": "204 204 204 255"
+    },
+    "infolabel1": {
+      "controlname": "Label",
+      "font": "FreezeSmall",
+      "xpos": "60",
+      "ypos": "19",
+      "zpos": "3",
+      "wide": "100",
+      "tall": "10",
+      "autoresize": "0",
+      "pincorner": "0",
+      "visible": "1",
+      "enabled": "1",
+      "labeltext": "%InfoLabel1%",
+      "textalignment": "center",
+      "fgcolor_override": "184 0 0 255"
+    },
+    "infolabel2": {
+      "controlname": "Label",
+      "font": "FreezeLarge",
+      "xpos": "60",
+      "ypos": "26",
+      "zpos": "3",
+      "wide": "100",
+      "tall": "20",
+      "autoresize": "0",
+      "pincorner": "0",
+      "visible": "1",
+      "enabled": "1",
+      "labeltext": "%InfoLabel2%",
+      "textalignment": "north",
+      "fgcolor_override": "184 0 0 255"
+    },
+    "screenshotlabel": {
+      "controlname": "Label",
+      "font": "FreezeSmall",
+      "xpos": "50",
+      "ypos": "45",
+      "zpos": "2",
+      "wide": "120",
+      "tall": "20",
+      "autoresize": "0",
+      "pincorner": "0",
+      "visible": "1",
+      "enabled": "1",
+      "labeltext": "#FreezePanel_ScreenShot",
+      "textalignment": "north",
+      "fgcolor_override": "184 0 0 255"
+    },
+    "avatarglow": {
+      "controlname": "ImagePanel",
+      "xpos": "-4",
+      "ypos": "-5",
+      "zpos": "1",
+      "wide": "64",
+      "tall": "64",
+      "visible": "1",
+      "enabled": "1",
+      "image": "../hud/avatar_glow_64",
+      "drawcolor": "100 100 100 255",
+      "scaleimage": "1"
+    },
+    "avatarimage": {
+      "controlname": "CAvatarImagePanel",
+      "xpos": "12",
+      "ypos": "11",
+      "zpos": "2",
+      "wide": "32",
+      "tall": "32",
+      "visible": "1",
+      "enabled": "1",
+      "scaleimage": "1"
+    },
+    "dominationicon": {
+      "controlname": "ImagePanel",
+      "xpos": "172",
+      "ypos": "9",
+      "zpos": "2",
+      "wide": "36",
+      "tall": "36",
+      "visible": "1",
+      "enabled": "1",
+      "image": "../hud/freeze_nemesis",
+      "scaleimage": "1"
+    },
+    "killerhealth": {
+      "controlname": "HorizontalGauge",
+      "xpos": "12",
+      "ypos": "45",
+      "zpos": "2",
+      "wide": "32",
+      "tall": "3",
+      "visible": "1",
+      "enabled": "1"
+    }
+  },
+  "fonts": {
+    "freezesmall": {
+      "name": "Verdana Bold",
+      "tall": "9",
+      "weight": "900",
+      "range": "0x0000 0x017F",
+      "antialias": "1"
+    },
+    "freezemedium": {
+      "name": "Verdana Bold",
+      "tall": "14",
+      "weight": "600",
+      "range": "0x0000 0x017F",
+      "antialias": "1"
+    },
+    "freezelarge": {
+      "name": "Verdana Bold",
+      "tall": "18",
+      "weight": "600",
+      "range": "0x0000 0x017F",
+      "antialias": "1"
+    }
+  },
+  "strings": {
+    "english": {
+      "freezepanel_newnemesis1": "IS YOUR NEW",
+      "freezepanel_newnemesis2": "NEMESIS",
+      "freezepanel_oldnemesis1": "IS STILL YOUR",
+      "freezepanel_oldnemesis2": "NEMESIS",
+      "freezepanel_revenge1": "HAS GOTTEN",
+      "freezepanel_revenge2": "REVENGE",
+      "freezepanel_killer1": "KILLED YOU",
+      "freezepanel_killer2": "",
+      "freezepanel_screenshot": "[F5] Save this moment"
+    },
+    "russian": {
+      "freezepanel_newnemesis1": "СТАЛ ТВОИМ НОВЫМ",
+      "freezepanel_newnemesis2": "ЗЛОДЕЕМ",
+      "freezepanel_oldnemesis1": "ОСТАЕТСЯ ТВОИМ",
+      "freezepanel_oldnemesis2": "ЗЛОДЕЕМ",
+      "freezepanel_revenge1": "СВЕРШИЛ",
+      "freezepanel_revenge2": "ОТМЩЕНИЕ",
+      "freezepanel_killer1": "УБИЛ ВАС",
+      "freezepanel_killer2": "",
+      "freezepanel_screenshot": "[F5] Сохранить этот момент"
+    }
+  },
+  "font_cell_to_em": 0.8228204098031338
+}

@@ -1,0 +1,89 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/mach_m249para/mach_m249para.vmt",
+      "sha256": "4a30b0f07f5ba8c1b5dea3001f4970a5b3314235caf59adfe7ff6bf3b864cec3"
+    },
+    {
+      "path": "materials/models/weapons/v_models/mach_m249para/mach_m249para.vtf",
+      "sha256": "04f6d03c5f41fc9772c0f6effc8cfff110f731cddaf3bd66d76f4dea76c9be51"
+    },
+    {
+      "path": "materials/models/weapons/v_models/mach_m249para/mach_m249para_ref.vtf",
+      "sha256": "8f151823b77ea4a59e8cb00a0ef55a963d25cbb09674d984cac90136578b5d10"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_mach_m249/w_mach_m249.vmt",
+      "sha256": "408e833a8ae0816ae431dfc25b75818962f8d0c25bb461b630070258b5a60321"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_mach_m249/w_mach_m249.vtf",
+      "sha256": "d3c0db7bc5b6d0baea89d53c966ef54dc3f3646794b17af7bbcecce71e8ecf20"
+    },
+    {
+      "path": "models/weapons/v_mach_m249para.dx90.vtx",
+      "sha256": "10adf4ac050a3581b196c8879bea1d35f060cdfafd1ce91a8a741dc97b8c301b"
+    },
+    {
+      "path": "models/weapons/v_mach_m249para.mdl",
+      "sha256": "a3c8950b525f294d38055cd8652df97abf290ff4a14b52c15a87887850128069"
+    },
+    {
+      "path": "models/weapons/v_mach_m249para.vvd",
+      "sha256": "ec7e4258df72b2d89fd233bf5f01833dda29c30f33d9105b1f31c56b325b7154"
+    },
+    {
+      "path": "models/weapons/w_mach_m249para.dx90.vtx",
+      "sha256": "5fe18998f90bbebbe61fd0e5b6e9e31553f474a1659f654b1535fa1c0f896556"
+    },
+    {
+      "path": "models/weapons/w_mach_m249para.mdl",
+      "sha256": "172142f6b7ba6cfa37ec5a663b1f3e9677ae137dc05f9b113b261d5dfa496939"
+    },
+    {
+      "path": "models/weapons/w_mach_m249para.phy",
+      "sha256": "a7ccf7d80292b3e45da8b65898afd55f59ab29796cd147c00252c15568618791"
+    },
+    {
+      "path": "models/weapons/w_mach_m249para.vvd",
+      "sha256": "44fbd855a7c27460869e076b3a447ac608d158622d936fad33b856bdfc812943"
+    },
+    {
+      "path": "sound/weapons/m249/m249-1.wav",
+      "sha256": "1c2dbd054ff7dbaf203c527882eeeef7d97391122afc0a5cb62e69e0ff6f083a"
+    },
+    {
+      "path": "sound/weapons/m249/m249_boxin.wav",
+      "sha256": "d39931d5ce038d8a494d2f572e71f3e0bd4ca6dd67e29637a95f049ff58ae19a"
+    },
+    {
+      "path": "sound/weapons/m249/m249_boxout.wav",
+      "sha256": "b0134b78584287139648590fa006c591752750bae8e5528c204c2192d63ed25e"
+    },
+    {
+      "path": "sound/weapons/m249/m249_chain.wav",
+      "sha256": "c8c52a69d2a5cca30fb41d0df6a11c98a00be4369e26d88fe7e6fc7d5891d01d"
+    },
+    {
+      "path": "sound/weapons/m249/m249_coverdown.wav",
+      "sha256": "584f5ec9642bd0af3420fe5c4d4de5394e816e943fc30608804bbb43c63b92b3"
+    },
+    {
+      "path": "sound/weapons/m249/m249_coverup.wav",
+      "sha256": "f5cfa849092b606d629d397ca20ae8709b1915ccfc36e74c3ba40ff8c3b924e9"
+    }
+  ]
+}

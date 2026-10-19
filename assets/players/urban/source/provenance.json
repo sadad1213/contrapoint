@@ -1,0 +1,57 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/ct_urban/ct_urban.vmt",
+      "sha256": "b5e60a5d82852f98977c366303b0a6e8ff0847bbe503a63523caaed585db7195"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban.vtf",
+      "sha256": "a1590fea9e59a46e68bea993b38f7540965f5b40086993270d2270f0e7d111bc"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban_glass.vmt",
+      "sha256": "5161b63ac249dda772a284eac1c36ab2e7847cea22f153d11bddf11c5a99cb7a"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban_glass.vtf",
+      "sha256": "36209446ec9b21969b4e129d73293301a29284861f64e19e6824dd03f44f12af"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban_glass_spec.vtf",
+      "sha256": "f0c0ca81d88cd55c0f5508be2b41b8fdf57531d768f55884d1081905cdf9e946"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban_height.vtf",
+      "sha256": "b58d221d76aaa6bca35c352c1289e86b01fd6c874e426ecfd081a33a4f311b9b"
+    },
+    {
+      "path": "materials/models/player/ct_urban/ct_urban_normal.vtf",
+      "sha256": "b156dd360ea2b41f4748b0c931830f2da275a02c8f23d1c7ccef12913d9aba21"
+    },
+    {
+      "path": "models/player/ak_anims_ct.mdl",
+      "sha256": "db5653d3d05c4dd729a2e50899b7278841a9bd9a764ebfc539d414fd682f7a0e"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/ct_urban.dx90.vtx",
+      "sha256": "45ebe21dbde20b027455357c98bf0630bb354454ee111833d3ca633c9662ba3d"
+    },
+    {
+      "path": "models/player/ct_urban.mdl",
+      "sha256": "0b0274493efce50c3880e5b1bccd147fb8c016a1461266194501651a8bd849a5"
+    },
+    {
+      "path": "models/player/ct_urban.phy",
+      "sha256": "117e8df445fdf14f2e880b7a751671626dcfd7232019c184434a50f0461d0343"
+    },
+    {
+      "path": "models/player/ct_urban.vvd",
+      "sha256": "1c9f6c5cf85d7ae86041a3e5f414de437673297c862d37fd0c0f023948f5e0b0"
+    }
+  ]
+}

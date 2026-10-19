@@ -1,0 +1,126 @@
+{
+  "pcf": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\particles\\explosions_fx.pcf",
+  "pcf_sha256": "542b17c4d330ef80ff70c52807fe33e3582588f6dad9e818eabd357aff126a33",
+  "files": [
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+      "path": "materials/particle/smoke1/smoke1_nearcull.vmt",
+      "sha256": "d665cdaf8ab0812152d1dbf805ea8e80c2d4f66bc80ec827f973377e7f19814b"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/smoke1/smoke1.vtf",
+      "sha256": "6564bf414fd789a7620f68dc92716a788a8856dd6c136ffbf1a36847526eae4e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev1_nearcull.vmt",
+      "sha256": "c13a92ce9dcb0005674c5fa5016bc58a0b5e958e37946aefe432995e9910d5a1"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev1_emods.vtf",
+      "sha256": "af86a80e17a0429bfeeb4bb1cc2fb9a7430a33adb4ed4a7e099a3385164b8e1e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/dirt_splash/dirt_splash.vmt",
+      "sha256": "c38673f871cd85a2b4526dc3380caa18c07f747c5841d1cebb00d2fd98e991cb"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/dirt_splash/dirt_splash.vtf",
+      "sha256": "88282c147bb298cc1b2fbf84066b135a3c51edc4a40b293dc6de9bd8afc942f6"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade1.vmt",
+      "sha256": "a9cd5a2bf59615050dcb55d3a5793f4a0e326ccd555a9f9a4611f61d8fb5b638"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade_thick.vtf",
+      "sha256": "53e1b1dbaaf328ec3325e12debf179ffe22119bcdd1cf89ba32664d5e8f98c5a"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_debris_burst/particle_debris_burst_001.vmt",
+      "sha256": "7cd8d80ff7ccfe84846e0c34fc6a9823de3f87d22b60be4e8822f2f9aca3c843"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_debris_burst/particle_debris_burst_001.vtf",
+      "sha256": "2cefbdc5d07077d2e2b6656382ff38e33fa9933f8efb416bdb94a0def4a4e85e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev1_emods_impactdust.vmt",
+      "sha256": "f3a25ad9ad82c86fecbe350d02a3f3e22f2b3e4bcd94318d150f41f8f96e4918"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev1_emods.vtf",
+      "sha256": "af86a80e17a0429bfeeb4bb1cc2fb9a7430a33adb4ed4a7e099a3385164b8e1e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev4_emods_nocull.vmt",
+      "sha256": "40eca00c8c6cc993716c2e1817e71ca6c7f4f38676aa2f23b5def82d5242438f"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/vistasmokev1/vistasmokev1_emods.vtf",
+      "sha256": "af86a80e17a0429bfeeb4bb1cc2fb9a7430a33adb4ed4a7e099a3385164b8e1e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/warp5_explosion.vmt",
+      "sha256": "4ce4439de9e49bc8e9ea8065137e034a46f06a7cb13c95f94bcae3b51cb71668"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/warp5_explosion.vtf",
+      "sha256": "23fc85cffac3fcc0ccd1c7e7224c50be2082bb89874770376776f4029717b116"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade2.vmt",
+      "sha256": "5bedcc4fe85256ebccb459d2463341d640da506b8c3c9909c5ae6477b81f6d5e"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_smokegrenade.vtf",
+      "sha256": "80e600656762d13e2276848ba1e10fce77514d941ec706772c02bd59c7a6b020"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/impact/fleks.vmt",
+      "sha256": "563fc7c9f13f591be65b2398b81a3a92b045556e4c0ee3ec855aac7df515c859"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/impact/fleks.vtf",
+      "sha256": "4bbb02af65635039f89bad6346f3bd937d6e689f3a3df5d54bf9967292ebee75"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_spark.vmt",
+      "sha256": "1650b48e1e5fdf8bdcf0225a59358cf8a25433d5aa28bd0633595682a8ca78ed"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/effects/spark.vtf",
+      "sha256": "2aa6cc53334ceef53063cb5760153c6842c16ffac3522f490d06e391025993a4"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_flares/particle_flare_004b_mod_z.vmt",
+      "sha256": "a1146fc1e6738baf80e93980890583d6324dc0a6b2582147b0cf3af054f111c5"
+    },
+    {
+      "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+      "path": "materials/particle/particle_flares/particle_flare_004b_mod.vtf",
+      "sha256": "2b45c52b14831c330e23d54947f7cac97837fde152664a9392130b1066b754e2"
+    }
+  ]
+}

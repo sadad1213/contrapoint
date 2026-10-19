@@ -1,0 +1,89 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_fiveseven/pist_fiveseven.vmt",
+      "sha256": "6a1c86e600a65c6d9a2e4da619fba66779a70737b774cd06133b4e35a205d5da"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_fiveseven/pist_fiveseven.vtf",
+      "sha256": "589a2d7a2c18442301eae959b005e5229da451934915e916886f32fbb7e96229"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_fiveseven/pist_fiveseven_ref.vtf",
+      "sha256": "a1d3442ab6845f2fa4ec2e7f1faaae6e0334937481d2fe5375df617d10f59ec7"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_fiveseven/w_pist_fiveseven.vmt",
+      "sha256": "4e0f3e2d7ddcf57e15f9c7ff99e9d218e54e1b8b50d4319a0af62650e01e19bb"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_fiveseven/w_pist_fiveseven.vtf",
+      "sha256": "82b496638aa51dd801772adfadc51a38fe1193d0fbdd5d1c20b6358e01e26a97"
+    },
+    {
+      "path": "models/weapons/v_pist_fiveseven.dx90.vtx",
+      "sha256": "5c6ec8ac2a6f3d7a26069185479a621ab2f4539857868edb4136b730fae050e2"
+    },
+    {
+      "path": "models/weapons/v_pist_fiveseven.mdl",
+      "sha256": "d1b9f633dda723352fa336a880d6af221cc1b572b96ce44583dad3cfbeb2ec7b"
+    },
+    {
+      "path": "models/weapons/v_pist_fiveseven.vvd",
+      "sha256": "2121779a5830475c73e89238b096a780d53653e06856608021edd9996ed09cb9"
+    },
+    {
+      "path": "models/weapons/w_pist_fiveseven.dx90.vtx",
+      "sha256": "1ca261cd586190b78599cd7d269a9f27fecb7c168996b0f25996c8f5fd24cd64"
+    },
+    {
+      "path": "models/weapons/w_pist_fiveseven.mdl",
+      "sha256": "ecf814b7254fdfe7a51fac77b979ce07a100aba533b2f7ac14dca3db34f01a90"
+    },
+    {
+      "path": "models/weapons/w_pist_fiveseven.phy",
+      "sha256": "aeb5d217f25770dfae12fd47c47d79ba8ed04c9544fd99acbf297ff3b120dd4e"
+    },
+    {
+      "path": "models/weapons/w_pist_fiveseven.vvd",
+      "sha256": "d85894df822dbe0f24a0c73edb627674715f630390ecf431673bcf736df13e4a"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven-1.wav",
+      "sha256": "8eec8c12ef192cfda1ac0e12e1123c1c29a3d219401f305cd7a75fcb4a6eeab8"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven_clipin.wav",
+      "sha256": "6c285c01c0c1e32360ca39a7fc9195f17c1de24b7234b950d06e7a4aac3e91a5"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven_clipout.wav",
+      "sha256": "976fc0bee9a18b3384e3e5200750d9a321b96b742ccdadba14b529db785920b9"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven_slideback.wav",
+      "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven_slidepull.wav",
+      "sha256": "2113e38a06dad60f31cccf35e4e8e8e9958ea41a1fdf872616526dedbf5c34ff"
+    },
+    {
+      "path": "sound/weapons/fiveseven/fiveseven_sliderelease.wav",
+      "sha256": "bfaff102fa7d195ddde701987b3db1c21bce4e46a7654505c0faaddfd09914fd"
+    }
+  ]
+}

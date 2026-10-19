@@ -1,0 +1,33 @@
+{
+  "archives": [
+    "hl2/hl2_misc_dir.vpk",
+    "hl2/hl2_textures_dir.vpk"
+  ],
+  "textures": [
+    {
+      "source": "materials/effects/blood_core.vtf",
+      "sha256": "92774a4280838f2567be1e4194085ba9c0f0220d713052a3afe6ead05400521a",
+      "material": "\"UnlitGeneric\"\n{\n\t// Original shader: BaseTimesVertexColorAlphaBlend\n\t\"$basetexture\" \"effects/blood_core\"\n\t\"$vertexcolor\" \"1\"\n\t\"$vertexalpha\" \"1\"\n\t\"$translucent\" \"1\"\n}\n"
+    },
+    {
+      "source": "materials/effects/blood_gore.vtf",
+      "sha256": "611f561941b6addc2ef53333ff4902cf0edf3c4fe55aef427f017b4d0a8f1375",
+      "material": "\"Subrect\"\n{\n\t\"$Material\"\t\"particle/particle_composite\"\n\t\"$Pos\"\t\t\"0 0\"\n\t\"$Size\"\t\t\"64 64\"\n}\n"
+    },
+    {
+      "source": "materials/effects/blood_drop.vtf",
+      "sha256": "611f561941b6addc2ef53333ff4902cf0edf3c4fe55aef427f017b4d0a8f1375",
+      "material": "\"Subrect\"\n{\n\t\"$Material\"\t\"particle/particle_composite\"\n\t\"$Pos\"\t\t\"0 64\"\n\t\"$Size\"\t\t\"64 64\"\n}\n"
+    },
+    {
+      "source": "materials/effects/blood_puff.vtf",
+      "sha256": "611f561941b6addc2ef53333ff4902cf0edf3c4fe55aef427f017b4d0a8f1375",
+      "material": "\"Subrect\"\n{\n\t\"$Material\"\t\"particle/particle_composite\"\n\t\"$Pos\"\t\t\"0 64\"\n\t\"$Size\"\t\t\"64 64\"\n}\n\n"
+    },
+    {
+      "source": "materials/effects/spark.vtf",
+      "sha256": "1d85793d292842ee66b31f37b609fe636bbc36b36c24732d2841edc64298a66d",
+      "material": "\"UnlitGeneric\"\n{\n\t// Original shader: AddTexture\n\t\"$basetexture\" \"effects/spark\"\n\t\"$brightness\" \"effects/spark_brightness\"\n\t\"$additive\" 1\n\t\"$vertexcolor\" 1\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 6,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/m4a1/world/m4a1_world.glb",
+  "skinned_meshes": 1,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_rif_m4a1",
+      "mesh": "studio_w_rif_m4a1",
+      "texture_size": "(512.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

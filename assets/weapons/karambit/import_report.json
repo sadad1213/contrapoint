@@ -1,0 +1,118 @@
+{
+  "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\custom\\#Karambit",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "meters_per_source_unit": 0.0254,
+  "bones": 47,
+  "geometry": [
+	{
+	  "name": "studio_ref.smd",
+	  "vertices": 16009,
+	  "triangles": 22484,
+	  "materials": [
+		"v_hands",
+		"sleeve_diffuse_ts",
+        "knife_karambit"
+	  ]
+	}
+  ],
+  "textures": [
+	{
+	  "material": "v_hands",
+	  "image": "v_hands",
+	  "size": [
+		1024,
+		512
+	  ]
+	},
+	{
+	  "material": "v_hands",
+	  "image": "v_hands_normal",
+	  "size": [
+		1024,
+		512
+	  ]
+	},
+	{
+	  "material": "knife_karambit",
+	  "image": "knife_karambit",
+	  "size": [
+		1024,
+		1024
+	  ]
+	},
+	{
+	  "material": "sleeve_diffuse_ts",
+	  "image": "sleeve_diffuse",
+	  "size": [
+		2048,
+		2048
+	  ]
+	},
+	{
+	  "material": "sleeve_diffuse_ts",
+	  "image": "sleeve_normal",
+	  "size": [
+		1024,
+		1024
+	  ]
+	}
+  ],
+  "animations": [
+	{
+	  "name": "draw",
+	  "source_name": "@draw",
+	  "source_fps": 30.0,
+	  "source_frames": 39,
+	  "duration": 1.2666666666666666
+	},
+	{
+	  "name": "idle",
+	  "source_name": "@idle",
+	  "source_fps": 27.0,
+	  "source_frames": 601,
+	  "duration": 22.22222222222222
+	},
+	{
+	  "name": "midslash1",
+	  "source_name": "@midslash1",
+	  "source_fps": 30.0,
+	  "source_frames": 31,
+	  "duration": 1.0
+	},
+	{
+	  "name": "midslash2",
+	  "source_name": "@midslash2",
+	  "source_fps": 30.0,
+	  "source_frames": 31,
+	  "duration": 1.0
+	},
+	{
+	  "name": "stab",
+	  "source_name": "@stab",
+	  "source_fps": 30.0,
+	  "source_frames": 31,
+	  "duration": 1.0
+	},
+	{
+	  "name": "stab_miss",
+	  "source_name": "@stab_miss",
+	  "source_fps": 30.0,
+	  "source_frames": 31,
+	  "duration": 1.0
+	},
+	{
+	  "name": "stab_miss2",
+	  "source_name": "@stab_miss2",
+	  "source_fps": 30.0,
+	  "source_frames": 31,
+	  "duration": 1.0
+	}
+  ],
+  "notes": [
+	"Viewmodel: arms, sleeves and knife are combined in the source mesh.",
+	"Hands material/textures also depend on the installed CSS VPK archives.",
+	"Source shader lighting is approximated using glTF Principled materials.",
+    "Source game events, hit timing and gameplay logic are not glTF animations."
+  ]
+}

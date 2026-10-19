@@ -1,0 +1,253 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk",
+  "arms": "models\\weapons\\v_models\\arms\\glove_fullfinger\\v_glove_fullfinger.mdl",
+  "agent": "tm_phoenix_varianta",
+  "agent_definition": "csso/scripts/playermodels.txt",
+  "material_fallback": "bare_arm_133 uses its authored bare_arm_133_cheap.vmt VertexLitGeneric fallback for glTF conversion",
+  "sequence_adaptation": "Exclude hide_lefthand helper from the combined first-person knife/arms rig to retain the authored offhand pose",
+  "files": [
+    {
+      "path": "materials/models/weapons/customization/materials/material_specwarp.vtf",
+      "sha256": "89d349d54bc2f631243a0edb0423d91e5352cf610a250ad1c84b4f8b716aa84a"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_103.vmt",
+      "sha256": "f8b43cb8c6533ebbce16f330b10f722be1b8e77458f9a11e7c84ceafe35ca7e6"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_103_cheap.vmt",
+      "sha256": "e470e155debc29b990455222ee3a5914e35dea2223d3f08465f6abae7a0388e0"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_107.vmt",
+      "sha256": "2ad3468a1dfced83e01a73ffe47411d11c99e0f06375e3427dff8d5a4e3530e5"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_107_cheap.vmt",
+      "sha256": "726f896b81ea8f3bc5fd38018904998af0d4b791c02d1faa7704793a1b519c75"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_113.vmt",
+      "sha256": "3cea2f2e49aa0b36566b559cab2535657ae008385a0e98e9354bee86f476547c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_113_cheap.vmt",
+      "sha256": "72e361025ae3883fa1bb71873da26bdf12cc9a998c2505d456ff4ffed28883b9"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_133.vmt",
+      "sha256": "2c875dd414c5f00e3a6cd4fefd14af57c6cc9d9738c27430ec43dbc5b54f8fcf"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_133.vtf",
+      "sha256": "83dd98a92c224ba7afdb8e9d7e5c763eed74ca64daa40979bfe23c788b3ac900"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_133_cheap.vmt",
+      "sha256": "8434efd79d9aa492e89c03f89f74d39d3f945e4ecd6470b1bbde7a3c0f162ce1"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_133_exp.vtf",
+      "sha256": "814384e2fd455272dd9e5c9a4563a0c81187f7669d0d78f29490fa49a453e10c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_135.vmt",
+      "sha256": "f6927ad2e79544904f2088302301086286b138b0ee3f33b979abe52925b8b6f6"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_135_cheap.vmt",
+      "sha256": "279d6759ded3c6f07ffa5b9616d08441220d62b5d95cc084d78d0633627cd663"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_44.vmt",
+      "sha256": "43fee5d032e2bd8545afdc05016242f93dbba42794a73709d61344be63c7e36c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_44_cheap.vmt",
+      "sha256": "61a1cbd554cf3e1e9703b2fbbb7cc9dc52e82ed318dbd8f7d16167696015230a"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_55.vmt",
+      "sha256": "bc7713020709769c417a4363cd52858ead1c9e362c9a132ceee46c3ada2005d2"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_55_cheap.vmt",
+      "sha256": "a2f3d0c1b1190c49b1ff71310c0ab8b880f421b184a7f7ea50ca0866b75ad24b"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_66.vmt",
+      "sha256": "b22cc6bace2a1b97228cd0f3ab750e8f05f5c57a064718c4e2c2b1b50ad46b8d"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_66_cheap.vmt",
+      "sha256": "4c7429892df2c3c1d9013f94d25097cd19295a6575058a3604c07a8c3967a4df"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_78.vmt",
+      "sha256": "75815d80afc1338198462152f68f4c2ff5570158d8075b96e69a872bbdde6b6b"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_78_cheap.vmt",
+      "sha256": "005e3cc94eec52cf77dc6c62faaa33c3000383c06d964c6ce80f68f6b7e92f25"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_fresnelrange.vtf",
+      "sha256": "41d340ff3c4145ae43a0e4a977149a6088bd3051e345e005d48928533d2e66d1"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_jngl_varf.vmt",
+      "sha256": "c47b5f33367aab298c1f5f87bb185cfc07a52b3c569f2b38acd81aa057b84fd1"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_jngl_varf_cheap.vmt",
+      "sha256": "669e121385df59713ca2673037d7f2446f0c48cfd7780b4c0ef0a460949e5f31"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_masks1.vtf",
+      "sha256": "57786afacb4d5fce0643cffbe363e0e62ad206c0edd6109f087538c94d6abedb"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_normal.vtf",
+      "sha256": "94be25b6fb401de7d29ffcb6ab4db46b7b5c3017115dd7dd7010b320178f6281"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_pro_varf.vmt",
+      "sha256": "1e2633b128439b84553601cd2959e3eb00b58b7aac4c24bddc4191d00bfb5a48"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/bare/bare_arm_pro_varf_cheap.vmt",
+      "sha256": "0e3b5af5fc62b4e866faefd0d4bb2b58ead8764a1bc42e21be1cf8fdf3a8e02c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/glove_fullfinger/glove_fullfinger.vmt",
+      "sha256": "b338a2ea0c1789364856edf6ff317e9a168bb63492e2ab1f33e034714192fd4b"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/glove_fullfinger/glove_fullfinger.vtf",
+      "sha256": "cd36cd8b510173b92915aab1444fb8fba586af14652c9b82f2ef0ce12e207963"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/glove_fullfinger/glove_fullfinger_exp.vtf",
+      "sha256": "e2c7bca69d6548ba564ed9a7d4b7b85529b5d12e1f3f7abe66ca5a2f0e054c72"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/glove_fullfinger/glove_fullfinger_normal.vtf",
+      "sha256": "186500215e88370ddebed65733425ac7ce9fb805a457fb108d3840f00de45c07"
+    },
+    {
+      "path": "materials/models/weapons/v_models/arms/skin_gradient.vtf",
+      "sha256": "f6dbe06c65c89fa79a65fbb3dabc2f451269f89878e3138f9402150e57bdd3e8"
+    },
+    {
+      "path": "materials/models/weapons/v_models/knife_butterfly/knife_butterfly.vmt",
+      "sha256": "6a4f185436e5afce20e367bc1baa44df61d135a09bb89980f7eae584880b7c7a"
+    },
+    {
+      "path": "materials/models/weapons/v_models/knife_butterfly/knife_butterfly.vtf",
+      "sha256": "e94ab0b39d11e79ba17c340b9bf7bb8229a34dab176ea60083faa1217eafc2b9"
+    },
+    {
+      "path": "materials/models/weapons/v_models/knife_butterfly/knife_butterfly_exponent.vtf",
+      "sha256": "2adcdebea3f99c28efb4073e76b4c2ce1c799b2c63947b34da3660f1e563f83e"
+    },
+    {
+      "path": "models/weapons/v_knife_butterfly.dx80.vtx",
+      "sha256": "78ab26d103698f698394054b4536bfac5cf89a301027997b0501719c2af9218b"
+    },
+    {
+      "path": "models/weapons/v_knife_butterfly.dx90.vtx",
+      "sha256": "260b977fa7472c12b946df209b104c08be1a0397507a0e9f544855df5325f587"
+    },
+    {
+      "path": "models/weapons/v_knife_butterfly.mdl",
+      "sha256": "120ea31d5a82cf5e41e6d164d1df62a5673e22db465e9bef4fc5c23ae3ae0b4e"
+    },
+    {
+      "path": "models/weapons/v_knife_butterfly.sw.vtx",
+      "sha256": "f6376fecabb93e6d2a104cf311ad894443ad118266839df1439b08545eae431a"
+    },
+    {
+      "path": "models/weapons/v_knife_butterfly.vvd",
+      "sha256": "6433b7a7d4c442af26fbb09cbacf7ee3b431c65a89029a5e6b11bef34129019b"
+    },
+    {
+      "path": "models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.dx80.vtx",
+      "sha256": "590ddbcb4598bde3ec38a570208c9dcfc6b5c5139f067695cfd70b6e9d3c5aa9"
+    },
+    {
+      "path": "models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.dx90.vtx",
+      "sha256": "04bccaa81a88971e58fbe10a1adf4729c17f5f30281b151745b5586a3fa0a201"
+    },
+    {
+      "path": "models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.mdl",
+      "sha256": "f557d7c2ddf15f4c0114b08206d73fc6b3b564177832401c9160f63de033d4d9"
+    },
+    {
+      "path": "models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.sw.vtx",
+      "sha256": "39b7aba15ff7a33826bb800c74a3b2a69f235fea7bcf867dc8918adc5cf7f7e5"
+    },
+    {
+      "path": "models/weapons/v_models/arms/glove_fullfinger/v_glove_fullfinger.vvd",
+      "sha256": "c57afba27dc258d3e9b515767f72b78cecd8503f01a0fd52e01d125b9c72a2bf"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_backstab_01.wav",
+      "sha256": "7ec0a5ade739891e027251d06b31a185597b3ce344b6d9667386cde9daff8677"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_backstab_02.wav",
+      "sha256": "c3c80cb57f4230b1c09a8ce478eb0eca6f67497893f2f1cdd87d81dc29d7fb20"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_draw_01.wav",
+      "sha256": "587e03396bbea1413e69f759fd5cd44b3c1f1de773478b7ccb818066e7c78790"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_draw_02.wav",
+      "sha256": "1c26ac13162c057c1392bb4ab261913b841a9052d8cbb2a7f2c7d2401566177e"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_01_a.wav",
+      "sha256": "12f6314db0e641ed9e2d1b5a5f645a44dcd4097a2472270813eaf6a755684eca"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_01_b.wav",
+      "sha256": "81ab30febce25535e9290d88e394d30c94e845d7ab077852d5cdabe22e31b7b9"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_01_c.wav",
+      "sha256": "64d43179e805a110dd5ef705b6ddeb66ecde5f5f3a4cbc39e2366964e0bb1d04"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_02_a.wav",
+      "sha256": "5241c0f62d2db8e9e40770a6e884cd2da95ab58a8ad79d747404da1711a9eb89"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_02_b.wav",
+      "sha256": "0ee6afc8ec966e9f3a8f0ee0f4ba63d81760f79b4a745fd75c923eebcc82d4be"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_02_c.wav",
+      "sha256": "eb90dd12256ff904c36233dd895c3fdd58339d82e2823cdc62176ff0e98d87f7"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_03_a.wav",
+      "sha256": "edb66586864b5bff39e998ea27cbcdebfe48a3b79f42d98f7116031654c6290b"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_03_b.wav",
+      "sha256": "7b26b8bcd76d59a9b3f1c19e81fa58ee5d9f6a8b1c57f8300df75ebb0b8d13f6"
+    },
+    {
+      "path": "sound/weapons/knife_butterfly/knife_butterfly_look_03_c.wav",
+      "sha256": "9ab5222da31cb0e619fa0b504d7fb9bb324f7f58988500349e7f126c478c2c49"
+    }
+  ],
+  "sound_definitions": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\game_sounds_weapons.txt",
+  "reflection": {
+    "bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\maps\\de_dust2.bsp",
+    "entry": "materials/maps/de_dust2/c-1536_1152_112.vtf",
+    "sha256": "c036294e625fbff11dfe3dc8fd61f65f60207a23a2dfc25abdf794e5f208337b"
+  },
+  "sound_definitions_sha256": "34443cb798581dfae012bded720ddaa41f39bca5386aeb143f805a3f58fb75d9"
+}

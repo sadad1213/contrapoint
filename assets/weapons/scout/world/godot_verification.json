@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 4,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/scout/world/scout_world.glb",
+  "skinned_meshes": 1,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_snip_scout",
+      "mesh": "studio_w_snip_scout",
+      "texture_size": "(512.0, 256.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

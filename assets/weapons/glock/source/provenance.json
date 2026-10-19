@@ -1,0 +1,85 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_glock18/glock18.vmt",
+      "sha256": "65853b749d28ce03d3096b82fa7b65e85f0533d73e70e761c95428b9bbb38ec3"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_glock18/glock18.vtf",
+      "sha256": "c25f526579a336de289143d92b91abb4bc4a28e24c18440f6b35ef6239c5c366"
+    },
+    {
+      "path": "materials/models/weapons/v_models/pist_glock18/glock18_ref.vtf",
+      "sha256": "5f9d0c5ecb8cff5b7f8765204cc6048e7ec8611c82d74286796ca6a73daaf116"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_glock18/w_pist_glock18.vmt",
+      "sha256": "114aecb05a5f9a4ef1a6cb0984dd716a304f63e544e3dd5a4714d3a09430d846"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_pist_glock18/w_pist_glock18.vtf",
+      "sha256": "47396214ab8919d7894c235bbf49ee06a2628b4a33c31d0453b8bcc05758c3ad"
+    },
+    {
+      "path": "models/weapons/v_pist_glock18.dx90.vtx",
+      "sha256": "66a29a879f97fc6749070ebee470720254733b265eba817640ee74c2e7af8aa7"
+    },
+    {
+      "path": "models/weapons/v_pist_glock18.mdl",
+      "sha256": "66ef9508d9dda2499b13b8d74f033bff141c0e04ca5ad2bd6452efa37f661a59"
+    },
+    {
+      "path": "models/weapons/v_pist_glock18.vvd",
+      "sha256": "5e6facdff8ecbce6bb3b3f8cce7ba91132689c732a6ac48ec0fcfae96f65befa"
+    },
+    {
+      "path": "models/weapons/w_pist_glock18.dx90.vtx",
+      "sha256": "4e65720c5a92e4dca6d63572480ad02e19b76703fec2e3363a52753def4e082a"
+    },
+    {
+      "path": "models/weapons/w_pist_glock18.mdl",
+      "sha256": "f0145f2366cf9a086639d768c04a4e3f12615f3c53bbd9a5b94b05f05e488567"
+    },
+    {
+      "path": "models/weapons/w_pist_glock18.phy",
+      "sha256": "2f27f03dfd573eda6f934625146ff1896d8929a006d6d643e9f9f04a4b12bd30"
+    },
+    {
+      "path": "models/weapons/w_pist_glock18.vvd",
+      "sha256": "c872f4a1762d2bc9a047f4d1426c5e34d0af72ecc6d01c2e943eaa233f739704"
+    },
+    {
+      "path": "sound/weapons/glock/glock18-1.wav",
+      "sha256": "dde24457eecd86b4ed22bc479581fd614c9129a32aa56747db974341bbe2a89b"
+    },
+    {
+      "path": "sound/weapons/glock/glock_clipin.wav",
+      "sha256": "3dbfdffb1e83fd2256efa4df6d671b52c345158fa2e9638ca6ad8097d2e12d78"
+    },
+    {
+      "path": "sound/weapons/glock/glock_clipout.wav",
+      "sha256": "976fc0bee9a18b3384e3e5200750d9a321b96b742ccdadba14b529db785920b9"
+    },
+    {
+      "path": "sound/weapons/glock/glock_slideback.wav",
+      "sha256": "56acde346697a3801e04f258cc0e99baa6cf31700a53c6e0d362d8807696e963"
+    },
+    {
+      "path": "sound/weapons/glock/glock_sliderelease.wav",
+      "sha256": "d170848172df6dd10d8d42c045e9085ce500b58eea338b8c71aff5b2f1ff0dc2"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/shot_m3super90/shot_m3super90.vmt",
+      "sha256": "428ec3b87fbcd02c72b4b27e4a8db057d25246d85ff04020a50c1e0509d65abf"
+    },
+    {
+      "path": "materials/models/weapons/v_models/shot_m3super90/shot_m3super90.vtf",
+      "sha256": "24ac890ae6f901dbac434bad9c37c41d7678bd1ccf9a2a95eca168e21c713f9a"
+    },
+    {
+      "path": "materials/models/weapons/v_models/shot_m3super90/shot_m3super90_ref.vtf",
+      "sha256": "a6d1338b527353dc70ce24ada2483f775b2cd2b21ea1570f13fafde588a05976"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_shot_m3super90/w_shot_m3super90.vmt",
+      "sha256": "d16457e49cefc3019831578ae746321ed3d0d4dbbe068e9af444df7472d9fc07"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_shot_m3super90/w_shot_m3super90.vtf",
+      "sha256": "1e52f7cf92568354b39f78ec10a55001361b12b194d168d5e9b0471dc03a04c0"
+    },
+    {
+      "path": "models/weapons/v_shot_m3super90.dx90.vtx",
+      "sha256": "729a40e79fbf3e705c4074dde1a7c32230bba4fafad814fc6335e30f4a3a8e6e"
+    },
+    {
+      "path": "models/weapons/v_shot_m3super90.mdl",
+      "sha256": "ec57d8c89ff3d00d1f47255028ac245321e0b507c221ca697826af93e2a04f35"
+    },
+    {
+      "path": "models/weapons/v_shot_m3super90.vvd",
+      "sha256": "14e37bdfdb8522262671413d32200dbc002280a1820645fbd3b2ec9edb17c01b"
+    },
+    {
+      "path": "models/weapons/w_shot_m3super90.dx90.vtx",
+      "sha256": "1dba46e92960bc2b00f6d492d4740a893f8978cb9dac755060ea99b03512eb36"
+    },
+    {
+      "path": "models/weapons/w_shot_m3super90.mdl",
+      "sha256": "2fd9288e92545a53210b3dd11220e254523b30b1e87fa4d2abbfa496ec225572"
+    },
+    {
+      "path": "models/weapons/w_shot_m3super90.phy",
+      "sha256": "e97d969fc69fe0bbb34da5b5142d5ddbbdb656eb22db4d696d58001bd1f62a02"
+    },
+    {
+      "path": "models/weapons/w_shot_m3super90.vvd",
+      "sha256": "5330ab63812b430a4b7292f026f4245f70ad84095e9b7a8b83addf6eb054b1d4"
+    },
+    {
+      "path": "sound/weapons/m3/m3-1.wav",
+      "sha256": "1ceb3314e7c887e997a97537c7b52f5283744482026b4268bcc939a084564ffe"
+    },
+    {
+      "path": "sound/weapons/m3/m3_insertshell.wav",
+      "sha256": "2a4af14ad9c9b1c868a981855eb39e5249b5e77863ac3b070adfe145dce4e1dc"
+    },
+    {
+      "path": "sound/weapons/m3/m3_pump.wav",
+      "sha256": "73bfb511d05cb4d69d8c10af5ff40faf78fa63abb57f8598dd3afd157261ca54"
+    }
+  ]
+}

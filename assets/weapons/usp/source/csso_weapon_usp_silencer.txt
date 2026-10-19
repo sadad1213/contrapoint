@@ -1,0 +1,114 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"240"
+	"WeaponType"						"Pistol"
+	"FullAuto"							"0"
+	"WeaponPrice"						"200"
+	"KillAward"							"300"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.01"
+	"CrosshairMinDistance"				"8"
+	"CrosshairDeltaDistance"			"3"
+	"Team" 								"CT"
+	"PlayerAnimationExtension" 			"pistol"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_pistol"
+	"MuzzleFlashEffect1stPersonAlt"		"weapon_muzzle_flash_pistol_silenced"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_pistol"
+	"MuzzleFlashEffect3rdPersonAlt"		"weapon_muzzle_flash_pistol_silenced"
+	"TracerEffect"						"weapon_tracers_pistol"
+	"TracerFrequency"					"1"
+	"TracerFrequencyAlt"				"0"
+	"EjectBrassEffect"					"weapon_shell_casing_9mm"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.3"
+	"SilencerType"						"1"
+	"SilencerAttachedByDefault"			"1"
+
+	// Weapon characteristics:
+	"Penetration"						"1.0"
+	"Damage"							"35"
+	"Range"								"4096.0"
+	"RangeModifier"						"0.91"
+	"Bullets"							"1"
+	"CycleTime"							"0.17"
+	"TimeToIdle"						"2.0"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.002500"
+	"InaccuracyCrouch"					"0.003680"
+	"InaccuracyStand"					"0.004900"
+	"InaccuracyJump"					"0.094480"
+	"InaccuracyJumpInitial"				"0.096600"
+	"InaccuracyLand"					"0.000191"
+	"InaccuracyLadder"					"0.138320"
+	"InaccuracyFire"					"0.071000"
+	"InaccuracyMove"					"0.013870"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"0.000000"
+	"RecoilMagnitude"					"29.00000"
+	"RecoilMagnitudeVariance"			"0.000000"
+	"RecoilSeed"						"5426"
+
+	"SpreadAlt"							"0.001500"
+	"InaccuracyCrouchAlt"				"0.003680"
+	"InaccuracyStandAlt"				"0.004900"
+	"InaccuracyJumpAlt"					"0.094480"
+	"InaccuracyLandAlt"					"0.000198"
+	"InaccuracyLadderAlt"				"0.119900"
+	"InaccuracyFireAlt"					"0.052000"
+	"InaccuracyMoveAlt"					"0.013870"
+	"RecoilAngleAlt"					"0.000000"
+	"RecoilAngleVarianceAlt"			"0.000000"
+	"RecoilMagnitudeAlt"				"23.00000"
+	"RecoilMagnitudeVarianceAlt"		"0.000000"
+
+	"RecoveryTimeCrouch"				"0.291277"
+	"RecoveryTimeStand"					"0.349532"
+	"RecoveryTransitionStartBullet"		"3"
+	"RecoveryTransitionEndBullet"		"10"
+
+	"FlinchVelocityModifierLarge"		"0.5"
+	"FlinchVelocityModifierSmall"		"0.65"
+
+	"ReserveAmmoMax"					"24"
+	"MagazinesMax"						"2"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_USP_Silencer"
+	"viewmodel"							"models/weapons/v_pist_usp_silencer.mdl"
+	"playermodel"						"models/weapons/w_pist_usp_silencer.mdl"
+	"MagazineModel"						"models/weapons/w_pist_usp_silencer_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"1"
+	"bucket_position"					"0"
+	"clip_size"							"12"
+	"primary_ammo"						"BULLET_PLAYER_45ACP"
+	"secondary_ammo"					"None"
+	"weight"							"5"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Pistol"
+		"single_shot"					"Weapon_USP.Single"
+		"special1"						"Weapon_USP.SingleSilenced"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/pist_usp_silencer/pist_usp_silencer.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"18.016001"
+			"uvscale"					"0.516"
+		}
+	}
+}

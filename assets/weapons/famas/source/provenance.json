@@ -1,0 +1,81 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_famas/rif_famas.vmt",
+      "sha256": "da06ab778fb93c55c26e77743c3db4702869e57eba42fc236f18d52ce00aea83"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_famas/rif_famas.vtf",
+      "sha256": "dbcf33024ad6b62608ccdc9c1452c44b79fbd9cac1e7a20919241bdcace8e601"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_famas/rif_famas_ref.vtf",
+      "sha256": "ad3f21b9831321f86d16f0145dcde1c8e60f60c6c03f9820d246b89bf9e046fe"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_famas/w_rif_famas.vmt",
+      "sha256": "4e347cf0a8e57a4b29ed9dbf429c7b2fc71d43e0f503e1750fdb8a3dc1527606"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_famas/w_rif_famas.vtf",
+      "sha256": "969378346a0c41854a02ff5e3cefed1f6d0a8c0c65ec89789f78bfd8564e4d26"
+    },
+    {
+      "path": "models/weapons/v_rif_famas.dx90.vtx",
+      "sha256": "df7f7f1a4b5565fd1dde21c67e173c893f02e7adf89350080cbbeb9709be11b8"
+    },
+    {
+      "path": "models/weapons/v_rif_famas.mdl",
+      "sha256": "50a196b7e10f5f726cade94562a180d494e196355bb374ec240b3f1d2b6c5508"
+    },
+    {
+      "path": "models/weapons/v_rif_famas.vvd",
+      "sha256": "f190d52e0526df67d1362f9f6b528f494523cb1580b8bbc3a6d0be55ee48a36a"
+    },
+    {
+      "path": "models/weapons/w_rif_famas.dx90.vtx",
+      "sha256": "a44d6ad7e2179dca4e7a35f437514b0bf1ce35bf628a42d0a843b2708e9ad588"
+    },
+    {
+      "path": "models/weapons/w_rif_famas.mdl",
+      "sha256": "ed13c164f2b7f07c0af053dc9698dc0c33b21d1aa6c30c307d4cb64c2b1c829d"
+    },
+    {
+      "path": "models/weapons/w_rif_famas.phy",
+      "sha256": "812c6b8f40cab2c1df94791e3470d1ed08e92b8c78d20b7c23d03e1495ce80bf"
+    },
+    {
+      "path": "models/weapons/w_rif_famas.vvd",
+      "sha256": "ec39fb4957ece3de12d69686b9ec52eabd2a69424b94b9865f9bd9d786e441e1"
+    },
+    {
+      "path": "sound/weapons/famas/famas-1.wav",
+      "sha256": "ffa3c5b74f703b4508c48c3f67459147ae7bd7876935541b5ab56a23ab091821"
+    },
+    {
+      "path": "sound/weapons/famas/famas_clipin.wav",
+      "sha256": "13a659b748b1ed9f83f8eb30dad04d358df945f5771547e8d52ff35f6cae7fc8"
+    },
+    {
+      "path": "sound/weapons/famas/famas_clipout.wav",
+      "sha256": "676625ec6e1b323243d0d62988606c7b3b509ffb2e5b6c2cbc9a225ace6f8f79"
+    },
+    {
+      "path": "sound/weapons/famas/famas_forearm.wav",
+      "sha256": "b1f8baada80269d0b96c8b14c92bbc8062e5f576db7760b7c595218b96cb5ee6"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://w3b57400okhw"]
+
+[ext_resource type="PackedScene" path="res://assets/maps/de_dust2/de_dust2.scn" id="1_map"]
+[ext_resource type="PackedScene" uid="uid://dm074vlpsy5na" path="res://scenes/player/player.tscn" id="2_player"]
+[ext_resource type="PackedScene" path="res://assets/maps/de_dust2/deathmatch_spawns.tscn" id="3_dm"]
+
+[node name="Dust2Preview" type="Node3D" unique_id=704559017]
+
+[node name="Dust2" parent="." unique_id=897396327 instance=ExtResource("1_map")]
+
+[node name="DeathmatchSpawns" parent="Dust2" instance=ExtResource("3_dm")]
+
+[node name="Player" parent="." unique_id=1736617732 instance=ExtResource("2_player")]
+SpawnPointsRootPath = NodePath("../Dust2")

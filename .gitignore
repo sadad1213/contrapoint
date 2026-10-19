@@ -1,0 +1,28 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+tools/weapon_timing/bin/
+tools/weapon_timing/obj/
+
+# .NET / C# build output
+bin/
+obj/
+
+# Godot export output
+/build/
+/export/
+
+# IDE / editor
+.vs/
+.idea/
+.vscode/
+*.user
+*.userprefs
+*.sln.docstates
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+~$*

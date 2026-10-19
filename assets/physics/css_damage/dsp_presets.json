@@ -1,0 +1,17 @@
+{
+  "137": {
+    "cutoff": 4000.0,
+    "tone_frequency": 3000,
+    "tone_gain": 0.01
+  },
+  "138": {
+    "cutoff": 2000.0,
+    "tone_frequency": 3000,
+    "tone_gain": 0.02
+  },
+  "139": {
+    "cutoff": 1000.0,
+    "tone_frequency": 3000,
+    "tone_gain": 0.03
+  }
+}

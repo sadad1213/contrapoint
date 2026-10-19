@@ -1,0 +1,81 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_galil/rif_galil.vmt",
+      "sha256": "12e7ad17329a12990d4bceb1879f9cf8703267d7b94dd2dabc1b7461e57e9775"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_galil/rif_galil.vtf",
+      "sha256": "0b7aa79468f0ffea860df29f51adce8555fe81939de59eb1f140dbdc66ab4dc0"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_galil/rif_galil_ref.vtf",
+      "sha256": "6df93f915f4d168220ce79fb8b5c203a40c47d2e7d976bd58877f5abe73ab33c"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_galil/w_rif_galil.vmt",
+      "sha256": "bc0f2d550d1893574ef76a124888971e775a5909c61db290cf690c3ce04c83e1"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_galil/w_rif_galil.vtf",
+      "sha256": "cc5c17c11f1611dc7706f79ded5844b1cb4e89453e060dbd35ec116304e04103"
+    },
+    {
+      "path": "models/weapons/v_rif_galil.dx90.vtx",
+      "sha256": "6b16c6b7a3c7dd673b1fe7c22acccca5ef9f64596a429d5d26fed8a3aa1fe7c4"
+    },
+    {
+      "path": "models/weapons/v_rif_galil.mdl",
+      "sha256": "de4176ad4cc6ad4e78025bb142ea939604ec01c091d2cafb6f3a8b048ecb51eb"
+    },
+    {
+      "path": "models/weapons/v_rif_galil.vvd",
+      "sha256": "e31cc54e894a0fbfb120e041b6437aa548d0601f059c90901010ff6971c28ba8"
+    },
+    {
+      "path": "models/weapons/w_rif_galil.dx90.vtx",
+      "sha256": "cc6f009cd5389632f59f44bc40f1c436d82357a50e06478ef276c82a6411bdde"
+    },
+    {
+      "path": "models/weapons/w_rif_galil.mdl",
+      "sha256": "f1a394429b94e42f9ac5270f192738f1d9587890c45c2c0e2797b3d99d166e3a"
+    },
+    {
+      "path": "models/weapons/w_rif_galil.phy",
+      "sha256": "032dccb3c209ea1805d66bb03ce89df824b9a7b62216e40d852e424bc08b3767"
+    },
+    {
+      "path": "models/weapons/w_rif_galil.vvd",
+      "sha256": "1cbcabbecc54245470ca46004a1e764727035b7567f0d1e3fc984f871d554113"
+    },
+    {
+      "path": "sound/weapons/galil/galil-1.wav",
+      "sha256": "76ebd69c5124987f36e3441cb40eadb4d22d7272dc45b9df9873a7190b6fae60"
+    },
+    {
+      "path": "sound/weapons/galil/galil_boltpull.wav",
+      "sha256": "5b71cc8c0d6a6834a1c4abb165d33832f23852769a0bbf88b0912e35e2dac240"
+    },
+    {
+      "path": "sound/weapons/galil/galil_clipin.wav",
+      "sha256": "20e4a9e5e8e0795a6f3e0d159eb2485e98a9f54e5ba07ec8708ab142c01dc0fe"
+    },
+    {
+      "path": "sound/weapons/galil/galil_clipout.wav",
+      "sha256": "5af31e2c754f74fec59991c1140c449aa2de8a5d13e2d5feea9107939ff3ea07"
+    }
+  ]
+}

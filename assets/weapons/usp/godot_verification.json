@@ -1,0 +1,125 @@
+{
+  "animations": [
+    {
+      "duration": 3.06666660308838,
+      "moving_bone_samples": 256,
+      "name": "add_silencer",
+      "tracks": 52
+    },
+    {
+      "duration": 3.06666660308838,
+      "moving_bone_samples": 256,
+      "name": "detach_silencer",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 256,
+      "name": "draw",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 256,
+      "name": "draw_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 1.86666667461395,
+      "moving_bone_samples": 0,
+      "name": "idle",
+      "tracks": 52
+    },
+    {
+      "duration": 1.86666667461395,
+      "moving_bone_samples": 0,
+      "name": "idle_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 256,
+      "name": "reload",
+      "tracks": 52
+    },
+    {
+      "duration": 2.66666674613953,
+      "moving_bone_samples": 256,
+      "name": "reload_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 256,
+      "name": "shoot1",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 254,
+      "name": "shoot1_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 256,
+      "name": "shoot2",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 255,
+      "name": "shoot2_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 256,
+      "name": "shoot3",
+      "tracks": 52
+    },
+    {
+      "duration": 1.0,
+      "moving_bone_samples": 255,
+      "name": "shoot3_unsil",
+      "tracks": 52
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 255,
+      "name": "shootlast",
+      "tracks": 52
+    },
+    {
+      "duration": 0.933333337306976,
+      "moving_bone_samples": 256,
+      "name": "shootlast_unsil",
+      "tracks": 52
+    }
+  ],
+  "bones": 66,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 2,
+  "model": "res://assets/weapons/usp/usp.glb",
+  "skinned_meshes": 2,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "v_hands",
+      "mesh": "hands___\\hands\\hands_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    },
+    {
+      "material": "pist_usp",
+      "mesh": "studio_usp_reference_smd",
+      "texture_size": "(1024.0, 512.0)",
+      "textured": true
+    }
+  ],
+  "warnings": [
+    "No sampled skeletal movement in idle; verify whether this is an intentional pose clip",
+    "No sampled skeletal movement in idle_unsil; verify whether this is an intentional pose clip"
+  ]
+}

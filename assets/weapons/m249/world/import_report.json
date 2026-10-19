@@ -1,0 +1,38 @@
+{
+  "status": "complete",
+  "source": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal\\models\\weapons\\w_mach_m249para.mdl",
+  "content_root": "C:\\Users\\Hueglot\\AppData\\Local\\Temp\\contrapoint-css-full-arsenal",
+  "mdl_version": 44,
+  "sourceio_commit": "6deac3176bf0e8dd2a50038cfa1066abfa58c1f9",
+  "blender_version": "5.2.2 LTS",
+  "meters_per_source_unit": 0.0254,
+  "bones": 4,
+  "geometry": [
+    {
+      "name": "studio_w_mach_m249",
+      "vertices": 671,
+      "triangles": 493,
+      "materials": [
+        "w_mach_m249"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "material": "w_mach_m249",
+      "image": "w_mach_m249",
+      "size": [
+        512,
+        512
+      ]
+    }
+  ],
+  "missing_materials": [],
+  "animations": [],
+  "glb": "C:\\Users\\Hueglot\\Documents\\contrapoint\\assets\\weapons\\m249\\world\\m249_world.glb",
+  "notes": [
+    "Material lighting approximates Source using standard glTF shaders.",
+    "Gameplay logic, hit timing and sound events are not glTF animation.",
+    "Verify actual animation durations and motion in the destination engine."
+  ]
+}

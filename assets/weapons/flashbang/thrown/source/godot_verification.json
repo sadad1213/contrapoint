@@ -1,0 +1,19 @@
+{
+  "animations": [],
+  "bones": 0,
+  "errors": [],
+  "godot_version": "4.8-beta1 (official)",
+  "meshes": 1,
+  "model": "res://assets/weapons/flashbang/thrown/flashbang_thrown.glb",
+  "skinned_meshes": 0,
+  "status": "passed",
+  "surfaces": [
+    {
+      "material": "w_eq_flashbang",
+      "mesh": "studio_w_eq_flashbang_thrown",
+      "texture_size": "(1024.0, 1024.0)",
+      "textured": true
+    }
+  ],
+  "warnings": []
+}

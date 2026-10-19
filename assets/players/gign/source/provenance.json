@@ -1,0 +1,53 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/player/ct_gign/ct_gign.vmt",
+      "sha256": "cade33146bf323a9bde254e8fe3ec9e2b362a6b9298150ad69d1389bc7119d68"
+    },
+    {
+      "path": "materials/models/player/ct_gign/ct_gign.vtf",
+      "sha256": "530b4b7540a15159c338086c52eb663617fd1dff05e139757faf84a63ece0e0b"
+    },
+    {
+      "path": "materials/models/player/ct_gign/ct_gign_glass.vmt",
+      "sha256": "00e298267c2a1c8201e14fa2ca1736a5f3fe8d11d57052852e973aa8c066d6a4"
+    },
+    {
+      "path": "materials/models/player/ct_gign/ct_gign_glass.vtf",
+      "sha256": "18c6364773466f7acf47a53f402bb25d2167df5dfc2f61d9361c429bdc4f02ea"
+    },
+    {
+      "path": "materials/models/player/ct_gign/ct_gign_glass_spec.vtf",
+      "sha256": "f8aacbbf48a5d6beeb66cfd27ad83bac108a0fda5e6673e0f261ac06994aaef0"
+    },
+    {
+      "path": "materials/models/player/ct_gign/ct_gign_normal.vtf",
+      "sha256": "aef7698b4205f3c4a590e171e838bf59481ccc517997c8b99f1a618ada865e7c"
+    },
+    {
+      "path": "models/player/ak_anims_ct.mdl",
+      "sha256": "db5653d3d05c4dd729a2e50899b7278841a9bd9a764ebfc539d414fd682f7a0e"
+    },
+    {
+      "path": "models/player/cs_player_shared.mdl",
+      "sha256": "b290f017e35b021cbef0e3cc64a37313dc3564c1c90204389c205632bcec3c13"
+    },
+    {
+      "path": "models/player/ct_gign.dx90.vtx",
+      "sha256": "3581323c62973b8743f7448180e1db41ba0088a1161a790dd64b4ca40705153c"
+    },
+    {
+      "path": "models/player/ct_gign.mdl",
+      "sha256": "6030985ec23ebd54255763a5319cd781dd5887db95aa0ded7a11d2ec5536984c"
+    },
+    {
+      "path": "models/player/ct_gign.phy",
+      "sha256": "438d3b97341c9b863a207a5df26f9816a640642c339c17702161896feb701141"
+    },
+    {
+      "path": "models/player/ct_gign.vvd",
+      "sha256": "c43f9b2152754a6af79e63dec397f247fad5e73df11f52efc800042ca506e727"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+WeaponData
+{
+	"MaxPlayerSpeed"					"195"
+	"WeaponType"						"Machine Gun"
+	"FullAuto"							"1"
+	"WeaponPrice"						"5200"
+	"KillAward"							"300"
+	"AvailableInGunGameRandom"			"1"
+	"WeaponArmorRatio"					"1.6"
+	"CrosshairMinDistance"				"6"
+	"CrosshairDeltaDistance"			"3"
+	"Team"								"ANY"
+	"PlayerAnimationExtension"			"m249"
+	"MuzzleFlashEffect1stPerson"		"weapon_muzzle_flash_para_FP"
+	"MuzzleFlashEffect3rdPerson"		"weapon_muzzle_flash_para"
+	"TracerEffect"						"weapon_tracers_mach"
+	"TracerFrequency"					"1"
+	"EjectBrassEffect"					"weapon_shell_casing_rifle"
+	"HeatEffect"						"weapon_muzzle_smoke"
+	"HeatPerShot"						"0.35"
+	"AddonScale"						"0.9"
+	"AddonLocation"						"primary_mg"
+
+	// Weapon characteristics:
+	"Penetration"						"2.0"
+	"Damage"							"32"
+	"Range"								"8192.0"
+	"RangeModifier"						"0.97"
+	"Bullets"							"1"
+	"CycleTime"							"0.08"
+	"TimeToIdle"						"1.6"
+	"IdleInterval"						"20.0"
+
+	// New accuracy model parameters
+	"Spread"							"0.002000"
+	"InaccuracyCrouch"					"0.005340"
+	"InaccuracyStand"					"0.007700"
+	"InaccuracyJump"					"0.279470"
+	"InaccuracyJumpInitial"				"0.118270"
+	"InaccuracyLand"					"0.000398"
+	"InaccuracyLadder"					"0.132810"
+	"InaccuracyFire"					"0.003560"
+	"InaccuracyMove"					"0.156250"
+	"RecoilAngle"						"0.000000"
+	"RecoilAngleVariance"				"50.00000"
+	"RecoilMagnitude"					"25.00000"
+	"RecoilMagnitudeVariance"			"2.000000"
+	"RecoilSeed"						"50310"
+
+	"RecoveryTimeCrouch"				"0.592093"
+	"RecoveryTimeStand"					"0.828931"
+	"RecoveryTransitionStartBullet"		"2"
+	"RecoveryTransitionEndBullet"		"5"
+
+	"FlinchVelocityModifierLarge"		"0.4"
+	"FlinchVelocityModifierSmall"		"0.55"
+
+	"ReserveAmmoMax"					"200"
+	"MagazinesMax"						"2"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"							"#CStrike_WPNHUD_M249"
+	"viewmodel"							"models/weapons/v_mach_m249.mdl"
+	"playermodel"						"models/weapons/w_mach_m249.mdl"
+	"MagazineModel"						"models/weapons/w_mach_m249_mag.mdl"
+	"nametagmodel"						"models/weapons/shared/nametag.mdl"
+	"stattrakmodel"						"models/weapons/shared/stattrak.mdl"
+	"anim_prefix"						"anim"
+	"bucket"							"0"
+	"bucket_position"					"0"
+	"clip_size"							"100"
+	"primary_ammo"						"BULLET_PLAYER_556MM_BOX"
+	"weight"							"25"
+	"item_flags"						"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"							"Default.ClipEmpty_Rifle"
+		"single_shot"					"Weapon_M249.Single"
+		"nearly_empty"					"Default.NearlyEmpty"
+	}
+
+	// Paintable materials for skins. Each block corresponds to a material used by the model, can be called anything
+	PaintableMaterials
+	{
+		"material0"
+		{
+			"materialpath"				"materials/models/weapons/v_models/mach_m249/mach_m249.vmt"
+			"basetexturesize"			"2048"
+			"phongexponenttexturesize"	"512"
+			"weaponlength"				"47.7332"
+			"uvscale"					"1.151"
+		}
+	}
+}

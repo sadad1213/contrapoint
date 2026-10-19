@@ -1,0 +1,89 @@
+{
+  "archive": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk",
+  "files": [
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vmt",
+      "sha256": "ad1c495cc483bf25486615c7de5956b6292f00a1adacea2c7f02188130ffcf5c"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands.vtf",
+      "sha256": "edb3a964eb33f45c7c66aca2b8574b0efbd3fc9692637c005695aca023253294"
+    },
+    {
+      "path": "materials/models/weapons/v_models/hands/v_hands_normal.vtf",
+      "sha256": "b609cc92e743a90ad0f741256f8947ab99601ebc665f84d3a814b9906b452648"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_aug/rif_aug.vmt",
+      "sha256": "9476a9a1e6d19c64b28f543c7eb0ef213beea8cc0fb88fbcf5ff09bbc76db08b"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_aug/rif_aug.vtf",
+      "sha256": "636b824bcac086cc4ef54464d6a75605e78b126a4b9dedb945f773fb73454bfb"
+    },
+    {
+      "path": "materials/models/weapons/v_models/rif_aug/rif_aug_ref.vtf",
+      "sha256": "713d3e24a45d81bda3417e7ed935710aa18867e431bb6a5ce96ac68fa6e76fe7"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_aug/w_rif_aug.vmt",
+      "sha256": "3bbe6650a57cbcab975ab9b1a811e41b4e6863be349a8370a610bc4df46f34b6"
+    },
+    {
+      "path": "materials/models/weapons/w_models/w_rif_aug/w_rif_aug.vtf",
+      "sha256": "569d358272a0274b13f06b0da884ab25ae2b845823d7ac59463b4e6aacb8867d"
+    },
+    {
+      "path": "models/weapons/v_rif_aug.dx90.vtx",
+      "sha256": "54df7ecd4d1664809aa2ebdc7399aef4fda53bd588585079d63478c8298ce3f3"
+    },
+    {
+      "path": "models/weapons/v_rif_aug.mdl",
+      "sha256": "84a0ebae39803e1b3a652c8f15536779b355f9feff9c3887699e49dbabe07faa"
+    },
+    {
+      "path": "models/weapons/v_rif_aug.vvd",
+      "sha256": "6262dbbfd753185cb8746026a7a22248e2d2ed9d565760d12b780802c198beaf"
+    },
+    {
+      "path": "models/weapons/w_rif_aug.dx90.vtx",
+      "sha256": "bfafbfe55391c34e4a0b9e0b401bcff3b0873e7cbd3e40c5b735d91ff8a932c1"
+    },
+    {
+      "path": "models/weapons/w_rif_aug.mdl",
+      "sha256": "cbf93f9654fb83e566a3666b5199d95a5284250dd1cadb19e1ad82455607ef54"
+    },
+    {
+      "path": "models/weapons/w_rif_aug.phy",
+      "sha256": "aa5d1a78febce7ba13ba99a3f0faa877edaf4d6281498642d84b7d8ffb259b36"
+    },
+    {
+      "path": "models/weapons/w_rif_aug.vvd",
+      "sha256": "549c24921a5d9920660a5ce533099028a39d6713df81ccd6eebbbe41ffd7edfa"
+    },
+    {
+      "path": "sound/weapons/aug/aug-1.wav",
+      "sha256": "6f498c3458b3717d0e5e93fb42fc8605f8bd59186a84ba9124a8f9b560a4dc30"
+    },
+    {
+      "path": "sound/weapons/aug/aug_boltpull.wav",
+      "sha256": "6f1e557bc2a7721530d078bd13e3b1e7dab1693318fc0db3d814fe59ee120cf9"
+    },
+    {
+      "path": "sound/weapons/aug/aug_boltslap.wav",
+      "sha256": "9c6e01989d1b4f101a7f911e0f59f17c585906a335fdfa38be6c489a85b9b1a7"
+    },
+    {
+      "path": "sound/weapons/aug/aug_clipin.wav",
+      "sha256": "13a659b748b1ed9f83f8eb30dad04d358df945f5771547e8d52ff35f6cae7fc8"
+    },
+    {
+      "path": "sound/weapons/aug/aug_clipout.wav",
+      "sha256": "676625ec6e1b323243d0d62988606c7b3b509ffb2e5b6c2cbc9a225ace6f8f79"
+    },
+    {
+      "path": "sound/weapons/aug/aug_forearm.wav",
+      "sha256": "b1f8baada80269d0b96c8b14c92bbc8062e5f576db7760b7c595218b96cb5ee6"
+    }
+  ]
+}
