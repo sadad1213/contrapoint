@@ -86,6 +86,7 @@ public partial class MainMenu : CanvasLayer
 
 	public override void _Input(InputEvent @event)
 	{
+		if (HandleOptionsInput(@event)) return;
 		if (_player?.TeamMenu?.IsOpen == true) return;
 		if (_player?.BuyMenu?.IsOpen == true) return;
 		if (_console?.HandleInput(@event) == true) return;
@@ -96,7 +97,8 @@ public partial class MainMenu : CanvasLayer
 			{
 				if (_pendingScene == null && !_changingScene)
 				{
-					if (IsSelectingMap) CloseMapSelection();
+					if (IsOptionsOpen) CloseOptions();
+					else if (IsSelectingMap) CloseMapSelection();
 					else if (_player != null) SetOpen(!IsOpen);
 				}
 				GetViewport().SetInputAsHandled();
@@ -123,6 +125,7 @@ public partial class MainMenu : CanvasLayer
 	public void OpenMapSelection()
 	{
 		if (_pendingScene != null || _changingScene) return;
+		_options.Hide();
 		_modal.Show();
 		_dialog.Show();
 		_loading.Hide();
@@ -161,6 +164,7 @@ public partial class MainMenu : CanvasLayer
 
 	public override void _Process(double delta)
 	{
+		ProcessOptions(delta);
 		if (_pendingScene == null) return;
 		var progress = new Godot.Collections.Array();
 		var status = ResourceLoader.LoadThreadedGetStatus(_pendingScene, progress);
@@ -284,9 +288,10 @@ public partial class MainMenu : CanvasLayer
 		subtitle.Modulate = new(1, 1, 1, 80 / 255f);
 		_menu = new Control { Name = "MainButtons", MouseFilter = Control.MouseFilterEnum.Pass };
 		_root.AddChild(_menu);
-		for (var i = 0; i < 2; i++)
+		for (var i = 0; i < 3; i++)
 		{
-			var button = new Button { Name = i == 0 ? "Play" : "Quit", Text = i == 0 ? "Play" : "Quit",
+			var titleText = new[] { "Play", "Options", "Quit" }[i];
+			var button = new Button { Name = titleText, Text = titleText,
 				Alignment = HorizontalAlignment.Left };
 			_menu.AddChild(button);
 			Rect(button, 0, i * 22, 120, 22);
@@ -298,6 +303,7 @@ public partial class MainMenu : CanvasLayer
 			button.AddThemeColorOverride("font_focus_color", Colors.White);
 			WireSound(button);
 			if (i == 0) { _play = button; button.Pressed += OpenMapSelection; }
+			else if (i == 1) button.Pressed += OpenOptions;
 			else button.Pressed += () => GetTree().Quit();
 		}
 
@@ -325,6 +331,7 @@ public partial class MainMenu : CanvasLayer
 				frame.DrawLine(Vector2.Zero, new(frame.Size.X, 0), new("c8c8c8c4"));
 				frame.DrawLine(Vector2.Zero, new(0, frame.Size.Y), new("c8c8c8c4"));
 			};
+		BuildOptions();
 		RestoreSetup();
 	}
 
@@ -335,7 +342,7 @@ public partial class MainMenu : CanvasLayer
 		var menuScale = size.Y / 480f;
 		_titles.Scale = _menu.Scale = Vector2.One * menuScale;
 		_menu.Position = new(32 * menuScale, 248 * menuScale);
-		_menu.Size = new(120, 44);
+		_menu.Size = new(120, 66);
 		_background.Texture = size.X / Mathf.Max(1, size.Y) >= 1.5999f ? _wideBackground : _standardBackground;
 		// Desktop HL2 dialogs use fixed pixel dimensions; only shrink when the window cannot fit them.
 		var dialogScale = Mathf.Min(1, Mathf.Min((size.X - 24) / _dialog.Size.X, (size.Y - 24) / _dialog.Size.Y));
@@ -343,5 +350,6 @@ public partial class MainMenu : CanvasLayer
 		_dialog.Scale = _loading.Scale = Vector2.One * dialogScale;
 		_dialog.Position = (size - _dialog.Size * dialogScale) * 0.5f;
 		_loading.Position = (size - _loading.Size * dialogScale) * 0.5f;
+		LayoutOptions();
 	}
 }

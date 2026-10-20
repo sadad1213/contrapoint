@@ -28,6 +28,7 @@ public static partial class ConsoleCommands
 		RegisterDefuse();
 		RegisterBots();
 		RegisterHud();
+		RegisterVideo();
 	}
 
 	// Register once: execution and autocomplete always use the same command catalog.

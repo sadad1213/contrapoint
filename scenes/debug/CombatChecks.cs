@@ -258,7 +258,7 @@ public partial class CombatChecks : Node3D
 		Check(effects.GlobalPosition.IsEqualApprox(effectsPosition), "World effects must not follow player movement.");
 		foreach (var child in effects.GetChildren()) if (child is ShotTracer tracer) tracer._Process(1);
 		await Frame();
-		Check(effects.GetChildCount() == 0, "Tracers must expire promptly instead of accumulating.");
+		Check(!effects.GetChildren().OfType<ShotTracer>().Any(), "Tracers must expire promptly instead of accumulating.");
 		_player.QueueFree();
 		await Frame();
 	}

@@ -284,6 +284,7 @@ public partial class WeaponCombat : Node
 
 	private void CreateTracer(Transform3D aim, Vector3 end)
 	{
+		if (_player.LocalInput && !_player.IsThirdPerson && Contrapoint.UI.GamePreferences.Value("r_drawtracers_firstperson", 1) == 0) return;
 		var start = TracerStart(aim, end);
 		// Source FX_PlayerTracer / FX_Tracer suppress paths shorter than 256 units.
 		const float minimumDistance = 256 * SourceMovement.Unit;
@@ -304,7 +305,7 @@ public partial class WeaponCombat : Node
 
 	private void CreateMark(Node3D collider, Vector3 point, Vector3 normal, string surface, bool knife, bool stab)
 	{
-		if (!knife && !normal.IsZeroApprox())
+		if (!knife && !normal.IsZeroApprox() && Contrapoint.UI.GamePreferences.Value("cl_new_impact_effects", 1) != 0)
 		{
 			while (_impacts.Count > 0 && !GodotObject.IsInstanceValid(_impacts.Peek())) _impacts.Dequeue();
 			while (_impacts.Count >= 48)

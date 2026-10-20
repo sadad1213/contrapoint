@@ -3,6 +3,11 @@ extends SceneTree
 func _initialize() -> void:
  call_deferred("preview")
 
+func particle_transform(node: GeometryInstance3D) -> Transform3D:
+ if node is MultiMeshInstance3D:
+  return node.global_transform * node.multimesh.get_instance_transform(0)
+ return node.global_transform
+
 func preview() -> void:
  root.size = Vector2i(1280, 720)
  var scene := Node3D.new()
@@ -85,21 +90,22 @@ func preview() -> void:
   effect.set_process(false)
   effect.set_physics_process(false)
   effect.call("_PhysicsProcess", 1.0 / 66)
-  var puff: MeshInstance3D = effect.get_node("impact_concrete_child_base")
+  var puff: GeometryInstance3D = effect.get_node("impact_concrete_child_base")
   effect.call("_Process", .04)
-  var first := puff.global_position
+  var first := particle_transform(puff).origin
   effect.call("_Process", .01)
-  var motion := (puff.global_position - first).normalized()
+  var motion := (particle_transform(puff).origin - first).normalized()
   assert(motion.dot(normal) > .999, "Dust must emit along the hit normal")
   # The elongated quad's local Y axis must follow its projected motion.
   for child in effect.get_children():
    if not child.name.to_lower().contains("burst"): continue
-   var start: Vector3 = child.global_position
+   if child is MultiMeshInstance3D and child.multimesh.visible_instance_count == 0: continue
+   var start: Vector3 = particle_transform(child).origin
    effect.call("_Process", .001)
-   var projected: Vector3 = camera.global_basis.inverse() * (child.global_position - start)
+   var projected: Vector3 = camera.global_basis.inverse() * (particle_transform(child).origin - start)
    projected.z = 0
    if projected.length() > .0001:
-    var axis: Vector3 = camera.global_basis.inverse() * child.global_basis.y.normalized()
+    var axis: Vector3 = camera.global_basis.inverse() * particle_transform(child).basis.y.normalized()
     assert(abs(axis.normalized().dot(projected.normalized())) > .98, "Trail rotation must follow motion")
   effect.free()
  print("CSSO_IMPACT_NORMALS_AND_TRAILS_OK wall floor ceiling")

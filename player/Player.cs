@@ -137,7 +137,7 @@ public partial class Player : CharacterBody3D
 			((MeshInstance3D)child).Layers = 2;
 		if (LocalInput)
 		{
-			GetViewport().Msaa3D = Viewport.Msaa.Msaa4X;
+			GetViewport().Msaa3D = (Viewport.Msaa)(int)GamePreferences.Value("cp_antialias", 2);
 			SetMouseCaptured(true);
 		}
 		if (Team == PlayerTeam.Unassigned || LocalInput && !SpawnPointsRootPath.IsEmpty)

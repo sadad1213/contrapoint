@@ -1,22 +1,28 @@
 using Godot;
 using System.Collections.Generic;
+using Contrapoint.Weapons;
 
 namespace Contrapoint.Players;
 
 // FX_CS_BloodSpray core/gore/drop textures, sizes, lifetimes and gravity.
-// Godot sprites replace Source's particle emitter and ambient-light sampling.
+// Batched billboards preserve the existing sprites' motion, scale and tint.
 public partial class SourceDamageEffects : Node3D
 {
 	public static bool BloodEnabled { get; set; } = true;
 	private sealed class Particle
 	{
-		public Sprite3D Sprite = null!;
-		public Vector3 Velocity;
+		public CssoParticleBatch Batch = null!;
+		public int Slot = -1;
+		public Vector3 Origin, Velocity;
+		public float Aspect;
 		public float Age, Life, Start, End, Gravity;
 		public Color Color;
 	}
 	private readonly List<Particle> _particles = new();
-	private static readonly Dictionary<string, Texture2D> Textures = new();
+	private readonly Dictionary<string, CssoParticleBatch> _batches = new();
+	private readonly Plane[] _frustum = new Plane[6];
+	private static readonly Dictionary<string, (ShaderMaterial Material, float Aspect)> Materials = new();
+	private static readonly QuadMesh Quad = new() { Size = Vector2.One };
 	private float Rand(float min, float max) => (float)GD.RandRange(min, max);
 	private Vector3 RandomVector() => new(Rand(-1, 1), Rand(-1, 1), Rand(-1, 1));
 	public static void Spawn(Node3D parent, Vector3 position, Vector3 direction, float magnitude, bool helmet)
@@ -25,22 +31,27 @@ public partial class SourceDamageEffects : Node3D
 		var effect = new SourceDamageEffects { Name = "DamageImpact" };
 		parent.AddChild(effect); effect.GlobalPosition = position;
 		effect.Emit(-direction.Normalized(), magnitude, helmet);
+		foreach (var batch in effect._batches.Values) batch.Allocate(batch.Count);
 	}
 	private void Add(string name, Vector3 at, Vector3 velocity, float life, float start, float end, float gravity, Color color)
 	{
-		if (!Textures.TryGetValue(name, out var texture))
+		if (!Materials.TryGetValue(name, out var info))
 		{
-			texture = GD.Load<Texture2D>($"res://assets/effects/css_damage/{name}.png"); Textures.Add(name, texture);
+			var texture = GD.Load<Texture2D>($"res://assets/effects/css_damage/{name}.png");
+			var material = new ShaderMaterial { Shader = GD.Load<Shader>("res://weapons/effects/source_damage_batch.gdshader") };
+			material.SetShaderParameter("sheet", texture);
+			info = (material, (float)texture.GetHeight() / texture.GetWidth());
+			Materials.Add(name, info);
 		}
-		var sprite = new Sprite3D
+		if (!_batches.TryGetValue(name, out var batch))
 		{
-			Texture = texture, Billboard = BaseMaterial3D.BillboardModeEnum.Enabled,
-			PixelSize = SourceMovement.Unit / texture.GetWidth(), Position = at * SourceMovement.Unit,
-			Modulate = color, Scale = Vector3.One * start * 2, Axis = Vector3.Axis.Z
-		};
-		AddChild(sprite);
-		_particles.Add(new() { Sprite = sprite, Velocity = velocity * SourceMovement.Unit,
-			Life = life, Start = start * 2, End = end * 2, Gravity = gravity * SourceMovement.Unit, Color = color });
+			batch = new(this, name, Quad, info.Material);
+			_batches.Add(name, batch);
+		}
+		batch.Count++;
+		_particles.Add(new() { Batch = batch, Origin = at * SourceMovement.Unit, Velocity = velocity * SourceMovement.Unit, Aspect = info.Aspect,
+			Life = life, Start = start * 2, End = end * 2, Gravity = gravity * SourceMovement.Unit,
+			Color = new Color(Mathf.Floor(color.R * 255) / 255, Mathf.Floor(color.G * 255) / 255, Mathf.Floor(color.B * 255) / 255).SrgbToLinear() });
 	}
 	private void Emit(Vector3 normal, float magnitude, bool helmet)
 	{
@@ -67,17 +78,36 @@ public partial class SourceDamageEffects : Node3D
 	}
 	public override void _Process(double delta)
 	{
+		var camera = GetViewport().GetCamera3D();
+		var basis = camera?.GlobalBasis ?? Basis.Identity;
+		var origin = GlobalPosition;
+		if (camera != null) camera.GetFrustum().CopyTo(_frustum, 0);
+		foreach (var batch in _batches.Values) batch.Begin();
 		for (var i = 0; i < _particles.Count;)
 		{
 			var particle = _particles[i]; particle.Age += (float)delta;
-			if (particle.Age >= particle.Life) { particle.Sprite.QueueFree(); _particles.RemoveAt(i); continue; }
+			if (particle.Age >= particle.Life) { _particles.RemoveAt(i); continue; }
 			var t = particle.Age / particle.Life;
-			particle.Sprite.Position += particle.Velocity * (float)delta;
+			particle.Origin += particle.Velocity * (float)delta;
 			particle.Velocity += Vector3.Down * particle.Gravity * (float)delta;
-			particle.Sprite.Scale = Vector3.One * Mathf.Lerp(particle.Start, particle.End, t);
-			var color = particle.Color; color.A = 1 - t; particle.Sprite.Modulate = color;
 			i++;
+			particle.Slot = -1;
+			if (camera == null) continue;
+			var scale = Mathf.Lerp(particle.Start, particle.End, t);
+			var width = scale * SourceMovement.Unit;
+			var height = width * particle.Aspect;
+			var center = origin + particle.Origin;
+			var radius = .5f * new Vector2(width, height).Length();
+			var visible = true;
+			foreach (var plane in _frustum)
+				if (plane.DistanceTo(center) > radius) { visible = false; break; }
+			if (!visible) continue;
+			// Sprite3D stored modulate in an 8-bit vertex color. Preserve its
+			// truncation and sRGB conversion when replacing it with float instances.
+			var color = particle.Color; color.A = Mathf.Floor((1 - t) * 255) / 255;
+			particle.Slot = particle.Batch.Add(new(basis * Basis.FromScale(new(width, height, scale)), center), color, 0, 0, 0, 0);
 		}
+		foreach (var batch in _batches.Values) batch.Flush();
 		if (_particles.Count == 0) QueueFree();
 	}
 }

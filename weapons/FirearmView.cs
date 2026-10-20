@@ -56,6 +56,10 @@ public partial class FirearmView : WeaponView
 	private Action _action;
 	private double _fireRemaining;
 	private double _zoomRemaining;
+	// CSS keeps the magnification of a scoped shot (player m_iLastZoom) and the
+	// pending restore flag (player m_bResumeZoom) on the player.
+	private int _resumeZoom;
+	private bool _resumeZoomPending;
 	private double _animationLength;
 	private bool _animationLoops;
 	private bool _triggerHeld;
@@ -70,6 +74,9 @@ public partial class FirearmView : WeaponView
 	private string[] _shots = [];
 	private bool HasSilencer => Kind is FirearmKind.USP or FirearmKind.M4A1;
 	private bool HasZoom => IsSniper || Kind is FirearmKind.AUG or FirearmKind.SG552;
+	// CSS releases the scope after a scoped shot only for the AWP and the Scout
+	// (game/shared/cstrike/weapon_awp.cpp, weapon_scout.cpp).
+	private bool HasResumeZoom => Kind is FirearmKind.AWP or FirearmKind.Scout;
 	private bool Automatic => FirearmData.For(Kind).Automatic;
 	private double BurstShotInterval => Kind == FirearmKind.Glock ? .06 : .075;
 	public double FireInterval => BurstMode ? Kind == FirearmKind.Glock ? .5 : .55
@@ -128,6 +135,7 @@ public partial class FirearmView : WeaponView
 		_triggerHeld = false;
 		_secondaryHeld = false;
 		_burstRemaining = 0;
+		ClearResumeZoom();
 		SetZoom(0);
 		Play(Clip(_draw), Action.Draw);
 	}
@@ -139,6 +147,7 @@ public partial class FirearmView : WeaponView
 		_triggerHeld = false;
 		_secondaryHeld = false;
 		_burstRemaining = 0;
+		ClearResumeZoom();
 		SetZoom(0);
 		_action = Action.Idle; // An interrupted silencer change keeps the committed state.
 		Animations.Stop();
@@ -186,6 +195,14 @@ public partial class FirearmView : WeaponView
 		if (HasZoom && _secondaryHeld && DeployRemaining <= 0 && !Busy
 			&& _fireRemaining <= 0 && _zoomRemaining <= .000001) Secondary();
 		else if (_triggerHeld && Automatic) TryFire();
+		// CSS CWeaponCSBaseGun::ItemPostFrame: the scope returns to the
+		// magnification of the last scoped shot once the weapon can fire again.
+		if (_resumeZoomPending && _fireRemaining <= 0 && !Busy && DeployRemaining <= 0)
+		{
+			_resumeZoomPending = false;
+			// An empty magazine starts the reload, which keeps the scope off.
+			if (MagazineAmmo > 0) SetZoom(_resumeZoom);
+		}
 	}
 
 	private void Play(string clip, Action action)
@@ -236,7 +253,14 @@ public partial class FirearmView : WeaponView
 			: Kind == FirearmKind.M4A1 && Silenced ? "weapon_m4a1.silenced"
 			: FirearmData.For(Kind).Sound;
 		Sounds.PlayScript(shot);
-		if (Kind is FirearmKind.AWP or FirearmKind.Scout) SetZoom(0);
+		// CSS: a scoped shot drops the scope and remembers the magnification it
+		// was fired from; the scope returns to it once the weapon is ready again.
+		if (HasResumeZoom && ZoomLevel > 0)
+		{
+			_resumeZoom = ZoomLevel;
+			_resumeZoomPending = true;
+			SetZoom(0);
+		}
 		if (!animate) return;
 		var clip = Clip(_shots[_fireIndex++ % _shots.Length]);
 		if (Kind == FirearmKind.Elite)
@@ -253,6 +277,8 @@ public partial class FirearmView : WeaponView
 		if (DeployRemaining > 0 || Busy || _burstRemaining > 0 || MagazineAmmo >= MagazineCapacity || ReserveAmmo == 0 || ((IsSniper || IsShotgun) && _fireRemaining > 0)) return;
 		Wielder?.Recoil.ResetBurst();
 		RifleAccuracy.Reset();
+		// A reload unscopes for good; the pending scope resume does not survive it.
+		ClearResumeZoom();
 		SetZoom(0);
 		Play(Clip(_reload), IsShotgun ? Action.ReloadStart : Action.Reload);
 	}
@@ -274,6 +300,9 @@ public partial class FirearmView : WeaponView
 			_zoomRemaining = .3;
 		}
 	}
+
+	// CSS CWeaponCSBase::Deploy drops the pending scope resume.
+	private void ClearResumeZoom() { _resumeZoom = 0; _resumeZoomPending = false; }
 
 	private void SetZoom(int level)
 	{

@@ -13,7 +13,7 @@ public static partial class ConsoleCommands
 {
 	// Command names/semantics follow Source engine keys.cpp, cmd.cpp, in_main.cpp,
 	// in_mouse.cpp and movevars_shared.cpp (nillerusr/source-engine mirror).
-	private sealed record Variable(float Default, float Min, float Max, bool Integer, bool Archive, bool Cheat, bool ServerOnly,
+	private sealed record Variable(float Default, float Min, float Max, bool Integer, bool Archive, bool Cheat, bool ServerOnly, bool Global,
 		Func<SourceMovement, float> Get, Action<SourceMovement, float> Set, string Help);
 	private static readonly Dictionary<string, Variable> Variables = new(StringComparer.OrdinalIgnoreCase);
 	private static readonly Dictionary<string, float> Overrides = new(StringComparer.OrdinalIgnoreCase);
@@ -24,7 +24,8 @@ public static partial class ConsoleCommands
 	private static bool _loading;
 	private static bool _configDirty;
 	public static bool IsAlias(string name) => Aliases.ContainsKey(name);
-	public static string ConfigDirectory => OS.GetCmdlineUserArgs().Contains("--console-test-profile") ? "user://console_test/cfg" : "user://cfg";
+	public static string ConfigDirectory => OS.GetCmdlineUserArgs().Contains("--options-test-profile") ? "user://options_test/cfg"
+		: OS.GetCmdlineUserArgs().Contains("--console-test-profile") ? "user://console_test/cfg" : "user://cfg";
 	private static Player Owner(SourceMovement movement) => movement.GetParent<Player>();
 	private static Crosshair Sight(SourceMovement movement) => Owner(movement).GetNode<Crosshair>("HUD/Crosshair");
 	private static string Number(float value) => value.ToString("G9", CultureInfo.InvariantCulture);
@@ -44,9 +45,9 @@ public static partial class ConsoleCommands
 
 	public static void RegisterVariable(string name, float initial, float min, float max,
 		Func<SourceMovement, float> get, Action<SourceMovement, float> set, string help, bool archive = true, bool integer = false,
-		bool serverOnly = false, bool cheat = false)
+		bool serverOnly = false, bool cheat = false, bool global = false)
 	{
-		Variables[name] = new(initial, min, max, integer, archive, cheat, serverOnly, get, set, help);
+		Variables[name] = new(initial, min, max, integer, archive, cheat, serverOnly, global, get, set, help);
 		Register(name, (args, movement, print) =>
 		{
 			var variable = Variables[name];
@@ -294,7 +295,7 @@ public static partial class ConsoleCommands
 		var text=new StringBuilder("// Contrapoint console settings\nunbindall\n");
 		foreach(var pair in Aliases.OrderBy(x=>x.Key)) text.AppendLine($"alias {Quote(pair.Key)} {Quote(pair.Value)}");
 		foreach(var pair in ConsoleBindings.Keys.OrderBy(x=>x.Key)) text.AppendLine($"bind {Quote(pair.Key)} {Quote(pair.Value)}");
-		foreach(var pair in Variables.Where(x=>x.Value.Archive).OrderBy(x=>x.Key)) text.AppendLine(pair.Key+" "+Number(pair.Value.Get(m)));
+		foreach(var pair in Variables.Where(x=>x.Value.Archive).OrderBy(x=>x.Key)) text.AppendLine(pair.Key+" "+Number(OptionValue(pair.Key, m?.GetParent<Player>())));
 		// Read the live settings before opening the file, which truncates it.
 		DirAccess.MakeDirRecursiveAbsolute(ConfigDirectory);
 		using var file=FileAccess.Open(ConfigDirectory+"/"+name,FileAccess.ModeFlags.Write);
@@ -316,6 +317,7 @@ public static partial class ConsoleCommands
 				if (variable.Cheat && !SourceDamageRules.Cheats || variable.ServerOnly && Contrapoint.Network.LanSession.Instance?.IsClient == true) continue;
 				variable.Set(player.Movement,pair.Value);
 			}
+			GamePreferences.Instance?.NormalizeAutomaticResolution();
 			return;
 		}
 		_initialized=true;
@@ -327,6 +329,7 @@ public static partial class ConsoleCommands
 			if(FileAccess.FileExists(ConfigDirectory+"/autoexec.cfg")||FileAccess.FileExists("res://cfg/autoexec.cfg")) Exec(new[]{"exec","autoexec"},player.Movement,player.Console!.Print);
 		}
 		finally { _loading=false; }
+		GamePreferences.Instance?.NormalizeAutomaticResolution();
 	}
 	public static void Save(Player player)
 	{

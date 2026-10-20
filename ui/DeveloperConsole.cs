@@ -73,7 +73,7 @@ public partial class DeveloperConsole : CanvasLayer
 	{
 		var boundKey = ConsoleBindings.EventKey(@event);
 		if (boundKey != null && ConsoleBindings.Keys.TryGetValue(boundKey, out var binding) &&
-			binding.Equals("toggleconsole", StringComparison.OrdinalIgnoreCase))
+			binding.Equals("toggleconsole", StringComparison.OrdinalIgnoreCase) && (IsOpen || GamePreferences.Value("con_enable", 1) != 0))
 		{
 			if (@event.IsPressed() && @event is not InputEventKey { Echo: true }) Toggle();
 			GetViewport().SetInputAsHandled();

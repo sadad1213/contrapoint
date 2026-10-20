@@ -11,13 +11,14 @@ config_version=5
 [application]
 
 config/name="Contrapoint"
-config/version="DevBuild v101926"
+config/version="v191026v4"
 run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.8", "C#", "Forward Plus")
 config/icon="res://icon-contrapoint-v2.png"
 
 [autoload]
 
+GamePreferences="*res://ui/GamePreferences.cs"
 BuildVersion="*res://ui/BuildVersion.cs"
 LanSession="*res://network/LanSession.cs"
 RoundState="*res://gameplay/RoundState.cs"

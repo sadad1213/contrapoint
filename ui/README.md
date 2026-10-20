@@ -34,7 +34,7 @@ covering 1280 x 720, 1920 x 1080 and 1024 x 768. Test profiles isolate saved
 console/setup/favorite settings from normal play.
 
 The application starts at `scenes/main_menu.tscn`. `MainMenu.cs` recreates the CSS
-desktop menu with only **Play** and **Quit**. Play opens HL2's chapter-selection
+desktop menu with **Play**, **Options** and **Quit**. Play opens the CS:SO server
 layout, adapted to three playable maps: `de_dust2`, `de_inferno`, and `kz_jayverb000`.
 
 Original references are preserved in `tools/source_import/references/gameui/`:
@@ -71,6 +71,52 @@ With a loaded map, archived console settings (including mouse sensitivity),
 bindings and aliases save automatically to `user://cfg/config.cfg` after each command batch. Startup
 loads the saved config before `autoexec.cfg`; changing maps keeps runtime values.
 `host_writeconfig [name]` remains available for exporting a named config.
+
+## CSSO Options
+
+Options uses the installed **Counter-Strike: Source Offensive** `CSOptionsDialog`
+resources: a native-pixel 640 × 480 frame, vertical Game/Controls/Audio/Video
+sections and the original nested pages and field positions. Run
+`python tools/source_import/import_csso_options.py` to reproduce the import;
+original resources and source hashes are in `tools/source_import/references/options`.
+Disabled controls explicitly identify CSSO features that have no implementation
+here (voice transport, music categories, Source HDR/shader presets, motion blur,
+HD content and unsupported HUD/gameplay variants).
+
+Mouse, key/mouse-button bindings, master volume, crosshair preview/settings,
+viewmodel FOV/bob, supported gameplay preferences and rendering settings share
+the existing console archive. Apply updates live values and writes
+`user://cfg/config.cfg`; Cancel/Escape discard the current draft. The same
+preferences apply before loading a map, after changing maps and after restart.
+Offline Options preserves the pause state; LAN menus keep the match running.
+
+Rendering controls change world/weapon MSAA, mesh LOD thresholds, texture mip
+detail/filtering (including embedded transparent/two-sided map shaders), dynamic
+shadow resolution/filtering, water shading, exposure, VSync and FPS cap.
+Imported map lightmaps retain baked shadows. Model detail affects meshes with
+imported LODs. Texture detail/filter changes update uniforms on shared shaders,
+avoiding fresh shader variants each time. Bilinear uses a single mip level and
+retains the selected texture detail. UI textures/lightmaps remain full quality.
+
+Startup preserves native 3D rendering resolution. Older configs containing the
+initial 1280 × 720 defaults also keep native resolution until a resolution is
+explicitly selected. A deliberate lower fullscreen resolution scales both world
+and weapon render passes; UI stays native. Display changes have a 15-second
+Keep/Revert confirmation and are saved only after Keep.
+
+Regression checks use `--options-test-profile`, isolated from real player settings:
+
+```text
+dotnet build --no-restore
+Godot --headless --audio-driver Dummy --path . res://scenes/debug/options_checks.tscn -- --options-test-profile --menu-test-profile
+Godot --headless --audio-driver Dummy --path . res://scenes/debug/options_checks.tscn -- --options-test-profile --menu-test-profile --options-read
+Godot --audio-driver Dummy --path . res://scenes/debug/options_checks.tscn -- --options-test-profile --menu-test-profile --options-display-check
+Godot --audio-driver Dummy --path . res://scenes/debug/options_checks.tscn -- --options-test-profile --menu-test-profile --options-preview
+Godot --audio-driver Dummy --path . res://scenes/debug/options_map_checks.tscn -- --options-test-profile --options-native-preview
+```
+
+Map checks inspect every native Dust II material and compare actual Low/High/Low
+rendered frames. Use `--options-map=de_inferno` to inspect another native map.
 
 `cleanup` removes world weapon pickups (including dropped guns and grenade pickups),
 preserving map props and player inventories. It prints the number removed, needs

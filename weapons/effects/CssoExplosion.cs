@@ -27,16 +27,22 @@ public partial class CssoExplosion : Node3D
 	private static readonly Dictionary<string, ShaderMaterial> Materials = new();
 	private static readonly QuadMesh Quad = new() { Size = Vector2.One };
 	private readonly List<Particle> _particles = new();
+	private readonly List<CssoParticleBatch> _batches = new();
 	private readonly RandomNumberGenerator _random = new();
+	private readonly Plane[] _frustum = new Plane[6];
 	private float _age;
 	private bool _initialized;
 
 	private sealed class Particle
 	{
 		public MeshInstance3D Mesh = null!;
+		public CssoParticleBatch Batch = null!;
+		public CssoParticleSheet.Sequence CachedSequence = null!, CachedSecondSequence = null!;
+		public int Slot = -1;
 		public JsonElement Sequence, SecondSequence;
 		public Vector3 Origin, Velocity, Gravity;
 		public Color Color;
+		public Color LinearColor;
 		public float Birth, Life, Radius, StartScale, EndScale, ScaleEnd, Bias, Drag;
 		public float FadeIn, FadeOut, Rotation, Spin, AnimationRate, SecondRate, Trail, TrailFadeIn;
 		public float CullDistance, CullPlane, MaxTrail;
@@ -83,7 +89,7 @@ public partial class CssoExplosion : Node3D
 		var refract = B(info, "refract");
 		var shader = GD.Load<Shader>(refract ? "res://weapons/effects/csso_refract.gdshader" : "res://weapons/effects/csso_particle.gdshader");
 		// Impact sheets pack small neighboring sprites; atlas mipmaps bleed between them.
-		if (IsImpact) shader = new Shader { Code = shader.Code.Replace("filter_linear_mipmap", "filter_linear") };
+		if (IsImpact && !refract) shader = GD.Load<Shader>("res://weapons/effects/csso_particle_batch.gdshader");
 		if (B(info, "additive") || B(info, "mod2x"))
 		{
 			var code = shader.Code.Replace("depth_draw_never;", "depth_draw_never, " + (B(info, "mod2x") ? "blend_mul;" : "blend_add;"));
@@ -96,6 +102,7 @@ public partial class CssoExplosion : Node3D
 		// Map decals use priority 1; explosion smoke must composite after them.
 		var material = new ShaderMaterial { Shader = shader, RenderPriority = 2 };
 		material.SetShaderParameter("sheet", GD.Load<Texture2D>(Root + info.GetProperty("texture").GetString()));
+		if (IsImpact && !refract) material.SetShaderParameter("frame_rects", CssoParticleSheet.Get(Root + name, info).Texture);
 		if (!refract)
 		{
 			material.SetShaderParameter("soft_particle", B(info, "depth_blend"));
@@ -116,6 +123,8 @@ public partial class CssoExplosion : Node3D
 		if (_initialized) return;
 		_initialized = true;
 		InitializeSystems();
+		foreach (var batch in _batches) batch.Allocate(batch.Count);
+		SetPhysicsProcess(false);
 	}
 
 	protected virtual void InitializeSystems()
@@ -146,6 +155,24 @@ public partial class CssoExplosion : Node3D
 		var name = definition.GetProperty("material").GetString()!.Replace('\\', '/');
 		var material = Data.RootElement.GetProperty("materials").GetProperty(name);
 		var renderer = definition.GetProperty("renderers")[0];
+		// Cache operator lookup once per emitter, rather than scanning JSON for
+		// every attribute of every particle in the burst.
+		static Dictionary<string, JsonElement> Operators(JsonElement definition, string group)
+		{
+			var result = new Dictionary<string, JsonElement>(StringComparer.OrdinalIgnoreCase);
+			foreach (var op in definition.GetProperty(group).EnumerateArray()) result.TryAdd(op.GetProperty("functionName").GetString()!, op);
+			return result;
+		}
+		var initializers = Operators(definition, "initializers");
+		var operators = Operators(definition, "operators");
+		JsonElement Init(string op) => initializers.GetValueOrDefault(op);
+		JsonElement Oper(string op) => operators.GetValueOrDefault(op);
+		CssoParticleBatch? batch = null;
+		if (IsImpact && !B(material, "refract"))
+		{
+			batch = new(this, definition.GetProperty("name").GetString()!, Quad, Material(name, material), CssoParticleSheet.Get(Root + name, material));
+			_batches.Add(batch);
+		}
 		foreach (var emitter in definition.GetProperty("emitters").EnumerateArray())
 		{
 			var continuous = emitter.GetProperty("functionName").GetString() == "emit_continuously";
@@ -155,8 +182,6 @@ public partial class CssoExplosion : Node3D
 			count = Math.Min(count, (int)F(definition, "max_particles", 1000));
 			for (var i = 0; i < count; i++)
 			{
-				JsonElement Init(string op) => Op(definition, "initializers", op);
-				JsonElement Oper(string op) => Op(definition, "operators", op);
 				var lifetime = Init("Lifetime Random");
 				var life = Range(lifetime, "lifetime_min", "lifetime_max", 1, 1);
 				if (IsImpact) life = Mathf.Lerp(F(lifetime, "lifetime_min", 1), F(lifetime, "lifetime_max", 1), Mathf.Pow(_random.Randf(), F(lifetime, "lifetime_random_exponent", 1)));
@@ -218,9 +243,13 @@ public partial class CssoExplosion : Node3D
 					&& !definition.GetProperty("name").GetString()!.Contains("clumps");
 				var sequence = Init("Sequence Random");
 				var second = Init("Sequence Two Random");
-				var mesh = new MeshInstance3D { Name = definition.GetProperty("name").GetString()!, Mesh = Quad, MaterialOverride = Material(name, material), Visible = false, CastShadow = GeometryInstance3D.ShadowCastingSetting.Off };
-				AddChild(mesh);
-				_particles.Add(new Particle
+				MeshInstance3D mesh = null!;
+				if (batch == null)
+				{
+					mesh = new MeshInstance3D { Name = definition.GetProperty("name").GetString()!, Mesh = Quad, MaterialOverride = Material(name, material), Visible = false, CastShadow = GeometryInstance3D.ShadowCastingSetting.Off };
+					AddChild(mesh);
+				}
+				var particle = new Particle
 				{
 					Mesh = mesh, Birth = birth, Life = life, Origin = offset * Unit, Velocity = velocity * Unit,
 					Gravity = V(movement, "gravity") * Unit, Drag = F(movement, "drag"), Color = color, Radius = radius * Unit,
@@ -243,7 +272,16 @@ public partial class CssoExplosion : Node3D
 					CullDistance = F(Oper("Cull when crossing sphere"), "Cull Distance", float.MaxValue) * Unit,
 					CullPlane = F(Oper("Cull when crossing plane"), "Cull plane offset", float.MinValue) * Unit,
 					Collide = (IsImpact && Op(definition, "constraints", "Collision via traces").ValueKind == JsonValueKind.Object) || definition.GetProperty("name").GetString()!.Contains("shrapnel") || definition.GetProperty("name").GetString()!.Contains("clumps")
-				});
+				};
+				if (batch != null)
+				{
+					particle.Batch = batch;
+					particle.LinearColor = particle.Color.SrgbToLinear();
+					particle.CachedSequence = batch.Sheet.GetSequence(particle.Sequence);
+					particle.CachedSecondSequence = batch.Sheet.GetSequence(particle.SecondSequence);
+					batch.Count++;
+				}
+				_particles.Add(particle);
 			}
 		}
 	}
@@ -278,14 +316,23 @@ public partial class CssoExplosion : Node3D
 		if (_age > 12) { QueueFree(); return; }
 		var camera = GetViewport().GetCamera3D();
 		if (camera == null) return;
+		var cameraBasis = camera.GlobalBasis;
+		var cameraInverse = cameraBasis.Inverse();
+		var worldOrigin = GlobalPosition;
+		camera.GetFrustum().CopyTo(_frustum, 0);
+		var space = GetWorld3D().DirectSpaceState;
+		PhysicsRayQueryParameters3D? collisionRay = null;
+		foreach (var batch in _batches) batch.Begin();
 		var alive = false;
 		foreach (var p in _particles)
 		{
 			var age = _age - p.Birth;
 			var end = Math.Min(p.Life, p.RetireAge + p.RetireSeconds);
-			p.Mesh.Visible = age >= 0 && age < end;
+			p.Slot = -1;
+			var visible = age >= 0 && age < end;
+			if (p.Batch == null) p.Mesh.Visible = visible;
 			if (age < end) alive = true;
-			if (!p.Mesh.Visible) continue;
+			if (!visible) continue;
 			var step = Math.Min((float)delta, age);
 			// Source drag is a per-second damping coefficient scaled by its 30 Hz reference.
 			var old = p.Origin;
@@ -310,11 +357,14 @@ public partial class CssoExplosion : Node3D
 			}
 			if (p.Collide && old.DistanceSquaredTo(p.Origin) > 0.00001f)
 			{
-				var hit = GetWorld3D().DirectSpaceState.IntersectRay(PhysicsRayQueryParameters3D.Create(GlobalPosition + old, GlobalPosition + p.Origin, 1));
+				collisionRay ??= PhysicsRayQueryParameters3D.Create(Vector3.Zero, Vector3.Zero, 1);
+				collisionRay.From = worldOrigin + old;
+				collisionRay.To = worldOrigin + p.Origin;
+				var hit = space.IntersectRay(collisionRay);
 				if (hit.Count > 0)
 				{
 					var normal = hit["normal"].AsVector3();
-					p.Origin = hit["position"].AsVector3() - GlobalPosition + normal * 0.005f;
+					p.Origin = hit["position"].AsVector3() - worldOrigin + normal * 0.005f;
 					p.Velocity = p.Velocity.Bounce(normal) * 0.25f;
 				}
 			}
@@ -323,17 +373,13 @@ public partial class CssoExplosion : Node3D
 			t = t / ((1 / bias - 2) * (1 - t) + 1);
 			var sizeScale = IsImpact ? 1f / 1.5f : 1f;
 			var size = Math.Max(0.001f, p.Radius * 2 * Mathf.Lerp(p.StartScale, p.EndScale, t)) * sizeScale;
-			var color = p.Color;
-			color.A *= (p.FadeIn > 0 ? Mathf.SmoothStep(0, 1, age / p.FadeIn) : 1)
-				* (p.FadeOut > 0 ? Mathf.SmoothStep(0, 1, (p.Life - age) / p.FadeOut) : 1)
-				* (1 - Mathf.SmoothStep(0, 1, (age - p.RetireAge) / p.RetireSeconds));
 			var angle = p.Rotation + p.Spin * age;
-			var basis = p.SurfaceAligned ? new Basis(EmissionBasis.X, -EmissionBasis.Z, EmissionBasis.Y) : camera.GlobalBasis;
+			var basis = p.SurfaceAligned ? new Basis(EmissionBasis.X, -EmissionBasis.Z, EmissionBasis.Y) : cameraBasis;
 			var scale = new Vector3(size, size, 1);
 			var center = p.Origin;
 			if (p.Trail > 0)
 			{
-				var screenVelocity = basis.Inverse() * p.Velocity;
+				var screenVelocity = (p.SurfaceAligned ? basis.Inverse() : cameraInverse) * p.Velocity;
 				angle = Mathf.Atan2(-screenVelocity.X, screenVelocity.Y);
 				// A trail moving toward the camera must not become a vertical streak.
 				var projectedSpeed = new Vector2(screenVelocity.X, screenVelocity.Y).Length();
@@ -342,8 +388,33 @@ public partial class CssoExplosion : Node3D
 				if (projectedSpeed > .0001f)
 					center -= (basis * new Vector3(screenVelocity.X, screenVelocity.Y, 0)).Normalized() * scale.Y * 0.5f;
 			}
+			if (p.Batch != null)
+			{
+				// Test the complete quad, not the emitter point: large puffs and the
+				// tail of a streak can remain visible beyond an edge of the screen.
+				var radius = .5f * new Vector2(scale.X, scale.Y).Length();
+				foreach (var plane in _frustum)
+					if (plane.DistanceTo(worldOrigin + center) > radius) { visible = false; break; }
+				if (!visible) continue;
+			}
+			var color = p.Color;
+			color.A *= (p.FadeIn > 0 ? Mathf.SmoothStep(0, 1, age / p.FadeIn) : 1)
+				* (p.FadeOut > 0 ? Mathf.SmoothStep(0, 1, (p.Life - age) / p.FadeOut) : 1)
+				* (1 - Mathf.SmoothStep(0, 1, (age - p.RetireAge) / p.RetireSeconds));
 			// Scale the quad along its own axes, then rotate it into the velocity direction.
-			p.Mesh.GlobalTransform = new Transform3D(basis * new Basis(Vector3.Back, angle) * Basis.FromScale(scale), GlobalPosition + center);
+			var transform = new Transform3D(basis * new Basis(Vector3.Back, angle) * Basis.FromScale(scale), worldOrigin + center);
+			if (p.Batch != null)
+			{
+				var sequence = p.CachedSequence;
+				var batchTime = p.FitAnimation ? age / p.Life * sequence.Duration : age * p.AnimationRate * (p.FpsAnimation ? 1 : sequence.Duration);
+				var batchSample = sequence.Sample(batchTime);
+				var second = p.CachedSecondSequence.Sample(age * p.SecondRate * p.CachedSecondSequence.Duration);
+				var linearColor = p.LinearColor;
+				linearColor.A = color.A;
+				p.Slot = p.Batch.Add(transform, linearColor, batchSample.Current, batchSample.Next, second.Current, batchSample.Blend);
+				continue;
+			}
+			p.Mesh.GlobalTransform = transform;
 			p.Mesh.SetInstanceShaderParameter("tint", color);
 			if (p.Refract) continue;
 			var animationTime = p.FitAnimation ? age / p.Life * F(p.Sequence, "duration", 1) : age * p.AnimationRate * (p.FpsAnimation ? 1 : F(p.Sequence, "duration", 1));
@@ -353,6 +424,8 @@ public partial class CssoExplosion : Node3D
 			p.Mesh.SetInstanceShaderParameter("frame_blend", sample.Blend);
 			p.Mesh.SetInstanceShaderParameter("second_uv", Sample(p.SecondSequence, age * p.SecondRate * F(p.SecondSequence, "duration", 1)).Current);
 		}
+		collisionRay?.Dispose();
+		foreach (var batch in _batches) batch.Flush();
 		if (!alive) QueueFree();
 	}
 }

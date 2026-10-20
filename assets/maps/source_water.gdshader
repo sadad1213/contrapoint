@@ -15,6 +15,7 @@ uniform float refract_amount = 0.1;
 uniform vec3 sky_color = vec3(0.33, 0.43, 0.48);
 uniform sampler2D reflection_map : source_color, filter_linear, repeat_disable;
 uniform bool has_reflection_map = false;
+uniform bool settings_simple_water = false;
 
 varying vec3 world_position;
 
@@ -40,6 +41,9 @@ void vertex() {
 }
 
 void fragment() {
+	if (settings_simple_water) {
+		ALBEDO = mix(fog_color, sky_color * reflect_tint, 0.15);
+	} else {
 	float frame = mod(floor(TIME * frame_rate), float(frame_count));
 	vec2 flow_uv = fract(UV + vec2(0.007071) * TIME);
 	vec3 ripple = texture(normal_frames, vec2((flow_uv.x + frame) / float(frame_count), flow_uv.y)).rgb * 2.0 - 1.0;
@@ -64,4 +68,5 @@ void fragment() {
 	vec3 source_direction = vec3(world_reflection.x, -world_reflection.z, world_reflection.y);
 	vec3 reflection = has_reflection_map ? sample_reflection(source_direction) : sky_color;
 	ALBEDO = mix(refracted, reflection * reflect_tint, fresnel * 0.7);
+	}
 }

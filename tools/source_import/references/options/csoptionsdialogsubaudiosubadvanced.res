@@ -1,0 +1,101 @@
+"Resource/CSOptionsDialogSubAudioSubAdvanced.res"
+{
+	// sheet is 528x392
+	"SpeakerConfigurationLabel"
+	{
+		"controlName"				"Label"
+		"fieldName"					"SpeakerConfigurationLabel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"8"
+		"ypos"						"8"
+		"wide"						"252"
+		"tall"						"24"
+		"labelText"					"#GameUI_Options_Audio_SpeakerConfiguration"
+		"associate"					"SpeakerConfigurationComboBox"
+	}
+	"SpeakerConfigurationComboBox"
+	{
+		"controlName"				"CCvarComboBox"
+		"fieldName"					"SpeakerConfigurationComboBox"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"8"
+		"ypos"						"32"
+		"wide"						"252"
+		"tall"						"24"
+		"editable"					"0"
+		"cvar_name"					"snd_surround_speakers"
+		"values"
+		{
+			"#GameUI_Options_Audio_SpeakerConfiguration_0"	"0"
+			"#GameUI_Options_Audio_SpeakerConfiguration_2"	"2"
+			"#GameUI_Options_Audio_SpeakerConfiguration_4"	"4"
+			"#GameUI_Options_Audio_SpeakerConfiguration_5"	"5"
+			"#GameUI_Options_Audio_SpeakerConfiguration_7"	"7"
+		}
+	}
+	"SoundQualityLabel"
+	{
+		"controlName"				"Label"
+		"fieldName"					"SoundQualityLabel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"268"
+		"ypos"						"8"
+		"wide"						"252"
+		"tall"						"24"
+		"labelText"					"#GameUI_Options_Audio_SoundQuality"
+		"associate"					"SoundQualityComboBox"
+	}
+	"SoundQualityComboBox"
+	{
+		"fieldName"					"SoundQualityComboBox"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"268"
+		"ypos"						"32"
+		"wide"						"252"
+		"tall"						"24"
+		"editable"					"0"
+		"tooltipText"				"#GameUI_Options_Audio_SoundQuality_Tip"
+	}
+	"Divider1"
+	{
+		"controlName"				"Divider"
+		"fieldName"					"Divider1"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"8"
+		"ypos"						"64"
+		"wide"						"512"
+		"tall"						"2"
+	}
+	"UseHRTFCheck"
+	{
+		"controlName"				"CCvarToggleCheckButton"
+		"fieldName"					"UseHRTFCheck"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"8"
+		"ypos"						"72"
+		"wide"						"512"
+		"tall"						"24"
+		"tooltipText"				"#GameUI_Options_Audio_UseHRTF_Tip"
+		"labelText"					"#GameUI_Options_Audio_UseHRTF"
+		"cvar_name"					"snd_use_hrtf"
+	}
+	"MuteLoseFocusCheck"
+	{
+		"controlName"				"CCvarToggleCheckButton"
+		"fieldName"					"MuteLoseFocusCheck"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"8"
+		"ypos"						"96"
+		"wide"						"512"
+		"tall"						"24"
+		"labelText"					"#GameUI_Options_Audio_MuteLoseFocus"
+		"cvar_name"					"snd_mute_losefocus"
+	}
+}

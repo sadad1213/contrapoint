@@ -71,8 +71,10 @@ models and selected weapons; see [deathmatch rules](../gameplay/README.md#deathm
 * Kill-feed notices are separate reliable host events, carrying the names,
   teams, weapon and actual shot conditions. Health snapshots, corpse late-join
   replay and respawns do not add another notice. The shooter captures scope
-  state before the sniper rifle unzooms; the host resolves penetration and
-  smoke intersections and checks the shooter's flash/grounded state.
+  state before the sniper rifle releases the scope for the bolt cycle; the
+  scope returns to the same magnification once the weapon is ready again. The
+  host resolves penetration and smoke intersections and checks the shooter's
+  flash/grounded state.
 * Server teleports increment a revision so queued old poses cannot undo them.
   Player collisions are disabled between network peers for this testing stage.
 

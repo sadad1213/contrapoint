@@ -33,6 +33,9 @@ public partial class ViewmodelCamera : Camera3D
 
 	private void SyncResolution()
 	{
+		// Deliberately selected lower resolutions must affect both 3D passes.
+		// Otherwise a low-resolution world appears blurred behind native-resolution hands.
+		GetViewport().Scaling3DScale = _worldViewport.Scaling3DScale;
 		// canvas_items scales UI from the project's base resolution. Cancel that
 		// scaling for this layer so its texture is rendered and composited 1:1.
 		_layer.Transform = _worldViewport.GetStretchTransform().AffineInverse();
