@@ -6,7 +6,7 @@ using System.Text.Json;
 namespace Contrapoint.Players;
 
 // Shared local first-person audio. Sources and MDL event cycles are extracted by
-// tools/source_import/import_css_audio.py, never guessed from animation names.
+// imported from CSS sound scripts, never guessed from animation names.
 public partial class SourceSoundPlayer : Node
 {
 	public static event Action<Player, Vector3, string>? Emitted;

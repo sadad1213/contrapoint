@@ -133,6 +133,7 @@ public partial class MainMenu
 		ConsoleCommands.InitializeMenuOptions();
 		_dialog.Hide();
 		_loading.Hide();
+		_credit.Hide();
 		_modal.Show();
 		_options.Show();
 		_menu.MouseFilter = Control.MouseFilterEnum.Ignore;

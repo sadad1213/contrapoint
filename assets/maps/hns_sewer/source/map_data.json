@@ -1,6 +1,6 @@
 {
   "map": "hns_sewer",
-  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\hns_sewer\\hns_sewer.bsp",
+  "source_bsp": "hns_sewer.bsp",
   "source_sha256": "0e94bfa5499dd77476b947220d687a9a770a4cd9bd3d931c7ba84d4738851c69",
   "scale": 0.0254,
   "materials": {

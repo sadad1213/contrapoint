@@ -1,6 +1,6 @@
 {
   "map": "de_inferno",
-  "source_bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\maps\\de_inferno.bsp",
+  "source_bsp": "de_inferno.bsp",
   "source_sha256": "3b4bbd9b933711a03df450a41a85b2eed1113a5f8523cd708e47e2b8957537bd",
   "scale": 0.0254,
   "materials": {

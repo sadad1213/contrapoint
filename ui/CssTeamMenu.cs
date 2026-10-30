@@ -24,11 +24,10 @@ public partial class CssTeamMenu : CanvasLayer
 	public bool IsOpen => Visible;
 	public bool IsClassSelection => IsOpen && _classes;
 	public string PreviewAgent { get; private set; } = "";
-	private string Language => OS.GetLocaleLanguage() == "ru" ? "russian" : "english";
 	private static float N(JsonElement data, string key) => data.TryGetProperty(key, out var value)
 		? float.Parse(value.GetString()!, CultureInfo.InvariantCulture) : 0;
 	private static string S(JsonElement data, string key) => data.TryGetProperty(key, out var value) ? value.GetString() ?? "" : "";
-	private string Localize(string token) => token.StartsWith('#') && _data.GetProperty("strings").GetProperty(Language)
+	private string Localize(string token) => token.StartsWith('#') && _data.GetProperty("strings").GetProperty("english")
 		.TryGetProperty(token[1..].ToLowerInvariant(), out var text) ? text.GetString()!.Replace("&", "") : token;
 	private Color SchemeColor(string name, string fallback)
 	{

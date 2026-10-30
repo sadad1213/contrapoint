@@ -1,9 +1,0 @@
-"de_cpl_strike_"
-{
-	"material"	"overviews/de_cpl_strike"	// texture file
-	"pos_x"		"-3082"	// X coordinate,
-	"pos_y"		"2114"	// Y coordinate,
-	"scale"		"5.00" 	// and used scale used when taking the screenshot
-	"rotate"	"0"	// map was rotated by 90 degress in image editor
-	"zoom"		"1.3"	// optimal zoom factor if map is shown in full size
-}

@@ -1,6 +1,6 @@
 {
   "map": "2000",
-  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\2000css\\cstrike\\maps\\$2000$.bsp",
+  "source_bsp": "$2000$.bsp",
   "source_sha256": "42aae0ec0fa8274fc6d4437a750f06d6b6a2f8c30238c6d9467e2d64f0c5f945",
   "scale": 0.0254,
   "materials": {

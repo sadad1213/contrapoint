@@ -29,7 +29,7 @@ public partial class CssScoreboard : Control
 		using var document = JsonDocument.Parse(FileAccess.GetFileAsString(Assets + "scoreboard.json"));
 		var data = document.RootElement;
 		_layout = data.GetProperty("layout").Clone();
-		_strings = data.GetProperty("strings").GetProperty(OS.GetLocaleLanguage() == "ru" ? "russian" : "english").Clone();
+		_strings = data.GetProperty("strings").GetProperty("english").Clone();
 		_regular = GD.Load<FontFile>(Assets + "verdana.ttf"); _bold = GD.Load<FontFile>(Assets + "verdanab.ttf");
 		_icons = GD.Load<FontFile>("res://assets/ui/css/hud/cstrike.ttf");
 		_background = GD.Load<Texture2D>(Assets + "panel-scoreboard.png");

@@ -35,11 +35,10 @@ public partial class CssBuyMenu : CanvasLayer
 	public bool IsOpen => Visible;
 	public string Category => _category;
 	public string PreviewItem => _preview;
-	private string Language => OS.GetLocaleLanguage() == "ru" ? "russian" : "english";
 	private string PresetPath => OS.GetCmdlineUserArgs().Contains("--menu-test-profile") ? "user://buy_presets_test.cfg" : "user://buy_presets.cfg";
 	private static string S(JsonElement data, string key) => data.TryGetProperty(key, out var value) ? value.GetString() ?? "" : "";
 	private static float N(JsonElement data, string key) => float.TryParse(S(data, key), NumberStyles.Float, CultureInfo.InvariantCulture, out var n) ? n : 0;
-	private string Localize(string token) => token.StartsWith('#') && _data.GetProperty("strings").GetProperty(Language)
+	private string Localize(string token) => token.StartsWith('#') && _data.GetProperty("strings").GetProperty("english")
 		.TryGetProperty(token[1..].ToLowerInvariant(), out var value) ? value.GetString()!.Replace("&", "") : token;
 
 	public void Bind(Player player)

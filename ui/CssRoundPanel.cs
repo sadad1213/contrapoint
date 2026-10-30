@@ -29,7 +29,7 @@ public partial class CssRoundPanel : Control
 		MouseFilter = MouseFilterEnum.Ignore;
 		using var doc = JsonDocument.Parse(FileAccess.GetFileAsString(Assets + "round.json"));
 		_layout = doc.RootElement.GetProperty("layout").Clone();
-		_strings = doc.RootElement.GetProperty("strings").GetProperty(OS.GetLocaleLanguage() == "ru" ? "russian" : "english").Clone();
+		_strings = doc.RootElement.GetProperty("strings").GetProperty("english").Clone();
 		_font = GD.Load<FontFile>("res://assets/ui/css/scoreboard/verdanab.ttf");
 		_star = GD.Load<Texture2D>(Assets + "win_panel_bgstar.png");
 		_glow = GD.Load<Texture2D>(Assets + "avatar_glow_64.png");

@@ -1,22 +1,18 @@
 [
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/console/background01.vtf",
-    "output": "background.png",
     "sha256": "0acc64f188254d2cff4735eb1492c09b8702ab26efa4ccf920124436cdb7ed02"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/console/background01_widescreen.vtf",
-    "output": "background_widescreen.png",
     "sha256": "1cd609e3e2f846d081680a7afb790d85153b60c76310fad59409220ef39452e8"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/maps/menu_thumb_de_dust2.vtf",
-    "output": "de_dust2.png",
     "sha256": "1e98049c2ca89a78b93c41d30c3e134000d64e88c7551e4a352547c86a96aec3"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/vgui/maps/menu_thumb_de_inferno.vtf",
-    "output": "de_inferno.png",
     "sha256": "704b640e14cdd8010a10b4c743cceb5341abc36b1a76166d66d8aa28a3a9eef3"
   },
   {

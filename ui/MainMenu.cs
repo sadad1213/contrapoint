@@ -21,6 +21,7 @@ public partial class MainMenu : CanvasLayer
 	private Control _modal = null!;
 	private Panel _dialog = null!;
 	private Panel _loading = null!;
+	private Panel _credit = null!;
 	private Label _loadingText = null!;
 	private Label _error = null!;
 	private ProgressBar _progress = null!;
@@ -41,7 +42,10 @@ public partial class MainMenu : CanvasLayer
 	private Vector2 _dragOffset;
 	public bool IsOpen => Visible;
 	public bool IsSelectingMap => _modal.Visible && _dialog.Visible;
+	public bool IsCreditOpen => _credit.Visible;
 	public int SelectedMap { get; private set; }
+	private static string CreditPath => OS.GetCmdlineUserArgs().Contains("--menu-test-profile")
+		? "user://menu_test_credit.cfg" : "user://first_run.cfg";
 
 	public override void _Ready()
 	{
@@ -58,6 +62,7 @@ public partial class MainMenu : CanvasLayer
 			AddChild(_console);
 			Input.MouseMode = Input.MouseModeEnum.Visible;
 			_play.GrabFocus();
+			ShowFirstRunCredit();
 		}
 	}
 
@@ -126,6 +131,7 @@ public partial class MainMenu : CanvasLayer
 	{
 		if (_pendingScene != null || _changingScene) return;
 		_options.Hide();
+		_credit.Hide();
 		_modal.Show();
 		_dialog.Show();
 		_loading.Hide();
@@ -333,6 +339,41 @@ public partial class MainMenu : CanvasLayer
 			};
 		BuildOptions();
 		RestoreSetup();
+		BuildFirstRunCredit();
+	}
+
+	private void BuildFirstRunCredit()
+	{
+		_credit = new Panel { Name = "FirstRunCredit", Size = new(520, 190), Visible = false };
+		_credit.AddThemeStyleboxOverride("panel", Bevel(new("a0a0a080")));
+		_modal.AddChild(_credit);
+		Text(_credit, "Title", "Contrapoint", 16, 6, 488, 28, 18);
+		Paragraph(_credit, "Message", "This port was made by Moonflight.\n\nPlease credit Moonflight as the port author.\nDo whatever you want with this project.", 16, 44, 488, 92);
+		DialogButton(_credit, "OK", "OK", 208, 154, 104, CloseFirstRunCredit).Alignment = HorizontalAlignment.Center;
+	}
+
+	private void ShowFirstRunCredit()
+	{
+		var config = new ConfigFile();
+		if (config.Load(CreditPath) == Error.Ok && config.GetValue("credit", "shown", false).AsBool()) return;
+		config.SetValue("credit", "shown", true);
+		if (config.Save(CreditPath) != Error.Ok) GD.PushWarning("Could not save the first-launch credit state.");
+		_dialog.Hide();
+		_loading.Hide();
+		_options.Hide();
+		_modal.Show();
+		_credit.Show();
+		_menu.MouseFilter = Control.MouseFilterEnum.Ignore;
+		Layout();
+		_credit.GetNode<Button>("OK").GrabFocus();
+	}
+
+	private void CloseFirstRunCredit()
+	{
+		_credit.Hide();
+		_modal.Hide();
+		_menu.MouseFilter = Control.MouseFilterEnum.Pass;
+		_play.GrabFocus();
 	}
 
 	private void Layout()
@@ -347,9 +388,10 @@ public partial class MainMenu : CanvasLayer
 		// Desktop HL2 dialogs use fixed pixel dimensions; only shrink when the window cannot fit them.
 		var dialogScale = Mathf.Min(1, Mathf.Min((size.X - 24) / _dialog.Size.X, (size.Y - 24) / _dialog.Size.Y));
 		dialogScale = Mathf.Max(0.1f, dialogScale);
-		_dialog.Scale = _loading.Scale = Vector2.One * dialogScale;
+		_dialog.Scale = _loading.Scale = _credit.Scale = Vector2.One * dialogScale;
 		_dialog.Position = (size - _dialog.Size * dialogScale) * 0.5f;
 		_loading.Position = (size - _loading.Size * dialogScale) * 0.5f;
+		_credit.Position = (size - _credit.Size * dialogScale) * 0.5f;
 		LayoutOptions();
 	}
 }

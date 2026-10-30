@@ -1,6 +1,6 @@
 {
   "map": "de_winter_dust2",
-  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\de_winter_dust2\\de_winter_dust2.bsp",
+  "source_bsp": "de_winter_dust2.bsp",
   "source_sha256": "7b648ef461a82815ce500c7869b38375d570f042d34915e704e5068a51202703",
   "scale": 0.0254,
   "materials": {

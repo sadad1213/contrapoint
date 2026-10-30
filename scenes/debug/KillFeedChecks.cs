@@ -33,7 +33,7 @@ public partial class KillFeedChecks : Node3D
 		AddChild(new WorldEnvironment { Environment = new Godot.Environment { BackgroundMode = Godot.Environment.BGMode.Color, BackgroundColor = new(.22f, .24f, .27f) } });
 		var floor = new StaticBody3D { Position = new(0, -.5f, 0) };
 		floor.AddChild(new CollisionShape3D { Shape = new BoxShape3D { Size = new(100, 1, 100) } }); AddChild(floor);
-		var local = Spawn("Hueglot", Vector3.Zero, true);
+		var local = Spawn("Player", Vector3.Zero, true);
 		var enemy = Spawn("Opponent", Vector3.Forward * 2, false); enemy.Team = PlayerTeam.CounterTerrorist;
 		await Frames();
 		for (var i = 0; i < 4; i++) { local.Simulate(default, 1f / 66); enemy.Simulate(default, 1f / 66); await Frames(1); }

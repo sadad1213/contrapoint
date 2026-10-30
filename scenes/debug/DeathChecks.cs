@@ -76,8 +76,8 @@ public partial class DeathChecks : Node3D
 		Check(victim.Body.WorldWeapon == null, "Dead presentation ticks do not recreate a weapon model.");
 		await Frames(85);
 		Check(victim.Death.CanRespawn && victim.Death.Frozen, "CSS death camera transitions to the killer freeze camera.");
-		Check(screen.Panel.Visible && screen.Panel.GetNode<Label>("infolabel1").Text == "УБИЛ ВАС"
-			&& screen.Panel.GetNode<Label>("killername").Text == attacker.Name, "The imported Russian CSS freeze panel shows the killer at the freeze.");
+		Check(screen.Panel.Visible && screen.Panel.GetNode<Label>("infolabel1").Text == "KILLED YOU"
+			&& screen.Panel.GetNode<Label>("killername").Text == attacker.Name, "The English CSS freeze panel shows the killer at the freeze.");
 		Check(ragdoll.ContactSounds > 0, "Real world collisions produce stock ragdoll impact sounds.");
 		Check(victim.Death.RequestRespawn() && victim.IsAlive && !victim.Death.Active && victim.Body.Visible,
 			"Respawn restores health, live body and death state.");

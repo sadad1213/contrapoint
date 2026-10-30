@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Contrapoint"
-config/version="v191026v4"
+config/version="DevBuild301026"
 run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.8", "C#", "Forward Plus")
 config/icon="res://icon-contrapoint-v2.png"

@@ -72,7 +72,7 @@ public partial class CssFreezePanel : Control
 	}
 	private static TextureRect Image(string texture) => new() { Texture = GD.Load<Texture2D>("res://assets/ui/css/death/" + texture + ".png"),
 		ExpandMode = TextureRect.ExpandModeEnum.IgnoreSize, StretchMode = TextureRect.StretchModeEnum.Scale };
-	private string Localized(string key) => _definition.GetProperty("strings").GetProperty("russian").GetProperty(key).GetString()!;
+	private string Localized(string key) => _definition.GetProperty("strings").GetProperty("english").GetProperty(key).GetString()!;
 	private void SetText(string control, string text) => ((Label)_controls[control]).Text = text;
 	public void SetKiller(Player killer)
 	{

@@ -50,11 +50,18 @@ public partial class MenuChecks : Node
 		try
 		{
 			if (!OS.GetCmdlineUserArgs().Contains("--menu-test-profile")) throw new InvalidOperationException("Use --menu-test-profile.");
+			DirAccess.RemoveAbsolute(ProjectSettings.GlobalizePath("user://menu_test_credit.cfg"));
 			GetTree().CurrentScene = null;
 			MatchSession.Draft = new();
 			GetTree().ChangeSceneToFile("res://scenes/main_menu.tscn");
 			await Frames(3);
 			var menu = (MainMenu)GetTree().CurrentScene;
+			var credit = menu.GetNode<Panel>("Interface/Modal/FirstRunCredit");
+			Check(menu.IsCreditOpen && credit.GetNode<Label>("Message").Text.Contains("Moonflight"), "The first launch shows the English port credit.");
+			Key(Godot.Key.Enter);
+			Check(!menu.IsCreditOpen, "Enter acknowledges the port credit.");
+			var creditState = new ConfigFile();
+			Check(creditState.Load("user://menu_test_credit.cfg") == Error.Ok && creditState.GetValue("credit", "shown", false).AsBool(), "The credit acknowledgement is persisted.");
 			Key(Godot.Key.Enter);
 			Check(menu.IsSelectingMap, "Enter on Play opens the selector.");
 			var dialog = menu.GetNode<Panel>(Dialog);
@@ -111,7 +118,9 @@ public partial class MenuChecks : Node
 			Check(saved.Bots.Quota == 7 && !saved.FriendlyFire && saved.Cheats, "Game and bot settings are persisted.");
 			GetTree().ChangeSceneToFile("res://scenes/main_menu.tscn");
 			await Frames(3);
-			menu = (MainMenu)GetTree().CurrentScene; menu.OpenMapSelection();
+			menu = (MainMenu)GetTree().CurrentScene;
+			Check(!menu.IsCreditOpen, "The port credit stays hidden on later launches.");
+			menu.OpenMapSelection();
 			dialog = menu.GetNode<Panel>(Dialog);
 			Check(dialog.GetNode<HSlider>("Bots/Quota").Value == 7 && !dialog.GetNode<CheckBox>("Gameplay/FallDamage").ButtonPressed, "Settings survive menu recreation.");
 			dialog.GetNode<Button>("Cancel").GrabFocus(); Key(Godot.Key.Enter);

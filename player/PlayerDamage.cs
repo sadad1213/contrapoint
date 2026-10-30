@@ -117,9 +117,9 @@ public partial class Player
 		var deathSound = health == 0 ? group == SourceHitGroup.Head ? "player.deathheadshot" : "player.death" : "";
 		if (health == 0 && Death != null)
 		{
-			var cause = kind == PlayerDamageKind.Fall ? "Падение" : kind == PlayerDamageKind.HE ? "HE"
-				: kind == PlayerDamageKind.Knife ? "Нож" : kind == PlayerDamageKind.Bullet
-					? (attacker?.ActiveWeapon as FirearmView)?.Kind.ToString() ?? "Пуля" : "";
+			var cause = kind == PlayerDamageKind.Fall ? "Fall" : kind == PlayerDamageKind.HE ? "HE"
+				: kind == PlayerDamageKind.Knife ? "Knife" : kind == PlayerDamageKind.Bullet
+					? (attacker?.ActiveWeapon as FirearmView)?.Kind.ToString() ?? "Bullet" : "";
 			Death.Prepare(attacker, position, direction.Normalized() * force * 2, group, cause);
 			LanSession.Instance?.BroadcastDeath(this);
 		}

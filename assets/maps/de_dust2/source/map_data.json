@@ -1,6 +1,6 @@
 {
   "map": "de_dust2",
-  "source_bsp": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\maps\\de_dust2.bsp",
+  "source_bsp": "de_dust2.bsp",
   "source_sha256": "3e24a3cf2954463f7b6d0ac640aee758aa9e0a6f8d0bb06dda6fa1cb9ed78359",
   "scale": 0.0254,
   "materials": {

@@ -1,8 +1,6 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
-tools/weapon_timing/bin/
-tools/weapon_timing/obj/
 
 # .NET / C# build output
 bin/
@@ -23,8 +21,9 @@ obj/
 # Python bytecode cache
 __pycache__/
 
-# Scratch workspace for decompiled Source SDK reference sources
-.tmp_winround/
+# Generated import logs and backups
+*.log
+*.old
 
 # OS junk
 Thumbs.db

@@ -1,62 +1,50 @@
 [
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/sprites/640hud1.vtf",
-    "output": "640hud1.png",
     "sha256": "43cffc897cbaf51df31c00e2f870d054d77129629c1bea564a1b319487b4714b"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/sprites/radar.vtf",
-    "output": "radar.png",
     "sha256": "2a5a81fdd9dc40c2f1e1d4a1cf1fcf40633576f567f57b3192a19b4d72aaff2e"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/sprites/radar_trans.vtf",
-    "output": "radar_trans.png",
     "sha256": "3e16c8b93f57c1d8fc30478dd86d8d01dacda0d69a3bb58fff4aa9a309a05793"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/overviews/de_dust2_radar.vtf",
-    "output": "de_dust2_radar.png",
     "sha256": "35e8ced2e7a080206f92a3e866f0d4ed39fb90856206da22a34da0b9eff16ab9"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/overviews/de_inferno_radar.vtf",
-    "output": "de_inferno_radar.png",
     "sha256": "33d97abdef95176c2525a31c2cdf2dae19afca780477e8a2b5e4733b58f09da6"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cstrike.ttf",
-    "output": "cstrike.ttf",
     "sha256": "1ff5eaa2ec551f84b2e9040397e4debcd9ffd60e486cf05095777e24ccaa2bbe"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\cs.ttf",
-    "output": "cs.ttf",
     "sha256": "b926723a1e14c891354f1a536b9be2c8b33510441b2ccb72d1a5a78a40125816"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\resource\\csd.ttf",
-    "output": "csd.ttf",
     "sha256": "891d3622cae4e89f2be7485d1f8d391e8f8e418ca55720e3a5643c39bd7b7a0f"
   },
   {
-    "source": "C:\\Users\\Hueglot\\Downloads\\de_cpl_strike\\cstrike\\maps\\de_cpl_strike.bsp:materials/overviews/de_cpl_strike.vtf",
-    "output": "de_cpl_strike.png",
+    "source": "downloads\\de_cpl_strike\\cstrike\\maps\\de_cpl_strike.bsp:materials/overviews/de_cpl_strike.vtf",
     "sha256": "b3574930dad4cb05dec0f1c970f3afce304e285ef4f1ce3f69baf844e74bc08a"
   },
   {
-    "source": "C:\\Users\\Hueglot\\Downloads\\de_cpl_strike\\cstrike\\maps\\de_cpl_strike.bsp:materials/overviews/de_cpl_strike_radar.vtf",
-    "output": "de_cpl_strike_radar.png",
+    "source": "downloads\\de_cpl_strike\\cstrike\\maps\\de_cpl_strike.bsp:materials/overviews/de_cpl_strike_radar.vtf",
     "sha256": "d848f0c5d89e56eddeb8f20bae876a5b575e5155654224c8dced42f55a0b54fa"
   },
   {
     "source": "https://raw.githubusercontent.com/CSGO-Analysis/csgo-maps-overviews/master/overviews/de_cache_radar.png",
-    "output": "de_cache_radar.png",
     "sha256": "ad02e7b4c79333636955f8bf8068f4e09c04059a3707f461972a51e7f827ab8d"
   },
   {
     "source": "https://raw.githubusercontent.com/CSGO-Analysis/csgo-maps-overviews/master/overviews/de_cache.txt",
-    "output": "overviews.json:de_cache",
     "sha256": "9496663f688c62a4e6d8414aa1f114c0222fe446ae27ada5c09cbbf0d7aab1a5"
   }
 ]

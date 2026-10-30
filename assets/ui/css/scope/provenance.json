@@ -1,12 +1,10 @@
 [
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/sprites/scope_arc.vtf",
-    "output": "scope_arc.png",
     "sha256": "3ff1b1251062924f5c8c9d382b8e70ed4d7fb51ebada76791ea98d35b0e9cf8b"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\cstrike\\cstrike_pak_dir.vpk:materials/overlays/scope_lens.vtf",
-    "output": "scope_lens.png",
     "sha256": "1d93a20742fd58134baef2413bfb5b244324e1c7d9c23ef6f04da0360a815a47"
   }
 ]

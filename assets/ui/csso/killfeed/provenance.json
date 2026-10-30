@@ -1,217 +1,174 @@
 [
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\scripts\\hudlayout.res",
-    "output": "tools\\source_import\\references\\killfeed\\hudlayout.res",
     "sha256": "c8f9010f75ad81464104f2b785600d6f131d3440eec3eef958a9da240d06e8b4"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\resource\\clientscheme.res",
-    "output": "tools\\source_import\\references\\killfeed\\clientscheme.res",
     "sha256": "67c0c05dd3a51da38db9357ba456b9936311e97fd7cb4a9c2b35b74e7e76bd5c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\resource\\stratum2-bold.ttf",
-    "output": "assets\\ui\\csso\\killfeed\\stratum2-bold.ttf",
     "sha256": "8f3582262f26e076ecf79f321f2da0bc220705ad176391facb6f61778968abe3"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/ak47.svg",
-    "output": "assets\\ui\\csso\\killfeed\\ak47.svg",
     "sha256": "b7033f1df06b6f3df0a17c4394299f7a3b8565aff94638605b9a94a57717088d"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/m4a1_silencer.svg",
-    "output": "assets\\ui\\csso\\killfeed\\m4a1_silencer.svg",
     "sha256": "0fd68b25b40e6d674f041aaa9d9386fd65588a01c70e4c92ef71df20a3cc97c9"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/m4a1_silencer_off.svg",
-    "output": "assets\\ui\\csso\\killfeed\\m4a1_silencer_off.svg",
     "sha256": "4ccaab0aeed371dde7399fb17a0bd876d4d41beeb43072afb071bf4f781c1784"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/usp_silencer.svg",
-    "output": "assets\\ui\\csso\\killfeed\\usp_silencer.svg",
     "sha256": "7acc5924986afbdcdad372d3256c86ca523fa58f68af4cf970ac44512dd97c78"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/usp_silencer_off.svg",
-    "output": "assets\\ui\\csso\\killfeed\\usp_silencer_off.svg",
     "sha256": "4927f225336e2c8e0cc4efece1ee4073ed888085db95e9a10d99c1035171522f"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/deagle.svg",
-    "output": "assets\\ui\\csso\\killfeed\\deagle.svg",
     "sha256": "3f197e03463e80d33f43471b485f00da469fcbc499c93adcd107fa538dae3576"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/awp.svg",
-    "output": "assets\\ui\\csso\\killfeed\\awp.svg",
     "sha256": "f1395162a85d391b342ba6ab41155a2bc97059b3891edddecbaf109e0e9e6621"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/ssg08.svg",
-    "output": "assets\\ui\\csso\\killfeed\\ssg08.svg",
     "sha256": "13220ea4a7fdd1981b8683e98d19962945a6f2960720deb3f7d1d719004f5fc5"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/knife.svg",
-    "output": "assets\\ui\\csso\\killfeed\\knife.svg",
     "sha256": "a6a9859d0703f75357097e1b5af112acd42858a9781dfa58f231c82055f0896c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/knife_t.svg",
-    "output": "assets\\ui\\csso\\killfeed\\knife_t.svg",
     "sha256": "9461b420b714c0b4b1941ac4786a9b5f3f2ce5b78db4c18b60de2747139f6309"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/hegrenade.svg",
-    "output": "assets\\ui\\csso\\killfeed\\hegrenade.svg",
     "sha256": "f3f7dda1d7964a234b437d3dd199e0d67b64c34a9efb91498e787ee627bb81d5"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/suicide.svg",
-    "output": "assets\\ui\\csso\\killfeed\\suicide.svg",
     "sha256": "b4ff28c686ad23764b42a2b0b0cd1ced45eb6ca0502c8087e912e1548b75f579"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/headshot.svg",
-    "output": "assets\\ui\\csso\\killfeed\\headshot.svg",
     "sha256": "d44ee62c88ef03923dd6b5b4d04db4672d09f3b2457fc8afa95ca0f76b51e35c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/penetrate.svg",
-    "output": "assets\\ui\\csso\\killfeed\\penetrate.svg",
     "sha256": "427ff5d036a4e7ef3e594c0f0ee1157089d8d143743e1218c0bb3e828e15cb7c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/noscope.svg",
-    "output": "assets\\ui\\csso\\killfeed\\noscope.svg",
     "sha256": "0afb54046a801a0bb7e20079a4c4c8a7398df4e2bacac784747308eb6aeea59f"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/blind.svg",
-    "output": "assets\\ui\\csso\\killfeed\\blind.svg",
     "sha256": "4b1767189e6bb7c63b5f1f8eddbfeac8036939b48ab681c22347f8fe983f0802"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/thrusmoke.svg",
-    "output": "assets\\ui\\csso\\killfeed\\thrusmoke.svg",
     "sha256": "30a5509c7613f7524e4432187045caa4caf493b055b2201270fe6136d9e97f0e"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/inair.svg",
-    "output": "assets\\ui\\csso\\killfeed\\inair.svg",
     "sha256": "d465969e6038d23d3ff0346e55f43d3e57394c9b8126ff84677a2f3e4b7f22fb"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/aug.svg",
-    "output": "assets\\ui\\csso\\killfeed\\aug.svg",
     "sha256": "40bda0bd41c10f6f943b17f654f83cf229b7a0e03c36a4e7b21f2f48ea554038"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/elite.svg",
-    "output": "assets\\ui\\csso\\killfeed\\elite.svg",
     "sha256": "0d95ba2318dd465cacc0d686b0c2fb59773876af38027dc03d1eb0cda1755244"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/famas.svg",
-    "output": "assets\\ui\\csso\\killfeed\\famas.svg",
     "sha256": "782426268b226901857799ecfc5ad6f681c71d922a9c06f0ad27c4c65922abe3"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/fiveseven.svg",
-    "output": "assets\\ui\\csso\\killfeed\\fiveseven.svg",
     "sha256": "cd78c171d532d8d60502ad3c9963f35bee0c2831acd562f13002e8ac331f9763"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/g3sg1.svg",
-    "output": "assets\\ui\\csso\\killfeed\\g3sg1.svg",
     "sha256": "91654e2da415e5df827dcf33995d648b82fc0b9a9e2976664db4dd7cb467f4f4"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/galilar.svg",
-    "output": "assets\\ui\\csso\\killfeed\\galilar.svg",
     "sha256": "e4ef24c353f15c146121a50d28ad7c1932da279f75a5a3f4960680d66a867fb9"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/glock18.svg",
-    "output": "assets\\ui\\csso\\killfeed\\glock18.svg",
     "sha256": "72d8f294a9997fa978a4b4dad129c6469f099e18067e361e2e7d4e7ab29ed189"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/m249.svg",
-    "output": "assets\\ui\\csso\\killfeed\\m249.svg",
     "sha256": "92f426ea45c0f2e34be566884119c3e89dceba3984c402a4d5c13d7f3400f97a"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/nova.svg",
-    "output": "assets\\ui\\csso\\killfeed\\nova.svg",
     "sha256": "5a0c22152ea3bda9d89765b3010b2b845b38cd2e98464413eb32a829da576892"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/mac10.svg",
-    "output": "assets\\ui\\csso\\killfeed\\mac10.svg",
     "sha256": "cc9dbc145803df8fd508571af9786ebabafe43c460c5b84b3161c44ba386590e"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/mp5sd.svg",
-    "output": "assets\\ui\\csso\\killfeed\\mp5sd.svg",
     "sha256": "c55b7576918b8114caa92233555daf3828e23e032b52d8acbd30642bf70520ce"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/p250.svg",
-    "output": "assets\\ui\\csso\\killfeed\\p250.svg",
     "sha256": "534957b34b30fc948cf0f371ac7490a56e3ef58b381af1269d94dba6d796458d"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/p90.svg",
-    "output": "assets\\ui\\csso\\killfeed\\p90.svg",
     "sha256": "f5be45fe51498ae88c0aa4b6d39a7f5a59c7e02bc6ab88ba6840337a6f60db34"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/scar20.svg",
-    "output": "assets\\ui\\csso\\killfeed\\scar20.svg",
     "sha256": "cdef6e84d68d6729337664c549de367d9072583e3e4e7c067c5016796392def9"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/sg553.svg",
-    "output": "assets\\ui\\csso\\killfeed\\sg553.svg",
     "sha256": "2551de9f2e369968dd52af592a60a57759b46a2305f7cae89226d91b387cc6c6"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/mp9.svg",
-    "output": "assets\\ui\\csso\\killfeed\\mp9.svg",
     "sha256": "7b55ded0e670bd5d349b0d0852edd0391f73c44807e1d3ce6eb5f491c73e21fd"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/ump45.svg",
-    "output": "assets\\ui\\csso\\killfeed\\ump45.svg",
     "sha256": "2f02e27daca911fcc1af0ad676d2c31f4065e08428728967dd8436d5c72600af"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/svg/xm1014.svg",
-    "output": "assets\\ui\\csso\\killfeed\\xm1014.svg",
     "sha256": "95a62de470c01abda8c954d50f67466b210601a286b54b6ae4cc01b36897af83"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/deathnotice_corner1.vtf",
-    "output": "assets\\ui\\csso\\killfeed\\deathnotice_corner1.png",
     "sha256": "9b04ba89c29f5bd9c52226c38eb3b06a4aba4aafaa088eedc79d842d4f920a6c"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/deathnotice_corner2.vtf",
-    "output": "assets\\ui\\csso\\killfeed\\deathnotice_corner2.png",
     "sha256": "629b96ac493baef550e12a268bd9c045520febbdd6f925fef6cf1a488647e766"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/deathnotice_corner3.vtf",
-    "output": "assets\\ui\\csso\\killfeed\\deathnotice_corner3.png",
     "sha256": "e798691a53d29b1682388370f42fef5d46b493853394f43f295f89d407b3fdd5"
   },
   {
     "source": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Counter-Strike Source\\csso\\csso_pak_dir.vpk:materials/vgui/hud/deathnotice_corner4.vtf",
-    "output": "assets\\ui\\csso\\killfeed\\deathnotice_corner4.png",
     "sha256": "af900372092ef4c72836ce42ad4a6ac5506f13ccfee89828cdda46be97d42cf1"
   }
 ]

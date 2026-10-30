@@ -1,6 +1,6 @@
 {
   "map": "de_cache",
-  "source_bsp": "C:\\Users\\Hueglot\\Downloads\\de_cache_2\\de_cache.bsp",
+  "source_bsp": "de_cache.bsp",
   "source_sha256": "45b04708226bba4f5a29fbc749ef3c9d37d4b9279ade90018e5de1dcbe849a4f",
   "scale": 0.0254,
   "materials": {
